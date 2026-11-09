@@ -1,0 +1,354 @@
+{
+  "id": "mvtm",
+  "code": "MVTM",
+  "title": "Medicinsk vetenskaplig teori och metod",
+  "term": "T6",
+  "icon": "📊",
+  "color": "grey",
+  "sortOrder": 10,
+  "description": "Vetenskapsteori, studiedesign, statistik och kritiskt granskande av medicinsk litteratur. Grunden för att själv producera och värdera vetenskaplig evidens i klinisk vardag.",
+  "chapters": [
+    {
+      "id": "mvtm-1",
+      "code": "Modul 1",
+      "title": "Vetenskaplig metod och studiedesign",
+      "summary": "Hur medicinsk kunskap byggs: från frågeställning och studiedesign till systematiska översikter, med fokus på vad varje design kan och inte kan besvara.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: studiedesigner i medicinsk forskning",
+          "query": "ninja nerd study design clinical research"
+        },
+        {
+          "label": "Ninja Nerd: systematiska översikter och metaanalys",
+          "query": "ninja nerd systematic review meta analysis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Formulera en forskningsfråga enligt PICO och välja lämplig studiedesign",
+          "level": "färdighet"
+        },
+        {
+          "code": "1.2",
+          "title": "Redogöra för styrkor och begränsningar hos randomiserade prövningar, kohort-, fall-kontroll- och tvärsnittsstudier",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Förklara begreppet confounding och hur randomisering respektive justering hanterar det",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mvtm-1-q1",
+          "kind": "mcq",
+          "prompt": "En forskargrupp vill undersöka sambandet mellan tidigare exponering för ett läkemedel och en ovanlig sjukdom som bara drabbar ett fåtal personer per år. Vilken studiedesign är mest lämplig?",
+          "options": [
+            "Fall-kontrollstudie",
+            "Randomiserad kontrollerad prövning",
+            "Prospektiv kohortstudie",
+            "Tvärsnittsstudie"
+          ],
+          "answer": "Fall-kontrollstudie",
+          "explanation": "Vid ovanliga utfall är fall-kontroll effektiv eftersom man utgår från de sjuka och väljer kontroller, och den ger oddskvot men inte incidens. En kohort kräver mycket stora populationer och lång uppföljning, och tvärsnitt kan inte fastställa tidsordningen mellan exponering och sjukdom."
+        },
+        {
+          "id": "mvtm-1-q2",
+          "kind": "mcq",
+          "prompt": "Vilken studiedesign ger i allmänhet starkast stöd för att en behandling har en kausal effekt?",
+          "options": [
+            "Randomiserad kontrollerad prövning",
+            "Prospektiv kohortstudie",
+            "Fall-kontrollstudie",
+            "Djurstudie"
+          ],
+          "answer": "Randomiserad kontrollerad prövning",
+          "explanation": "Randomiseringen fördelar både kända och okända confounders mellan grupperna och ger därför starkast kausalt stöd. I kohort- och fall-kontrollstudier kan confounding kvarstå även efter justering."
+        },
+        {
+          "id": "mvtm-1-q3",
+          "kind": "mcq",
+          "prompt": "I en kohortstudie ses ett tydligt samband mellan kaffedrickande och lungcancer. Efter justering för rökning minskar sambandet kraftigt. Vad illustrerar detta?",
+          "options": [
+            "Confounding",
+            "Selektionsbias",
+            "Informationsbias",
+            "Regression mot medelvärdet"
+          ],
+          "answer": "Confounding",
+          "explanation": "Rökning påverkar både kaffedrickandet och risken för lungcancer och uppfyller därmed definitionen på en confounder. Selektionsbias uppstår i urvalet av studiedeltagare och informationsbias i mätningen – ingen av dem är en tredje bakomliggande faktor."
+        },
+        {
+          "id": "mvtm-1-q4",
+          "kind": "cloze",
+          "prompt": "Den rapporteringsriktlinje för randomiserade kontrollerade prövningar som många tidskrifter kräver att författarna följer förkortas ______.",
+          "answer": "CONSORT",
+          "explanation": "CONSORT beskriver hur en randomiserad prövning ska redovisas – från rekrytering och randomisering till bortfall och utfall – så att studien kan granskas och replikeras. Motsvarande riktlinjer finns för andra designer, till exempel STROBE för observationella studier."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad står PICO för?",
+          "back": "Population/Patient, Intervention, Comparison (jämförelse) och Outcome (utfall). Strukturen gör forskningsfrågan precis och sökbar."
+        },
+        {
+          "front": "Vilka är styrkorna med en kohortstudie?",
+          "back": "Kan beräkna incidens och relativ risk, fastställa tidsordning mellan exponering och utfall samt studera flera utfall samtidigt. Svagheten är confounding och att ovanliga utfall kräver stora populationer."
+        },
+        {
+          "front": "Vilka mått kommer från fall-kontroll respektive kohort?",
+          "back": "Fall-kontroll ger oddskvot (OR); kohort ger relativ risk (RR) och absolut risk. Vid låg sjukdomsförekomst approximerar OR riskkvoten."
+        },
+        {
+          "front": "Vad är en tvärsnittsstudie bra för?",
+          "back": "Att mäta förekomst (prevalens) och samband vid en given tidpunkt. Den kan inte fastställa kausalitet eller tidsordning."
+        },
+        {
+          "front": "När används kvalitativ metod?",
+          "back": "För att undersöka upplevelser, mening, bemötande och processer – ofta med intervjuer eller fokusgrupper och analys med till exempel innehållsanalys."
+        },
+        {
+          "front": "Vad kännetecknar en systematisk översikt med metaanalys?",
+          "back": "En fördefinierad sökstrategi, systematisk urval och kvalitetsgranskning av alla relevanta studier, ofta med statistisk sammanvägning av effekter och bedömning av heterogenitet."
+        }
+      ],
+      "facts": [
+        "Randomisering hanterar confounding – även okända confounders.",
+        "Fall-kontroll lämpar sig för ovanliga sjukdomar och långa latenstider.",
+        "Kohortstudier kan ge incidens och relativ risk; fall-kontroll ger oddskvot.",
+        "PRISMA är rapporteringsriktlinjen för systematiska översikter."
+      ]
+    },
+    {
+      "id": "mvtm-2",
+      "code": "Modul 2",
+      "title": "Statistik för medicinare",
+      "summary": "Deskriptiv och analytisk statistik, p-värden och konfidensintervall, diagnostisk testteori samt de vanligaste statistiska fällorna i medicinsk litteratur.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: p-värde, konfidensintervall och hypotesprövning",
+          "query": "ninja nerd p value confidence interval hypothesis testing"
+        },
+        {
+          "label": "Ninja Nerd: sensitivitet och specificitet",
+          "query": "ninja nerd sensitivity specificity predictive value"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Tolka p-värde och konfidensintervall korrekt och skilja statistisk signifikans från klinisk relevans",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Beräkna och tolka sensitivitet, specificitet samt prediktiva värden",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Redogöra för typ I- och typ II-fel samt statistisk styrka",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mvtm-2-q1",
+          "kind": "mcq",
+          "prompt": "En studie rapporterar p = 0,03 för skillnaden mellan två behandlingar. Vad betyder p-värdet?",
+          "options": [
+            "Sannolikheten för det observerade resultatet eller mer extremt om nollhypotesen vore sann",
+            "Sannolikheten att nollhypotesen är sann",
+            "Sannolikheten att resultatet är kliniskt relevant",
+            "Andelen falskt positiva fynd i studien"
+          ],
+          "answer": "Sannolikheten för det observerade resultatet eller mer extremt om nollhypotesen vore sann",
+          "explanation": "p-värdet beräknas under antagandet att nollhypotesen gäller och uttalar sig inte om sannolikheten för hypotesen själv. Ett litet p-värde säger heller inget om effektens storlek eller kliniska betydelse."
+        },
+        {
+          "id": "mvtm-2-q2",
+          "kind": "mcq",
+          "prompt": "En studie visar en medelvärdesskillnad i blodtryck på 2,1 mmHg med 95 % konfidensintervall −1,3 till 5,5. Hur tolkas resultatet?",
+          "options": [
+            "Resultatet är inte statistiskt signifikant eftersom intervallet omfattar noll",
+            "Resultatet är signifikant eftersom medelvärdesskillnaden inte är noll",
+            "Intervallet anger att 95 % av patienterna fick effekt",
+            "Resultatet visar att behandlingen är skadlig"
+          ],
+          "answer": "Resultatet är inte statistiskt signifikant eftersom intervallet omfattar noll",
+          "explanation": "Om 95 % konfidensintervallet för en skillnad innehåller noll kan nolleffekten inte uteslutas på 5 % signifikansnivå. Intervallet beskriver osäkerheten i skattningen, inte hur stor andel av patienterna som svarade på behandlingen."
+        },
+        {
+          "id": "mvtm-2-q3",
+          "kind": "mcq",
+          "prompt": "Samma screeningtest med oförändrad sensitivitet och specificitet används i en population med mycket låg prevalens i stället för en med hög prevalens. Vad händer?",
+          "options": [
+            "Positivt prediktivt värde sjunker medan sensitivitet och specificitet är oförändrade",
+            "Sensitiviteten sjunker",
+            "Specificiteten sjunker",
+            "Prediktiva värden påverkas inte av prevalensen"
+          ],
+          "answer": "Positivt prediktivt värde sjunker medan sensitivitet och specificitet är oförändrade",
+          "explanation": "Sensitivitet och specificitet är testegenskaper som inte beror på prevalensen, medan PPV sjunker och NPV stiger när prevalensen sjunker. Det är därför screening i lågriskgrupper ger många falskt positiva prov."
+        },
+        {
+          "id": "mvtm-2-q4",
+          "kind": "cloze",
+          "prompt": "Sannolikheten att felaktigt förkasta en sann nollhypotes kallas typ I-fel och betecknas ______.",
+          "answer": "alfa",
+          "explanation": "Typ I-fel (alfa) är risken att få ett falskt positivt resultat och hålls konventionellt vid 5 %. Typ II-fel (beta) är risken att inte upptäcka en verklig effekt; statistisk styrka är 1 − beta."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är skillnaden mellan typ I- och typ II-fel?",
+          "back": "Typ I (alfa): att felaktigt förkasta en sann nollhypotes, dvs. falskt positivt fynd. Typ II (beta): att inte förkasta en falsk nollhypotes, dvs. missad verklig effekt."
+        },
+        {
+          "front": "Vad betyder statistisk styrka (power)?",
+          "back": "Sannolikheten att upptäcka en verklig effekt av en given storlek; vanligen eftersträvas 80 %. Styrkan ökar med effektstorlek, minskad spridning och ökat antal deltagare."
+        },
+        {
+          "front": "Hur definieras sensitivitet och specificitet?",
+          "back": "Sensitivitet = andel sjuka som testas positiva (sanna positiva / alla sjuka). Specificitet = andel friska som testas negativa (sanna negativa / alla friska)."
+        },
+        {
+          "front": "Vad påverkar positivt prediktivt värde?",
+          "back": "Både testets sensitivitet och specificitet samt sjukdomens prevalens i populationen; PPV stiger när prevalensen stiger."
+        },
+        {
+          "front": "Vad är en normalfördelning och vad följer av den?",
+          "back": "Symmetrisk klockformad fördelning som beskrivs av medelvärde och standardavvikelse; cirka 95 % av observationerna ligger inom två standardavvikelser från medelvärdet."
+        },
+        {
+          "front": "När används icke-parametriska test?",
+          "back": "När data inte är normalfördelade, är ordinala eller då urvalet är litet – till exempel Mann-Whitney U-test i stället för t-test."
+        }
+      ],
+      "facts": [
+        "p-värdet är inte sannolikheten att nollhypotesen är sann.",
+        "Ett 95 % konfidensintervall som omfattar noll innebär ingen signifikant skillnad på 5 %-nivån.",
+        "PPV beror av prevalensen – sensitivitet och specificitet gör det inte.",
+        "Statistisk signifikans är inte samma sak som klinisk relevans."
+      ]
+    },
+    {
+      "id": "mvtm-3",
+      "code": "Modul 3",
+      "title": "Evidens, bias och kritiskt läsande",
+      "summary": "Att granska en vetenskaplig artikel systematiskt: bias, evidensgradering enligt GRADE, kausalitetskriterier, publikationsbias och intressekonflikter.",
+      "estMinutes": 31,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: bias i kliniska studier",
+          "query": "ninja nerd bias in clinical research"
+        },
+        {
+          "label": "Ninja Nerd: evidensgradering och kritiskt läsande",
+          "query": "ninja nerd levels of evidence critical appraisal"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Identifiera selektions-, performans-, detektions- och attritionsbias i en publicerad studie",
+          "level": "färdighet"
+        },
+        {
+          "code": "3.2",
+          "title": "Redogöra för hur GRADE graderar tilliten till en effektskattning",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Värdera kausalitet med stöd av kausalitetskriterier och diskutera intressekonflikter",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mvtm-3-q1",
+          "kind": "mcq",
+          "prompt": "I en randomiserad studie är varken patienterna eller de läkare som skattar symtomen blindade. Vilken typ av bias är mest sannolik?",
+          "options": [
+            "Performans- och detektionsbias",
+            "Selektionsbias",
+            "Attritionsbias",
+            "Publikationsbias"
+          ],
+          "answer": "Performans- och detektionsbias",
+          "explanation": "Utan blindning kan förväntningar påverka både hur behandlingen ges och hur utfallet mäts, vilket motsvarar performans- respektive detektionsbias. Selektionsbias handlar om hur deltagarna valdes ut och attrition om bortfall under studiens gång."
+        },
+        {
+          "id": "mvtm-3-q2",
+          "kind": "mcq",
+          "prompt": "Varför analyseras randomiserade prövningar i första hand enligt intention-to-treat?",
+          "options": [
+            "Det bevarar randomiseringens effekt och undviker bias från selektivt bortfall",
+            "Det ger alltid en större behandlingseffekt",
+            "Det kräver färre deltagare",
+            "Det ersätter behovet av blindning"
+          ],
+          "answer": "Det bevarar randomiseringens effekt och undviker bias från selektivt bortfall",
+          "explanation": "ITT analyserar alla deltagare i den grupp de randomiserades till och skyddar mot att bortfall kopplat till effekt snedvrider resultatet. Per-protokoll-analys kan överskatta effekten eftersom de som fullföljer behandlingen ofta är friskare."
+        },
+        {
+          "id": "mvtm-3-q3",
+          "kind": "mcq",
+          "prompt": "Vilka faktorer sänker tilliten till en effektskattning enligt GRADE?",
+          "options": [
+            "Risk för bias, inkonsistens, indirekthet och imprecision",
+            "Att studien har många deltagare",
+            "Att effekten är stor",
+            "Att det finns en dos-respons-relation"
+          ],
+          "answer": "Risk för bias, inkonsistens, indirekthet och imprecision",
+          "explanation": "GRADE utgår från studiedesign och sänker tilliten vid risk för bias, inkonsistens mellan studier, indirekthet i population eller utfall, imprecision och publikationsbias. Stor effekt och dos-respons-relation höjer i stället tilliten."
+        },
+        {
+          "id": "mvtm-3-q4",
+          "kind": "cloze",
+          "prompt": "Att en screening upptäcker förändringar som aldrig skulle ha gett symtom eller skadat patienten kallas ______.",
+          "answer": "överdiagnostik",
+          "explanation": "Överdiagnostik leder till onödig behandling och ångest utan att förbättra utfall, och är en av de viktigaste invändningarna mot bred screening. Den skiljs från överbehandling, som är behandling utan nytta av en korrekt ställd diagnos."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka fyra huvudtyper av bias finns i kliniska studier?",
+          "back": "Selektionsbias (urvalet), performansbias (avvikelser i behandlingen), detektionsbias (hur utfallet mäts) och attritionsbias (bortfall)."
+        },
+        {
+          "front": "Vad är publikationsbias och hur upptäcks den?",
+          "back": "Att studier med positiva resultat publiceras oftare än negativa, vilket ger en förskönad bild av effekten. Misstanke väcks via funnel plot, jämförelse av registrerade och publicerade studier samt granskning av studiedesign i systematiska översikter."
+        },
+        {
+          "front": "Vilka är GRADE:s nivåer för tillit till evidens?",
+          "back": "Hög, måttlig, låg och mycket låg. Randomiserade studier börjar högt och observationella lågt, varefter nivån justeras ned eller upp utifrån ett antal domäner."
+        },
+        {
+          "front": "Vad innebär Bradford Hills kausalitetskriterier?",
+          "back": "Ett antal vägledande kriterier – bland andra temporalitet, dos-respons, styrka, konsistens, specificitet, biologisk plausibilitet och experimentellt stöd. Ingen enskild är nödvändig eller tillräcklig."
+        },
+        {
+          "front": "Vad är lead-time bias vid screening?",
+          "back": "Att överlevnadstiden ser längre ut enbart för att diagnosen ställs tidigare, även om dödsfallet inträffar vid samma tidpunkt. Därför mäts sjukdomsspecifik mortalitet hellre än överlevnadstid."
+        },
+        {
+          "front": "Hur hanteras intressekonflikter i granskning?",
+          "back": "Deklarera bindningar, granska finansiering och författarnas roller samt kontrollera att slutsatser stöds av data. Oberoende replikering och öppna data minskar risken för påverkan."
+        }
+      ],
+      "facts": [
+        "Intention-to-treat skyddar randomiseringen; per-protokoll kan överskatta effekten.",
+        "GRADE sänker tilliten vid bias, inkonsistens, indirekthet, imprecision och publikationsbias.",
+        "Funnel plot används för att misstänka publikationsbias.",
+        "Screening kan ge överdiagnostik och lead-time bias – mät mortalitet, inte överlevnadstid."
+      ]
+    }
+  ]
+}

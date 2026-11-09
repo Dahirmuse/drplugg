@@ -1,0 +1,472 @@
+{
+  "id": "km2",
+  "code": "KM2",
+  "title": "Klinisk medicin 2: Invärtesmedicinsk fördjupning och breddning",
+  "term": "T6",
+  "icon": "💊",
+  "color": "blue",
+  "sortOrder": 9,
+  "description": "Fördjupning inom geriatrik, infektionssjukdomar, hudsjukdomar samt antibiotika och resistens. Fokus på multimorbiditet, klinisk helhetsbedömning och rationell läkemedelsbehandling.",
+  "chapters": [
+    {
+      "id": "km2-1",
+      "code": "Modul 1",
+      "title": "Geriatrik",
+      "summary": "Skörhet, delirium, demenssjukdomar, fall och polyfarmaci – den geriatriska helhetsbedömningen och det förebyggande arbetet hos den äldre patienten.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: delirium och förvirringstillstånd",
+          "query": "ninja nerd delirium altered mental status"
+        },
+        {
+          "label": "Ninja Nerd: demenssjukdomar",
+          "query": "ninja nerd dementia Alzheimer disease"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Skilja delirium från demenssjukdom utifrån debut, förlopp och uppmärksamhet",
+          "level": "kunna"
+        },
+        {
+          "code": "1.2",
+          "title": "Redogöra för skörhet och den geriatriska helhetsbedömningens komponenter",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Genomföra en läkemedelsgenomgång med fokus på olämpliga läkemedel hos äldre",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km2-1-q1",
+          "kind": "mcq",
+          "prompt": "En 84-årig kvinna inlagd för pneumoni blir akut förvirrad, ser synhallucinationer och växlar i vakenhet. Hon var tidigare kognitivt klar. Vilken åtgärd är viktigast?",
+          "options": [
+            "Utreda och behandla bakomliggande orsak samt icke-farmakologiska åtgärder",
+            "Rutinmässig behandling med bensodiazepin",
+            "Sederande antipsykotika som första åtgärd",
+            "Fastspänning i sängen för att skydda patienten"
+          ],
+          "answer": "Utreda och behandla bakomliggande orsak samt icke-farmakologiska åtgärder",
+          "explanation": "Delirium är ett akut, fluktuerande tillstånd med nedsatt uppmärksamhet som kräver orsaksutredning: infektion, läkemedel, elektrolytrubbning, urinretention och smärta. Bensodiazepiner och andra sederande läkemedel förvärrar och förlänger delirium; farmakologisk behandling är undantag, inte regel."
+        },
+        {
+          "id": "km2-1-q2",
+          "kind": "mcq",
+          "prompt": "En 78-årig man har under två år fått tilltagande nedsättning av närminnet, ordletning och svårigheter med vardagliga aktiviteter. Han är orienterad och undersökningen visar inga fokalneurologiska bortfall. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Alzheimers sjukdom",
+            "Delirium",
+            "Vaskulär demens",
+            "Normalt åldrande"
+          ],
+          "answer": "Alzheimers sjukdom",
+          "explanation": "Smygande debut med episodisk minnesnedsättning och progredierande ADL-påverkan är typiskt för Alzheimers sjukdom. Vaskulär demens debuterar ofta stegvis med fokal neurologi, delirium är akut och fluktuerande, och normalt åldrande ger inte förlorad ADL-förmåga."
+        },
+        {
+          "id": "km2-1-q3",
+          "kind": "mcq",
+          "prompt": "En 82-årig skör kvinna har fallit två gånger det senaste halvåret. Vilken åtgärd har bäst evidens för att förebygga nya fall?",
+          "options": [
+            "Strukturerad multiprofessionell fallprevention med styrke- och balansträning",
+            "Rutinmässig sederande behandling nattetid",
+            "Sängförbud med larm",
+            "Enbart högdos D-vitamin utan känd brist"
+          ],
+          "answer": "Strukturerad multiprofessionell fallprevention med styrke- och balansträning",
+          "explanation": "Fall är multifaktoriella och multifaktoriell intervention med träning, läkemedelsgenomgång, syn- och hjälpmedelsöversyn samt bostadsanpassning har bäst stöd. Sederande läkemedel ökar fallrisken, och högdos D-vitamin utan brist rekommenderas inte."
+        },
+        {
+          "id": "km2-1-q4",
+          "kind": "cloze",
+          "prompt": "Ökad sårbarhet med nedsatt reservkapacitet och ökad risk för funktionsfall vid sjukdom eller stress kallas ______.",
+          "answer": "skörhet",
+          "explanation": "Skörhet (frailty) innebär att små påfrestningar kan utlösa stora funktionsförluster. Den bedöms kliniskt, till exempel med gångtid, greppstyrka, viktnedgång och trötthet, och är en viktig prognosmarkör."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad skiljer delirium från demens?",
+          "back": "Delirium: akut debut (timmar–dagar), fluktuerande, nedsatt uppmärksamhet, ofta synhallucinationer och omvänd sömnrytm. Demens: smygande debut över månader–år, stabilt progredierande, uppmärksamheten relativt bevarad tidigt."
+        },
+        {
+          "front": "Vilka är de vanligaste utlösande orsakerna till delirium?",
+          "back": "Infektion, läkemedel (särskilt antikolinergika och bensodiazepiner), elektrolytrubbning, smärta, urinretention, förstoppning, sömnbrist och sensorisk deprivation."
+        },
+        {
+          "front": "Vad innebär skörhet (frailty)?",
+          "back": "Nedsatt fysiologisk reserv med ökad sårbarhet; bedöms med gångtid, greppstyrka, viktnedgång, uttröttbarhet och aktivitetsnivå. Predicerar fall, sjukhusinläggning och död."
+        },
+        {
+          "front": "Varför får äldre starkare läkemedelseffekter?",
+          "back": "Minskad muskelmassa och kroppsvatten ökar koncentrationen av vattenlösliga läkemedel, njur- och leverfunktion avtar och ökad fettandel förlänger halveringstiden för fettlösliga läkemedel."
+        },
+        {
+          "front": "Vad är poängen med läkemedelsgenomgång enligt STOPP/START?",
+          "back": "STOPP identifierar olämpliga läkemedel hos äldre (t.ex. långverkande bensodiazepiner, antikolinergika), START identifierar underbehandling (t.ex. saknad statin eller bensodiazepin vid indikation)."
+        },
+        {
+          "front": "Hur förebyggs trycksår?",
+          "back": "Riskbedömning (t.ex. Norton), lägesändring, tryckavlastning, hudvård och nutrition. Trycksår uppstår av ischemi i vävnad utsatt för tryck och skjuvkrafter."
+        }
+      ],
+      "facts": [
+        "Delirium är ett akut tillstånd och en medicinsk akut situation – sök orsaken.",
+        "Sederande läkemedel förvärrar delirium och ökar fallrisken.",
+        "Skörhet är en bättre prediktor för utfall än kronologisk ålder.",
+        "Multifaktoriell fallprevention med balansträning har starkast evidens för att förebygga fall."
+      ]
+    },
+    {
+      "id": "km2-2",
+      "code": "Modul 2",
+      "title": "Infektionssjukdomar",
+      "summary": "Sepsis, endokardit, bakteriell meningit, tuberkulos och HIV – tidig igenkänning, diagnostik och behandlingsprinciper.",
+      "estMinutes": 33,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: sepsis och septisk chock",
+          "query": "ninja nerd sepsis septic shock"
+        },
+        {
+          "label": "Ninja Nerd: infektiös endokardit",
+          "query": "ninja nerd infective endocarditis"
+        },
+        {
+          "label": "Ninja Nerd: tuberkulos",
+          "query": "ninja nerd tuberculosis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Identifiera sepsis tidigt och initiera omedelbar behandling enligt principerna odling–antibiotika–vätska",
+          "level": "färdighet"
+        },
+        {
+          "code": "2.2",
+          "title": "Redogöra för diagnostik av infektiös endokardit enligt modifierade Duke-kriterier",
+          "level": "känna till"
+        },
+        {
+          "code": "2.3",
+          "title": "Förklara smittvägar, diagnostik och behandlingsprinciper vid tuberkulos och hiv",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km2-2-q1",
+          "kind": "mcq",
+          "prompt": "En 65-årig man med misstänkt urinvägsinfektion har blodtryck 85/50 mmHg, andningsfrekvens 26/min, laktat 4 mmol/L och är förvirrad. Blododlingar har tagits. Vilken åtgärd får inte fördröjas?",
+          "options": [
+            "Bredspektrumantibiotika intravenöst tillsammans med vätskebehandling",
+            "Svar på blododling innan antibiotika ges",
+            "Enbart antipyretika och observation",
+            "Datortomografi innan vätska och antibiotika"
+          ],
+          "answer": "Bredspektrumantibiotika intravenöst tillsammans med vätskebehandling",
+          "explanation": "Septisk chock kräver omedelbar antibiotika och vätskeresuscitering; fördröjd behandling ökar mortaliteten. Odlingar tas före antibiotika men får aldrig skjuta upp densamma, och bilddiagnostik sker först när patienten är hemodynamiskt stabil."
+        },
+        {
+          "id": "km2-2-q2",
+          "kind": "mcq",
+          "prompt": "En 58-årig man har feber, nytt systoliskt blåsljud, petekier och en nyligen genomgången tandinfektion. Vilken undersökningskombination är central för diagnosen?",
+          "options": [
+            "Upprepade blododlingar och ekokardiografi",
+            "Enbart CRP och SR",
+            "Röntgen av thorax",
+            "Lumbalpunktion"
+          ],
+          "answer": "Upprepade blododlingar och ekokardiografi",
+          "explanation": "Modifierade Duke-kriterier bygger på positiva blododlingar tillsammans med ekokardiografiska fynd som vegetation på klaffar. CRP är ospecifikt, röntgen thorax ger ingen klaffdiagnostik och lumbalpunktion är irrelevant här."
+        },
+        {
+          "id": "km2-2-q3",
+          "kind": "mcq",
+          "prompt": "En 24-årig kvinna har sedan ett dygn feber, nackstelhet, fotofobi och sänkt medvetande. Vilken åtgärd ska prioriteras?",
+          "options": [
+            "Intravenös bredspektrumantibiotika utan onödigt dröjsmål",
+            "Röntgen av skallen före all behandling",
+            "Vänta på svar från likvorodling",
+            "Enbart antiviral behandling"
+          ],
+          "answer": "Intravenös bredspektrumantibiotika utan onödigt dröjsmål",
+          "explanation": "Bakteriell meningit är livshotande och antibiotika ges omedelbart efter lumbalpunktion – eller direkt om punktionen fördröjs. Dexametason ges före eller i samband med första antibiotikadosen för att minska hörselnedsättning och neurologiska skador."
+        },
+        {
+          "id": "km2-2-q4",
+          "kind": "cloze",
+          "prompt": "Sepsis definieras som livshotande organdysfunktion orsakad av en bristande reglering av kroppens svar på ______.",
+          "answer": "infektion",
+          "explanation": "Sepsis-3-definitionen betonar organdysfunktion – mätt till exempel med SOFA – snarare än enbart infektion och inflammation. Septisk chock är sepsis med kvarstående hypotoni och behov av vasopressor trots adekvat vätskebehandling."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Hur definieras sepsis och septisk chock enligt Sepsis-3?",
+          "back": "Sepsis: livshotande organdysfunktion på grund av dysreglerat svar på infektion (ökning i SOFA ≥2 poäng). Septisk chock: hypotension som kräver vasopressor för att nå målet trots adekvat vätsketillförsel, med förhöjt laktat."
+        },
+        {
+          "front": "Vilka agens dominerar vid infektiös endokardit?",
+          "back": "Streptokocker, Staphylococcus aureus och enterokocker; koagulasnegativa stafylokocker vid protesklaffar. Blododlingar tas från flera olika punktioner före antibiotika."
+        },
+        {
+          "front": "Vad kännetecknar bakteriell meningit i likvor?",
+          "back": "Högt cellantal med neutrofil dominans, högt protein, lågt glukos och positiv gramfärgning eller odling."
+        },
+        {
+          "front": "Hur diagnosticeras latent tuberkulos?",
+          "back": "Med IGRA eller tuberkulinprov; aktiv sjukdom krävs för att starta behandling, och diagnosen stöds av röntgen, mikroskopi, PCR och odling."
+        },
+        {
+          "front": "När ska hivtest erbjudas?",
+          "back": "Vid tecken på serokonversion, oklar långdragen feber, opportunistiska infektioner, vid sexuell exponering samt rutinmässigt vid graviditet och vid många andra infektioner."
+        },
+        {
+          "front": "Vad är PEP vid hiv?",
+          "back": "Postexpositionsprofylax med antiretrovirala läkemedel som startas så snabbt som möjligt efter exponering – effekten avtar snabbt med tiden och den ska erbjudas utan dröjsmål."
+        }
+      ],
+      "facts": [
+        "Vid sepsis gäller odling före antibiotika – men aldrig väntan på odlingssvar.",
+        "Modifierade Duke-kriterier kombinerar blododlingar och ekokardiografi.",
+        "Bakteriell meningit behandlas med antibiotika och dexametason utan dröjsmål.",
+        "Tuberkulos är luftsmittsam och kräver isolering med andningsskydd av FFP3-typ."
+      ]
+    },
+    {
+      "id": "km2-3",
+      "code": "Modul 3",
+      "title": "Hudsjukdomar",
+      "summary": "Eksem, psoriasis, akne, hudtumörer och infektiösa hudtillstånd – klinisk igenkänning och principer för topikal och systemisk behandling.",
+      "estMinutes": 28,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: hudens anatomi och primärefflorescenser",
+          "query": "ninja nerd skin lesions dermatology terminology"
+        },
+        {
+          "label": "Ninja Nerd: malignt melanom",
+          "query": "ninja nerd melanoma skin cancer"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Beskriva och igenkänna primära och sekundära efflorescenser samt hudtypiska utslag",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Behandla atopiskt eksem och psoriasis enligt stegvis princip med mjukgörande som bas",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Använda ABCD-regeln och känna igen basaliom, skivepitelcancer och malignt melanom",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km2-3-q1",
+          "kind": "mcq",
+          "prompt": "En 8-årig pojke har kliande, torr hud i armveck och knäveck samt tidigare astma och allergisk rinit. Vilken behandling är grunden?",
+          "options": [
+            "Fuktighetsbevarande kräm och topikala glukokortikoider",
+            "Systemisk antibiotika som basbehandling",
+            "Enbart topikala kalcineurinhämmare utan mjukgörande",
+            "Långvarig peroral glukokortikoidbehandling"
+          ],
+          "answer": "Fuktighetsbevarande kräm och topikala glukokortikoider",
+          "explanation": "Atopiskt eksem beror på en defekt hudbarriär med inflammation; daglig mjukgörande behandling återställer barriären och topikala steroider dämpar skoven. Systemiska steroider är förbehållna svåra skov och ska inte ges långvarigt."
+        },
+        {
+          "id": "km2-3-q2",
+          "kind": "mcq",
+          "prompt": "En 30-årig man har skarpt avgränsade erytematösa plack med silverfärgade fjäll på armbågarnas sträcksidor och i hårbotten samt nagelgrop. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Psoriasis",
+            "Atopiskt dermatit",
+            "Rosacea",
+            "Tinea corporis"
+          ],
+          "answer": "Psoriasis",
+          "explanation": "Plack med silverfjäll på extensorsidor, hårbottenengagemang och nagelgrop är typiskt för psoriasis, liksom Koebners fenomen. Atopiskt eksem sitter i böjveck, rosacea engagerar ansiktet och tinea har en aktiv rand med central uppklarning."
+        },
+        {
+          "id": "km2-3-q3",
+          "kind": "mcq",
+          "prompt": "En 62-årig man har en ny pigmenterad lesion på huden som är asymmetrisk, har oregelbunden kant och varierande färg. Vilken faktor är viktigast för prognosen?",
+          "options": [
+            "Breslow-tjockleken (invasionsdjupet)",
+            "Lesionens färg",
+            "Patientens ålder",
+            "Antalet nevus på kroppen"
+          ],
+          "answer": "Breslow-tjockleken (invasionsdjupet)",
+          "explanation": "Breslow-tjockleken mäts i millimeter i den exciderade lesionen och är den starkaste prognosfaktorn; den styr marginal och utredning av vakningskörtel. Antal nevus och solexponering är riskfaktorer för uppkomst, inte för prognos."
+        },
+        {
+          "id": "km2-3-q4",
+          "kind": "cloze",
+          "prompt": "En äldre patient får grupperade, smärtande vesikler i ett dermatom. Orsaken är reaktivering av ______.",
+          "answer": "varicella-zostervirus",
+          "explanation": "Herpes zoster uppstår när latent varicella-zostervirus i dorsalrotsganglier reaktiveras. Tidig antiviral behandling förkortar förloppet och minskar risken för postherpetisk neuralgi."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad står ABCD(E) för vid melanommisstanke?",
+          "back": "Asymmetri, Border (oregelbunden kant), Color (varierande färg), Diameter över 6 mm samt Evolution (förändring över tid)."
+        },
+        {
+          "front": "Vad kännetecknar basaliom?",
+          "back": "Pärlglänsande papele med telangiektasier och rullande kant, ofta i solbelyst ansikte. Växer långsamt lokalt invasivt men metastaserar i princip inte."
+        },
+        {
+          "front": "Vad kännetecknar skivepitelcancer i huden?",
+          "back": "Hyperkeratotisk, ibland sårig och lättblödande lesion i solbelyst hud. Kan metastasera, särskilt vid högriskfynd som stor tjocklek eller lokalisation öra/läpp."
+        },
+        {
+          "front": "Vad är den viktigaste basbehandlingen vid atopiskt eksem?",
+          "back": "Daglig mjukgörande behandling för att återställa hudbarriären, kombinerat med topikala glukokortikoider vid inflammation och undvikande av irritanter."
+        },
+        {
+          "front": "Vilka behandlingsprinciper gäller vid plackpsoriasis?",
+          "back": "Topikala glukokortikoider och vitamin-D-analog vid lindrig sjukdom; ljusbehandling, metotrexat eller biologiska läkemedel vid måttlig till svår. Rökstopp och viktminskning har effekt."
+        },
+        {
+          "front": "Vad är SJS/TEN?",
+          "back": "Livshotande läkemedelsutlöst hudreaktion med utbredd epidermal nekros och slemhinneengagemang. Läkemedlet ska sättas ut omedelbart och patienten vårdas på brännskadeenhet."
+        }
+      ],
+      "facts": [
+        "Basaliom metastaserar i princip aldrig men växer destruktivt lokalt.",
+        "Breslow-tjocklek är den starkaste prognosfaktorn vid malignt melanom.",
+        "Psoriasis kan ge artrit (psoriasisartrit) och är associerad med metabolt syndrom.",
+        "Koebners fenomen innebär att psoriasis uppstår i hudskada."
+      ]
+    },
+    {
+      "id": "km2-4",
+      "code": "Modul 4",
+      "title": "Antibiotika och resistens",
+      "summary": "Verkningsmekanismer, resistensmekanismer och principer för rationell antibiotikaanvändning – smalt spektrum, rätt duration och resistensförebyggande arbete.",
+      "estMinutes": 29,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: antibiotikas verkningsmekanismer",
+          "query": "ninja nerd antibiotics mechanism of action"
+        },
+        {
+          "label": "Ninja Nerd: antibiotikaresistens",
+          "query": "ninja nerd antibiotic resistance mechanisms"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Redogöra för de viktigaste antibiotikagruppernas verkningsmekanismer och biverkningar",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Förklara de fyra huvudmekanismerna för antibiotikaresistens",
+          "level": "kunna"
+        },
+        {
+          "code": "4.3",
+          "title": "Tillämpa principerna för rationell antibiotikaanvändning och val av smalt spektrum",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km2-4-q1",
+          "kind": "mcq",
+          "prompt": "En 70-årig man har en urinvägsinfektion orsakad av en ESBL-producerande E. coli. Vad kännetecknar ESBL?",
+          "options": [
+            "Enzymer som hydrolyserar cefalosporiner och ger resistens mot dessa",
+            "En mutation i ribosomen som ger makrolidresistens",
+            "Ett effluxpump som pumpar ut tetracyklin",
+            "En förändrad DNA-gyras som ger kinolonresistens"
+          ],
+          "answer": "Enzymer som hydrolyserar cefalosporiner och ger resistens mot dessa",
+          "explanation": "ESBL är betalaktamaser med utökat spektrum som bryter penicilliner och cefalosporiner men hämmas av karbapenemer. Resistensen uppstår genom enzymatisk nedbrytning av antibiotikumet, inte genom förändrad målstruktur."
+        },
+        {
+          "id": "km2-4-q2",
+          "kind": "mcq",
+          "prompt": "Vilken mekanism ligger bakom meticillinresistens hos Staphylococcus aureus (MRSA)?",
+          "options": [
+            "Förändrat penicillinbindande protein (PBP2a) kodat av mecA-genen",
+            "Höga halter av betalaktamas i cellväggen",
+            "En förtjockad cellvägg av keratin",
+            "Enbart nedsatt membranpermeabilitet"
+          ],
+          "answer": "Förändrat penicillinbindande protein (PBP2a) kodat av mecA-genen",
+          "explanation": "mecA ger ett alternativt penicillinbindande protein med låg affinitet för betalaktamer, vilket ger resistens mot i stort sett alla betalaktamer utom ceftarolin. MRSA kräver därför alternativa läkemedel och kontaktisolering inom vården."
+        },
+        {
+          "id": "km2-4-q3",
+          "kind": "mcq",
+          "prompt": "En 40-årig kvinna med dysuri och pollakisuri utan feber eller flankömhet har en okomplicerad cystit. Vilket behandlingsval är lämpligt?",
+          "options": [
+            "Pivmecillinam eller nitrofurantoin",
+            "Ciprofloxacin",
+            "Cefotaxim intravenöst",
+            "Klaritromycin"
+          ],
+          "answer": "Pivmecillinam eller nitrofurantoin",
+          "explanation": "Okomplicerad cystit behandlas med smalspektrumpreparat som pivmecillinam eller nitrofurantoin. Kinoloner ska sparas på grund av resistensutveckling och biverkningar som tendinopati och sensorisk påverkan, och intravenös behandling är omotiverad vid okomplicerad cystit."
+        },
+        {
+          "id": "km2-4-q4",
+          "kind": "cloze",
+          "prompt": "Enzymer som bryter betalaktamringen och därmed inaktiverar penicilliner kallas ______.",
+          "answer": "betalaktamaser",
+          "explanation": "Betalaktamaser hydrolyserar den fyraledade betalaktamringen som är nödvändig för bindning till penicillinbindande proteiner. Kombinationer med betalaktamashämmare, som klavulansyra, återställer känsligheten för vissa stammar."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Hur verkar betalaktamantibiotika?",
+          "back": "De binder penicillinbindande proteiner (transpeptidaser) och hämmar cellväggssyntesen, vilket ger baktericid effekt. Verkan kräver aktiv celldelning."
+        },
+        {
+          "front": "Vilka fyra huvudmekanismer för antibiotikaresistens finns?",
+          "back": "Enzymatisk inaktivering (betalaktamaser), förändrad målstruktur (PBP2a, ribosommutation), minskad upptag/permeabilitet och aktiv efflux av läkemedlet."
+        },
+        {
+          "front": "Vilka biverkningar är typiska för aminoglykosider?",
+          "back": "Nefrotoxicitet och ototoxicitet (både hörsel och balans). Verkar på 30S-subenheten och är baktericida; koncentrationen följs med läkemedelsanalys."
+        },
+        {
+          "front": "Varför undviks kinoloner i första hand?",
+          "back": "Bredspektrum med resistensdrivande effekt samt risk för tendinopati, QT-förlängning och påverkan på centrala nervsystemet. Används när andra alternativ saknas."
+        },
+        {
+          "front": "Vad innebär rationell antibiotikaanvändning?",
+          "back": "Rätt indikation, rätt preparat med smalast möjliga spektrum, rätt dos, rätt administrationsväg och kortast möjliga behandlingstid – samt omprövning när odlingssvar föreligger."
+        },
+        {
+          "front": "Vad gör klindamycin vid toxinbildande infektioner?",
+          "back": "Hämmar proteinsyntesen (50S) och därmed toxinproduktionen, vilket är en av anledningarna till dess roll vid allvarliga streptokock- och stafylokockinfektioner."
+        }
+      ],
+      "facts": [
+        "ESBL och MRSA är resistensmekanismer – enzymatisk nedbrytning respektive förändrat målprotein.",
+        "Vid odlingssvar ska behandlingen smalnas av (deeskaleras).",
+        "Kinoloner ska sparas för att begränsa resistens och biverkningar.",
+        "Behandlingstid ska vara så kort som möjligt och evidensbaserad för respektive infektion."
+      ]
+    }
+  ]
+}

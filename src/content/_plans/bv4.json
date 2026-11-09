@@ -1,0 +1,307 @@
+{
+  "course": "bv4",
+  "chapters": [
+    {
+      "id": "bv4-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Studenten ska kunna förklara m.fl.",
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Studenten ska kunna redogöra i detalj för nervsystemets makroskopiska"
+        },
+        {
+          "code": "1.2",
+          "title": "Studenten ska kunna identifiera och översiktligt redogöra för funktionerna för viktiga strukturer och bansystem i modeller, humanpreparat och MR bilder (S2) .. 9 1.3 Studenten ska kunna förklara"
+        },
+        {
+          "code": "1.3",
+          "title": "Studenten ska kunna förklara"
+        },
+        {
+          "code": "1.4",
+          "title": "Studenten ska i detalj kunna redogöra för"
+        }
+      ],
+      "objectives": [
+        "1.1 Studenten ska kunna redogöra i detalj för nervsystemets makroskopiska",
+        "1.2 Studenten ska kunna identifiera och översiktligt redogöra för funktionerna för viktiga strukturer och bansystem i modeller, humanpreparat och MR bilder (S2) .. 9 1.3 Studenten ska kunna förklara",
+        "1.3 Studenten ska kunna förklara",
+        "1.4.1 CNS blodförsörjning samt cirkulationen av cerebrospinalvätska (S3)",
+        "1.4.2 Principerna för neuronal differentiering och bildning av neuronala kretsar (S3) 10 1.4.3 Funktionen av olika typer av gliaceller (S3)",
+        "1.4.4 Organisation och betydelse av huvudtyperna av neuron (S3)",
+        "1.4.5 Struktur och viktiga funktioner för jonkanaler inklusive Na, K, Ca och Cl kanaler (S3)",
+        "1.4.6 Transmittorfrisättningens molekylära mekanismer (S3)",
+        "1.4.7 Verkningsmekanismerna för Botulinum- och Tetanustoxin (S3)",
+        "1.4.8 Huvudklasserna av neurotransmittorer och deras funktioner (glutamat, GABA, glycin, acetylkolin, dopamin, noradrenalin, serotonin och opioida peptider) inklusive deras syntes och inaktivering (S3)",
+        "1.4.9 Huvudklasserna av postsynaptiska receptorer inklusive deras signaltransduktionsmekanismer (S3)",
+        "1.4.10 Signalmekanism och receptorer för endocannabinoider (S3)",
+        "1.4.11 Synapsernas egenskaper inklusive deras plasticitet och dess betydelse för informationsbearbetning i nervsystemet (S3)",
+        "1.4.12 Olika strategier för att påverka synaptisk transmission med farmakologiska verktyg",
+        "1.4.13 Verkningsmekanismerna för generella anestetika och lokalanestetika (S3) 18 1.4.14 Verkningsmekanismerna för muskelrelaxantia (S3)",
+        "1.4.15 Läkemedlens generella verkan på molekylär nivå (effekt samt biverkningar) och var i organismen läkemedlet utgör sin effekt (S3)"
+      ]
+    },
+    {
+      "id": "bv4-m2",
+      "code": "Modul 2",
+      "title": "Sensorik",
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Studenten ska kunna redogöra för:"
+        },
+        {
+          "code": "2.2",
+          "title": "Studenten ska kunna förklara:"
+        },
+        {
+          "code": "2.3",
+          "title": "Studenten ska kunna:"
+        }
+      ],
+      "objectives": [
+        "2.1.1 De specialiserade sinnescellerna/receptorerna för beröring, proprioception, smärta, syn, hörsel, vestibularis, lukt och smak (S2, S3)",
+        "2.1.2 De centrala banor som förmedlar impulser från olika sinnescellerna/receptorerna (S2, S3)",
+        "2.1.3 Smärtperception och översiktligt förklara hur den påverkas vid olika sjukdomstillstånd (S2, S3)",
+        "2.1.4 Grundprinciper för hur de mest använda läkemedel som används vid behandling av olika typer av smärta utövar sina effekter (S3)",
+        "2.1.5 Grunderna för undersökningar av syn och hörsel utförda under laborationerna (S2)",
+        "2.2.1 Hur signaler, i ovan nämnda sinnesceller/receptorer, omvandlas till elektriska impulser (S2, S3)",
+        "2.2.2 Hur sensorisk information från olika sensoriska modaliteter bearbetas och uppfattas i olika hjärnregioner (S2, S3, S4)",
+        "2.3.2 Ge en överblick över de mekanismer som gör att vår hjärna kan modulera sensorisk perception och anpassa sig till förändringar. (S3)",
+        "2.3.3 Översiktligt redogöra för de vanligaste sjukdomarna som drabbar synen, hörsel och vestibulär funktion och de underliggande mekanismerna som orsakar dessa sjukdomar (S2)"
+      ]
+    },
+    {
+      "id": "bv4-m3",
+      "code": "Modul 3",
+      "title": "Motorik",
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Studenten ska i detalj kunna redogöra för:"
+        },
+        {
+          "code": "3.2",
+          "title": "Studenten skall översiktligt kunna redogöra för"
+        },
+        {
+          "code": "3.3",
+          "title": "Studenten ska i detalj kunna redogöra för:"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Olika typer av motoriska enheters organisation och funktion (S3)",
+        "3.1.2 Olika typer av afferenter till ryggmärgen och deras funktioner vid rörelser inklusive reflexer (S3)",
+        "3.1.3 Motoriska funktioner på spinal nivå samt förklara begreppet centrala motoriska program (S3)",
+        "3.1.4 Hur nervsystemet styr lokomotionen (S3)",
+        "3.1.5 Olika descenderande bansystem och relatera deras organisation till styrningen av olika rörelser (S3)",
+        "3.1.6 Lokalisation och funktion för olika kortikala areor och deras betydelse för den motoriska kontrollen (S3)",
+        "3.1.7 Basala gangliernas struktur och förbindelser (S3) samt kunna förklara hur de deltar i styrningen av motoriken (S4)",
+        "3.1.9 Grunderna för (S3), samt utföra motoriskt neurologiskt status (M3)",
+        "3.2.1 Huvudtyperna av ögonrörelser och deras funktioner (S2)",
+        "3.2.2 Motoriska defekter orsakade av skador/degeneration av olika delar av CNS vid vanliga sjukdomar inklusive stroke, Parkinson, Huntington, ryggmärgsskada, ALS och MS (S2)",
+        "3.3.1 Den farmakologiska behandlingen av Parkinson (S3)",
+        "3.3.2 Organisationen av det sympatiska, parasympatiska och enteriska nervsystemet (S3)",
+        "3.3.3 Neurotransmittorer och receptorer i det sympatiska och parasympatiska nervsystemet (S3)",
+        "3.3.4 Hur det sympatiska och parasympatiska nervsystemet påverkar olika organsystem (S3)",
+        "3.3.5 Hur det sympatiska och parasympatiska nervsystemet reglerar blodtrycket (S3)",
+        "3.3.6 Hur det sympatiska och parasympatiska nervsystemet reglerar urinblåsan (S3) 41 4 Modul 4 - Högre kognitiva funktioner"
+      ]
+    },
+    {
+      "id": "bv4-m4",
+      "code": "Modul 4",
+      "title": "Högre kognitiva funktioner",
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Komplexa hjärnfunktioner och kortikal organisation"
+        },
+        {
+          "code": "4.2",
+          "title": "Kortikala tillstånd"
+        },
+        {
+          "code": "4.3",
+          "title": "Uppmärksamhet"
+        },
+        {
+          "code": "4.4",
+          "title": "Minne"
+        },
+        {
+          "code": "4.5",
+          "title": "Emotioner"
+        },
+        {
+          "code": "4.6",
+          "title": "Att tänka, planera, och fatta beslut"
+        },
+        {
+          "code": "4.7",
+          "title": "Tal och språk"
+        },
+        {
+          "code": "4.8",
+          "title": "Nueropsychofarmakologi"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Definiera en \"cytoarkitektonisk karta” över den mänskliga hjärnan och hur den skiljer sig från en funktionell karta över hjärnan",
+        "4.1.2 Förklara vilken roll den associativa hjärnbarken har och hur dessa områden skiljer sig från den primära och sekundära sensoriska och motoriska hjärnbarken",
+        "4.1.3 Ge exempel på nyckelfunktioner hos parietal-, temporal- och frontal associationsbark",
+        "4.1.4 Ge exempel på hur lesionsstudier bidrar till förståelsen av lokalisering av vissa kognitiva funktioner i hjärnan",
+        "4.1.5 Ge exempel på nedsatta funktioner som kan härledas till parietala, temporala och frontala associationsbarken",
+        "4.2.1 Förklara funktionen hos dygnsrytmen (Circadian Cycle) och dess biologiska substrat",
+        "4.2.2 Ge exempel på mönster av elektrisk aktivitet i hjärnan som förknippas med vakenhet och sömn",
+        "4.2.3 Ge exempel på möjliga evolutionära fördelar med sömn",
+        "4.2.4 Förklara hur subkortikala hjärnstrukturer reglerar sömn/vakenhet",
+        "4.2.5 Förklara vad ett komatöst tillstånd innebär (att vara i koma)",
+        "4.2.6 Definiera de neurala nätverk som förknippas med vilotillstånd, d.v.s. att inte vara aktivt involverad i någon uppgift",
+        "4.3.1 Förklara hur uppmärksamhet (attention) selektivt filtrerar sensorisk input till hjärnan",
+        "4.3.2 Definiera skillnaden mellan overt/kovert och endogen/exogen uppmärksamhet",
+        "4.3.3 Ge ett exempel på bristande uppmärksamhetskontroll och hur det visar sig hos en patient",
+        "4.3.4 Förklara utmaningarna med att konceptualisera uppmärksamhet som resultatet av en ”executive controller”",
+        "4.4.1 Definiera skillnaden mellan deklarativt och icke-deklarativt minne",
+        "4.4.2 Definiera olika typer av minne baserat på tid",
+        "4.4.3 Förklara hur tidigare erfarenheter, sammanhang och motivation påverkar minnesfunktionen",
+        "4.4.4 Förklara hur betingning, både klassisk och operant, leder till inlärning 46 4.4.5 Diskutera skillnaden mellan att vara \"glömsk\" och att ha \"amnesi\"",
+        "4.4.6 Förklara hippocampus roll i det deklarativa minnet, och hur det skiljer sig från långtidslagring i kortikala områden",
+        "4.4.7 Definiera åldersrelaterade förändringar i hjärnans morfologi, och ge exempel på relaterade effekter på kognition",
+        "4.5.1 Definiera termen \"emotion\" baserat på aktuell vetenskaplig litteratur .. 47 4.5.2 Förklara skillnaden mellan emotionell ”arousal” och ”valens”",
+        "4.5.3 Ge exempel på flera olika kategorier av emotioner",
+        "4.5.4 Diskutera det limbiska systemets och amygdalas roll i kontrollen av emotioner",
+        "4.5.5 Ge exempel på studier som pekar på amygdala som ett nav för inlärning av rädsla",
+        "4.5.6 Definiera hur neurala mekanismer bakom beroendeproblematik och PTSD överlappar med strukturer av central betydelse för emotioner",
+        "4.6.3 Definiera betydelsen av dorsolaterala prefrontala kortex för att kunna växla mellan att värdera och agera",
+        "4.6.4 Definiera ACC:s roll när det gäller att lära sig av konsekvenser",
+        "4.6.5 Ge exempel på inhibitorisk kontroll i ventrolaterala prefrontala kortex 49 4.6.6 Förklara hypotesen om främre insula som ”somatisk markör”",
+        "4.6.7 Ge exempel på hur en skada i posteriora cingulum kan förändra självrelaterad kognition",
+        "4.7.1 Diskutera fördelen med att språkfunktionen är lateraliserad i hjärnan . 50 4.7.2 Förklara varför sensorisk och motorisk funktion inte är tillräcklig för språkrepresentation",
+        "4.7.3 Ange skillnaden mellan motorisk och sensorisk afasi och hur de relaterar till Brocas eller Wernickes områden",
+        "4.7.4 Förklara hur Wada-testet och användning av takistoskop används för att testa språkets lateralisering i hjärnan",
+        "4.7.5 Förklara vilka olika språkproblem som kan förväntas från vänster- och högersidiga skador i Brocas respektive Wernickes område",
+        "4.7.6 Definiera den kritiska perioden för neural utveckling av språkförmågor 51 4.7.7 Ange skillnaden mellan afasi och dyslexi",
+        "4.8.1 Redogör för dopaminhypotesen samt verkningsmekanismerna för antipsykotika inklusive typiska och atypiska och deras biverkningar",
+        "4.8.2 Diskutera olika argument som talar för respektive mot monoaminhypotesen",
+        "4.8.3 Förklara verkningsmekanismerna och biverkningar för antidepressiva inklusive SSRI, TCA och ketamin, akuta och kroniska effekter, tidsförhållanden för terapeutisk effekt",
+        "4.8.4 Identifiera farmakologisk behandling av bipolär depression, litium och alternativ till litium",
+        "4.8.6 Redogör för antiepileptika (karbamazepin, fenytoin, valproat, etosuximid, etc.), verkningsmekanismer, farmakokinetik och biverkningar",
+        "4.8.7 Förklara den centralstimulerande roll som amfetamin, kokain och nikotin har med avseende på farmakologiska effekter, verkningsmekanismer, missbruk av centralstimulerande medel och abstinens",
+        "4.8.8 Identifiera de centrala och perifera effekterna av alkohol och farmakologiska behandling av alkoholberoende och abstinens",
+        "4.8.9 Redogör för verkningsmekanismerna och indikationer för antiemetika (H1-receptorhämmare, muskarinreceptorhämmare, 5-HT3 receptorhämmare, D2 receptorhämmare och NK1 antagonister)"
+      ]
+    },
+    {
+      "id": "bv4-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Hypothalamus och hypofys m.fl.",
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Hypothalamus och hypofys"
+        },
+        {
+          "code": "5.2",
+          "title": "Thyroidea"
+        },
+        {
+          "code": "5.3",
+          "title": "Steroidhormoner"
+        },
+        {
+          "code": "5.4",
+          "title": "Binjurarna"
+        },
+        {
+          "code": "5.5",
+          "title": "Integrering"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Förklara regleringen av hormonfrisättning från hypofysen inklusive hypotalamus-hypofysaxeln, feedback-reglering och skillnader mellan adeno- och neurohypofys (S3, S4)",
+        "5.1.2 Redogöra för hypofysens portakretslopp (S3)",
+        "5.1.3 Redogöra för struktur och biologiska effekter av hypofyshormonen TSH, ACTH, GH, prolaktin, ADH och oxytocin (S3, S4)",
+        "5.2 Thyroidea",
+        "5.3 Steroidhormoner",
+        "5.4 Binjurarna",
+        "5.5.1 Redogöra för det integrerade hormonella svaret på stress, samband mellan binjurebark och binjuremärg samt hur sympatiska nervsystemet, HPA- axeln och thyroideaxeln påverkar varandra (S3)"
+      ]
+    },
+    {
+      "id": "bv4-m6",
+      "code": "Modul 6",
+      "title": "Modul 6 – Blodkärl m.fl.",
+      "sections": [
+        {
+          "code": "6.1",
+          "title": "Blodkärl"
+        },
+        {
+          "code": "6.2",
+          "title": "Ventriculi cerebri"
+        },
+        {
+          "code": "6.3",
+          "title": "Hjärnhinnorna"
+        },
+        {
+          "code": "6.4",
+          "title": "Vit substans i telencephalon"
+        },
+        {
+          "code": "6.5",
+          "title": "Ryggmärgen"
+        },
+        {
+          "code": "6.6",
+          "title": "Cerebellum"
+        },
+        {
+          "code": "6.7",
+          "title": "Truncus encephali"
+        },
+        {
+          "code": "6.8",
+          "title": "Basala ganglierna"
+        },
+        {
+          "code": "6.9",
+          "title": "Diencephalon"
+        },
+        {
+          "code": "6.10",
+          "title": "Gyri, sulci och cortex"
+        },
+        {
+          "code": "6.11",
+          "title": "Kranialnerver"
+        },
+        {
+          "code": "6.12",
+          "title": "Bansystem"
+        },
+        {
+          "code": "6.13",
+          "title": "Sympatikus"
+        }
+      ],
+      "objectives": [
+        "6.1 Blodkärl",
+        "6.2 Ventriculi cerebri",
+        "6.3 Hjärnhinnorna",
+        "6.4 Vit substans i telencephalon",
+        "6.5 Ryggmärgen",
+        "6.6 Cerebellum",
+        "6.7 Truncus encephali",
+        "6.8 Basala ganglierna",
+        "6.9 Diencephalon",
+        "6.10 Gyri, sulci och cortex",
+        "6.11 Kranialnerver",
+        "6.12 Bansystem",
+        "6.13 Sympatikus"
+      ]
+    }
+  ]
+}

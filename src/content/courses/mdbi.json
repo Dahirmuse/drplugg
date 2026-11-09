@@ -1,0 +1,678 @@
+{
+  "id": "mdbi",
+  "code": "MDBI",
+  "title": "Medicinsk diagnostik med basvetenskaplig integrering (MDBI)",
+  "term": "T4",
+  "icon": "🔬",
+  "color": "plum",
+  "sortOrder": 7,
+  "description": "Från symtom till diagnos: kliniskt resonemang, differentialdiagnostik, tolkning av diagnostiska prov och träning i kliniska färdigheter inför OSCE.",
+  "chapters": [
+    {
+      "id": "mdbi-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Analyser och statistisk tolkning m.fl.",
+      "summary": "Laboratoriediagnostik och statistisk tolkning: blodstatus och cellräkning, anemi och leukemi, venprovtagning, hemostas, lever/pancreas/GI-markörer, inflammation samt njure och urindiagnostik.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Analyser och statistisk tolkning"
+        },
+        {
+          "code": "1.2",
+          "title": "Blodstatus och B-celler"
+        },
+        {
+          "code": "1.3",
+          "title": "Anemi och leukemi"
+        },
+        {
+          "code": "1.4",
+          "title": "Venprovtagning"
+        },
+        {
+          "code": "1.5",
+          "title": "Endokrinologi"
+        },
+        {
+          "code": "1.6",
+          "title": "Hemostas"
+        },
+        {
+          "code": "1.7",
+          "title": "Lever, pancreas och GI-sjukdomar"
+        },
+        {
+          "code": "1.8",
+          "title": "Inflammation och proteiner"
+        },
+        {
+          "code": "1.9",
+          "title": "Njure och urindiagnostik"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Redogöra översiktligt för analysprinciperna för de vanligaste analyterna och deras styrkor respektive svagheter. (S2)",
+        "1.1.2 Förklara hur analytisk mätosäkerhet samt övriga felkällor kan påverka ett mätresultat och dess tolkning. (S4)",
+        "1.1.5 Applicera begreppen diagnostisk sensitivitet och specificitet på specifika frågeställningar. (S4)",
+        "1.1.6 Redogöra för negativt- och positivt prediktivt värde, pre- och posttestsannolikhet samt likelihood ratio. (S3)",
+        "1.2.1 Redogöra (S2) för grundläggande terminologi för enkla hematologiska, kliniskt kemiska analyser",
+        "1.2.3 Kunna (S3) redogöra för indikation i samband med beställning av blodstatus. 12 1.2.4 Identifiera normala B-celler samt normal erytrocyt- och trombocytbild i mikroskopet (S1)",
+        "1.3.1 Redogöra (S2) för indikation för beställning av hematologiska analyser i samband med anemiutredning",
+        "1.3.2 Redogöra (S2) för indikation för beställning av hematologiska analyser i samband med utredning för akut myeloisk leukemi",
+        "1.3.3 Identifiera (S1) patologiska B-celler samt patologisk erytrocyt- och trombocytbild i mikroskopet på perifert blod från anemi orsakad av järnbrist eller Vit. B12 brist samt vid akut myeloisk leukemi",
+        "1.3.4 Känna till (S1) principen för benmärgsprovtagning och indikation för bedömning av benmärg vid misstanke om anemi eller leukemi",
+        "1.4.1 Kunna beskriva (S2) de viktigaste felkällorna inför och i samband med blodprovtagning av venösa blodprover",
+        "1.4.2 Kunna (S2) grundläggande etiska principer, sina egna attityder och hur dessa påverkar i samspel med patienter och annan sjukvårdspersonal",
+        "1.5.1 Studenten skall (S3) kunna redogöra för biokemisk bakgrund till symtom och tecken vid endokrina sjukdomar såsom diabetes, tyreoidea- och/eller binjurebarksdysfunktion",
+        "1.5.2 Kunna (S3) redogöra för grundläggande kliniskt kemiska undersökningar för utredning av frågeställningar som rör diabetes, thyroidea- och/eller binjurebarksdysfunktion",
+        "1.5.3 Kunna (S3) förklara när i sjukdomsförloppet olika analyser bör beställas, samt förstå varför kännedom om tidsförlopp är viktigt",
+        "1.5.4 Kunna (S2) redogöra för vilka kliniskt kemiska analyser som används i klinisk rutinverksamhet vid diagnostik och uppföljning av diabetes mellitus typ I och – II, samt hyperlipidemi",
+        "1.6.2 Relatera de vanligaste koagulationsanalyserna till patologiska förändringar i plasma och blodets celler vid akut trombos och blödning, disseminerad intravasal koagulation och medfödd blödningsbenägenhet och trombosbenägenhet",
+        "1.6.3 Självständigt välja rätt utredningsgång vid akut venös trombos baserat på anamnes och status",
+        "1.6.4 Använda analysresultat från screeninganalyseer för koagulation till att styra en riktad utredning av blödningsbenägenhet",
+        "1.6.5 Välja rätt koagulationsanalys för att följa upp läkemedelsbehandling med antikoagulanta läkemedel",
+        "1.6.6 Välja rätt akuta koagulationsanalyser för att diagnosticera DIC",
+        "1.6.7 Ifrågasätta osannolika provsvar i förhållande till klinisk bild, baserat på kännedom om de vanligaste preanalytiska felen för koagulationsanalyserna",
+        "1.6.8 Inhämta underlag avseende vilka provresultat som krävs för att avgöra lämplig vårdnivå för patienten och om specialistcentrum för koagulationsutredningar bör kontaktas. (t.ex. VISS/PTA)",
+        "1.7.2 Kunna redogöra för biokemisk bakgrund till symtom och tecken på levercirrhos, pankreatit, malabsorption och gastrointestinal blödning(S3)",
+        "1.7.3 Kunna redogöra för patologiska förändringar vid levercirrhos, pankreatit, malabsorption samt vid gastrointestinala blödningar och relatera dessa till förändringar av analysresultat (S3)",
+        "1.7.4 Kunna förklara när i sjukdomsförloppet olika analyser ska beställas. (S3)",
+        "1.7.5 Kunna ange viktiga felkällor för kliniskt kemiska rutinanalyser som beställs i diagnostiskt syfte vid utredning av misstänkt lever/pankreassjukdom, malabsorption och gastrointestinal/intestinal blödning (S3)",
+        "1.7.6 Kunna ange viktiga felkällor för kliniskt kemiska rutinanalyser som beställs i diagnostiskt syfte vid utredning av misstänkt alkoholöverkonsumtion. (S3)",
+        "1.8.4 Ha förståelse för vad en M-komponent är (S3)",
+        "1.8.5 Kunna förklara skillnaden mellan MGUS och myelom (S3)",
+        "1.8.6 Kunna förklara begreppet akutfasreaktanter (S2)",
+        "1.8.7 Kunna förklara samband mellan förändringar i B-SR och närvaron av en M- komponent",
+        "1.8.11 Kunna redogöra för begreppet Bence Jones-proteinuri (S2)",
+        "1.9.1 Ha kunskap om förekomst av cylindrar i urinsediment vid pyelonefrit och glomerulonefrit (S2)",
+        "1.9.2 Kunna redogöra för förändringar av fynd på urintestremsa vid urinvägsinfektion, glomerulonefrit och pyelonefrit (S3)",
+        "1.9.3 Kunna redogöra för indikationer för beställning av elektrolyter, kreatinin/albumin index, protein HC och urinosmolalitet (S3)",
+        "1.9.4 Ha kunskap om felkällor i samband med urinsamling (S3)",
+        "1.9.5 Kunna redogöra för begreppet glomerulär filtrationshastighet, GFR (S2)",
+        "1.9.8 Kunna förklara när i sjukdomsförloppet urin och/eller blodanalyser bör beställas, samt förstå varför kännedom om tidsförlopp är viktigt (S3)"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: blodstatus och anemi",
+          "query": "ninja nerd complete blood count anemia"
+        },
+        {
+          "label": "Ninja Nerd: leverprover",
+          "query": "ninja nerd liver function tests"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mdbi-m1-q1",
+          "kind": "mcq",
+          "prompt": "En patient har Hb 95 g/L, MCV 72 fL och lågt ferritin. Vilken typ av anemi är det?",
+          "options": [
+            "Mikrocytär järnbristanemi",
+            "Makrocytär B12-bristanemi",
+            "Normocytär anemi vid kronisk sjukdom",
+            "Hemolytisk anemi"
+          ],
+          "answer": "Mikrocytär järnbristanemi",
+          "explanation": "Lågt MCV och lågt ferritin talar för järnbrist – vanligast orsak till mikrocytär anemi (utöver talassemi). B12/folatbrist ger makrocytär (högt MCV) anemi; kronisk sjukdom ger oftast normocytär."
+        },
+        {
+          "id": "mdbi-m1-q2",
+          "kind": "mcq",
+          "prompt": "Vad innebär ett förhöjt anjon-gap vid metabol acidos?",
+          "options": [
+            "Ackumulering av icke-mätta syror som laktat eller ketoner",
+            "Förlust av bikarbonat via GI-kanalen eller njurarna",
+            "Hyperkloridemi utan syraöverskott",
+            "Respiratorisk alkalos med kompensation"
+          ],
+          "answer": "Ackumulering av icke-mätta syror som laktat eller ketoner",
+          "explanation": "Anjon-gap = Na+ − (Cl− + HCO3−). Förhöjt gap (MUDPILES: metanol, uremi, DKA, propylenglykol, isoniazid, laktat, etylenglykol, salicylater) betyder att en omätt anjon ansamlats; normalt gap vid diarré/renal tubulär acidos."
+        },
+        {
+          "id": "mdbi-m1-q3",
+          "kind": "cloze",
+          "prompt": "Prov för hemostas och koagulation tas i rör med ______ som antikoagulans.",
+          "answer": "citrat",
+          "explanation": "Citrat binder kalcium och stoppar koagulationen;röret måste fyllas helt och centrifugeras för att ge plasma till PK/INR, APTT och fibrinogen."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad ingår i en blodstatus och vad betyder de viktigaste parametrarna?",
+          "back": "Hb, EVF, MCV/MCH/MCHC, LPK med differential samt trombocyter. MCV skiljer mikro-/normo-/makrocytär anemi; LPK och differential speglar infektion och hematologisk sjukdom."
+        },
+        {
+          "front": "Vilka leverprover talar för kolestas respektive hepatocellulär skada?",
+          "back": "Kolestas: ALP och GT stiger. Hepatocellulär skada: ALAT och ASAT stiger. Bilirubin och albumin/PK visar leverfunktion."
+        },
+        {
+          "front": "Vad visar CRP och SR och hur skiljer de sig?",
+          "back": "Båda är inflammationsmarkörer. CRP stiger snabbt (timmar) och sjunker snabbt; SR stiger långsamt och sjunker långsamt (påverkas av albumin/fibrinogen)."
+        },
+        {
+          "front": "Vad betyder konfidensintervall i en klinisk studie?",
+          "back": "Det intervall inom vilket den sanna effekten med viss sannolikhet (oftast 95 procent) ligger; brett intervall = osäker skattning."
+        }
+      ],
+      "facts": [
+        "Lågt MCV + lågt ferritin = järnbrist.",
+        "Förhöjt anjon-gap = ackumulerad syra (laktat, ketoner, toxiner).",
+        "Citratrör används för koagulationsprover."
+      ]
+    },
+    {
+      "id": "mdbi-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – EKG m.fl.",
+      "summary": "Hjärtdiagnostik: EKG, ekokardiografi, myokardscintigrafi, DT- och MR-hjärta samt lungfunktionsdiagnostik och val av metod.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "EKG"
+        },
+        {
+          "code": "2.2",
+          "title": "Ekokardiografi"
+        },
+        {
+          "code": "2.3",
+          "title": "Myokardscintigrafi"
+        },
+        {
+          "code": "2.4",
+          "title": "DT-hjärta"
+        },
+        {
+          "code": "2.5",
+          "title": "MR hjärta"
+        },
+        {
+          "code": "2.6",
+          "title": "Val av metod vid hjärtdiagnostik"
+        },
+        {
+          "code": "2.7",
+          "title": "Kärldiagnostik"
+        },
+        {
+          "code": "2.8",
+          "title": "Lungfunktionsdiagnostik"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Kunna tolka de vanligast förekommande EKG förändringarna:",
+        "2.1.2 Kunna registrera EKG",
+        "2.2.1 Kunna de grundläggande principerna för hjärtultraljud inklusive hur undersökningen går till",
+        "2.2.2 Kunna identifiera hjärtrum och klaffar ur standardprojektioner",
+        "2.2.3 Kunna principer för bedömning av vänster- och högerkammarfunktion",
+        "2.2.4 Kunna vilka kliniska frågeställningar som kan besvaras med ekodopplerundersökning och känna till hur man besvarar dem",
+        "2.2.5 Känna till teorin bakom dopplerteknik och hur tekniken används för bedömning av klaffel och högerkammartryck",
+        "2.3.1 Kunna de grundläggande principer för hur undersökningar går till",
+        "2.3.2 Kunna vilka kliniska frågeställningar som kan besvaras med nuklearmedicinsk hjärtdiagnostik",
+        "2.3.3 Känna till vad radioisotoper belyser (cellfunktion eller passivt upptag i vävnaden)",
+        "2.4.1 Kunna grundläggande principer för hur undersökningen går till",
+        "2.4.2 Kunna frågeställningar samt patientkategorier för metoden",
+        "2.4.3 Känna till hur stenosgrad korrelerar till ischemi",
+        "2.5.1 Kunna vilka kliniska frågeställningar som kan besvaras med MR Hjärta",
+        "2.5.2 Kunna hur MR Hjärta kan användas för att differentiera mellan ischemiska och icke-ischemiska orsaker till hjärtpatologi",
+        "2.5.3 Känna till ischemibedömning med MR hjärta",
+        "2.5.5 Känna till metoder för kvantifiering av volymer och flöde, inklusive shuntdiagnostik",
+        "2.6 Val av metod vid hjärtdiagnostik",
+        "2.7 Kärldiagnostik",
+        "2.8.1 Kunna redogöra för patofysiologiska mekanismer vid astma och KOL",
+        "2.8.2 Kunna redogöra för olika patofysiologiska mekanismer vid restriktivitet",
+        "2.8.3 Kunna redogöra för principerna för, och nyttan av, mätning av diffusionskapacitet, kväveutsköljning, mätningar i helkroppsplethysmograf, reversibilitetstest och bronkialprovokationer",
+        "2.8.4 Kunna redogöra för vilka undersökningar som har störst värde vid de vanligaste lungsjukdomarna",
+        "2.8.5 Kunna tolka resultat från en standardundersökning innehållande, dynamisk och statisk spirometri, samt mätning av diffusionskapaciteten"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: EKG-grunder",
+          "query": "ninja nerd ECG interpretation basics"
+        },
+        {
+          "label": "Ninja Nerd: ekokardiografi",
+          "query": "ninja nerd echocardiography"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mdbi-m2-q1",
+          "kind": "mcq",
+          "prompt": "Vilket fynd på EKG talar för akut ST-höjningsinfarkt (STEMI)?",
+          "options": [
+            "ST-höjning i två angränsande avledningar",
+            "Generellt låg amplitud",
+            "Förkortad QT-tid",
+            "Sinustakycardi utan ST-förändringar"
+          ],
+          "answer": "ST-höjning i två angränsande avledningar",
+          "explanation": "STEMI definieras av ST-höjning i två angränsande avledningar (eller ny vänstergrenblock) och kräver omedelbar reperfusion (PCI). NSTEMI ger ST-sänkning/T-vändning eller normaliserat EKG med förhöjt troponin."
+        },
+        {
+          "id": "mdbi-m2-q2",
+          "kind": "mcq",
+          "prompt": "Vad mäter ekokardiografi och vad är dess viktigaste användning akut?",
+          "options": [
+            "Hjärtats struktur och funktion (EF, klaffar, väggrörlighet) – används vid hjärtsvikt, klaffel och misstänkt tamponad",
+            "Hjärtats elektriska aktivitet i vila",
+            "Kranskärlens anatomi med kontrast",
+            "Lungornas gasutbyte"
+          ],
+          "answer": "Hjärtats struktur och funktion (EF, klaffar, väggrörlighet) – används vid hjärtsvikt, klaffel och misstänkt tamponad",
+          "explanation": "Ekokardiografi är snabbt, strålningsfritt och visar strukturell och funktionell information inklusive ejektionsfraktion. Akut kan det snabbt avslöja perikardvätska/tamponad och nedsatt pumpförmåga."
+        },
+        {
+          "id": "mdbi-m2-q3",
+          "kind": "cloze",
+          "prompt": "Hjärtmarkören som stiger 3–6 timmar efter infarkt och är mest specifik kallas ______.",
+          "answer": "troponin",
+          "explanation": "Högsensitivt troponin (hs-cTn) är förstahandsmarkör: stiger snabbt, förblir förhöjt i dagar och kombineras med klinik och EKG i 0/1- eller 0/3-timmarsalgoritmer."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka vågor och intervall finns på ett EKG och vad motsvarar de?",
+          "back": "P-våg (förmaksdepolarisering), PR-intervall (AV-ledning), QRS (kammardepolarisering), QT (depolarisering + repolarisering), T-våg (kammarrepolarisering)."
+        },
+        {
+          "front": "Vad är skillnaden mellan arbetsprov, myokardscintigrafi och DT-kranskärl?",
+          "back": "Arbetsprov: funktionell ischemi vid ansträngning. Scintigrafi: perfusion bild vid belastning/vila. DT: anatomisk karta över kranskärl och plaque – hög negativt prediktivt värde."
+        },
+        {
+          "front": "Vad visar lungfunktionsundersökning vid obstruktiv sjukdom?",
+          "back": "Sänkt FEV1 och FEV1/FVC < 0,7; reversibilitetstest med bronkdilaterare skiljer astma från KOL."
+        },
+        {
+          "front": "När väljer man MR-hjärta framför DT?",
+          "back": "Vid behov av vävnadskarakterisering utan strålning – t.ex. myokardit, kardiomyopatier, infiltrativa sjukdomar och fibros (late gadolinium enhancement)."
+        }
+      ],
+      "facts": [
+        "STEMI = ST-höjning i två angränsande avledningar.",
+        "hs-troponin är förstahandsmarkör vid misstänkt infarkt.",
+        "Ekoko visar EF, klaffar och perikardvätska."
+      ]
+    },
+    {
+      "id": "mdbi-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Modaliteter m.fl.",
+      "summary": "Radiologiska modaliteter, strålfysik, remissen och kontrastmedel samt de vanligaste röntgenundersökningarna av neuro, thorax, buk och skelett.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Modaliteter"
+        },
+        {
+          "code": "3.2",
+          "title": "Strålfysik"
+        },
+        {
+          "code": "3.3",
+          "title": "Remissen"
+        },
+        {
+          "code": "3.4",
+          "title": "Kontrast"
+        },
+        {
+          "code": "3.5",
+          "title": "De vanligaste röntgenundersökningarna"
+        },
+        {
+          "code": "3.6",
+          "title": "Neuro"
+        },
+        {
+          "code": "3.7",
+          "title": "Thorax"
+        },
+        {
+          "code": "3.8",
+          "title": "Buk"
+        },
+        {
+          "code": "3.9",
+          "title": "Skelett"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Redogöra för den basala tekniken och fysiken vid de fem modaliteterna samt redogöra för deras fördelar och begränsningar (S2)",
+        "3.1.2 Teoretisera kring kostnad och tillgänglighet i både ett nationellt och globalt perspektiv samt patientens förutsättningar (så som ålder, vikt och njurfunktion) vid val av undersökningsmodalitet (S5)",
+        "3.2.1 Redogöra för riskerna med joniserande strålning och vilka modaliteter som genererar joniserande strålning (S2)",
+        "3.3.1 Kunna visa hur man skriver en fullständig röntgenremiss (M3)",
+        "3.4 Kontrast",
+        "3.5.1 Beskriva de vanligaste röntgenundersökningarna, deras indikationer, fördelar och begränsningar (S3)",
+        "3.6.1 Förklara indikationer och vilka vanliga frågeställningar som kan besvaras med DT hjärna och DT angiografi (S4)",
+        "3.6.2 Förklara radiologiska fynd vid intrakraniell blödning respektive infarkt (S4).. 39 3.6.3 Redogöra för hur angeläget och skadebegränsande det kan vara med rätt handläggning vid akut stroke (S2)",
+        "3.7.1 Förklara vilka för och nackdelar som finns och vilka vanliga frågeställningar som kan besvaras med lungröntgen, lungscintigrafi respektive DT thorax med och utan intravenöst kontrastmedel (S4)",
+        "3.7.2 Förklara vilken eller vilka bildgivande undersökning/undersökningar som är indicerad vid pneumoni, hjärtsvikt, malignitet, pleuravätska, pneumothorax, aortadissektion, lungemboli och DVT (S4)",
+        "3.8.1 Förklara vilka för och nackdelar som finns och vilka vanliga frågeställningar som kan besvaras med ultraljud, MR, DT buk med och utan intravenöst kontrastmedel och när peroralt kontrastmedel är indicerat. (S4)",
+        "3.8.2 Förklara vilka bildgivande undersökningar som är lämpliga vid akuta bukfrågeställningar (så som appendicit, ileus, gallstenssjukdom och njursten) (S4)",
+        "3.8.3 Redogöra för möjliga radiologiska undersökningar och deras diagnostiska begränsningar vid misstanke om bukmalignitet (S2)",
+        "3.9.1 Förklara vilka för och nackdelar som finns och vilka vanliga frågeställningar som kan besvaras med slätröntgen, skelettscintigrafi, MR respektive DT/CBCT (S4)",
+        "3.9.2 Beskriva lämpliga bildgivande undersökningar vid frakturer/trauma, artrit/artros, malignitet (S3)"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: röntgen av thorax",
+          "query": "ninja nerd chest x ray interpretation"
+        },
+        {
+          "label": "Ninja Nerd: DT och strålsäkerhet",
+          "query": "ninja nerd CT scan radiation basics"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mdbi-m3-q1",
+          "kind": "mcq",
+          "prompt": "Vilken modalitet har högst stråldos och när är den motiverad?",
+          "options": [
+            "DT (datortomografi) – vid akuta tillstånd som misstänkt blödning, lungemboli eller trauma",
+            "Ultraljud – vid alla frågeställningar",
+            "MR – eftersom den saknar magnetfält",
+            "Slätröntgen – vid mjukdelsbedömning"
+          ],
+          "answer": "DT (datortomografi) – vid akuta tillstånd som misstänkt blödning, lungemboli eller trauma",
+          "explanation": "DT ger hög stråldos men är snabb och avgörande akut. Principen är ALARA (as low as reasonably achievable): välj modalitet efter frågeställning, undvik onödig strålning särskilt hos barn och gravida."
+        },
+        {
+          "id": "mdbi-m3-q2",
+          "kind": "mcq",
+          "prompt": "Vilken modalitet är förstahandsval för att bedöma gallstenar och gravid livmoder utan strålning?",
+          "options": [
+            "Ultraljud",
+            "Slätröntgen buk",
+            "DT buk med kontrast",
+            "PET-CT"
+          ],
+          "answer": "Ultraljud",
+          "explanation": "Ultraljud är snabbt, tillgängligt och strålningsfritt – bäst för gallblåsa, njurar, uterus och foster. DT används vid oklara akuta bukar och vid komplikationer."
+        },
+        {
+          "id": "mdbi-m3-q3",
+          "kind": "cloze",
+          "prompt": "Röntgenstrålning mäts i enheten ______.",
+          "answer": "gray",
+          "explanation": "Absorberad dos anges i gray (Gy) och effektiv dos i sievert (Sv). En konventionell lungröntgen ger cirka 0,02 mSv, en DT-thorax cirka 5–7 mSv."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka modaliteter finns och vad är deras styrka?",
+          "back": "Slätröntgen (snabb, översikt), DT (detaljerad anatomi, akut), MR (mjukdelar utan strålning), ultraljud (realtid, strålningsfritt) och nuklearmedicin/PET (funktion/metabolism)."
+        },
+        {
+          "front": "Vad ska remissen till radiologi innehålla?",
+          "back": "Frågeställning, relevant anamnes och kliniska fynd, tidigare undersökningar, eventuell graviditet samt kontaktuppgifter för komplettering."
+        },
+        {
+          "front": "Vad kännetecknar en god lungröntgenbedömning?",
+          "back": "Systematisk genomgång: projektion och rotation, inspiration, lungfält, hjärta/mediastinum, hilus, diafragma, pleura, skelett och mjukdelar – leta efter fria lungkanter och silhuettecken."
+        },
+        {
+          "front": "När är jodkontrast respektive gadoliniumkontrast riskabelt?",
+          "back": "Jodkontrast: nedsatt njurfunktion (kontrastnefropati) och tidigare allvarlig reaktion. Gadolinium: gravt nedsatt njurfunktion (NSF) samt graviditet."
+        }
+      ],
+      "facts": [
+        "DT ger hög stråldos men är snabb och avgörande akut.",
+        "Ultraljud är förstahandsval vid gallsten och graviditet.",
+        "Absorberad dos mäts i gray, effektiv dos i sievert."
+      ]
+    },
+    {
+      "id": "mdbi-m4",
+      "code": "Modul 4",
+      "title": "Modul 4 – Klinisk mikrobiologi m.fl.",
+      "summary": "Klinisk mikrobiologi, klinisk immunologi och transfusionsmedicin: odling och resistensbestämning, immunologiska analyser samt blodgruppering och transfusion.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Klinisk mikrobiologi"
+        },
+        {
+          "code": "4.2",
+          "title": "Klinisk immunologi"
+        },
+        {
+          "code": "4.3",
+          "title": "Transfusionsmedicin"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Förstå kliniskt och laboratoriediagnostik av infektionssjukdomar",
+        "4.1.2 Redogöra för hur man tar prover och vilka provtagningstekniker som finns inom klinisk mikrobiologi",
+        "4.1.3 Beskriva den mikrobiologiska epidemiologin för de vanligaste infektionssjukdomarna",
+        "4.1.4 Förstå diagnostiska metoder inom klinisk mikrobiologi samt förklara deras styrkor och svagheter",
+        "4.1.5 Förstå verkningsmekanismer och användning av vanligaste antibiotika och deras resistensbestämning",
+        "4.1.6 Tolka mikrobiologiska provsvar",
+        "4.2.1 Allergisk inflammation - mekanismer",
+        "4.2.2 Allergiutredning",
+        "4.2.3 Rubbningar i komplementsystemet",
+        "4.2.4 Humorala defekter",
+        "4.2.5 Cellulära defekter",
+        "4.3.1 Blodgivning",
+        "4.3.2 Blodgrupper",
+        "4.3.3 Erytrocytantikroppar",
+        "4.3.4 Förenlighetsprövning",
+        "4.3.5 Direkt antiglobulin test",
+        "4.3.6 Graviditetsimmunisering",
+        "4.3.7 Blodkomponentframställning (special komponenter, bloddirektiv)",
+        "4.3.8 Aferesbehandling",
+        "4.3.9 Transfusionskomplikationer"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: blodgrupper och transfusion",
+          "query": "ninja nerd blood groups transfusion reactions"
+        },
+        {
+          "label": "Ninja Nerd: immunologiska tester",
+          "query": "ninja nerd immunoassays ELISA"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mdbi-m4-q1",
+          "kind": "mcq",
+          "prompt": "En patient med blodgrupp A får en transfusion med blodgrupp B. Vad händer och varför?",
+          "options": [
+            "Akut hemolytisk reaktion – anti-B-antikroppar förstör de transfunderade erytrocyterna",
+            "Ingen reaktion eftersom A och B är kompatibla",
+            "Enbart feber utan hemolys",
+            "Agglutinering sker först efter flera dagar"
+          ],
+          "answer": "Akut hemolytisk reaktion – anti-B-antikroppar förstör de transfunderade erytrocyterna",
+          "explanation": "Personer med blodgrupp A har anti-B-antikroppar (IgM). Feltransfusion ger komplementaktivering, hemolys, feber, ryggsmärta och DIC – livshotande. Blodgrupp O-negativ är universaldonator för erytrocyter."
+        },
+        {
+          "id": "mdbi-m4-q2",
+          "kind": "mcq",
+          "prompt": "Vad är viktigt innan en blodtransfusion för att förebygga transfusionsreaktioner?",
+          "options": [
+            "Korrekt blodgruppering och antikroppsscreening samt identitetskontroll vid sängkanten",
+            "Att patienten fastar i 6 timmar",
+            "Att ge antihistamin rutinmässigt",
+            "Att ge transfusionen snabbt under 10 minuter"
+          ],
+          "answer": "Korrekt blodgruppering och antikroppsscreening samt identitetskontroll vid sängkanten",
+          "explanation": "Blodgruppering (ABO/Rh), antikroppsscreening och förväxlingskontroll vid patienten är de avgörande säkerhetsstegen. Transfusion ges långsamt de första 15 minuterna och patienten observeras."
+        },
+        {
+          "id": "mdbi-m4-q3",
+          "kind": "cloze",
+          "prompt": "Prover med EDTA används främst för att analysera ______ (blodstatus).",
+          "answer": "blodstatus",
+          "explanation": "EDTA binder kalcium och hindrar koagulation i helblod – används för Hb, LPK, trombocyter och differentialräkning. Serumrör (gul/ röd) används för kemi och immunologi."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka blodgruppssystem är viktigast vid transfusion?",
+          "back": "ABO och Rh(D). O-negativ är universaldonator för erytrocyter; AB-positive kan ta emot alla erytrocyter men AB-plasma är universaldonator för plasma."
+        },
+        {
+          "front": "Hur går en odling och resistensbestämning till?",
+          "back": "Prov odlas på selektiva medier, identifieras (MALDI-TOF/PCR) och resistens bestäms med diffusions- eller MIC-metod; snabb-PCR kan ge svar inom timmar för kritiska patogener."
+        },
+        {
+          "front": "Vad visar en ELISA och när används den?",
+          "back": "Antigen eller antikropp mäts med enzymmarkerad reaktion – används för serologi (HIV, hepatit), autoantikroppar och hormonanalyser."
+        },
+        {
+          "front": "Vilka transfusionsreaktioner finns?",
+          "back": "Akut hemolytisk (ABO-fel), febril non-hemolytisk, allergisk/anafylaktisk, TRALI, TACO och fördröjd hemolytisk reaktion."
+        }
+      ],
+      "facts": [
+        "A har anti-B, B har anti-A, O har båda.",
+        "ABO + antikroppsscreening + identitetskontroll före transfusion.",
+        "EDTA-rör används för blodstatus."
+      ]
+    },
+    {
+      "id": "mdbi-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Tyreoidea m.fl.",
+      "summary": "Patologi, endokrinologi och hematopatologisk diagnostik: tyreoidea, paratyreoidea, binjure, lunga, skelett, benmärg, akuta buktillstånd och klinisk obduktion.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Tyreoidea"
+        },
+        {
+          "code": "5.2",
+          "title": "Paratyreoidea"
+        },
+        {
+          "code": "5.3",
+          "title": "Binjure"
+        },
+        {
+          "code": "5.4",
+          "title": "Lunga och Thorax"
+        },
+        {
+          "code": "5.5",
+          "title": "Skelett och leder"
+        },
+        {
+          "code": "5.6",
+          "title": "Hematopatologisk diagnostik"
+        },
+        {
+          "code": "5.7",
+          "title": "Akuta tillstånd i mag-tarmkanalen"
+        },
+        {
+          "code": "5.8",
+          "title": "Klinisk obduktion"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Studenten ska kunna redogöra för vanliga tyreoideasjukdomar utfrån etiologiska faktorer och patofysiologiska mekanismer",
+        "5.1.2 Studenten ska kunna redogöra för benämningen \"struma\" och ha kännedom om den kliniska utredningen vid knöl i sköldkörteln",
+        "5.1.4 Studenten ska kunna redogöra för de fyra huvudgrupperna av sköldkörtelcancer med inriktning på prevalens och prognosen för varje en av dessa cancerformer",
+        "5.1.5 Studenten ska känna till hur finnålspunktion används vid diagnostik av cancer i sköldkörteln och dess fallgropar",
+        "5.2.1 Studenten ska kunna redogöra för hur PTH reglerar kalciumbalansen i kroppen, och hur detta sätts ur spel vid primär hyperparatyreoidism (PHPT)",
+        "5.2.2 Studenten ska kunna redogöra för PHPT och sekundär hyperparatyreoidism (SHPT) utifrån etiologiska faktorer och patofysiologiska mekanismer",
+        "5.2.3 Studenten ska kunna redogöra för de tre huvudformerna av PHPT",
+        "5.2.4 Studenten ska kunna redogöra för symptomatologi och klinisk kemisk laboratoriebild vid PHPT",
+        "5.2.5 Studenten ska känna till MEN1-syndromet och dess association till PHPT, samt HPT-JT-syndromet och dess koppling till paratyreoideacancer",
+        "5.3.1 Studenten ska kunna redogöra för de vanligaste sjukdomarna som ger upphov till över- respektive underfunktion av ett eller flera hormon i binjuren",
+        "5.3.2 Studenten ska kunna redogöra för Cushings syndrom, dess etiologi och symptomatologi",
+        "5.3.4 Studenten ska kunna redogöra för feokromocytom, främst patienternas symptomatologi",
+        "5.4.1 Kunna redogöra för de vanligaste cytologiska, histologiska, immunfenotypiska och molekylära analyserna och för hur dessa används kliniskt inom lungcancerdiagnostiken (S3)",
+        "5.4.2 Kunna redogöra för hur olika prover erhålls och analyseras inom diagnostiken av lungsjukdomar, vilken betydelse olika cellkomponenter har och hur tumörcellhalten påverkar val av analysmetod inom molekylär patologin (S3)",
+        "5.4.4 Kunna väga olika diagnostiska provtyper och analyser mot varandra med beaktande av tumördrivande mekanismer, carcinogenes och tumörlokalisation (S3)",
+        "5.5.1 Ben och brosk",
+        "5.5.2 Ledsjukdomar",
+        "5.6.2 Kunna redogöra för hur prover för dessa analyser erhålls",
+        "5.6.3 Kunna välja ut lämpliga undersökningar vid klinisk misstanke om vanligaste benigna och maligna sjukdomar i hematolymfoida organ",
+        "5.6.4 Kunna skriva en remiss för sådan undersökning samt kunna tolka resultat av undersökningen",
+        "5.7.2 Känna till följande sjukdomar och tillstånd: stressulcus, pylorusstenos, angiodysplasi samt tillstånd som kan leda till peritonit inklusive mekaniska obstruktioner, divertiklar, pseudodivertiklar",
+        "5.8.1 Kunna redogöra för lagar som styr handhavandet av den döda kroppen",
+        "5.8.2 Kunna redogöra för hur en klinisk obduktion utförs och rutiner vid dödsfall .. 59 5.8.3 Kunna redogöra för gränsdragningen mellan klinisk obduktion och rättsmedicinsk obduktion (S3)",
+        "5.8.4 Kunna förklara vilka medicinska frågeställningar kan besvaras med klinisk obduktion (S3)",
+        "5.8.5 Kunna redogöra för patologiska fynd vid akuta livshotande tillstånd och vanliga dödsorsaker"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: tyreoidea – diagnostik",
+          "query": "ninja nerd thyroid disorders diagnosis"
+        },
+        {
+          "label": "Ninja Nerd: benmärg och cytopenier",
+          "query": "ninja nerd bone marrow biopsy cytopenia"
+        }
+      ],
+      "recall": [
+        {
+          "id": "mdbi-m5-q1",
+          "kind": "mcq",
+          "prompt": "En patient har hyperkalcemi, lågt fosfat och förhöjt PTH. Vilken är den mest sannolika orsaken?",
+          "options": [
+            "Primär hyperparatyreoidism (adenom i paratyroidea)",
+            "Sekundär hyperparatyreoidism vid njursvikt",
+            "Hypoparatyreoidism",
+            "D-vitaminbrist"
+          ],
+          "answer": "Primär hyperparatyreoidism (adenom i paratyroidea)",
+          "explanation": "Vid primär hyperparatyreoidism produceras PTH självständigt: kalcium stiger, fosfat sjunker. Vid sekundär (njursvikt) är kalcium lågt/normalt och fosfat högt – PTH stiger som kompensation."
+        },
+        {
+          "id": "mdbi-m5-q2",
+          "kind": "mcq",
+          "prompt": "Vilken undersökning är avgörande vid misstänkt lymfom eller leukemi?",
+          "options": [
+            "Benmärgsbiopsi/aspirad med flödescytometri och molekylär analys",
+            "Enbart blodstatus",
+            "Slätröntgen av skelettet",
+            "Ultraljud av buken"
+          ],
+          "answer": "Benmärgsbiopsi/aspirad med flödescytometri och molekylär analys",
+          "explanation": "Diagnosen ställs morfologiskt och immunfenotypiskt i benmärg (eller lymfkörtelbiopsi), kompletterat med cytogenetik/molekylär diagnostik som också styr behandlingen."
+        },
+        {
+          "id": "mdbi-m5-q3",
+          "kind": "cloze",
+          "prompt": "Vid misstänkt tyreoideacancer är förstahandsmetoden för diagnos ______.",
+          "answer": "finnålsaspiration",
+          "explanation": "Finnålsaspiration (FNA) med cytologi används för att bedöma tyreoideaknölar; ultraljud vägleder och klassificerar (EU-TIRADS) innan eventuell operation."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad betyder etiologi, patogenes, morfologi och klinisk bild i patologin?",
+          "back": "Etiologi = orsak; patogenes = mekanism; morfologi = vävnadsförändringar; klinisk bild = symtom och fynd. Patologin kopplar dessa till diagnos."
+        },
+        {
+          "front": "Vad skiljer benign från malign tumör morfologiskt?",
+          "back": "Malign: infiltrativ växt, hög cellatypi, mitoser, nekros, kärlinväxt och metastasering. Benign: välavgränsad, liknar ursprungsvävnad, inga metastaser."
+        },
+        {
+          "front": "Vilka analyser ingår i hematopatologisk diagnostik?",
+          "back": "Blodstatus med differential, benmärgsmorfologi, flödescytometri, cytogenetik (FISH/karyotyp), molekylär analys (NGS) samt immunhistokemi."
+        },
+        {
+          "front": "Vad är syftet med klinisk obduktion?",
+          "back": "Att fastställa dödsorsak, upptäcka diagnoser som missats och ge kvalitetssäkring samt underlag för anhöriga – kräver samtycke enligt lag."
+        }
+      ],
+      "facts": [
+        "Primär hyperparatyreoidism: högt Ca, lågt fosfat, högt PTH.",
+        "Benmärgsbiopsi + flödescytometri krävs vid misstänkt leukemi/lymfom.",
+        "FNA är förstahandsmetod vid tyreoideaknöl."
+      ]
+    }
+  ]
+}

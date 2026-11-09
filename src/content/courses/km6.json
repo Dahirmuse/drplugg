@@ -1,0 +1,456 @@
+{
+  "id": "km6",
+  "code": "KM6",
+  "title": "Klinisk medicin 6: Obstetrik och gynekologi",
+  "term": "T10",
+  "icon": "🤰",
+  "color": "plum",
+  "sortOrder": 14,
+  "description": "Graviditet, förlossning och de viktigaste obstetriska komplikationerna samt gynekologisk sjukdom, reproduktionsmedicin och preventivmedel. Fokus ligger på att skilja normala förlopp från tillstånd som hotar mor eller barn.",
+  "chapters": [
+    {
+      "id": "km6-1",
+      "code": "Modul 1",
+      "title": "Graviditet och förlossning",
+      "summary": "Den normala graviditetens fysiologi, fostrets övervakning och förlossningens skeden. Fokus ligger på att känna igen avvikande blödning och på akuta förlossningssituationer.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: graviditetens fysiologi och placentan",
+          "query": "ninja nerd pregnancy physiology placenta"
+        },
+        {
+          "label": "Ninja Nerd: förlossningens mekanism",
+          "query": "ninja nerd labor mechanism stages of delivery"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Redogöra för den normala graviditetens fysiologiska förändringar och graviditetslängdens beräkning",
+          "level": "kunna"
+        },
+        {
+          "code": "1.2",
+          "title": "Förklara varför vaginal undersökning är kontraindicerad vid misstänkt placenta previa",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Känna till handläggningen av axelinkärkning (shoulder dystocia) som förlossningsakut",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km6-1-q1",
+          "kind": "mcq",
+          "prompt": "En 34-årig kvinna i graviditetsvecka 34 söker för riklig, smärtfri vaginal blödning som börjat plötsligt. Livmodern är mjuk och oöm, barnet rör sig normalt på CTG. Vad gör du?",
+          "options": [
+            "Lägger in henne och gör ultraljud – undvik vaginal undersökning",
+            "Gör vaginal undersökning för att bedöma blödningskällan",
+            "Skickar hem henne med råd om vila",
+            "Startar värkstimulerande behandling för att påskynda förlossning"
+          ],
+          "answer": "Lägger in henne och gör ultraljud – undvik vaginal undersökning",
+          "explanation": "Smärtfri vaginal blödning sent i graviditeten är typisk för placenta previa, där placentan ligger över inre modermunnen. En vaginal undersökning kan då riva sönder placenta och utlösa livshotande blödning, så placentans läge måste först bedömas med ultraljud."
+        },
+        {
+          "id": "km6-1-q2",
+          "kind": "mcq",
+          "prompt": "Under en förlossning visar CTG upprepade decelerationer som börjar efter att värken kulminerat och som återhämtar sig långsamt. Vilken mekanism ligger bakom detta mönster?",
+          "options": [
+            "Utebliven syretillförsel via placentan vid värken (uteroplacentär insufficiens)",
+            "Navelsträngskompression, som ger variabla decelerationer",
+            "Fostrets normala reaktion vid huvudets nedträngande",
+            "Mammans andning ger artefakt i registreringen"
+          ],
+          "answer": "Utebliven syretillförsel via placentan vid värken (uteroplacentär insufficiens)",
+          "explanation": "Sena decelerationer speglar en redan nedsatt reservkapacitet i placentan: under värken minskar blodflödet så mycket att fostersyresättningen sviktar. Variabla decelerationer beror i stället på navelsträngskompression och har ett annat utseende."
+        },
+        {
+          "id": "km6-1-q3",
+          "kind": "mcq",
+          "prompt": "Efter att huvudet fötts fastnar axlarna och trots kraftig värk kommer ingen vidare utdrivning. Vilken är den första åtgärden?",
+          "options": [
+            "McRoberts position – kraftig höjning av benen och tryck ovan blygdbenet",
+            "Öka värkstyrkan med infusion av oxytocin",
+            "Dra kraftigt i barnets huvud",
+            "Avvakta nästa värk och sedan göra kristellers uttagning direkt"
+          ],
+          "answer": "McRoberts position – kraftig höjning av benen och tryck ovan blygdbenet",
+          "explanation": "Vid axelinkärkning ska höftlederna kraftigt flekteras (McRoberts) och suprapubiskt tryck ges, vilket ändrar bäckenets vinkel och frigör den fastnade axeln. Att dra i huvudet ökar risken för plexus brachialis-skada, och oxytocin förvärrar inklämningen."
+        },
+        {
+          "id": "km6-1-q4",
+          "kind": "cloze",
+          "prompt": "Tio minuter efter en vaginal förlossning blöder patienten rikligt, livmodern är slapp och når ovan naveln. Diagnosen är ______, den vanligaste orsaken till postpartumblödning.",
+          "answer": "livmoderatoni",
+          "explanation": "Efter förlossningen måste myometriet dra ihop sig för att stänga av blodkärlen vid placentarfästet. Vid atoni uteblir detta, vilket ger riklig blödning. Behandlingen är uteruskontraherande läkemedel, livmodermassage och vid behov kirurgisk åtgärd."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Hur beräknas graviditetslängden?",
+          "back": "Från första dagen av senaste menstruation (Naegele regel) eller, säkrare, med ultraljud i tidig graviditet. Normal graviditet varar cirka 40 graviditetsveckor."
+        },
+        {
+          "front": "Vad mäter CTG?",
+          "back": "Fostrets hjärtfrekvens och livmoderkontraktioner. Basalfrekvens, variabilitet, accelerationer och decelerationer bedöms för att upptäcka syrebrist."
+        },
+        {
+          "front": "Vad är skillnaden mellan placenta previa och ablatio placentae?",
+          "back": "Placenta previa: placenta över inre modermunnen, smärtfri blödning. Ablatio: placentan lossnar i förtid från normal position, smärtsam blödning med hård, öm livmoder."
+        },
+        {
+          "front": "Vilka är förlossningens tre skeden?",
+          "back": "Öppningsskedet (latent och aktiv fas), utdrivningsskedet och efterbördsskedet. Aktiv fas definieras av regelbundna värkar med tilltagande öppning från cirka 4 cm."
+        },
+        {
+          "front": "Vad är ett normalt fosterljudsmönster?",
+          "back": "Basalfrekvens 110–160 slag per minut, god variabilitet, accelerationer vid rörelse och inga upprepade sena decelerationer."
+        },
+        {
+          "front": "Vilka är de viktigaste orsakerna till postpartumblödning?",
+          "back": "De fyra T:na – Tonus (atoni), Trauma (bristning, ruptur), Tissue (kvarvarande placenta) och Thrombin (koagulopati)."
+        }
+      ],
+      "facts": [
+        "Smärtfri blödning sent i graviditeten = placenta previa tills ultraljud visat annat; ingen vaginal undersökning.",
+        "Sena decelerationer på CTG talar för placentär insufficiens.",
+        "Axelinkärkning löses med McRoberts position och suprapubiskt tryck.",
+        "Livmoderatoni är den vanligaste orsaken till postpartumblödning."
+      ]
+    },
+    {
+      "id": "km6-2",
+      "code": "Modul 2",
+      "title": "Graviditetskomplikationer",
+      "summary": "Preeklampsi, ektopisk graviditet, graviditetsdiabetes och fosterdöd. Fokus ligger på tidiga varningssymtom och på hur komplikationer påverkar både mor och foster.",
+      "estMinutes": 33,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: preeklampsi och eklampsi",
+          "query": "ninja nerd preeclampsia eclampsia pathophysiology"
+        },
+        {
+          "label": "Ninja Nerd: ektopisk graviditet",
+          "query": "ninja nerd ectopic pregnancy"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Diagnostisera preeklampsi och känna igen symtom på allvarlig sjukdom som kräver omedelbar åtgärd",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Förklara varför extrauterin graviditet kan bli livshotande och hur den utreds",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Känna till screening och behandling vid graviditetsdiabetes",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km6-2-q1",
+          "kind": "mcq",
+          "prompt": "En 29-årig förstföderska i graviditetsvecka 35 har blodtryck 168/112, proteinuri, huvudvärk och synstörningar i form av flimmer för ögonen. Vilken behandling är central för att förebygga kramper?",
+          "options": [
+            "Magnesiumsulfat som krampförebyggande behandling",
+            "Antibiotika mot misstänkt infektion",
+            "Enbart vätsketillförsel och vila",
+            "Sänkt saltintag och sederande läkemedel"
+          ],
+          "answer": "Magnesiumsulfat som krampförebyggande behandling",
+          "explanation": "Vid preeklampsi med svåra symtom (högt blodtryck, neurologiska symtom, synstörningar) ges magnesiumsulfat för att förebygga eklampsi, det vill säga kramper. Definitiv behandling är förlossning, medan blodtryckssänkning och övervakning är stödjande."
+        },
+        {
+          "id": "km6-2-q2",
+          "kind": "mcq",
+          "prompt": "En 27-årig kvinna i graviditetsvecka 7 söker med ensidig buksmärta och lätt vaginal blödning. Hon har tidigare haft en klamydiainfektion. S-hCG är positivt men ultraljud visar tom livmoder. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Extrauterin graviditet",
+            "Missed abortion",
+            "Normal tidig graviditet",
+            "Äggstockscancer"
+          ],
+          "answer": "Extrauterin graviditet",
+          "explanation": "Positivt hCG utan intrauterin graviditet vid ultraljud, ensidig smärta och tidigare klamydia (som ger tubarskada) talar för extrauterin graviditet. Risken är tubarruptur med massiv blödning, varför uppföljning av hCG och ultraljud är avgörande."
+        },
+        {
+          "id": "km6-2-q3",
+          "kind": "mcq",
+          "prompt": "En 31-årig kvinna i graviditetsvecka 28 har högt BMI och ett tidigare barn som vägde mycket vid födseln. Vilken är den lämpligaste åtgärden för att upptäcka graviditetsdiabetes?",
+          "options": [
+            "Peroral glukosbelastning med kontroll av blodsocker",
+            "Upprepade fasteblodsocker varje vecka utan belastning",
+            "Ingen screening eftersom hon saknar symtom",
+            "Ultraljud av buken i stället för blodprov"
+          ],
+          "answer": "Peroral glukosbelastning med kontroll av blodsocker",
+          "explanation": "Graviditetsdiabetes screenas med peroral glukosbelastning hos kvinnor med riskfaktorer som hög ålder, övervikt och tidigare makrosomt barn. Behandling är i första hand kostråd och egenkontroll av blodsocker, med insulin om målen inte nås; sjukdomen påverkar både mor och barn."
+        },
+        {
+          "id": "km6-2-q4",
+          "kind": "cloze",
+          "prompt": "En kvinna i graviditetsvecka 30 upptäcker att fosterrörelserna upphört, och ultraljud visar inga hjärtljud. Tillståndet kallas ______.",
+          "answer": "intrauterin fosterdöd",
+          "explanation": "Intrauterin fosterdöd innebär att fostret dör efter att ha uppnått en viss graviditetslängd. Utredningen omfattar bland annat infektioner, placentarpatologi, diabetes och kromosomavvikelser, och förlossning sätts igång."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka kriterier krävs för diagnosen preeklampsi?",
+          "back": "Nytillkommen hypertoni efter 20 graviditetsveckor plus proteinuri eller annan organskada (trombocytopeni, njurpåverkan, leverpåverkan, lungödem, neurologiska symtom)."
+        },
+        {
+          "front": "Hur uppstår preeklampsi?",
+          "back": "Störd trophoblastinvasion och otillräcklig ombyggnad av spiralartärerna ger placentär ischemi, vilket frisätter antiangiogena faktorer som skadar maternella endotelceller och ger hypertoni, proteinuri och ödem."
+        },
+        {
+          "front": "Varför är extrauterin graviditet livshotande?",
+          "back": "Tuben kan inte expandera som livmodern. Vid ruptur uppstår massiv intraabdominell blödning med hypovolemisk chock."
+        },
+        {
+          "front": "Vilka risker medför graviditetsdiabetes?",
+          "back": "Makrosomi, axelinkärkning, kejsarsnitt, neonatal hypoglykemi och senare typ 2-diabetes hos modern."
+        },
+        {
+          "front": "Vad är HELLP-syndromet?",
+          "back": "Hemolys, Elevated Liver enzymes och Low Platelets – en allvarlig variant av preeklampsi som kräver snabb förlossning."
+        }
+      ],
+      "facts": [
+        "Magnesiumsulfat ges som krampförebyggande vid svår preeklampsi.",
+        "Positivt hCG med tom uterus = misstänkt extrauterin graviditet.",
+        "Graviditetsdiabetes screenas med glukosbelastning hos riskpatienter.",
+        "Preeklampsi uppstår efter 20 graviditetsveckor."
+      ]
+    },
+    {
+      "id": "km6-3",
+      "code": "Modul 3",
+      "title": "Gynekologi",
+      "summary": "Blödningsrubbningar, myom, endometrios och gynekologisk malignitet. Fokus ligger på att utreda avvikande blödning korrekt och på att inte fördröja cancerdiagnostik.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: menstruationscykeln och dess hormoner",
+          "query": "ninja nerd menstrual cycle hormones"
+        },
+        {
+          "label": "Ninja Nerd: endometrios",
+          "query": "ninja nerd endometriosis pathophysiology"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för utredning av postmenopausal blödning och varför den alltid ska utredas",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Förklara hur myom och endometrios ger symtom och hur de behandlas principiellt",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Känna till cervicalcytologi och HPV-testets roll i prevention av cervixcancer",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km6-3-q1",
+          "kind": "mcq",
+          "prompt": "En 44-årig kvinna söker för rikliga menstruationer med koagel, tryckkänsla i buken och täta trängningar till urinering. Ultraljud visar flera väl avgränsade, solida förändringar i livmoderväggen. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Uterusmyom",
+            "Endometriecancer",
+            "Ovarialcysta",
+            "Cervixcancer"
+          ],
+          "answer": "Uterusmyom",
+          "explanation": "Myom (leiomyom) är benigna muskelknutor i myometriet som ger rikliga menstruationer och trycksymtom beroende på läge, och de framstår som väl avgränsade solida förändringar på ultraljud. Endometriecancer ger i stället postmenopausal blödning, och en ovarialcysta ger oftast inga blödningssymtom."
+        },
+        {
+          "id": "km6-3-q2",
+          "kind": "mcq",
+          "prompt": "En 58-årig kvinna som varit menopaus sedan fyra år söker för en vaginal blödning. Vad gör du?",
+          "options": [
+            "Utreder med transvaginalt ultraljud och endometriebiopsi",
+            "Avvaktar eftersom blödningen kan vara en hormonell variation",
+            "Behandlar med östrogentabletter utan utredning",
+            "Remitterar till kirurgi för hysterektomi utan provtagning"
+          ],
+          "answer": "Utreder med transvaginalt ultraljud och endometriebiopsi",
+          "explanation": "All postmenopausal blödning ska utredas för att utesluta endometriecancer, som presenterar sig just så. Transvaginalt ultraljud bedömer slemhinnetjockleken och endometriebiopsi ger diagnos; att avvakta eller behandla blint fördröjer cancerdiagnostik."
+        },
+        {
+          "id": "km6-3-q3",
+          "kind": "mcq",
+          "prompt": "En 23-årig kvinna har sedan tonåren svår dysmenorré som inte lindras av vanliga smärtstillande medel, djup dyspareuni och tilltagande bäckensmärta. Hon vill bli gravid. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Endometrios",
+            "Akut salpingit",
+            "Uterusmyom",
+            "Premenstruellt syndrom"
+          ],
+          "answer": "Endometrios",
+          "explanation": "Endometrios innebär endometrieliknande vävnad utanför livmodern som blöder vid menstruation och ger inflammation, ärrbildning och adherenser. Klassisk bild är tilltagande dysmenorré, dyspareuni och infertilitet. Salpingit är akut med feber, och myom debuterar oftast senare i livet."
+        },
+        {
+          "id": "km6-3-q4",
+          "kind": "cloze",
+          "prompt": "Cytologisk provtagning från livmoderhalsen i kombination med HPV-test används för att upptäcka förstadier till ______.",
+          "answer": "cervixcancer",
+          "explanation": "Cervixcancer uppstår nästan alltid via persisterande infektion med högrisk-HPV, och förstadier kan upptäckas och behandlas genom screening. Vaccination mot HPV förebygger de vanligaste onkogena typerna."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka symtom ger uterusmyom?",
+          "back": "Rikliga och långvariga menstruationer, tryckkänsla, täta trängningar och ibland infertilitet. Behandling: observation, hormoner, embolisering eller kirurgi."
+        },
+        {
+          "front": "Varför ska all postmenopausal blödning utredas?",
+          "back": "Det är det vanligaste symtomet på endometriecancer. Utredning: transvaginalt ultraljud och endometriebiopsi."
+        },
+        {
+          "front": "Vad är endometrios och vad är typiska fynd?",
+          "back": "Endometrieliknande vävnad utanför uterus med inflammation och ärrbildning. Fynd: blåaktiga lesioner, adherenser, endometriom. Symtom: dysmenorré, dyspareuni, infertilitet."
+        },
+        {
+          "front": "Vad är den vanligaste orsaken till akut bäckensmärta hos ung kvinna?",
+          "back": "Differentialdiagnostik omfattar extrauterin graviditet, ovulationssmärta, ovarialcysta med torsion, salpingit och appendicit – graviditetstest ingår alltid."
+        },
+        {
+          "front": "Hur förebyggs cervixcancer?",
+          "back": "HPV-vaccination före sexuell debut och screening med cytologi/HPV-test som upptäcker och behandlar förstadier."
+        }
+      ],
+      "facts": [
+        "Postmenopausal blödning utreds alltid med ultraljud och endometriebiopsi.",
+        "Endometrios ger tilltagande dysmenorré, dyspareuni och infertilitet.",
+        "Cervixcancer är HPV-driven och screening upptäcker förstadier.",
+        "Myom är benigna men kan ge rikliga blödningar och trycksymtom."
+      ]
+    },
+    {
+      "id": "km6-4",
+      "code": "Modul 4",
+      "title": "Reproduktionsmedicin och preventivmedel",
+      "summary": "Infertilitetsutredning, PCOS, assisterad befruktning och antikonception med kontraindikationer. Fokus ligger på att välja säkert preventivmedel utifrån patientens riskprofil.",
+      "estMinutes": 27,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: kvinnlig reproduktionscykel och ovulation",
+          "query": "ninja nerd female reproductive cycle ovulation"
+        },
+        {
+          "label": "Ninja Nerd: polycystiskt ovariesyndrom",
+          "query": "ninja nerd polycystic ovary syndrome"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Redogöra för PCOS som orsak till oligomenorré, hirsutism och infertilitet",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Välja lämpligt preventivmedel med hänsyn till kontraindikationer för kombinerade hormonella metoder",
+          "level": "färdighet"
+        },
+        {
+          "code": "4.3",
+          "title": "Känna till när infertilitetsutredning bör påbörjas och vilka basala undersökningar som ingår",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km6-4-q1",
+          "kind": "mcq",
+          "prompt": "En 26-årig kvinna söker för uteblivna menstruationer under det senaste året, ökad behåring i ansiktet och svår akne. Hon har gått upp i vikt. Ultraljud visar polycystiska ovarier och hon har förhöjt testosteron. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Polycystiskt ovariesyndrom (PCOS)",
+            "Hypotyreos",
+            "Prematur ovarial insufficiens",
+            "Hyperprolaktinemi"
+          ],
+          "answer": "Polycystiskt ovariesyndrom (PCOS)",
+          "explanation": "PCOS diagnostiseras vid minst två av tre: oligo-/anovulation, klinisk eller biokemisk hyperandrogenism och polycystiska ovarier. Insulinresistens driver både hyperandrogenism och anovulation. Prematur ovarial insufficiens ger i stället högt FSH och lågt östrogen, och hyperprolaktinemi ger mjölksekretion."
+        },
+        {
+          "id": "km6-4-q2",
+          "kind": "mcq",
+          "prompt": "En 36-årig kvinna som röker vill börja med p-piller. Hon har migrän med aura sedan tonåren och blodtrycket är 138/88. Vad rekommenderar du?",
+          "options": [
+            "Gestagenbaserat preventivmedel – kombinerade metoder är olämpliga vid migrän med aura och rökning",
+            "Kombinerat p-piller med låg östrogendos",
+            "Kombinerat p-piller men bara under sex månader",
+            "Ingen preventivmedelsrådgivning behövs"
+          ],
+          "answer": "Gestagenbaserat preventivmedel – kombinerade metoder är olämpliga vid migrän med aura och rökning",
+          "explanation": "Östrogeninnehållande preventivmedel ökar tromboembolismrisken, och migrän med aura plus rökning hos kvinna över 35 år är en uttalad riskkombination för stroke. Gestagena metoder, till exempel p-stav eller hormonspiral, är därför ett säkrare val."
+        },
+        {
+          "id": "km6-4-q3",
+          "kind": "mcq",
+          "prompt": "Ett par söker eftersom de försökt bli gravida i ett och ett halvt år. Kvinnan är 31 år och har regelbunden menstruation. Vilken undersökning är central i den basala utredningen?",
+          "options": [
+            "Spermaanalys från mannen",
+            "Endast hormonprov på kvinnan",
+            "Laparoskopi som första åtgärd",
+            "Ingen utredning före två års försök"
+          ],
+          "answer": "Spermaanalys från mannen",
+          "explanation": "Infertilitet utreds alltid hos båda parter, och spermaanalys är en enkel och central del eftersom manlig faktor är vanlig. Kvinnan utreds med ovulation, äggledarpassage och livmoderbedömning. Laparoskopi är inte förstahandsval."
+        },
+        {
+          "id": "km6-4-q4",
+          "kind": "cloze",
+          "prompt": "En obehandlad klamydiainfektion kan ge ärrbildning i äggledarna och därmed ökad risk för ______, eftersom det befruktade ägget fastnar på vägen ned till livmodern.",
+          "answer": "extrauterin graviditet",
+          "explanation": "Klamydia ger ofta få symtom men kan orsaka tubarskada med nedsatt äggledartransport. Detta är en viktig orsak till både infertilitet och extrauterin graviditet, vilket är skälet till att tidig testning och behandling är viktig."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka tre kriterier används vid PCOS (Rotterdam)?",
+          "back": "Oligo-/anovulation, klinisk eller biokemisk hyperandrogenism och polycystiska ovarier. Minst två av tre krävs, efter uteslutning av andra orsaker."
+        },
+        {
+          "front": "Vilka är de viktigaste kontraindikationerna för kombinerade hormonella preventivmedel?",
+          "back": "Tidigare venös tromboembolism, migrän med aura, rökning över 35 år, hypertoni, bröstcancer, leversjukdom och känd trombofili."
+        },
+        {
+          "front": "Hur fungerar kombinerade p-piller?",
+          "back": "Östrogen hämmar FSH och därmed follikelmognad; gestagen hämmar LH-toppen och gör cervicalsekretet tjockt och endometriet otillgängligt. Ägglossning uteblir."
+        },
+        {
+          "front": "Vad ingår i basal infertilitetsutredning?",
+          "back": "Spermaanalys, bekräftad ovulation (cykelanamnes/progesteron), bedömning av äggledarpassage (HSG) och ultraljud av uterus, samt relevanta blodprover."
+        },
+        {
+          "front": "Vad är akut p-piller och hur verkar det?",
+          "back": "Hög dos gestagen (eller ulipristal) som fördröjer ägglossningen. Verkan är bäst ju tidigare det tas efter oskyddat samlag; det skyddar inte resten av cykeln och är inte abortivt i strikt mening."
+        }
+      ],
+      "facts": [
+        "Migrän med aura är en kontraindikation för kombinerade preventivmedel.",
+        "Klamydia kan ge tubarskada med infertilitet och extrauterin graviditet.",
+        "Spermaanalys ingår alltid i infertilitetsutredningen.",
+        "PCOS diagnostiseras på två av tre Rotterdam-kriterier."
+      ]
+    }
+  ]
+}

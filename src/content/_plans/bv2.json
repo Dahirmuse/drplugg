@@ -1,0 +1,493 @@
+{
+  "course": "bv2",
+  "chapters": [
+    {
+      "id": "bv2-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Kromosomen m.fl.",
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Kromosomen"
+        },
+        {
+          "code": "1.2",
+          "title": "Cellcykeln"
+        },
+        {
+          "code": "1.3",
+          "title": "DNA-replikation"
+        },
+        {
+          "code": "1.4",
+          "title": "DNA-reparation"
+        },
+        {
+          "code": "1.5",
+          "title": "Apoptos"
+        },
+        {
+          "code": "1.6",
+          "title": "Kromatinstruktur och epigenetik"
+        },
+        {
+          "code": "1.7",
+          "title": "Transkription"
+        },
+        {
+          "code": "1.8",
+          "title": "RNA-processning"
+        },
+        {
+          "code": "1.9",
+          "title": "Translation"
+        },
+        {
+          "code": "1.10",
+          "title": "Genreglering och signaltransduktion"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Kromosomens huvuddelar",
+        "1.1.2 Kromosomorganisation i cellkärnan",
+        "1.1.3 Kärnans struktur och funktion",
+        "1.2.1 Cellcykeln och dess olika faser",
+        "1.2.2 Checkpoints i cellcykeln",
+        "1.2.3 Cellcykelns reglering via CDK (cyklin-beroende kinas) och cykliner",
+        "1.3.1 Förstå begreppen",
+        "1.3.2 Ledande och sackande sträng (Lagging strand), skillnader i replikation",
+        "1.3.3 Viktiga proteiner och deras funktion i replikationsprocessen:",
+        "1.3.4 Problematiken med att replikera telomererna (kromosomändarna)",
+        "1.3.5 Betydelsen av telomererna för cellens funktion",
+        "1.4.1 Orsaker till olika typer av förändringar (mutationer) i DNA",
+        "1.4.2 Olika typer av reparationssystem och deras förmåga att reparera olika typer av DNA-skador",
+        "1.4.3 Reparationsprocessen med de viktigaste ingående komponenter samt deras funktion i reparationsprocessen;",
+        "1.4.4 Konsekvenser av mutationer som ej repareras, för somatiska celler och för könsceller",
+        "1.4.5 Kopplingen mellan DNA-reparation och vissa ärftliga sjukdomar (som ett exempel)",
+        "1.5.1 Betydelsen av apoptos för utveckling och regeneration",
+        "1.5.2 Konkreta exempel på apoptos under utveckling och i den vuxna kroppen",
+        "1.5.3 Aktivering av apoptos med extracellulära eller intracellulära signaler",
+        "1.5.4 Kaspasaktivering och amplifiering av apoptossignalen med kaspaskaskaden (enligt figur 18-5)",
+        "1.5.5 Mitogener, tillväxtfaktorer, överlevnadsfaktorer och deras roll i tillväxt och apoptos 20 1.5.6 Skillnaden mellan nekros och apoptos",
+        "1.6.1 Kromosom, kromatin, eukromatin och heterokromatin: funktioner och definitioner",
+        "1.6.2 Kromatinets komponenter; DNA och olika proteiner som histoner",
+        "1.6.3 Packning av DNA i kromatin, inkl. nukleosomens uppbyggnad och loopar",
+        "1.6.4 Histonmodifieringar och DNA-metylering och deras betydelse för organismens funktion 21 1.7 Transkription",
+        "1.7 Transkription",
+        "1.8.1 Processning av RNA i cellens kärna",
+        "1.8.2 Modifieringarnas funktionella betydelse",
+        "1.8.3 Betydelsen av alternativ splitsning för organismens funktion och evolutionär utveckling",
+        "1.8.4 Nukleolen med ribosomala gener",
+        "1.8.5 Processning av ribosomalt RNA samt tRNA",
+        "1.9.1 Principen för översättning av nukleotidspråket i mRNA till aminosyraspråk i proteiner",
+        "1.9.2 Den genetiska kodens universalitet",
+        "1.9.3 Komponenterna i proteinsyntesen",
+        "1.9.4 Huvudstegen i eukaryot proteinsyntes: initiering, elongering och terminering. 25 1.9.5 Antibiotikas påverkan prokaryotiska ribosomer",
+        "1.9.6 Chaperoniner och proteosomernas funktion",
+        "1.10.1 Olika typer av cellsignalering",
+        "1.10.2 Olika typer av cellreceptorer",
+        "1.10.3 Effekter av cellsignalering",
+        "1.10.4 Betydelsen av signalamplifiering och signaldistribution inom cellen",
+        "1.10.5 Olika sätt att reglera genaktivitet inom cellen"
+      ]
+    },
+    {
+      "id": "bv2-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – Cellskelett och cellrörelse m.fl.",
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Cellskelett och cellrörelse"
+        },
+        {
+          "code": "2.2",
+          "title": "Extracellulär matrix"
+        },
+        {
+          "code": "2.3",
+          "title": "Cell-cell interaktioner (celladhesion och cell junctions)"
+        },
+        {
+          "code": "2.4",
+          "title": "Cellens interna struktur samt introduktion till biomembranstruktur"
+        },
+        {
+          "code": "2.5",
+          "title": "Det endoplasmatiska retiklet"
+        },
+        {
+          "code": "2.6",
+          "title": "Mitokondrier och peroxisomer"
+        },
+        {
+          "code": "2.7",
+          "title": "Golgi, vesikulär transport samt lysosomen"
+        },
+        {
+          "code": "2.8",
+          "title": "Sår och sårläkning"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Funktionen och den principiella uppbyggnaden av de tre olika typerna av filamentsystem",
+        "2.1.2 Cellskelettkomponenterna i relation till cellernas form, polarisation och plasmamembran",
+        "2.1.3 Cellskelettets roll i organisationen av subcellulära organeller, samt i transporten av komponenter och organeller i cellerna",
+        "2.1.4 Skillnaden mellan cilier och mikrovilli och mekanismerna för rörelsefunktionerna i dessa strukturer",
+        "2.1.5 Motorproteiner",
+        "2.1.6 Mekanismerna för cellmobilitet och cellförflyttningar, översiktligt",
+        "2.2.1 Redogöra för de olika komponenterna som bygger upp den extracellulära matrixen, deras översiktliga struktur samt funktion",
+        "2.2.2 Redogöra för interaktioner som cellen har med extracellulär matrix",
+        "2.2.3 Redogöra för hur extracellulärt matrix kan påverka celler",
+        "2.2.4 Extracellulära matrixkomponenter och deras interaktioner med cytoskelettet. 31 2.3 Cell-cell interaktioner (celladhesion och cell junctions)",
+        "2.3 Cell-cell interaktioner (celladhesion och cell junctions)",
+        "2.4.1 Olika typer av transport",
+        "2.4.2 Transport genom jonkanaler",
+        "2.4.3 Begreppet glykocalyx",
+        "2.5.1 Begreppen granulärt och slätt (agranulärt) ER",
+        "2.5.2 Principer för syntes och transport av ett protein till en bestämd del av cellen . 35 2.6 Mitokondrier och peroxisomer",
+        "2.6 Mitokondrier och peroxisomer",
+        "2.7.1 Beskriva golgikomplexet, dess funktion och struktur och definiera begreppen 36 2.7.2 Sortering och transport av proteiner från Golgikomplexet",
+        "2.7.3 Glykosylering i Golgikomplexet",
+        "2.7.4 Märkning av lysosomala proteiner före transport till lysosomen med mannons- 6-fosfat 37 2.7.5 Principerna för reglerad och konstitutiv sekretion",
+        "2.7.6 Begreppen klatrin-täckta och COP-täckta vesiklar, funktion, mekanism och betydelse",
+        "2.7.7 SNARE-hypotesen gällande fusionen vesiklar med andra membraner",
+        "2.7.8 Begreppen lysosom, endocytos, endosom, fagocytos, pinocytos, transcytos, fagosom, och autofagi",
+        "2.7.9 Organisationen av lysosomen",
+        "2.7.10 Det låga pH:t i endosomerna och lysosomerna och dess betydelse",
+        "2.8.1 Cellulära funktioner som bidrar till sårläkning",
+        "2.8.2 Betydelsen av ECM för sårläkning",
+        "2.8.3 Viktigaste stegen i sårläkning"
+      ]
+    },
+    {
+      "id": "bv2-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Gametogenes och fertilisering m.fl.",
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Gametogenes och fertilisering"
+        },
+        {
+          "code": "3.2",
+          "title": "Första fosterveckan"
+        },
+        {
+          "code": "3.3",
+          "title": "Andra fosterveckan"
+        },
+        {
+          "code": "3.4",
+          "title": "Tredje fosterveckan"
+        },
+        {
+          "code": "3.5",
+          "title": "Meios och variation, könsbestämning"
+        },
+        {
+          "code": "3.6",
+          "title": "Neurulation och veckning"
+        },
+        {
+          "code": "3.7",
+          "title": "Bildandet av gälbågar, utveckling av olika strukturer i ansiktet (översiktligt)"
+        },
+        {
+          "code": "3.8",
+          "title": "Anläggning av organ"
+        },
+        {
+          "code": "3.9",
+          "title": "Utvecklingsbiologins molekylärbiologi"
+        },
+        {
+          "code": "3.10",
+          "title": "Regenerativ medicin nu och i framtiden"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Bildning av könsceller",
+        "3.1.2 Befruktningens molekylära mekanismer",
+        "3.1.3 Polyspermi",
+        "3.2.1 Embryots vandring från äggledare till livmoder (morulastadium; blastocyststadium)",
+        "3.2.2 Blastocystens implantation i livmoderväggen, tidpunkt och mekanism",
+        "3.2.3 Ektopisk graviditet",
+        "3.3.1 Det tidiga embryots olika celltyper: inre cellmassa, cytotrofoblaster och syncytiotrofoblaster",
+        "3.3.2 Bildandet av lakuner och den tidiga blodcirkulationen",
+        "3.3.3 Bildandet av två groddblad (epiblaster och hypoblaster)",
+        "3.3.4 Bildandet av kroppshålor (amnion, primär och sekundär gulesäck, chorion) U: 28-31 42 3.4 Tredje fosterveckan",
+        "3.4 Tredje fosterveckan",
+        "3.5.1 Meios: skillnader mellan mitos och meios",
+        "3.5.2 Överkorsningar och deras betydelse för variation",
+        "3.5.3 Könsbestämning, kromosomal mekanism",
+        "3.5.4 Aneuploidier till följd av problem i meios",
+        "3.5.5 Exempel på aneuploidier (orsak, prevalens, karyotyp, cellulära mekanismer, symptom i stora drag)",
+        "3.6.1 Neuralplattan bildas ovanpå notokorden och prekordalplattan",
+        "3.6.2 Neuralröret sluts och bildar hjärna och ryggmärg (det centrala nervsystemet) 45 3.6.3 Neurallistceller vandrar ut och differentierar till olika celltyper, bla nervceller, melanocyter, brosk och ben i huvudet",
+        "3.7.1 Missbildningar i samband med neurulation",
+        "3.7.2 Embryots veckning, amnionhålans relativa ökning i storlek, gulesäck, navelsträng",
+        "3.7.3 Missbildningar (orsak, prevalens, cellulära mekanismer, symptom i stora drag) 46 3.8 Anläggning av organ",
+        "3.8 Anläggning av organ",
+        "3.9.1 Tillväxtfaktorer - definition, funktion",
+        "3.9.2 Receptorer och deras roll i utvecklingsbiologin",
+        "3.9.3 Intracellulär cellsignalering i utvecklingsbiologin",
+        "3.9.4 Transkriptionsfaktorer, deras roll i differentiering",
+        "3.9.5 Transgena djur, i forskning",
+        "3.9.6 Segmentering i kroppen",
+        "3.9.7 Hox-gener, mutationer i Hox-gener och deras påverkan på organismen",
+        "3.9.8 Extremitetsutveckling, i stora drag, inte detaljerat",
+        "3.9.9 Morfogener, funktion, definition och betydelse för utveckling",
+        "3.9.10 Sonic Hedgehog, vitamin-A-syra, betydelse för utveckling",
+        "3.9.11 Teratogener, definition, exempel",
+        "3.10.1 Genterapi: definition, exempel",
+        "3.10.2 Gendiagnostik",
+        "3.10.3 Kartläggning av den mänskliga arvsmassans utveckling",
+        "3.10.4 Varför studera olika arter: flugor, maskar, grodor inom utvecklingsbiologi?",
+        "3.10.5 Stamcellsforskning i medicin"
+      ]
+    },
+    {
+      "id": "bv2-m4",
+      "code": "Modul 4",
+      "title": "Modul 4 – Kolhydrater m.fl.",
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Kolhydrater"
+        },
+        {
+          "code": "4.2",
+          "title": "Lipider"
+        },
+        {
+          "code": "4.3",
+          "title": "Proteiner och enzymer"
+        },
+        {
+          "code": "4.4",
+          "title": "Nukleotider, mineraler och vitaminer"
+        },
+        {
+          "code": "4.5",
+          "title": "Matsmältningssystemets fysiologi och biokemi"
+        },
+        {
+          "code": "4.6",
+          "title": "Matsmältningskanalens motorik"
+        },
+        {
+          "code": "4.7",
+          "title": "Farmakologi"
+        },
+        {
+          "code": "4.8",
+          "title": "Nutrition"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Definiera de stereokemiska begreppen cis-trans-isomerer och optiska isomerer (D/L respektive R/S)",
+        "4.1.2 Förklara hur ändringar i pH och lösningsmedelsmiljö kan påverka olika bindningar/interaktioner och därmed proteiners struktur och funktion",
+        "4.1.3 Identifiera strukturen av monosackariderna glukos, galaktos, ribos, deoxyribos, och fruktos m.h.a. Haworth (H)-projektioner och för glukos och också m.h.a. Fischer- projektioner",
+        "4.1.4 Redogöra för den huvudsakliga strukturen (ingående monosackarider, typ av glykosidbindning) hos följande övriga kolhydraters struktur: maltos och isomaltos, laktos och sukros",
+        "4.1.5 Beskriva vilket asymmetriskt kol som avgör om ett socker är α eller β",
+        "4.1.6 Förklara begreppen enantiomer, epimer, anomer och mutarotation",
+        "4.1.7 Glykosidbindning",
+        "4.1.8 Beskriva strukturen hos homoglykanerna stärkelse (amylos och amylopektin), cellulosa och glykogen",
+        "4.1.10 Känna till den principiella uppbyggnaden (ej formler), förekomst och funktion av heteroglykanerna heparin och hyaluronsyra",
+        "4.1.11 Känna till proteoglykanernas och glykoproteinernas principiella uppbyggnad (ej formler) och funktion",
+        "4.2.4 Fosfatidsyra, lysofosfatidsyra, sfingosin, ceramid, sfingomyelin och glykolipiders principiella uppbyggnad och funktion",
+        "4.3.1 Redogöra för begreppet denaturering och förstå mekanismerna bakom olika denatureringssätt",
+        "4.3.2 Beskriva membranproteiners olika funktioner och principiella uppbyggnad. .. 57 4.3.3 Vad som menas med begreppet essentiella aminosyror och vilka tre aminosyror som är grenade",
+        "4.3.4 Redogöra för hur en reaktion påverkas av sitt enzym (jämvikt, aktiveringsenergi, reaktionshastighet), den aktiva ytans funktion, läge/lokalisation och begreppet specificitet",
+        "4.3.5 Förklara med termodynamiska termer hur ett enzym verkar och i detta sammanhang kunna förklara innebörden av Gibbs fria energi och vad ΔG kan säga om en reaktions benägenhet att ske spontant",
+        "4.3.6 Beskriva hur enzymaktiviteten påverkas av pH, temperatur och inhibitorer (irreversibla, reversibla: kompetitiva, icke-kompetitiva)",
+        "4.3.8 Definiera och förstå den funktionella betydelsen av begreppen kovalent modifiering (reversibel och irreversibel) och alloster enzymreglering (ex. fosfofruktokinas)",
+        "4.3.9 Redogöra övergripande för andra sätt att reglera enzymaktivitet (t.ex. genaktivering, nedbrytning)",
+        "4.3.10 Definiera begreppen isoenzym och zymogen (proenzym)",
+        "4.3.11 Beskriva vilken betydelse kofaktorer (metalljoner) och koenzymer (proteiner) har för enzymers funktion och struktur (ex. karboxypeptidas A)",
+        "4.3.12 Redogöra för hemoglobinets kooperativa inbindning av O2 och allosterin med avseende på (H+, CO2, 2,3-BPG)",
+        "4.3.13 Översiktligt redogöra för bakgrund till och konsekvenser av sickelcellsanemi, methemoglobinemi samt thalassemier",
+        "4.3.14 Principer för katalytisk funktion via övergångstillstånd",
+        "4.3.15 Olika enzymklasser (I-VII) och vilka typreaktioner de katalyserar",
+        "4.3.16 Uttolkning av Michaelis-Mentens ekvation (grafiskt utseende, förutsättningar och betydelse av ingående storheter)",
+        "4.4.1 Redogöra för sambanden mellan enzym-koenzym (holo-, apo- och koenzym) och vitamin-koenzym-kofaktor",
+        "4.4.2 Beskriva den generella strukturen för olika nukleotider, kunna namnge dem och beskriva olika funktioner för dessa",
+        "4.4.3 Redogöra översiktligt för vitaminerna och deras huvudsakliga funktioner i människa, med tonvikt på de vattenlösliga vitaminerna",
+        "4.4.4 Redogöra översiktligt för de huvudsakliga rollerna av mineralämnena Fe, Se, Ca, Zn, Mg och I hos människa",
+        "4.5.1 Salivsekretion",
+        "4.5.2 Sekretion till mag-tarmkanalen",
+        "4.5.3 Digestion",
+        "4.5.4 Hormoner",
+        "4.5.5 Namnen på de två vanligaste primära gallsyrorna och konjugerade gallsalterna samt de två vanligaste sekundära gallsyrorna",
+        "4.5.7 Innebörden av de kliniska begreppen:",
+        "4.5.8 Orsaker till malabsorption och steatorré samt laktos(in)tolerans (orsak och symtom samt molekylära förklaringar)",
+        "4.6.1 Redogöra för rörelsemönster (motorik) som uppträder som bas för födotransporten i digestionskanalen och hur de genereras",
+        "4.6.2 Identifiera/ange passagetider genom mag-tarmkanalen och de långa tarmreflexernas funktion, betydelsen av födans sammansättning - särskilt hur kostfibrer påverkar passagetiden",
+        "4.6.3 Redogöra för tuggning av födan och dess betydelse i matsmältningen",
+        "4.6.4 Redogöra för sväljning och transporten av föda genom esofagus och hur dessa funktioner kontrolleras inklusive esofagussfinktrarnas funktion",
+        "4.6.5 Redogöra för ventrikelns funktion och rörelsemönster (motorik) i fasta och vid födointag, särskilt ventrikelns receptiva och adaptiva relaxation",
+        "4.6.7 Beskriva kräkningen med prodromalfas och tömningsfas samt redogöra för stimuli och neurogen kontroll av kräkning, samt förkräkningens effekter på cirkulation och andning",
+        "4.6.8 Beskriva tunntarmens rörelsemönster (motorik) och redogöra för det neuronala substratet (underlaget) för dessa rörelser och dess betydelse för transport och blandning av innehållet",
+        "4.6.9 Beskriva MMC (”Migrating Motor Complex”) och dess betydelse i matsmältningen",
+        "4.6.10 Redogöra för tjocktarmens rörelsemönster (motorik) med begreppet massperistaltik och dess betydelse för transport",
+        "4.6.11 Redogöra för defekationsprocessen",
+        "4.6.12 Dysfagi och reflux till esofagus",
+        "4.6.13 Tillstånd förknippade med kräkning",
+        "4.6.14 Sjukdomar som påverkar ventrikeltömning, betydelsefulla former av dysmotorik och deras relation till symtom (gastropares, intestinal pseudoobstruktion, colon irritabile)",
+        "4.6.15 Förstoppning och betydelsen av bulkmedel",
+        "4.7.2 Antacida",
+        "4.7.3 Syrasekretionshämmare",
+        "4.7.4 Slemhinneskyddande medel",
+        "4.7.5 Antibiotika",
+        "4.7.7 Beskriva verkningsmekanismer av läkemedelsgrupper vid behandling av diarré (antidiarrhoika) som loperamid",
+        "4.7.8 Förklara verkningsmekanismer av läkemedelsgrupper vid behandling av obesitas som lipashämmare",
+        "4.7.10 Vanliga biverkningar av läkemedel vid behandling av förstoppning, antidiarrhoika och obesitas",
+        "4.8.1 Redogöra för näringsrekommendationer samt deras bakgrund",
+        "4.8.2 Redogöra för och analysera principiella mekanismer för uppkomst av brist (intag, absorption, behov, förlust)",
+        "4.8.3 Ge exempel på och beskriva samband mellan kost och sjukdom (cancer, hjärt- kärlsjukdom, mättade och omättade fettsyror, transfetter, fibrer)",
+        "4.8.4 Känna till konsekvenser av de viktigaste näringsproblemen globalt och i Sverige såsom proteinbrist, samt etablerade vitamin- och mineralbrister",
+        "4.8.5 Känna till hur näringsbehovet förändras genom livets faser",
+        "4.8.6 Mekanismer bakom näringsbrist med inriktning på global förekomst, orsaker och nutritionell förekomst, samt att i dessa sammanhang ingår att ha en uppfattning om prevalens",
+        "4.8.7 De grundläggande kostråden",
+        "4.8.8 Energibehovet hos olika individer under olika fysiologiska betingelser",
+        "4.8.9 Näringsrekommendationerna för makronutrienter, och vad dessa baseras på. 77 4.8.10 Exempel på interaktioner mellan födoämnen som påverkar näringsupptag"
+      ]
+    },
+    {
+      "id": "bv2-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Kolhydratmetabolism m.fl.",
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Kolhydratmetabolism"
+        },
+        {
+          "code": "5.2",
+          "title": "Glykogenomsättning, omsättning av fruktos och galaktos samt HMP-shunten"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Glykolysen och glukoneogenesen",
+        "5.1.2 Mitokondrien och citronsyracykeln",
+        "5.2.2 Reglering och co-faktorer"
+      ]
+    },
+    {
+      "id": "bv2-m6",
+      "code": "Modul 6",
+      "title": "Modul 6 – Lipidmetabolism m.fl.",
+      "sections": [
+        {
+          "code": "6.1",
+          "title": "Lipidmetabolism"
+        },
+        {
+          "code": "6.2",
+          "title": "Aminosyrametabolism"
+        },
+        {
+          "code": "6.3",
+          "title": "Nukleotidmetabolism"
+        }
+      ],
+      "objectives": [
+        "6.1.1 Fettsyra- och triacylglycerol (TAG) syntes",
+        "6.1.2 Fosfolipider",
+        "6.1.3 Lipolys",
+        "6.1.4 Ketonkroppar",
+        "6.1.5 Kolesterolomsättning",
+        "6.1.6 Lipoproteinpartiklar/omsättning",
+        "6.2.1 Aminosyror",
+        "6.2.2 Enkolpoolen",
+        "6.3.1 Nukleotider",
+        "6.3.2 Hem-metabolism"
+      ]
+    },
+    {
+      "id": "bv2-m7",
+      "code": "Modul 7",
+      "title": "Modul 7 – Hunger och mättnad, samt feed-fast-cykeln m.fl.",
+      "sections": [
+        {
+          "code": "7.1",
+          "title": "Hunger och mättnad, samt feed-fast-cykeln"
+        },
+        {
+          "code": "7.2",
+          "title": "Förklara begreppet inkretin samt peptiderna GLP-1:s och GLP-2:s signaltransduktion, funktion och var de bildas i tarmen"
+        }
+      ],
+      "objectives": [
+        "7.1.1 Beskriva hur man beräknar BMI och olika intervallet för BMI samt begreppen bukhöjd och midjeomfång",
+        "7.1.2 Redogöra för centrala nervsystemets roll i reglering av hunger och mättnad. . 112 7.1.3 Redogöra för innebörden av preabsorptiva, absorptiva och postabsorptiva aptitretande signaler respektive mättnadssignaler",
+        "7.1.4 Hormoners inverkan på hunger och mättnad",
+        "7.1.4 3 Redogöra",
+        "7.2.1 Identifiera förändringar i metabolismen vid olika fysiologiska tillstånd (välnärt respektive svält, fysisk aktivitet respektive vila)",
+        "7.2.2 Beskriva hur olika hormoner och intermediärer signalerar de olika metabola förändringarna (välnärt respektive svält, fysisk aktivitet respektive vila)",
+        "7.2.3 Förklara mekanismer och betydelse av proteinnedbrytning (sambanden ubiquitinering-proteasom)",
+        "7.2.4 Beskriva varför man mäter HbA1c och vad som är normala och patologiska nivåer av blodglukos",
+        "7.2.5 Beskriva när och hur man utför en kolhydratbelastning och kunna redogöra för hur en normal och en patologisk belastningskurva ser ut",
+        "7.2.6 Redogöra för polyolvägen och bildningen samt sorbitols metabolism och koppling till skador vid diabetes",
+        "7.2.7 Beskriva teorier för olika molekylära orsakssamband till skador vid diabetes. 115 7.2.8 Olika signalsubstanser som binder till olika GPCR-receptorer (korta fettsyror producerat av intestinala bakterier, gallsalt/gallsyror, ß-hydroxybutyrat)",
+        "7.2.9 Olika exempel av tarmflorans betydelse för hälsa och vid sjukdom",
+        "7.2.10 Olika molekyler (proteiner, enzymer och transkriptionsfaktorer) som är involverat i reglering av födointag eller metabola syndromet",
+        "7.2.11 Viken funktion adiponektin har samt var det framförallt bildas",
+        "7.2.12 Aktuella/framtida behandlingsstrategier för att behandla obesitas",
+        "7.2.13 Översiktligt hur celltillväxt kan stimuleras av insulin, fysisk aktivitet och aminosyror, via kinaserna mTOR och S6 (se även mål i modul 4, 5 och 6 avseende signalering)",
+        "7.2.14 Förklara uttrycken ”det onda och det goda kolesterolet”",
+        "7.2.15 N-acetylglukosamin och O-glykosylering medierad av enzymet OGT, och eventuell betydelse för födointaget",
+        "7.2.16 Betydelsen av näringstäthet i relation till energiintag, praktiska konsekvenser och riskgrupper för näringsbrist. (delvis modul 4)"
+      ]
+    },
+    {
+      "id": "bv2-m8",
+      "code": "Modul 8",
+      "title": "Modul 8",
+      "sections": [
+        {
+          "code": "8.1",
+          "title": "Redogöra för innehållet i de tre delarna i den patientcentrerade konsultationen"
+        },
+        {
+          "code": "8.2",
+          "title": "Redogöra för sjukhushygienens betydelse och Socialstyrelsens föreskrifter om basal hygien 117 8.2.1 Kunna redogöra för varför basal hygien är viktigt"
+        },
+        {
+          "code": "8.3",
+          "title": "Beskriva strategier för att identifiera och hantera egna värderingar och fördomar som kan påverka mötet med medmänniskor"
+        },
+        {
+          "code": "8.4",
+          "title": "Tillämpa öppet lyssnande med hjälp av öppna invitationer, sammanfattningar och bekräftelse i intervju med patient"
+        },
+        {
+          "code": "8.5",
+          "title": "Redogöra för korrekt utförande av och utföra blodtrycksmätning, klinisk undersökning av hjärta, lungor, buk och öron samt undersökning av reflexer"
+        },
+        {
+          "code": "8.6",
+          "title": "Redogöra för korrekt utförande och på ett patientsäkert sätt genomföra ven-, kapillär- samt svalgprovtagning"
+        }
+      ],
+      "objectives": [
+        "8.1.1 Kunna redogöra för de tre delarna i en konsultation",
+        "8.1.2 Kunna redogöra för innehåll och funktion i patientens del",
+        "8.2.2 Kunna redogöra för principer för basal hygien inom vården",
+        "8.3.1 Att känna till evidensen för hur värderingar och fördomar kan påverka hälsoutfall negativt",
+        "8.3.2 Att kunna definiera begreppen explicit-, implicit- samt konfirmationsbias",
+        "8.4.1 Kunna redogöra för samtalsteknikerna för att få fram tanke, oro och önskan i patientens del",
+        "8.5.1 Att kunna redogöraför de fysiologiska principer som underbygger korrekt utförande av blodtrycksmätning samt beskriva hur blodtrycksmätning ska utföras",
+        "8.5.2 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrektutförande av hjärtstatus samt beskriva hur man utför en korrekt undersökning av hjärtat",
+        "8.5.3 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av lungstatus samt beskriva hur man utför en korrekt undersökning av lungorna",
+        "8.5.4 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av bukstatus samt beskriva hur man utför en korrekt undersökning av buken",
+        "8.5.5 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av öronstatus samt beskriva hur man utför en korrekt öronundersökning med otoskop",
+        "8.5.6 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av status-extremitetsreflexer samt beskriva hur man utför korrekt undersökning av extremitetsreflexer",
+        "8.6.1 Att kunna redogöra för hur venös provtagning ska ske på ett patientsäkert och korrekt vis",
+        "8.6.2 Att kunna redogöra för hur kapillär provtagning ska ske på ett patientsäkert och korrekt vis",
+        "8.6.3 Att kunna redogöra för hur svalgprovtagning ska ske på ett patientsäkert och korrekt vis"
+      ]
+    }
+  ]
+}

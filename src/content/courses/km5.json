@@ -1,0 +1,456 @@
+{
+  "id": "km5",
+  "code": "KM5",
+  "title": "Klinisk medicin 5: Barn- och ungdomsmedicin",
+  "term": "T9",
+  "icon": "🧒",
+  "color": "green",
+  "sortOrder": 13,
+  "description": "Barnets normala utveckling och tillväxt, nyföddhetsperioden, infektioner och vaccinprogram samt de vanligaste barnmedicinska akutfallen. Vikten ligger på åldersspecifika symtom och på att skilja självläkande från livshotande.",
+  "chapters": [
+    {
+      "id": "km5-1",
+      "code": "Modul 1",
+      "title": "Barnets normala utveckling",
+      "summary": "Tillväxt, motorik, språk och social utveckling under de första åren, med normalvärden och röda flaggor. Fokus ligger på att kunna avgöra när en avvikelse kräver utredning.",
+      "estMinutes": 28,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: barnets utvecklingsmilstolpar",
+          "query": "ninja nerd pediatric developmental milestones"
+        },
+        {
+          "label": "Ninja Nerd: tillväxt och tillväxthormon",
+          "query": "ninja nerd growth hormone pediatric growth"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Redogöra för viktiga motoriska och språkliga milstolpar under barnets första år",
+          "level": "kunna"
+        },
+        {
+          "code": "1.2",
+          "title": "Bedöma tillväxt med tillväxtkurva och förklara skillnaden mellan längd och tillväxthastighet",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Känna igen röda flaggor i utvecklingen som motiverar vidare utredning",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km5-1-q1",
+          "kind": "mcq",
+          "prompt": "En 10-månaders flicka kommer på kontroll. Hon kan inte sitta utan stöd och har inte börjat gripa efter leksaker med vilja. Föräldrarna har inte märkt något avvikande. Hur bör du agera?",
+          "options": [
+            "Avvikande utveckling för åldern – utredning med neurologisk bedömning, syn- och hörselkontroll",
+            "Normal variation – ingen åtgärd, kontroll vid 18 månader",
+            "Enbart råd om mer magläge och återbesök om ett år",
+            "Remiss direkt till ortoped för misstänkt höftledsluxation"
+          ],
+          "answer": "Avvikande utveckling för åldern – utredning med neurologisk bedömning, syn- och hörselkontroll",
+          "explanation": "De flesta barn sitter utan stöd vid 6–8 månader och griper aktivt efter föremål betydligt tidigare, så att inte kunna sitta vid 10 månader är en tydlig avvikelse som kräver utredning. Att avvakta riskerar att fördröja diagnostik av cerebral pares, neuromuskulär sjukdom eller syn-/hörselnedsättning."
+        },
+        {
+          "id": "km5-1-q2",
+          "kind": "mcq",
+          "prompt": "En 3-årig pojke talar bara enstaka ord som bara föräldrarna förstår, han har alltid varit svår att väcka och reagerar inte på ljud bakom sig. Vad är den viktigaste första åtgärden?",
+          "options": [
+            "Hörselutredning",
+            "Remiss till logoped utan hörselkontroll",
+            "Diagnostik för autism utan vidare utredning",
+            "Avvakta till skolstart"
+          ],
+          "answer": "Hörselutredning",
+          "explanation": "Hörseln är grunden för språkutveckling, och nedsatt hörsel är en vanlig och behandlingsbar orsak till försenad språkutveckling. Därför ska hörseln alltid kontrolleras först, medan logoped och autismutredning kan bli aktuella därefter."
+        },
+        {
+          "id": "km5-1-q3",
+          "kind": "mcq",
+          "prompt": "En 11-årig flicka remitteras för misstänkt tidig pubertet. Vilket är det första pubertetstecknet hos flickor respektive pojkar?",
+          "options": [
+            "Flickor: bröstutveckling (telarke). Pojkar: ökad testikelvolym",
+            "Flickor: menarche. Pojkar: skäggväxt",
+            "Flickor: pubeshår. Pojkar: röstmörkning",
+            "Flickor: tillväxtspurt. Pojkar: axelbreddning"
+          ],
+          "answer": "Flickor: bröstutveckling (telarke). Pojkar: ökad testikelvolym",
+          "explanation": "Puberteten indelas i Tanner-stadier, där telarke (bröststadium 2) inleder hos flickor och en testikelvolym över 4 ml inleder hos pojkar. Menarche kommer sent i puberteten och är därför inget tidigt tecken."
+        },
+        {
+          "id": "km5-1-q4",
+          "kind": "cloze",
+          "prompt": "Ett barns längd följer en kurva som planar ut och korsar percentillinjer nedåt mellan kontrollerna. Detta talar för sänkt ______, vilket är ett viktigare fynd än den aktuella längden.",
+          "answer": "tillväxthastighet",
+          "explanation": "Vid bedömning av tillväxt är tillväxthastigheten mer känslig än den absoluta längden; en utplanande kurva kan vara första tecknet på systemsjukdom, malnutrition, celiaki eller tillväxthormonbrist."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vid vilken ålder sitter de flesta barn utan stöd, går självständigt och säger sina första ord?",
+          "back": "Sitter utan stöd 6–8 månader, går självständigt kring 12–15 månader, säger första ord kring 12 månader och tvåordssatser kring 18–24 månader."
+        },
+        {
+          "front": "Vad innebär primitivreflexernas försvinnande?",
+          "back": "Reflexer som Moro, grip- och ATNR ska avta under första halvåret. Kvarstående primitivreflexer efter 6 månader är en varningssignal om central påverkan."
+        },
+        {
+          "front": "Hur bedöms tillväxten praktiskt?",
+          "back": "Längd, vikt och huvudomfång följs på ålders- och könsjusterade tillväxtkurvor. Huvudomfånget speglar hjärntillväxt och avvikelser utreds särskilt."
+        },
+        {
+          "front": "Vilka röda flaggor finns i utvecklingen?",
+          "back": "Utebliven sittning vid 9 månader, utebliven gång vid 18 månader, inga ord vid 18 månader, förlust av förvärvade färdigheter, asymmetri i motorik och avvikande social kontakt."
+        },
+        {
+          "front": "Vad är skillnaden mellan hereditär kortväxthet och konstitutionell försening?",
+          "back": "Hereditär kortväxthet: barnet följer en kurva parallellt med normal tillväxthastighet men under medellängd, med kortväxta föräldrar. Konstitutionell försening: sen pubertet och sen benåldersmognad med normal slutlängd."
+        }
+      ],
+      "facts": [
+        "Utebliven sittning vid 9 månader ska alltid utredas.",
+        "Hörseln kontrolleras först vid försenad språkutveckling.",
+        "Telarke inleder puberteten hos flickor, testikelvolym hos pojkar.",
+        "Avplanande tillväxtkurva är allvarligare än en låg men parallell kurva."
+      ]
+    },
+    {
+      "id": "km5-2",
+      "code": "Modul 2",
+      "title": "Neonatologi",
+      "summary": "Nyföddhetsperiodens anpassning och sjukdomar: andningsstörning hos prematurer, neonatal sepsis, ikterus och hypoglykemi. Fokus ligger på tidiga tecken och på varför nyfödda försämras snabbt.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: andningssvårigheter hos nyfödda och surfaktant",
+          "query": "ninja nerd respiratory distress syndrome newborn surfactant"
+        },
+        {
+          "label": "Ninja Nerd: neonatal ikterus och bilirubin",
+          "query": "ninja nerd neonatal jaundice bilirubin"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Förklara varför prematurer utvecklar respiratory distress syndrome och hur surfaktantbrist påverkar alveolerna",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Känna igen tecken på neonatal sepsis och förstå varför tröskeln för utredning är låg",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Redogöra för när neonatal ikterus är fysiologisk och när den är patologisk",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km5-2-q1",
+          "kind": "mcq",
+          "prompt": "Ett barn fött i graviditetsvecka 28 utvecklar inom några timmar takypné, indragningar och grymtande andning. Lungröntgen visar diffusa, retikulogranulära infiltrat och luftbronkogram, och barnet behöver CPAP. Vad är den bakomliggande mekanismen?",
+          "options": [
+            "Surfaktantbrist leder till ökad ytspänning och alveolar kollaps",
+            "Överflöd av surfaktant ger hyperinflation",
+            "Mekoniumaspiration med luftvägsobstruktion",
+            "Medfödd hjärtmissbildning med vänster-höger-shunt"
+          ],
+          "answer": "Surfaktantbrist leder till ökad ytspänning och alveolar kollaps",
+          "explanation": "Surfaktant produceras av typ II-pneumocyter och sänker ytspänningen så att alveolerna hålls öppna vid låg volym. Vid prematuritet är produktionen otillräcklig, vilket ger atelektaser, minskad lungcomplians och hypoxi – respiratory distress syndrome."
+        },
+        {
+          "id": "km5-2-q2",
+          "kind": "mcq",
+          "prompt": "En 10 dagar gammal nyfödd som ammar allt sämre blir slö och blek, har temp 38,4 grader och andas fort. Vilken är den mest sannolika orsaken och hur handläggs det?",
+          "options": [
+            "Neonatal sepsis – omedelbar inläggning, blododling och intravenös antibiotikabehandling",
+            "Förkylning – råd om nässpray och kontroll om några dagar",
+            "Övermatning – minska måltiderna",
+            "Normal nyföddhetsanpassning – avvakta"
+          ],
+          "answer": "Neonatal sepsis – omedelbar inläggning, blododling och intravenös antibiotikabehandling",
+          "explanation": "Nyfödda har omoget immunförsvar och ger ofta ospecifika symtom som dålig amning, slöhet, temperaturinstabilitet och takypné. Sepsis kan utvecklas på timmar, så låg tröskel för odling och intravenös antibiotika gäller. Grupp B-streptokocker och E. coli är vanliga agens."
+        },
+        {
+          "id": "km5-2-q3",
+          "kind": "mcq",
+          "prompt": "Ett barn som är 20 timmar gammalt är kraftigt gulfärgat ända ut i handflator och fotsulor. Barnet är fött i vecka 39 och är i övrigt opåverkat. Hur ska fyndet tolkas?",
+          "options": [
+            "Patologisk ikterus – utredning för hemolys, immunisering eller infektion påbörjas",
+            "Fysiologisk ikterus som inte behöver åtgärd",
+            "Tecken på bröstmjölksikterus som kommer sent",
+            "Normalt fynd första dygnet som bara behöver följas med ögat"
+          ],
+          "answer": "Patologisk ikterus – utredning för hemolys, immunisering eller infektion påbörjas",
+          "explanation": "Ikterus som debuterar inom första dygnet är alltid patologisk och ska utredas, eftersom den kan bero på hemolytisk sjukdom (Rh-/ABO-immunisering), infektion eller enzymbrist. Fysiologisk ikterus kommer typiskt efter 24–48 timmar och når sin topp dag 3–5."
+        },
+        {
+          "id": "km5-2-q4",
+          "kind": "cloze",
+          "prompt": "Om obundet bilirubin hos en nyfödd blir mycket högt och passerar blod-hjärnbarriären kan det ge bestående neurologisk skada, vilket kallas ______.",
+          "answer": "kernikterus",
+          "explanation": "Bilirubin är lipofilt och kan vid hög koncentration avlagras i basilarganglierna hos den nyfödde, vilket ger kernikterus med bland annat rörelsestörningar och hörselpåverkan. Behandlingstrappan är ljusbehandling och i svåra fall utbyte av blod."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är Apgar-scoren och vilka parametrar ingår?",
+          "back": "Snabb bedömning av nyfödd vid 1 och 5 minuter: andning, puls, färg/hudfärg, muskeltonus och reflexirritabilitet. Låg poäng kräver omedelbar åtgärd."
+        },
+        {
+          "front": "Varför får prematurer RDS?",
+          "back": "Brist på surfaktant från typ II-pneumocyter ger hög ytspänning, alveolar kollaps, atelektaser och hypoxi. Behandling är framför allt CPAP och vid behov surfaktant."
+        },
+        {
+          "front": "När är neonatal ikterus fysiologisk respektive patologisk?",
+          "back": "Fysiologisk: debut efter 24 timmar, topp dag 3–5. Patologisk: debut första dygnet, snabb stegring, hög koncentration eller långvarig ikterus."
+        },
+        {
+          "front": "Vilka symtom ska väcka misstanke om sepsis hos en nyfödd?",
+          "back": "Dålig amning, slöhet, temperaturinstabilitet, takypné, blekhet, ökad kräkning och eventuellt hudpåverkan – symtomen är ofta ospecifika."
+        },
+        {
+          "front": "Vad är neonatal hypoglykemi och vilka riskerar det?",
+          "back": "Lågt blodsocker efter födseln; riskgrupper är barn till diabetiska mödrar, prematurer, SGA-barn och asfyktiska barn. Symtom är slöhet, tremor, dålig amning och kramper."
+        },
+        {
+          "front": "Vad gör man vid mekoniumaspiration?",
+          "back": "Fri luftväg och andningsstöd, undvika överdriven ventilation, överväga CPAP/ventilation och behandla eventuell pulmonell hypertoni. Antibiotika övervägs vid misstänkt infektion."
+        }
+      ],
+      "facts": [
+        "Ikterus inom första dygnet är alltid patologisk.",
+        "RDS beror på surfaktantbrist hos prematurer och behandlas med CPAP och surfaktant.",
+        "Grupp B-streptokocker och E. coli är vanliga orsaker till neonatal sepsis.",
+        "Högt obundet bilirubin kan ge kernikterus."
+      ]
+    },
+    {
+      "id": "km5-3",
+      "code": "Modul 3",
+      "title": "Barninfektioner och vaccinprogrammet",
+      "summary": "Vanliga barninfektioner, deras komplikationer och det svenska vaccinationsprogrammets uppbyggnad. Fokus ligger på att känna igen sjukdomsbilder som vaccinen förebygger och på att inte missa invasiv sjukdom.",
+      "estMinutes": 29,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: mässling och barnsjukdomar",
+          "query": "ninja nerd measles rubella mumps"
+        },
+        {
+          "label": "Ninja Nerd: vacciner och immunisering",
+          "query": "ninja nerd vaccines immunology types"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för vilka sjukdomar det svenska barnvaccinationsprogrammet förebygger",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Känna igen mässling, kikhosta och epiglottit utifrån klinisk bild",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Förklara principen bakom flockimmunitet och varför vaccinationstäckning är avgörande",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km5-3-q1",
+          "kind": "mcq",
+          "prompt": "En 4-årig ovaccinerad pojke får hög feber, hosta, rinnande ögon och förkylningssymtom. Efter tre dagar upptäcks vita beläggningar på insidan av kinderna, och därefter ett utslag som börjar bakom öronen och i ansiktet för att sprida sig nedåt. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Mässling",
+            "Röda hund",
+            "Vattkoppor",
+            "Scharlakansfeber"
+          ],
+          "answer": "Mässling",
+          "explanation": "Kopliks fläckar på kindens slemhinna följt av ett kraniokaudalt spridande makulopapulöst utslag är klassiskt för mässling. Röda hund ger ett ljusare utslag som börjar i ansiktet men med lindrigare allmänpåverkan och retroaurikulära körtlar, och vattkoppor ger kliande vesiklar i olika stadier."
+        },
+        {
+          "id": "km5-3-q2",
+          "kind": "mcq",
+          "prompt": "En 3-årig ovaccinerad flicka är kraftigt påverkad med hög feber, dreglande, inspiratorisk stridor och sitter framåtlutat med hakan framåt. Hon vill inte svälja. Vad gör du?",
+          "options": [
+            "Larma omedelbart och säkra luftvägen – misstänkt epiglottit, undvik att titta i halsen",
+            "Undersök halsen noggrant med spatel och tryck ned tungan",
+            "Ge hostmedicin och skicka hem",
+            "Lägg henne ned på rygg och palpera halsen"
+          ],
+          "answer": "Larma omedelbart och säkra luftvägen – misstänkt epiglottit, undvik att titta i halsen",
+          "explanation": "Epiglottit ger snabbt tilltagande luftvägsobstruktion; symtom som dreglande, trippodställning och hög feber är varningssignaler. Undersökning av svalget kan utlösa total obstruktion och ska undvikas utan beredskap att säkra luftvägen. Haemophilus influenzae typ b-vaccin har gjort tillståndet ovanligt."
+        },
+        {
+          "id": "km5-3-q3",
+          "kind": "mcq",
+          "prompt": "Ett 3 månader gammalt barn har haft hostattacker i två veckor. Under attackerna hostar han kraftigt flera gånger i följd och slutar sedan andas, varpå han kiknar och kräks. Mellan attackerna är han relativt opåverkad. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Kikhosta",
+            "Bronkiolit orsakad av RS-virus",
+            "Krupp",
+            "Frånvaro av sjukdom – normal hosta"
+          ],
+          "answer": "Kikhosta",
+          "explanation": "Kikhosta (Bordetella pertussis) ger paroxysmal hosta med kikningar och posttussiv kräkning; hos spädbarn kan apnéer vara det dominerande symtomet. Bronkiolit ger i stället takypné, indragningar och pipande andning, och krupp ger skällande hosta med inspiratorisk stridor."
+        },
+        {
+          "id": "km5-3-q4",
+          "kind": "cloze",
+          "prompt": "I det svenska barnvaccinationsprogrammet ges ett kombinationsvaccin mot mässling, påssjuka och röda hund, vilket förkortas ______.",
+          "answer": "MPR",
+          "explanation": "MPR-vaccinet är ett levande försvagat vaccin som ges i två doser och har gjort de tre sjukdomarna ovanliga i Sverige. Hög täckning behövs för att behålla flockimmuniteten."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka sjukdomar ingår i det svenska allmänna barnvaccinationsprogrammet?",
+          "back": "Difteri, stelkramp, kikhosta, polio, Haemophilus influenzae typ b, pneumokocker, mässling, påssjuka, röda hund, hepatit B, rotavirus och HPV samt i riskgrupper tuberkulos och influensa."
+        },
+        {
+          "front": "Vad innebär flockimmunitet?",
+          "back": "När en tillräckligt stor andel av befolkningen är immun minskar smittspridningen så att även de som inte kan vaccineras skyddas – därför är hög täckning avgörande."
+        },
+        {
+          "front": "Varför ges levande vaccin oftast i två doser?",
+          "back": "Första dosen ger inte alltid fullgott svar; andra dosen fångar upp dem som inte svarat och höjer skyddet och täckningen."
+        },
+        {
+          "front": "Vilka komplikationer kan mässling ge?",
+          "back": "Öroninflammation, pneumoni, encefalit och senare subakut skleroserande panencefalit. Mässling ger också övergående immunologisk påverkan med ökad infektionskänslighet."
+        },
+        {
+          "front": "Vad kännetecknar scharlakansfeber?",
+          "back": "Grupp A-streptokocktoxin ger feber, halsfluss, sandpappersutslag och smultrontunga samt senare fjällning. Behandlas med penicillin."
+        }
+      ],
+      "facts": [
+        "Kopliks fläckar är patognomona för mässling.",
+        "Epiglottit är en luftvägsakut – tvinga aldrig fram en halsundersökning.",
+        "Apnéer kan vara det ledande symtomet på kikhosta hos spädbarn.",
+        "MPR är ett levande vaccin som ges i två doser."
+      ]
+    },
+    {
+      "id": "km5-4",
+      "code": "Modul 4",
+      "title": "Barnmedicinska akutfall",
+      "summary": "Akut andnöd, luftvägsobstruktion, dehydrering och kramper hos barn. Fokus ligger på snabb bedömning av andning och cirkulation samt på åldersspecifika skillnader mot vuxna.",
+      "estMinutes": 31,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: pediatrisk andnöd och bedside-bedömning",
+          "query": "ninja nerd pediatric respiratory distress assessment"
+        },
+        {
+          "label": "Ninja Nerd: barnets vätskebalans och dehydrering",
+          "query": "ninja nerd pediatric dehydration fluid management"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Bedöma andningsarbete och cirkulation hos ett akut sjukt barn med pediatrisk ABCDE",
+          "level": "färdighet"
+        },
+        {
+          "code": "4.2",
+          "title": "Handlägga bronkiolit och krupp samt förklara varför rutinantibiotika inte ges vid bronkiolit",
+          "level": "kunna"
+        },
+        {
+          "code": "4.3",
+          "title": "Känna igen och åtgärda främmande kropp i luftvägen samt feberkramper",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km5-4-q1",
+          "kind": "mcq",
+          "prompt": "En 5-månaders pojke har sedan två dagar snuva och nu tilltagande hosta. Han andas 65 gånger per minut, har indragningar mellan revbenen, grymtar och syremättnaden är sänkt. Auskultation visar pipande andning och fina rassel. Vilken behandling är den viktigaste?",
+          "options": [
+            "Stödjande behandling med syrgas och vätska, vid behov andningsstöd",
+            "Rutinmässig antibiotikabehandling",
+            "Inhalationer med kortison som enda åtgärd",
+            "Omedelbar intubation av alla barn med bronkiolit"
+          ],
+          "answer": "Stödjande behandling med syrgas och vätska, vid behov andningsstöd",
+          "explanation": "Bronkiolit är oftast virusorsakad (RS-virus) och behandlas stödjande; antibiotika har ingen effekt på virus och ges bara vid misstänkt bakteriell komplikation. Kortison och bronkodilatatorer har ingen säker rutineffekt hos spädbarn, medan syrgas och vätska är avgörande."
+        },
+        {
+          "id": "km5-4-q2",
+          "kind": "mcq",
+          "prompt": "En 2-årig flicka får på natten skällande hosta, hes röst och inspiratorisk stridor efter några dagars förkylning. Hon är vaken men besvärad. Vilken behandling är förstahandsval?",
+          "options": [
+            "Kortison, och vid svårare stridor även inhalationsbehandling med adrenalin",
+            "Antibiotika mot Haemophilus influenzae",
+            "Slemhinneavsvällande näsdroppar som enda åtgärd",
+            "Omedelbar tracheostomi"
+          ],
+          "answer": "Kortison, och vid svårare stridor även inhalationsbehandling med adrenalin",
+          "explanation": "Krupp (akut laryngit) orsakas av virus och ger ödem i subglottis. Kortison minskar ödemet och ges till alla med måttliga besvär; inhalationsadrenalin ges vid svårare stridor i väntan på effekt. Antibiotika har ingen plats eftersom orsaken är viral."
+        },
+        {
+          "id": "km5-4-q3",
+          "kind": "mcq",
+          "prompt": "En 2-årig pojke leker med jordnötter när han plötsligt slutar andas, hostar till och blir blå om läpparna. Han kan inte gråta eller hosta. Vad gör du?",
+          "options": [
+            "Ryggslag och därefter buktryck, och larma omedelbart",
+            "Ge honom vatten att dricka",
+            "Lägg honom på sidan och vänta på ambulans",
+            "Sätt fingret i halsen och försök fiska upp nöten"
+          ],
+          "answer": "Ryggslag och därefter buktryck, och larma omedelbart",
+          "explanation": "Oförmåga att hosta, gråta eller andas vid misstänkt aspiration innebär total luftvägsobstruktion och kräver omedelbara ryggslag och buktryck. Blint fingersök i svalget kan trycka ned föremålet djupare och ska undvikas. Vid kvarstående obstruktion krävs laryngoskopi och avlägsnande."
+        },
+        {
+          "id": "km5-4-q4",
+          "kind": "cloze",
+          "prompt": "En 14-månaders flicka med feber får generaliserade kramper som varar i två minuter och därefter sover hon djupt en stund. Hon är sedan vaken och reagerar normalt. Detta är en ______.",
+          "answer": "feberkramp",
+          "explanation": "Enkla feberkramper är vanliga mellan 6 månader och 5 år, varar under 15 minuter och ger inga postiktala fokala bortfall. Utredning med LP eller EEG krävs inte vid typisk enkel feberkramp, men vid långvariga, fokala eller upprepade anfall utreds bakomliggande orsak."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är de tidiga tecknen på andnöd hos barn?",
+          "back": "Ökad andningsfrekvens, indragningar (subkostalt, interkostalt, suprasternellt), grymtande, nasala fladder och förändrad vakenhet. Bradykardi och tystnad är sena, hotande tecken."
+        },
+        {
+          "front": "Varför försämras barn snabbt vid cirkulatorisk svikt?",
+          "back": "Barn kompenserar länge med takykardi och perifer kärlsammandragning, men har begränsad hjärt-/lungreserv. När kompensationen brister faller de snabbt i bradykardi och hjärtstopp."
+        },
+        {
+          "front": "Hur bedöms dehydreringsgrad kliniskt?",
+          "back": "Allmäntillstånd, tårproduktion, slemhinnor, hudturgor, puls, kapillär återfyllnad, andning och urinproduktion. Viktnedgång är det mest objektiva måttet."
+        },
+        {
+          "front": "Vad är skillnaden mellan krupp och epiglottit?",
+          "back": "Krupp: gradvis debut, skällande hosta, heshet, inspiratorisk stridor, oftast virus. Epiglottit: snabb debut, hög feber, dregling, trippodställning, ingen hosta – luftvägsakut."
+        },
+        {
+          "front": "Vilka differentialdiagnoser finns till akut andnöd hos barn?",
+          "back": "Bronkiolit, astma, krupp, epiglottit, främmande kropp, anafylaxi, pneumoni, hjärtfel och sepsis – samt metabola orsaker som metabol acidos."
+        }
+      ],
+      "facts": [
+        "RS-virus är den vanligaste orsaken till bronkiolit; behandlingen är stödjande.",
+        "Vid total luftvägsobstruktion: ryggslag och buktryck, inte blint fingersök.",
+        "Bradykardi hos ett sjukt barn är ett pre-arrest-tecken.",
+        "Enkel feberkramp kräver ingen rutinmässig LP."
+      ]
+    }
+  ]
+}

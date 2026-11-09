@@ -1,0 +1,1060 @@
+{
+  "id": "bv2",
+  "code": "BV2",
+  "title": "Basvetenskap 2: Cellbiologi, matsmältning och ämnesomsättning",
+  "term": "T1–T2",
+  "icon": "⚗️",
+  "color": "blue",
+  "sortOrder": 2,
+  "description": "Enzymer, energimetabolism, matsmältning och hormonell styrning av ämnesomsättningen, samt molekylärbiologins grund: DNA, RNA och proteinsyntes.",
+  "chapters": [
+    {
+      "id": "bv2-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Kromosomen m.fl.",
+      "summary": "Kromosomens uppbyggnad, cellcykeln och dess kontrollpunkter, DNA-replikation, reparation och apoptos, kromatin och epigenetik, samt transkription, RNA-processning, translation och genreglering.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Kromosomen"
+        },
+        {
+          "code": "1.2",
+          "title": "Cellcykeln"
+        },
+        {
+          "code": "1.3",
+          "title": "DNA-replikation"
+        },
+        {
+          "code": "1.4",
+          "title": "DNA-reparation"
+        },
+        {
+          "code": "1.5",
+          "title": "Apoptos"
+        },
+        {
+          "code": "1.6",
+          "title": "Kromatinstruktur och epigenetik"
+        },
+        {
+          "code": "1.7",
+          "title": "Transkription"
+        },
+        {
+          "code": "1.8",
+          "title": "RNA-processning"
+        },
+        {
+          "code": "1.9",
+          "title": "Translation"
+        },
+        {
+          "code": "1.10",
+          "title": "Genreglering och signaltransduktion"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Kromosomens huvuddelar",
+        "1.1.2 Kromosomorganisation i cellkärnan",
+        "1.1.3 Kärnans struktur och funktion",
+        "1.2.1 Cellcykeln och dess olika faser",
+        "1.2.2 Checkpoints i cellcykeln",
+        "1.2.3 Cellcykelns reglering via CDK (cyklin-beroende kinas) och cykliner",
+        "1.3.1 Förstå begreppen",
+        "1.3.2 Ledande och sackande sträng (Lagging strand), skillnader i replikation",
+        "1.3.3 Viktiga proteiner och deras funktion i replikationsprocessen:",
+        "1.3.4 Problematiken med att replikera telomererna (kromosomändarna)",
+        "1.3.5 Betydelsen av telomererna för cellens funktion",
+        "1.4.1 Orsaker till olika typer av förändringar (mutationer) i DNA",
+        "1.4.2 Olika typer av reparationssystem och deras förmåga att reparera olika typer av DNA-skador",
+        "1.4.3 Reparationsprocessen med de viktigaste ingående komponenter samt deras funktion i reparationsprocessen;",
+        "1.4.4 Konsekvenser av mutationer som ej repareras, för somatiska celler och för könsceller",
+        "1.4.5 Kopplingen mellan DNA-reparation och vissa ärftliga sjukdomar (som ett exempel)",
+        "1.5.1 Betydelsen av apoptos för utveckling och regeneration",
+        "1.5.2 Konkreta exempel på apoptos under utveckling och i den vuxna kroppen",
+        "1.5.3 Aktivering av apoptos med extracellulära eller intracellulära signaler",
+        "1.5.4 Kaspasaktivering och amplifiering av apoptossignalen med kaspaskaskaden (enligt figur 18-5)",
+        "1.5.5 Mitogener, tillväxtfaktorer, överlevnadsfaktorer och deras roll i tillväxt och apoptos 20 1.5.6 Skillnaden mellan nekros och apoptos",
+        "1.6.1 Kromosom, kromatin, eukromatin och heterokromatin: funktioner och definitioner",
+        "1.6.2 Kromatinets komponenter; DNA och olika proteiner som histoner",
+        "1.6.3 Packning av DNA i kromatin, inkl. nukleosomens uppbyggnad och loopar",
+        "1.6.4 Histonmodifieringar och DNA-metylering och deras betydelse för organismens funktion 21 1.7 Transkription",
+        "1.7 Transkription",
+        "1.8.1 Processning av RNA i cellens kärna",
+        "1.8.2 Modifieringarnas funktionella betydelse",
+        "1.8.3 Betydelsen av alternativ splitsning för organismens funktion och evolutionär utveckling",
+        "1.8.4 Nukleolen med ribosomala gener",
+        "1.8.5 Processning av ribosomalt RNA samt tRNA",
+        "1.9.1 Principen för översättning av nukleotidspråket i mRNA till aminosyraspråk i proteiner",
+        "1.9.2 Den genetiska kodens universalitet",
+        "1.9.3 Komponenterna i proteinsyntesen",
+        "1.9.4 Huvudstegen i eukaryot proteinsyntes: initiering, elongering och terminering. 25 1.9.5 Antibiotikas påverkan prokaryotiska ribosomer",
+        "1.9.6 Chaperoniner och proteosomernas funktion",
+        "1.10.1 Olika typer av cellsignalering",
+        "1.10.2 Olika typer av cellreceptorer",
+        "1.10.3 Effekter av cellsignalering",
+        "1.10.4 Betydelsen av signalamplifiering och signaldistribution inom cellen",
+        "1.10.5 Olika sätt att reglera genaktivitet inom cellen"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: DNA-replikation",
+          "query": "ninja nerd DNA replication"
+        },
+        {
+          "label": "Ninja Nerd: translation och proteinsyntes",
+          "query": "ninja nerd translation protein synthesis"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m1-q1",
+          "kind": "mcq",
+          "prompt": "Vad händer vid G1/S-kontrollpunkten i cellcykeln om DNA:t är skadat?",
+          "options": [
+            "p53 stoppar cykeln så att DNA kan repareras eller cellen går i apoptos",
+            "Cellen går direkt in i mitos",
+            "Cellen ökar sin proteinsyntes och fortsätter som vanligt",
+            "Cellen fusioneras med en grancell"
+          ],
+          "answer": "p53 stoppar cykeln så att DNA kan repareras eller cellen går i apoptos",
+          "explanation": "G1/S-kontrollen avgör om cellen ska replikera sitt DNA. p53 aktiverar p21 som hämmar cyklin–CDK-komplexen; kvarstår skadan går cellen i apoptos – en viktig skyddsmekanism mot tumörer."
+        },
+        {
+          "id": "bv2-m1-q2",
+          "kind": "mcq",
+          "prompt": "Varför behövs telomeras i stamceller och i många tumörceller?",
+          "options": [
+            "Utan telomeras kortas kromosomernas ändar vid varje delning tills cellen slutar dela sig",
+            "Telomeras reparerar dubbelsträngsbrott i hela genomet",
+            "Telomeras transkriberar rRNA i nukleolen",
+            "Telomeras avlägsnar introner från mRNA"
+          ],
+          "answer": "Utan telomeras kortas kromosomernas ändar vid varje delning tills cellen slutar dela sig",
+          "explanation": "DNA-polymeras kan inte kopiera allra yttersta änden, så telomererna kortas vid varje delning (Hayflick-gränsen). Telomeras förlänger telomererna och ger obegränsad delningsförmåga – därför är det attraktivt för tumörceller."
+        },
+        {
+          "id": "bv2-m1-q3",
+          "kind": "cloze",
+          "prompt": "Enzymet som förlänger kromosomernas ändar kallas ______.",
+          "answer": "telomeras",
+          "explanation": "Telomeras är ett ribonukleoprotein med omvänt transkriptas som använder egen RNA-mall för att förlänga telomererna."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka faser har cellcykeln och var sitter kontrollpunkterna?",
+          "back": "G1 → S (DNA-replikation) → G2 → M (mitos). Kontrollpunkter vid G1/S och G2/M; CDK–cyklinkomplex driver övergångarna."
+        },
+        {
+          "front": "Vad gör DNA-polymeras på ledande respektive sackande strängen?",
+          "back": "Ledande strängen kopieras kontinuerligt i 5'→3'; sackande strängen kopieras i Okazaki-fragment som sedan fogas ihop av DNA-ligas."
+        },
+        {
+          "front": "Vad är epigenetik?",
+          "back": "Ärftliga förändringar i genuttryck utan ändrad DNA-sekvens – t.ex. DNA-metylering och histonmodifieringar (acetylering, metylering)."
+        },
+        {
+          "front": "Vad skiljer apoptos från nekros?",
+          "back": "Apoptos är programmerad, ATP-krävande celldöd utan inflammation (kaspaser). Nekros är passiv celldöd med svullnad, läckage och inflammation."
+        }
+      ],
+      "facts": [
+        "p53 stoppar cellcykeln vid DNA-skada.",
+        "Telomeras förlänger telomererna – högt uttryck i stamceller och tumörceller.",
+        "Okazaki-fragment fogas ihop av DNA-ligas."
+      ]
+    },
+    {
+      "id": "bv2-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – Cellskelett och cellrörelse m.fl.",
+      "summary": "Cellskelettets tre komponenter och motorproteiner, extracellulär matrix, cell-cell-adhesion och celljunctions, biomembran och transport, organellerna ER, mitokondrier, peroxisomer, Golgi och lysosomer samt sårläkning.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Cellskelett och cellrörelse"
+        },
+        {
+          "code": "2.2",
+          "title": "Extracellulär matrix"
+        },
+        {
+          "code": "2.3",
+          "title": "Cell-cell interaktioner (celladhesion och cell junctions)"
+        },
+        {
+          "code": "2.4",
+          "title": "Cellens interna struktur samt introduktion till biomembranstruktur"
+        },
+        {
+          "code": "2.5",
+          "title": "Det endoplasmatiska retiklet"
+        },
+        {
+          "code": "2.6",
+          "title": "Mitokondrier och peroxisomer"
+        },
+        {
+          "code": "2.7",
+          "title": "Golgi, vesikulär transport samt lysosomen"
+        },
+        {
+          "code": "2.8",
+          "title": "Sår och sårläkning"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Funktionen och den principiella uppbyggnaden av de tre olika typerna av filamentsystem",
+        "2.1.2 Cellskelettkomponenterna i relation till cellernas form, polarisation och plasmamembran",
+        "2.1.3 Cellskelettets roll i organisationen av subcellulära organeller, samt i transporten av komponenter och organeller i cellerna",
+        "2.1.4 Skillnaden mellan cilier och mikrovilli och mekanismerna för rörelsefunktionerna i dessa strukturer",
+        "2.1.5 Motorproteiner",
+        "2.1.6 Mekanismerna för cellmobilitet och cellförflyttningar, översiktligt",
+        "2.2.1 Redogöra för de olika komponenterna som bygger upp den extracellulära matrixen, deras översiktliga struktur samt funktion",
+        "2.2.2 Redogöra för interaktioner som cellen har med extracellulär matrix",
+        "2.2.3 Redogöra för hur extracellulärt matrix kan påverka celler",
+        "2.2.4 Extracellulära matrixkomponenter och deras interaktioner med cytoskelettet. 31 2.3 Cell-cell interaktioner (celladhesion och cell junctions)",
+        "2.3 Cell-cell interaktioner (celladhesion och cell junctions)",
+        "2.4.1 Olika typer av transport",
+        "2.4.2 Transport genom jonkanaler",
+        "2.4.3 Begreppet glykocalyx",
+        "2.5.1 Begreppen granulärt och slätt (agranulärt) ER",
+        "2.5.2 Principer för syntes och transport av ett protein till en bestämd del av cellen . 35 2.6 Mitokondrier och peroxisomer",
+        "2.6 Mitokondrier och peroxisomer",
+        "2.7.1 Beskriva golgikomplexet, dess funktion och struktur och definiera begreppen 36 2.7.2 Sortering och transport av proteiner från Golgikomplexet",
+        "2.7.3 Glykosylering i Golgikomplexet",
+        "2.7.4 Märkning av lysosomala proteiner före transport till lysosomen med mannons- 6-fosfat 37 2.7.5 Principerna för reglerad och konstitutiv sekretion",
+        "2.7.6 Begreppen klatrin-täckta och COP-täckta vesiklar, funktion, mekanism och betydelse",
+        "2.7.7 SNARE-hypotesen gällande fusionen vesiklar med andra membraner",
+        "2.7.8 Begreppen lysosom, endocytos, endosom, fagocytos, pinocytos, transcytos, fagosom, och autofagi",
+        "2.7.9 Organisationen av lysosomen",
+        "2.7.10 Det låga pH:t i endosomerna och lysosomerna och dess betydelse",
+        "2.8.1 Cellulära funktioner som bidrar till sårläkning",
+        "2.8.2 Betydelsen av ECM för sårläkning",
+        "2.8.3 Viktigaste stegen i sårläkning"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: cellmembran och transport",
+          "query": "ninja nerd cell membrane transport"
+        },
+        {
+          "label": "Ninja Nerd: cytoskelett",
+          "query": "ninja nerd cytoskeleton microtubules actin"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m2-q1",
+          "kind": "mcq",
+          "prompt": "Vilken typ av celljunctions möjliggör direkt kommunikation mellan cellers cytoplasma via connexoner?",
+          "options": [
+            "Gap junctions",
+            "Tight junctions",
+            "Desmosomer",
+            "Hemidesmosomer"
+          ],
+          "answer": "Gap junctions",
+          "explanation": "Gap junctions bildar kanaler av connexoner som låter joner och små molekyler passera mellan celler – viktigt i hjärtmuskel och glatt muskulatur. Tight junctions förseglar, desmosomer förankrar."
+        },
+        {
+          "id": "bv2-m2-q2",
+          "kind": "mcq",
+          "prompt": "Natrium-kaliumpumpen flyttar 3 Na+ ut och 2 K+ in per ATP. Vad blir den direkta konsekvensen?",
+          "options": [
+            "Cellens insida blir negativt laddad och vilopotentialen upprätthålls",
+            "Cellens insida blir positivt laddad",
+            "Kalcium strömmar in i cellen",
+            "Vatten lämnar cellen genom aktiv transport"
+          ],
+          "answer": "Cellens insida blir negativt laddad och vilopotentialen upprätthålls",
+          "explanation": "Pumpen är elektrogen – fler positiva laddningar förs ut än in – och skapar tillsammans med läckagekanaler vilopotentialen (cirka −70 mV). Den är primär aktiv transport."
+        },
+        {
+          "id": "bv2-m2-q3",
+          "kind": "cloze",
+          "prompt": "Det kolhydratrika skikt på cellens utsida som bland annat medierar cell-cell-igenkänning kallas ______.",
+          "answer": "glykocalyx",
+          "explanation": "Glykocalyx består av glykoproteiner och glykolipider och skyddar membranet, påverkar adhesion och igenkänning samt fungerar som barriär."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka tre komponenter bygger cellskelettet?",
+          "back": "Mikrofilament (aktin) – form och rörelse; intermediärfilament (keratin, vimentin) – mekanisk styrka; mikrotubuli (tubulin) – transport och celldelning."
+        },
+        {
+          "front": "Vilka är de viktigaste komponenterna i extracellulär matrix?",
+          "back": "Kollagen (styrka), elastin (elasticitet), proteoglykaner och glykoproteiner (t.ex. fibronektin) samt bindvävsceller som fibroblaster."
+        },
+        {
+          "front": "Vad skiljer passiv från aktiv transport över membranet?",
+          "back": "Passiv transport följer gradienten utan energi (diffusion, facilitetad diffusion, osmos). Aktiv transport går mot gradienten och kräver ATP (primär) eller en jon-gradient (sekundär)."
+        },
+        {
+          "front": "Vad gör lysosomen och vad händer vid defekt lysosomal funktion?",
+          "back": "Lysosomen bryter ner material med sura hydrolaser. Defekter ger lysosomala lagringssjukdomar där substrat ansamlas i cellen."
+        }
+      ],
+      "facts": [
+        "Gap junctions = connexoner för direkt cellkommunikation.",
+        "Na+/K+-ATPas är elektrogen och skapar vilopotentialen.",
+        "Aktin, intermediärfilament och mikrotubuli är cellskelettets tre delar."
+      ]
+    },
+    {
+      "id": "bv2-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Gametogenes och fertilisering m.fl.",
+      "summary": "Gametogenes och befruktning, fosterveckorna 1–3, meios och könsbestämning, neurulation, gälbågar och ansiktsutveckling, organanläggning samt utvecklingsbiologins molekylära grunder och regenerativ medicin.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Gametogenes och fertilisering"
+        },
+        {
+          "code": "3.2",
+          "title": "Första fosterveckan"
+        },
+        {
+          "code": "3.3",
+          "title": "Andra fosterveckan"
+        },
+        {
+          "code": "3.4",
+          "title": "Tredje fosterveckan"
+        },
+        {
+          "code": "3.5",
+          "title": "Meios och variation, könsbestämning"
+        },
+        {
+          "code": "3.6",
+          "title": "Neurulation och veckning"
+        },
+        {
+          "code": "3.7",
+          "title": "Bildandet av gälbågar, utveckling av olika strukturer i ansiktet (översiktligt)"
+        },
+        {
+          "code": "3.8",
+          "title": "Anläggning av organ"
+        },
+        {
+          "code": "3.9",
+          "title": "Utvecklingsbiologins molekylärbiologi"
+        },
+        {
+          "code": "3.10",
+          "title": "Regenerativ medicin nu och i framtiden"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Bildning av könsceller",
+        "3.1.2 Befruktningens molekylära mekanismer",
+        "3.1.3 Polyspermi",
+        "3.2.1 Embryots vandring från äggledare till livmoder (morulastadium; blastocyststadium)",
+        "3.2.2 Blastocystens implantation i livmoderväggen, tidpunkt och mekanism",
+        "3.2.3 Ektopisk graviditet",
+        "3.3.1 Det tidiga embryots olika celltyper: inre cellmassa, cytotrofoblaster och syncytiotrofoblaster",
+        "3.3.2 Bildandet av lakuner och den tidiga blodcirkulationen",
+        "3.3.3 Bildandet av två groddblad (epiblaster och hypoblaster)",
+        "3.3.4 Bildandet av kroppshålor (amnion, primär och sekundär gulesäck, chorion) U: 28-31 42 3.4 Tredje fosterveckan",
+        "3.4 Tredje fosterveckan",
+        "3.5.1 Meios: skillnader mellan mitos och meios",
+        "3.5.2 Överkorsningar och deras betydelse för variation",
+        "3.5.3 Könsbestämning, kromosomal mekanism",
+        "3.5.4 Aneuploidier till följd av problem i meios",
+        "3.5.5 Exempel på aneuploidier (orsak, prevalens, karyotyp, cellulära mekanismer, symptom i stora drag)",
+        "3.6.1 Neuralplattan bildas ovanpå notokorden och prekordalplattan",
+        "3.6.2 Neuralröret sluts och bildar hjärna och ryggmärg (det centrala nervsystemet) 45 3.6.3 Neurallistceller vandrar ut och differentierar till olika celltyper, bla nervceller, melanocyter, brosk och ben i huvudet",
+        "3.7.1 Missbildningar i samband med neurulation",
+        "3.7.2 Embryots veckning, amnionhålans relativa ökning i storlek, gulesäck, navelsträng",
+        "3.7.3 Missbildningar (orsak, prevalens, cellulära mekanismer, symptom i stora drag) 46 3.8 Anläggning av organ",
+        "3.8 Anläggning av organ",
+        "3.9.1 Tillväxtfaktorer - definition, funktion",
+        "3.9.2 Receptorer och deras roll i utvecklingsbiologin",
+        "3.9.3 Intracellulär cellsignalering i utvecklingsbiologin",
+        "3.9.4 Transkriptionsfaktorer, deras roll i differentiering",
+        "3.9.5 Transgena djur, i forskning",
+        "3.9.6 Segmentering i kroppen",
+        "3.9.7 Hox-gener, mutationer i Hox-gener och deras påverkan på organismen",
+        "3.9.8 Extremitetsutveckling, i stora drag, inte detaljerat",
+        "3.9.9 Morfogener, funktion, definition och betydelse för utveckling",
+        "3.9.10 Sonic Hedgehog, vitamin-A-syra, betydelse för utveckling",
+        "3.9.11 Teratogener, definition, exempel",
+        "3.10.1 Genterapi: definition, exempel",
+        "3.10.2 Gendiagnostik",
+        "3.10.3 Kartläggning av den mänskliga arvsmassans utveckling",
+        "3.10.4 Varför studera olika arter: flugor, maskar, grodor inom utvecklingsbiologi?",
+        "3.10.5 Stamcellsforskning i medicin"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: tidig embryologi",
+          "query": "ninja nerd early embryology gastrulation implantation"
+        },
+        {
+          "label": "Ninja Nerd: neurulation",
+          "query": "ninja nerd neurulation neural tube development"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m3-q1",
+          "kind": "mcq",
+          "prompt": "Vid vilken mekanism kan en ektopisk graviditet uppstå?",
+          "options": [
+            "Det befruktade ägget fastnar i äggledaren innan det nått livmodern",
+            "Blastocysten implanterar i livmoderbotten istället för bakväggen",
+            "Två ägg befruktas samtidigt",
+            "Gulkroppen fortsätter producera progesteron för länge"
+          ],
+          "answer": "Det befruktade ägget fastnar i äggledaren innan det nått livmodern",
+          "explanation": "Ektopisk graviditet uppstår när implantationen sker utanför livmoderhålan, vanligtvis i tuban. Risker är tubarskada, endometrios och tidigare ektopisk graviditet – tillståndet kan ge tubarruptur med blödning."
+        },
+        {
+          "id": "bv2-m3-q2",
+          "kind": "mcq",
+          "prompt": "Vad är den viktigaste skillnaden mellan mitos och meios?",
+          "options": [
+            "Meios ger fyra haploida celler med överkorsningar och variation; mitos ger två diploida identiska celler",
+            "Mitos ger fyra haploida celler; meios ger två diploida",
+            "Båda ger identiska dotterceller men meios går snabbare",
+            "Meios sker bara i somatiska celler"
+          ],
+          "answer": "Meios ger fyra haploida celler med överkorsningar och variation; mitos ger två diploida identiska celler",
+          "explanation": "Meios har två delningar (reduktionsdelning) och överkorsningar i profas I, vilket ger genetisk variation. Mitos bevarar kromosomtalet och används för tillväxt och reparation."
+        },
+        {
+          "id": "bv2-m3-q3",
+          "kind": "cloze",
+          "prompt": "Under andra fosterveckan bildas två groddblad som kallas epiblast och ______.",
+          "answer": "hypoblast",
+          "explanation": "Den bilaminära skivan består av epiblast (ovan) och hypoblast (under). Vid gastrulationen bildas sedan de tre groddbladen ektoderm, mesoderm och endoderm."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad händer under första fosterveckan?",
+          "back": "Befruktning i ampullen, celldelningar (morula), blastocystbildning och implantation i endometriet runt dag 6–7."
+        },
+        {
+          "front": "Vilka tre groddblad bildas vid gastrulationen och vad ger de upphov till?",
+          "back": "Ektoderm (hud, nervsystem), mesoderm (muskel, skelett, kärl, njurar) och endoderm (tarm, lever, lungor)."
+        },
+        {
+          "front": "Vad är neurulation och när sker den?",
+          "back": "Neuralrörsbildningen under vecka 3–4: neuralplattan viker sig till neuralröret som ger hjärna och ryggmärg. Bristande sluten neuralrör ger ryggmärgsbråck eller anencefali."
+        },
+        {
+          "front": "Vad kännetecknar meiotisk överkorsning?",
+          "back": "Homologa kromosomer byter segment i profas I (crossing-over) vilket ger nya kombinationer av alleler och genetisk variation."
+        }
+      ],
+      "facts": [
+        "Implantation sker cirka dag 6–7.",
+        "Neuralröret sluts under vecka 3–4; folsyra förebygger slutenhetsdefekter.",
+        "Meios ger fyra haploida celler."
+      ]
+    },
+    {
+      "id": "bv2-m4",
+      "code": "Modul 4",
+      "title": "Modul 4 – Kolhydrater m.fl.",
+      "summary": "Kolhydraters, lipiders, proteiners och nukleotiders struktur och kemi, enzymer och kinetik, vitaminer och mineraler, mag-tarmkanalens fysiologi och motorik samt nutrition.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Kolhydrater"
+        },
+        {
+          "code": "4.2",
+          "title": "Lipider"
+        },
+        {
+          "code": "4.3",
+          "title": "Proteiner och enzymer"
+        },
+        {
+          "code": "4.4",
+          "title": "Nukleotider, mineraler och vitaminer"
+        },
+        {
+          "code": "4.5",
+          "title": "Matsmältningssystemets fysiologi och biokemi"
+        },
+        {
+          "code": "4.6",
+          "title": "Matsmältningskanalens motorik"
+        },
+        {
+          "code": "4.7",
+          "title": "Farmakologi"
+        },
+        {
+          "code": "4.8",
+          "title": "Nutrition"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Definiera de stereokemiska begreppen cis-trans-isomerer och optiska isomerer (D/L respektive R/S)",
+        "4.1.2 Förklara hur ändringar i pH och lösningsmedelsmiljö kan påverka olika bindningar/interaktioner och därmed proteiners struktur och funktion",
+        "4.1.3 Identifiera strukturen av monosackariderna glukos, galaktos, ribos, deoxyribos, och fruktos m.h.a. Haworth (H)-projektioner och för glukos och också m.h.a. Fischer- projektioner",
+        "4.1.4 Redogöra för den huvudsakliga strukturen (ingående monosackarider, typ av glykosidbindning) hos följande övriga kolhydraters struktur: maltos och isomaltos, laktos och sukros",
+        "4.1.5 Beskriva vilket asymmetriskt kol som avgör om ett socker är α eller β",
+        "4.1.6 Förklara begreppen enantiomer, epimer, anomer och mutarotation",
+        "4.1.7 Glykosidbindning",
+        "4.1.8 Beskriva strukturen hos homoglykanerna stärkelse (amylos och amylopektin), cellulosa och glykogen",
+        "4.1.10 Känna till den principiella uppbyggnaden (ej formler), förekomst och funktion av heteroglykanerna heparin och hyaluronsyra",
+        "4.1.11 Känna till proteoglykanernas och glykoproteinernas principiella uppbyggnad (ej formler) och funktion",
+        "4.2.4 Fosfatidsyra, lysofosfatidsyra, sfingosin, ceramid, sfingomyelin och glykolipiders principiella uppbyggnad och funktion",
+        "4.3.1 Redogöra för begreppet denaturering och förstå mekanismerna bakom olika denatureringssätt",
+        "4.3.2 Beskriva membranproteiners olika funktioner och principiella uppbyggnad. .. 57 4.3.3 Vad som menas med begreppet essentiella aminosyror och vilka tre aminosyror som är grenade",
+        "4.3.4 Redogöra för hur en reaktion påverkas av sitt enzym (jämvikt, aktiveringsenergi, reaktionshastighet), den aktiva ytans funktion, läge/lokalisation och begreppet specificitet",
+        "4.3.5 Förklara med termodynamiska termer hur ett enzym verkar och i detta sammanhang kunna förklara innebörden av Gibbs fria energi och vad ΔG kan säga om en reaktions benägenhet att ske spontant",
+        "4.3.6 Beskriva hur enzymaktiviteten påverkas av pH, temperatur och inhibitorer (irreversibla, reversibla: kompetitiva, icke-kompetitiva)",
+        "4.3.8 Definiera och förstå den funktionella betydelsen av begreppen kovalent modifiering (reversibel och irreversibel) och alloster enzymreglering (ex. fosfofruktokinas)",
+        "4.3.9 Redogöra övergripande för andra sätt att reglera enzymaktivitet (t.ex. genaktivering, nedbrytning)",
+        "4.3.10 Definiera begreppen isoenzym och zymogen (proenzym)",
+        "4.3.11 Beskriva vilken betydelse kofaktorer (metalljoner) och koenzymer (proteiner) har för enzymers funktion och struktur (ex. karboxypeptidas A)",
+        "4.3.12 Redogöra för hemoglobinets kooperativa inbindning av O2 och allosterin med avseende på (H+, CO2, 2,3-BPG)",
+        "4.3.13 Översiktligt redogöra för bakgrund till och konsekvenser av sickelcellsanemi, methemoglobinemi samt thalassemier",
+        "4.3.14 Principer för katalytisk funktion via övergångstillstånd",
+        "4.3.15 Olika enzymklasser (I-VII) och vilka typreaktioner de katalyserar",
+        "4.3.16 Uttolkning av Michaelis-Mentens ekvation (grafiskt utseende, förutsättningar och betydelse av ingående storheter)",
+        "4.4.1 Redogöra för sambanden mellan enzym-koenzym (holo-, apo- och koenzym) och vitamin-koenzym-kofaktor",
+        "4.4.2 Beskriva den generella strukturen för olika nukleotider, kunna namnge dem och beskriva olika funktioner för dessa",
+        "4.4.3 Redogöra översiktligt för vitaminerna och deras huvudsakliga funktioner i människa, med tonvikt på de vattenlösliga vitaminerna",
+        "4.4.4 Redogöra översiktligt för de huvudsakliga rollerna av mineralämnena Fe, Se, Ca, Zn, Mg och I hos människa",
+        "4.5.1 Salivsekretion",
+        "4.5.2 Sekretion till mag-tarmkanalen",
+        "4.5.3 Digestion",
+        "4.5.4 Hormoner",
+        "4.5.5 Namnen på de två vanligaste primära gallsyrorna och konjugerade gallsalterna samt de två vanligaste sekundära gallsyrorna",
+        "4.5.7 Innebörden av de kliniska begreppen:",
+        "4.5.8 Orsaker till malabsorption och steatorré samt laktos(in)tolerans (orsak och symtom samt molekylära förklaringar)",
+        "4.6.1 Redogöra för rörelsemönster (motorik) som uppträder som bas för födotransporten i digestionskanalen och hur de genereras",
+        "4.6.2 Identifiera/ange passagetider genom mag-tarmkanalen och de långa tarmreflexernas funktion, betydelsen av födans sammansättning - särskilt hur kostfibrer påverkar passagetiden",
+        "4.6.3 Redogöra för tuggning av födan och dess betydelse i matsmältningen",
+        "4.6.4 Redogöra för sväljning och transporten av föda genom esofagus och hur dessa funktioner kontrolleras inklusive esofagussfinktrarnas funktion",
+        "4.6.5 Redogöra för ventrikelns funktion och rörelsemönster (motorik) i fasta och vid födointag, särskilt ventrikelns receptiva och adaptiva relaxation",
+        "4.6.7 Beskriva kräkningen med prodromalfas och tömningsfas samt redogöra för stimuli och neurogen kontroll av kräkning, samt förkräkningens effekter på cirkulation och andning",
+        "4.6.8 Beskriva tunntarmens rörelsemönster (motorik) och redogöra för det neuronala substratet (underlaget) för dessa rörelser och dess betydelse för transport och blandning av innehållet",
+        "4.6.9 Beskriva MMC (”Migrating Motor Complex”) och dess betydelse i matsmältningen",
+        "4.6.10 Redogöra för tjocktarmens rörelsemönster (motorik) med begreppet massperistaltik och dess betydelse för transport",
+        "4.6.11 Redogöra för defekationsprocessen",
+        "4.6.12 Dysfagi och reflux till esofagus",
+        "4.6.13 Tillstånd förknippade med kräkning",
+        "4.6.14 Sjukdomar som påverkar ventrikeltömning, betydelsefulla former av dysmotorik och deras relation till symtom (gastropares, intestinal pseudoobstruktion, colon irritabile)",
+        "4.6.15 Förstoppning och betydelsen av bulkmedel",
+        "4.7.2 Antacida",
+        "4.7.3 Syrasekretionshämmare",
+        "4.7.4 Slemhinneskyddande medel",
+        "4.7.5 Antibiotika",
+        "4.7.7 Beskriva verkningsmekanismer av läkemedelsgrupper vid behandling av diarré (antidiarrhoika) som loperamid",
+        "4.7.8 Förklara verkningsmekanismer av läkemedelsgrupper vid behandling av obesitas som lipashämmare",
+        "4.7.10 Vanliga biverkningar av läkemedel vid behandling av förstoppning, antidiarrhoika och obesitas",
+        "4.8.1 Redogöra för näringsrekommendationer samt deras bakgrund",
+        "4.8.2 Redogöra för och analysera principiella mekanismer för uppkomst av brist (intag, absorption, behov, förlust)",
+        "4.8.3 Ge exempel på och beskriva samband mellan kost och sjukdom (cancer, hjärt- kärlsjukdom, mättade och omättade fettsyror, transfetter, fibrer)",
+        "4.8.4 Känna till konsekvenser av de viktigaste näringsproblemen globalt och i Sverige såsom proteinbrist, samt etablerade vitamin- och mineralbrister",
+        "4.8.5 Känna till hur näringsbehovet förändras genom livets faser",
+        "4.8.6 Mekanismer bakom näringsbrist med inriktning på global förekomst, orsaker och nutritionell förekomst, samt att i dessa sammanhang ingår att ha en uppfattning om prevalens",
+        "4.8.7 De grundläggande kostråden",
+        "4.8.8 Energibehovet hos olika individer under olika fysiologiska betingelser",
+        "4.8.9 Näringsrekommendationerna för makronutrienter, och vad dessa baseras på. 77 4.8.10 Exempel på interaktioner mellan födoämnen som påverkar näringsupptag"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: enzymkinetik",
+          "query": "ninja nerd enzyme kinetics michaelis menten"
+        },
+        {
+          "label": "Ninja Nerd: makromolekyler",
+          "query": "ninja nerd biochemistry carbohydrates lipids proteins"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m4-q1",
+          "kind": "mcq",
+          "prompt": "Vad innebär det att ett enzym har lågt Km för sitt substrat?",
+          "options": [
+            "Hög affinitet – enzymet når halva maxhastigheten vid låg substratkoncentration",
+            "Låg affinitet – det krävs hög substratkoncentration",
+            "Enzymet är mättat och kan inte öka sin hastighet",
+            "Enzymet är kompetitivt hämmat"
+          ],
+          "answer": "Hög affinitet – enzymet når halva maxhastigheten vid låg substratkoncentration",
+          "explanation": "Km är substratkoncentrationen vid Vmax/2 och är ett mått på affinitet: lågt Km = hög affinitet. Kompetitiv hämning höjer Km men lämnar Vmax oförändrat."
+        },
+        {
+          "id": "bv2-m4-q2",
+          "kind": "mcq",
+          "prompt": "Varför är essentiella aminosyror och essentiella fettsyror viktiga att få i sig via kosten?",
+          "options": [
+            "Kroppen kan inte syntetisera dem själv i tillräcklig mängd",
+            "De bryts inte ner i tarmen",
+            "De behövs bara vid graviditet",
+            "De lagras inte i kroppen och utsöndras direkt"
+          ],
+          "answer": "Kroppen kan inte syntetisera dem själv i tillräcklig mängd",
+          "explanation": "Essentiella aminosyror (t.ex. lysin, leucin) och essentiella fettsyror (linolsyra, alfa-linolensyra) måste tillföras via kosten eftersom människan saknar enzym för att bilda dem."
+        },
+        {
+          "id": "bv2-m4-q3",
+          "kind": "cloze",
+          "prompt": "När ett protein förlorar sin tredimensionella struktur på grund av värme eller extremt pH kallas det ______.",
+          "answer": "denaturering",
+          "explanation": "Denaturering bryter svaga bindningar (vätebindningar, hydrofoba interaktioner) så att den specifika konformationen och funktionen förloras – vanligt vid feber och vid matlagning."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad skiljer amylos från amylopektin?",
+          "back": "Båda är homoglykaner av glukos: amylos är obegränsat förgrenad (α-1,4), amylopektin har grenpunkter (α-1,6) och bryts snabbare ner."
+        },
+        {
+          "front": "Vad kännetecknar en kompetitiv respektive icke-kompetitiv hämning?",
+          "back": "Kompetitiv hämmare konkurrerar om aktivt säte: Km ökar, Vmax oförändrat. Icke-kompetitiv hämmare binder annanstans: Vmax sjunker, Km oförändrat."
+        },
+        {
+          "front": "Vilka vitaminer är fettlösliga och vad innebär det?",
+          "back": "A, D, E och K. De lagras i fettväv och lever, kan ge toxicitet vid överdos och behöver fett för upptag."
+        },
+        {
+          "front": "Vilka tre huvudtyper av mag-tarmkanalens motorik finns?",
+          "back": "Peristaltik (framåtdrivande), segmentering (blandning) och sfinkterfunktion (kontroll av passage)."
+        }
+      ],
+      "facts": [
+        "Lågt Km = hög affinitet.",
+        "Amylopektin har α-1,6-grenar och bryts snabbare ner än amylos.",
+        "A, D, E, K är fettlösliga vitaminer."
+      ]
+    },
+    {
+      "id": "bv2-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Kolhydratmetabolism m.fl.",
+      "summary": "Kolhydratmetabolismen: glykolys, glukoneogenes, citronsyracykeln och oxidativ fosforylering, glykogenomsättning, fruktos- och galaktosomsättning samt HMP-shunten.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Kolhydratmetabolism"
+        },
+        {
+          "code": "5.2",
+          "title": "Glykogenomsättning, omsättning av fruktos och galaktos samt HMP-shunten"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Glykolysen och glukoneogenesen",
+        "5.1.2 Mitokondrien och citronsyracykeln",
+        "5.2.2 Reglering och co-faktorer"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: glykolys",
+          "query": "ninja nerd glycolysis"
+        },
+        {
+          "label": "Ninja Nerd: citronsyracykeln och elektrontransportkedjan",
+          "query": "ninja nerd krebs cycle electron transport chain"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m5-q1",
+          "kind": "mcq",
+          "prompt": "Vilket enzym katalyserar det hastighetsbestämmande steget i glykolysen och hämmas av ATP och citrat?",
+          "options": [
+            "Fosfofruktokinas-1 (PFK-1)",
+            "Hexokinas",
+            "Pyruvatkinas",
+            "Glukos-6-fosfatas"
+          ],
+          "answer": "Fosfofruktokinas-1 (PFK-1)",
+          "explanation": "PFK-1 omvandlar fruktos-6-fosfat till fruktos-1,6-bisfosfat och är glykolysens viktigaste reglerande steg – hämmas av ATP/citrat och stimuleras av AMP och fruktos-2,6-bisfosfat."
+        },
+        {
+          "id": "bv2-m5-q2",
+          "kind": "mcq",
+          "prompt": "En patient fastar i 24 timmar. Vilka substrat använder hjärnan och musklerna främst?",
+          "options": [
+            "Hjärnan är beroende av glukos (och ketonkroppar vid längre fasta); muskler använder fettsyror och ketonkroppar",
+            "Hjärnan använder fettsyror direkt, musklerna glukos",
+            "Båda använder enbart aminosyror",
+            "Båda använder enbart laktat"
+          ],
+          "answer": "Hjärnan är beroende av glukos (och ketonkroppar vid längre fasta); muskler använder fettsyror och ketonkroppar",
+          "explanation": "Fettsyror kan inte passera blod-hjärnbarriären i nämnvärd grad. Vid längre fasta bildar levern ketonkroppar som hjärnan kan utnyttja och sparat glukos används till erytrocyter och hjärna."
+        },
+        {
+          "id": "bv2-m5-q3",
+          "kind": "cloze",
+          "prompt": "HMP-shunten (pentosfosfatvägen) producerar framför allt ______, som behövs för reduktiva synteser och skydd mot oxidativ stress.",
+          "answer": "NADPH",
+          "explanation": "NADPH används vid fettsyrasyntes och för att regenerera glutation – därför är HMP-shunten viktig i erytrocyter (brist på G6PD ger hemolys)."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Var sker glykolysen respektive oxidativ fosforylering?",
+          "back": "Glykolysen i cytoplasman (netto 2 ATP + 2 NADH per glukos); oxidativ fosforylering i mitokondriens inre membran (cirka 30–32 ATP totalt)."
+        },
+        {
+          "front": "Vilka är de tre oåterkalleliga stegen i glykolysen och vilka enzymer katalyserar dem?",
+          "back": "Hexokinas (glukos→G6P), PFK-1 (F6P→F1,6BP) och pyruvatkinas (PEP→pyruvat)."
+        },
+        {
+          "front": "Vad är glukoneogenes och var sker den?",
+          "back": "Nybildning av glukos från laktat, glycerol och aminosyror – framför allt i levern (och njurbarken) under fasta, reglerad av glukagon och insulin."
+        },
+        {
+          "front": "Vad gör glykogenfosforylas respektive glykogensyntas?",
+          "back": "Glykogenfosforylas bryter ner glykogen till glukos-1-fosfat (aktiveras av adrenalin/glukagon); glykogensyntas bygger upp glykogen (aktiveras av insulin)."
+        }
+      ],
+      "facts": [
+        "PFK-1 är glykolysens hastighetsbestämmande enzym.",
+        "HMP-shunten ger NADPH till erytrocyternas antioxidationsförsvar.",
+        "Glukoneogenes sker främst i levern under fasta."
+      ]
+    },
+    {
+      "id": "bv2-m6",
+      "code": "Modul 6",
+      "title": "Modul 6 – Lipidmetabolism m.fl.",
+      "summary": "Lipidmetabolism (fettsyrasyntes, TAG, fosfolipider, lipolys, ketonkroppar, kolesterol och lipoproteiner), aminosyrametabolism med ureacykeln samt nukleotid- och hem-metabolism.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "6.1",
+          "title": "Lipidmetabolism"
+        },
+        {
+          "code": "6.2",
+          "title": "Aminosyrametabolism"
+        },
+        {
+          "code": "6.3",
+          "title": "Nukleotidmetabolism"
+        }
+      ],
+      "objectives": [
+        "6.1.1 Fettsyra- och triacylglycerol (TAG) syntes",
+        "6.1.2 Fosfolipider",
+        "6.1.3 Lipolys",
+        "6.1.4 Ketonkroppar",
+        "6.1.5 Kolesterolomsättning",
+        "6.1.6 Lipoproteinpartiklar/omsättning",
+        "6.2.1 Aminosyror",
+        "6.2.2 Enkolpoolen",
+        "6.3.1 Nukleotider",
+        "6.3.2 Hem-metabolism"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: lipidmetabolism",
+          "query": "ninja nerd lipid metabolism beta oxidation"
+        },
+        {
+          "label": "Ninja Nerd: ureacykeln",
+          "query": "ninja nerd urea cycle"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m6-q1",
+          "kind": "mcq",
+          "prompt": "En patient med långvarig fasta och diabetes typ 1 har högt p-glukos och hyperventilerar. Varför bildas ketonkroppar?",
+          "options": [
+            "Insulinbrist driver lipolys och levern omvandlar överskott av acetyl-CoA till ketonkroppar",
+            "Njurarna bildar ketonkroppar av urea",
+            "Ketonkroppar bildas i musklerna vid ansträngning",
+            "Ketonkroppar bildas när glukos lagras som glykogen"
+          ],
+          "answer": "Insulinbrist driver lipolys och levern omvandlar överskott av acetyl-CoA till ketonkroppar",
+          "explanation": "Utan insulin frisätts fettsyror från fettväven i stor mängd; levern oxiderar dem till acetyl-CoA som överstiger citronsyracykelns kapacitet och omvandlas till acetoacetat och beta-hydroximärat – ketoner som ger metabol acidos."
+        },
+        {
+          "id": "bv2-m6-q2",
+          "kind": "mcq",
+          "prompt": "Var sker ureacykeln och vilket organ är avgörande för att den fungerar?",
+          "options": [
+            "I leverns mitokondrier och cytoplasma – levern är det centrala organet",
+            "I njurarna – njurarna bildar urea av ammoniak",
+            "I musklerna – musklerna omvandlar ammoniak till urea",
+            "I tarmen – bakterierna bildar urea"
+          ],
+          "answer": "I leverns mitokondrier och cytoplasma – levern är det centrala organet",
+          "explanation": "Ureacykeln sker i levern (första steget i mitokondrien, resten i cytoplasman) och omvandlar toxiskt ammoniak till urea som utsöndras via njurarna. Leversvikt ger hyperammonemi."
+        },
+        {
+          "id": "bv2-m6-q3",
+          "kind": "cloze",
+          "prompt": "Fettsyrornas nedbrytning till acetyl-CoA kallas ______ och sker i mitokondrierna.",
+          "answer": "beta-oxidation",
+          "explanation": "Vid beta-oxidation klyvs två kol i taget från fettsyrans karboxylände, vilket ger acetyl-CoA, NADH och FADH2. Ketonemi uppstår när produktionen överstiger citronsyracykelns kapacitet."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka lipoproteiner finns och vad transporterar de?",
+          "back": "Chylomikroner (kostfett), VLDL (endogent TAG), LDL (kolesterol till perifera vävnader), HDL (kolesterol tillbaka till levern)."
+        },
+        {
+          "front": "Vad är det hastighetsbestämmande enzymet i kolesterolsyntesen och vad hämmar det?",
+          "back": "HMG-CoA-reduktas; hämmas av statiner (och av överskott av kolesterol via SREBP-reglering)."
+        },
+        {
+          "front": "Vad gör karnitinshuttle-systemet?",
+          "back": "Transporterar långa fettsyror in i mitokondriens matrix där beta-oxidationen sker – brist ger nedsatt energiförsörjning vid fasta (hypoglykemi, kardiomyopati)."
+        },
+        {
+          "front": "Vad händer med ammoniak i aminosyrametabolismen?",
+          "back": "Aminosyrornas aminosyragrupp överförs (transaminering) och ammoniak avgiftas i ureacykeln till urea i levern – urea utsöndras via njurarna."
+        }
+      ],
+      "facts": [
+        "Ketogenes sker i levermitokondrierna vid insulinbrist eller lång fasta.",
+        "Ureacykeln sker i levern; lever svikt ger hyperammonemi.",
+        "HMG-CoA-reduktas är mål för statiner."
+      ]
+    },
+    {
+      "id": "bv2-m7",
+      "code": "Modul 7",
+      "title": "Modul 7 – Hunger och mättnad, samt feed-fast-cykeln m.fl.",
+      "summary": "Reglering av hunger och mättnad, feed-fast-cykeln, inkretiner (GLP-1/GLP-2), metabolism vid olika fysiologiska tillstånd, proteinnedbrytning, HbA1c, kolhydratbelastning, polyolvägen, tarmflorans betydelse och adiponektin.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "7.1",
+          "title": "Hunger och mättnad, samt feed-fast-cykeln"
+        },
+        {
+          "code": "7.2",
+          "title": "Förklara begreppet inkretin samt peptiderna GLP-1:s och GLP-2:s signaltransduktion, funktion och var de bildas i tarmen"
+        }
+      ],
+      "objectives": [
+        "7.1.1 Beskriva hur man beräknar BMI och olika intervallet för BMI samt begreppen bukhöjd och midjeomfång",
+        "7.1.2 Redogöra för centrala nervsystemets roll i reglering av hunger och mättnad. . 112 7.1.3 Redogöra för innebörden av preabsorptiva, absorptiva och postabsorptiva aptitretande signaler respektive mättnadssignaler",
+        "7.1.4 Hormoners inverkan på hunger och mättnad",
+        "7.1.4 3 Redogöra",
+        "7.2.1 Identifiera förändringar i metabolismen vid olika fysiologiska tillstånd (välnärt respektive svält, fysisk aktivitet respektive vila)",
+        "7.2.2 Beskriva hur olika hormoner och intermediärer signalerar de olika metabola förändringarna (välnärt respektive svält, fysisk aktivitet respektive vila)",
+        "7.2.3 Förklara mekanismer och betydelse av proteinnedbrytning (sambanden ubiquitinering-proteasom)",
+        "7.2.4 Beskriva varför man mäter HbA1c och vad som är normala och patologiska nivåer av blodglukos",
+        "7.2.5 Beskriva när och hur man utför en kolhydratbelastning och kunna redogöra för hur en normal och en patologisk belastningskurva ser ut",
+        "7.2.6 Redogöra för polyolvägen och bildningen samt sorbitols metabolism och koppling till skador vid diabetes",
+        "7.2.7 Beskriva teorier för olika molekylära orsakssamband till skador vid diabetes. 115 7.2.8 Olika signalsubstanser som binder till olika GPCR-receptorer (korta fettsyror producerat av intestinala bakterier, gallsalt/gallsyror, ß-hydroxybutyrat)",
+        "7.2.9 Olika exempel av tarmflorans betydelse för hälsa och vid sjukdom",
+        "7.2.10 Olika molekyler (proteiner, enzymer och transkriptionsfaktorer) som är involverat i reglering av födointag eller metabola syndromet",
+        "7.2.11 Viken funktion adiponektin har samt var det framförallt bildas",
+        "7.2.12 Aktuella/framtida behandlingsstrategier för att behandla obesitas",
+        "7.2.13 Översiktligt hur celltillväxt kan stimuleras av insulin, fysisk aktivitet och aminosyror, via kinaserna mTOR och S6 (se även mål i modul 4, 5 och 6 avseende signalering)",
+        "7.2.14 Förklara uttrycken ”det onda och det goda kolesterolet”",
+        "7.2.15 N-acetylglukosamin och O-glykosylering medierad av enzymet OGT, och eventuell betydelse för födointaget",
+        "7.2.16 Betydelsen av näringstäthet i relation till energiintag, praktiska konsekvenser och riskgrupper för näringsbrist. (delvis modul 4)"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: inkretiner och GLP-1",
+          "query": "ninja nerd incretin GLP-1"
+        },
+        {
+          "label": "Ninja Nerd: hunger och mättnad",
+          "query": "ninja nerd appetite regulation leptin ghrelin"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m7-q1",
+          "kind": "mcq",
+          "prompt": "Varför mäter man HbA1c och vad speglar det?",
+          "options": [
+            "Det speglar medelglukos de senaste 2–3 månaderna eftersom glukos binder till hemoglobin irreversibelt",
+            "Det visar blodsockret precis vid provtagningen",
+            "Det mäter insulinproduktionen i bukspottkörteln",
+            "Det visar hur mycket glykogen levern lagrar"
+          ],
+          "answer": "Det speglar medelglukos de senaste 2–3 månaderna eftersom glukos binder till hemoglobin irreversibelt",
+          "explanation": "HbA1c bildas genom icke-enzymatisk glykering av hemoglobin under erytrocytens livslängd (cirka 120 dagar) och används därför för att följa långtidsglukos och diagnostisera diabetes."
+        },
+        {
+          "id": "bv2-m7-q2",
+          "kind": "mcq",
+          "prompt": "Vilken effekt har GLP-1 som frisätts från tarmen vid måltid?",
+          "options": [
+            "Ökar insulinfrisättningen glukosberoende, hämmar glukagon och saktar magsäckstömningen",
+            "Höjer blodglukoset genom att stimulera glukagon",
+            "Ökar aptiten och magsäckstömningen",
+            "Bryter ner insulin i levern"
+          ],
+          "answer": "Ökar insulinfrisättningen glukosberoende, hämmar glukagon och saktar magsäckstömningen",
+          "explanation": "GLP-1 är ett inkretinhormon från L-celler i ileum/kolon som förstärker insulinfrisättningen (inkretineffekten), hämmar glukagon, fördröjer magsäckstömningen och ökar mättnad – grunden för GLP-1-analoger."
+        },
+        {
+          "id": "bv2-m7-q3",
+          "kind": "cloze",
+          "prompt": "Hormonet som bildas i fettväven och ökar insulinkänsligheten kallas ______.",
+          "answer": "adiponektin",
+          "explanation": "Adiponektin bildas framför allt i subkutan fettväv, ökar fettsyraoxidation och insulinkänslighet. Låga nivåer ses vid fetma och är kopplade till insulinresistens."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka hormoner reglerar hunger och mättnad?",
+          "back": "Ghrelin (hunger, från magsäcken), leptin (mättnad, från fettväv), GLP-1 och PYY (mättnad, från tarmen) samt insulin."
+        },
+        {
+          "front": "Vad är feed-fast-cykeln?",
+          "back": "Växlingen mellan näringsintag (anabolt: insulin högt, glykogenes och lipogenes) och fasta (katabolt: glukagon högt, glykogenolys, lipolys, ketogenes)."
+        },
+        {
+          "front": "Vad är inkretineffekten?",
+          "back": "Att glukos givet via munnen ger större insulinfrisättning än samma mängd glukos intravenöst, tack vare GLP-1 och GIP från tarmen."
+        },
+        {
+          "front": "Vad gör polyolvägen vid hyperglykemi?",
+          "back": "Glukos omvandlas via aldosreduktas till sorbitol som ansamlas i celler (lins, nerv, njure) och ger osmotisk stress – en förklaring till diabeteskomplikationer."
+        }
+      ],
+      "facts": [
+        "HbA1c speglar medelglukos 2–3 månader.",
+        "GLP-1 förstärker insulinfrisättningen glukosberoende.",
+        "Adiponektin ökar insulinkänsligheten; låga nivåer vid fetma."
+      ]
+    },
+    {
+      "id": "bv2-m8",
+      "code": "Modul 8",
+      "title": "Modul 8 – Konsultation, basal hygien och kliniska färdigheter",
+      "summary": "Den patientcentrerade konsultationens tre delar, basal hygien och patientsäkerhet, egna värderingar och fördomar i mötet, öppet lyssnande samt praktisk undersökningsteknik och provtagning.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "8.1",
+          "title": "Redogöra för innehållet i de tre delarna i den patientcentrerade konsultationen"
+        },
+        {
+          "code": "8.2",
+          "title": "Redogöra för sjukhushygienens betydelse och Socialstyrelsens föreskrifter om basal hygien 117 8.2.1 Kunna redogöra för varför basal hygien är viktigt"
+        },
+        {
+          "code": "8.3",
+          "title": "Beskriva strategier för att identifiera och hantera egna värderingar och fördomar som kan påverka mötet med medmänniskor"
+        },
+        {
+          "code": "8.4",
+          "title": "Tillämpa öppet lyssnande med hjälp av öppna invitationer, sammanfattningar och bekräftelse i intervju med patient"
+        },
+        {
+          "code": "8.5",
+          "title": "Redogöra för korrekt utförande av och utföra blodtrycksmätning, klinisk undersökning av hjärta, lungor, buk och öron samt undersökning av reflexer"
+        },
+        {
+          "code": "8.6",
+          "title": "Redogöra för korrekt utförande och på ett patientsäkert sätt genomföra ven-, kapillär- samt svalgprovtagning"
+        }
+      ],
+      "objectives": [
+        "8.1.1 Kunna redogöra för de tre delarna i en konsultation",
+        "8.1.2 Kunna redogöra för innehåll och funktion i patientens del",
+        "8.2.2 Kunna redogöra för principer för basal hygien inom vården",
+        "8.3.1 Att känna till evidensen för hur värderingar och fördomar kan påverka hälsoutfall negativt",
+        "8.3.2 Att kunna definiera begreppen explicit-, implicit- samt konfirmationsbias",
+        "8.4.1 Kunna redogöra för samtalsteknikerna för att få fram tanke, oro och önskan i patientens del",
+        "8.5.1 Att kunna redogöraför de fysiologiska principer som underbygger korrekt utförande av blodtrycksmätning samt beskriva hur blodtrycksmätning ska utföras",
+        "8.5.2 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrektutförande av hjärtstatus samt beskriva hur man utför en korrekt undersökning av hjärtat",
+        "8.5.3 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av lungstatus samt beskriva hur man utför en korrekt undersökning av lungorna",
+        "8.5.4 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av bukstatus samt beskriva hur man utför en korrekt undersökning av buken",
+        "8.5.5 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av öronstatus samt beskriva hur man utför en korrekt öronundersökning med otoskop",
+        "8.5.6 Att kunna redogöra för de anatomiska strukturer och fysiologiska principer som underbygger korrekt utförande av status-extremitetsreflexer samt beskriva hur man utför korrekt undersökning av extremitetsreflexer",
+        "8.6.1 Att kunna redogöra för hur venös provtagning ska ske på ett patientsäkert och korrekt vis",
+        "8.6.2 Att kunna redogöra för hur kapillär provtagning ska ske på ett patientsäkert och korrekt vis",
+        "8.6.3 Att kunna redogöra för hur svalgprovtagning ska ske på ett patientsäkert och korrekt vis"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: klinisk undersökning – blodtryck",
+          "query": "ninja nerd blood pressure measurement technique"
+        },
+        {
+          "label": "Ninja Nerd: hjärt- och lungauskultation",
+          "query": "ninja nerd cardiac auscultation lung sounds"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv2-m8-q1",
+          "kind": "mcq",
+          "prompt": "Vilka tre delar ingår i den patientcentrerade konsultationen enligt modellen i kursen?",
+          "options": [
+            "Initiering, den mellersta delen (anamnes, undersökning, förklaring) och avslutning",
+            "Anamnes, diagnos och behandling",
+            "Insamling, dokumentation och remiss",
+            "Hälsning, provtagning och utskrivning"
+          ],
+          "answer": "Initiering, den mellersta delen (anamnes, undersökning, förklaring) och avslutning",
+          "explanation": "Modellen delar konsultationen i initiering (skapa kontakt, lyssna på patientens agenda), en mellersta del (anamnes, undersökning, förklaring och planering) samt avslutning (sammanfatta, säkerställa förståelse, nästa steg)."
+        },
+        {
+          "id": "bv2-m8-q2",
+          "kind": "mcq",
+          "prompt": "Varför är basal handhygien den viktigaste åtgärden mot vårdrelaterade infektioner?",
+          "options": [
+            "Händerna är den vanligaste överföringsvägen för mikroorganismer mellan patienter",
+            "Handdesinfektion dödar alla bakterier i kroppen",
+            "Handskar ersätter behovet av handhygien",
+            "Det minskar användningen av antibiotika i hela sjukvården"
+          ],
+          "answer": "Händerna är den vanligaste överföringsvägen för mikroorganismer mellan patienter",
+          "explanation": "Kontaktsmitta via händer är den dominerande överföringsvägen. Korrekt handdesinfektion före och efter patientkontakt bryter kedjan – handskar ersätter aldrig handhygien."
+        },
+        {
+          "id": "bv2-m8-q3",
+          "kind": "cloze",
+          "prompt": "Vid blodtrycksmätning ska manschetten vara cirka 40 procent av överarmens omkrets och täcka ungefär ______ procent av överarmens längd.",
+          "answer": "80",
+          "explanation": "Fel manschettstorlek är en vanlig felkälla: för liten manschett ger falskt högt tryck, för stor ger falskt lågt. Patienten ska sitta och vila minst 5 minuter med armen i hjärthöjd."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad innebär öppet lyssnande i patientmötet?",
+          "back": "Öppna invitationer ('berätta'), sammanfattningar och bekräftelse som låter patienten berätta klart innan läkaren styr samtalet."
+        },
+        {
+          "front": "Vilka är de basala hygienrutinerna?",
+          "back": "Handdesinfektion före och efter patientkontakt, handskar vid risk för kroppsvätskekontakt, kortärmade kläder utan armband/klocka och rent skyddsförkläde."
+        },
+        {
+          "front": "Vad skiljer explicit, implicit och konfirmationsbias?",
+          "back": "Explicit fördom: medveten och uttalad. Implicit: omedveten automatisk association. Konfirmationsbias: tendens att bara söka information som bekräftar den egna hypotesen."
+        },
+        {
+          "front": "Vad ska du kontrollera vid venös provtagning för att göra det patientsäkert?",
+          "back": "Identifiera patienten med namn och personnummer, kontrollera indikation och rörtyp (färg), använd stasband kortvarigt, desinfektera och märk rören vid patienten – undvik felprov."
+        }
+      ],
+      "facts": [
+        "Konsultationen: initiering, mitten (anamnes/undersökning/förklaring), avslut.",
+        "Handdesinfektion före och efter varje patientkontakt.",
+        "Manschettbredd cirka 40 % av överarmens omkrets."
+      ]
+    }
+  ]
+}

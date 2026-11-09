@@ -1,0 +1,211 @@
+{
+  "course": "bv3",
+  "modules": [
+    {
+      "code": "Modul 1",
+      "title": "Modul 1",
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Modul 1 – Huvud och hals",
+          "objectives": [
+            "1.1.1 Ben",
+            "1.1.2 Oculus – ögat",
+            "1.1.3 Muskler",
+            "1.1.4 Auris – örat",
+            "1.1.5 Larynx",
+            "1.1.6 Cavitas nasi",
+            "1.1.7 Cavitas oris",
+            "1.1.8 Spottkörtlar",
+            "1.1.9 Pharynx",
+            "1.1.10 Nerver",
+            "1.1.11 Blodkärl",
+            "1.1.12 Glandula thyroidea et parathyroidea",
+            "1.1.13 Faschia",
+            "1.1.14 Anatomiska områden"
+          ]
+        },
+        {
+          "code": "1.2",
+          "title": "Modul 2 – thorax",
+          "objectives": [
+            "1.2.1 Bröst (mamma)",
+            "1.2.2 Ben",
+            "1.2.3 Muskler",
+            "1.2.4 Kärl och nerver",
+            "1.2.5 Lymfkärl",
+            "1.2.6 Organ",
+            "1.2.7 Områden"
+          ]
+        },
+        {
+          "code": "1.3",
+          "title": "Modul 3 – buk och bäcken",
+          "objectives": [
+            "1.3.1 Ben",
+            "1.3.2 Ligament",
+            "1.3.3 Muskler",
+            "1.3.4 Blodkärl",
+            "1.3.5 Lymfkärl",
+            "1.3.6 Bindvävsstrukturer",
+            "1.3.7 Gastrointestinala kanalen",
+            "1.3.8 Pancreas",
+            "1.3.9 Levern",
+            "1.3.10 Mjälten",
+            "1.3.11 Urinorgan",
+            "1.3.12 Genitalier",
+            "1.3.13 Nerver"
+          ]
+        },
+        {
+          "code": "1.4",
+          "title": "Modul 4 – rygg",
+          "objectives": [
+            "1.4.1 Columna vertebralis",
+            "1.4.2 Leder och ligament",
+            "1.4.3 Muskler",
+            "1.4.4 Blodkärl",
+            "1.4.5 Systema nervosum"
+          ]
+        },
+        {
+          "code": "1.5",
+          "title": "Modul 5 – armar",
+          "objectives": [
+            "1.5.1 Ben",
+            "1.5.2 Leder och ligament",
+            "1.5.3 Muskler",
+            "1.5.4 Vasa",
+            "1.5.5 Nervi"
+          ]
+        },
+        {
+          "code": "1.6",
+          "title": "Modul 6 – ben",
+          "objectives": [
+            "1.6.1 Osteologi",
+            "1.6.2 Leder och ligament",
+            "1.6.3 Muskler",
+            "1.6.4 Kärl",
+            "1.6.5 Nerver"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Modul 2",
+      "title": "Modul 2",
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Vävnader",
+          "objectives": [
+            "2.1.1 Epitelvävnad (yt- och körtelepitel)",
+            "2.1.2 Bindväv",
+            "2.1.3 Muskelvävnad"
+          ]
+        },
+        {
+          "code": "2.2",
+          "title": "Organ/organsystem",
+          "objectives": [
+            "2.2.1 Hud",
+            "2.2.2 Lymfatiska organ",
+            "2.2.3 Cirkulationsorgan",
+            "2.2.4 Respirationsorgan",
+            "2.2.5 Digestionsorgan",
+            "2.2.6 Urinorgan",
+            "2.2.7 Genitalorgan",
+            "2.2.8 Endokrina organ"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Modul 3",
+      "title": "Modul 3",
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för konsultationens tre delar samt strukturen för läkarens del av konsultationen innefattande differentialdiagnostiskt tänkande, den riktade anamnesen, samt statusundersökningar (S3)",
+          "objectives": [
+            "3.1.1 Kunna redogöra för hur läkarens användning av 3-stegs konsultationen (patientens del, läkarens del och den gemensamma delen) bidrar till personcentrerad vård",
+            "3.1.2 Kunna förklara och motivera innehåll och kronologi i läkarens del",
+            "3.1.3 Kunna definiera och förklara begreppet differentialdiagnos",
+            "3.1.4 Kunna förklara skillnad mellan spontananamnes och riktad anamnes",
+            "3.1.5 Ange vad rubriken Allmäntillstånd (AT) ska förmedla i journalen",
+            "3.1.6 Ange hur bedömning och dokumentation av allmäntillstånd skiljer sig från övriga statusfynd",
+            "3.1.7 Kunna förklara och motivera innehåll I statusundersökningen av följande organ/system:"
+          ]
+        },
+        {
+          "code": "3.2",
+          "title": "Redogöra för grundläggande begrepp inom patientsäkerhet och de vanligaste typerna av vårdskador (S3)",
+          "objectives": [
+            "3.2.1 Kunna definiera och förklara innebörden av följande grundläggande begrepp: vårdskada, patientsäkerhet, MTO",
+            "3.2.2 Redogöra för vanliga typer av vårdskada",
+            "3.2.3 Definiera diagnostiska fel och dess vanligaste orsaker dvs kognitiva faktorer, systemrelaterade faktorer och kunskapsbrist",
+            "3.2.4 Kunna förklara hur 3-regeln minskar risken för diagnostiska fel",
+            "3.2.5 Kunna förklara för hur en involverad patient kan hjälpa minskar risken för diagnostiska fel",
+            "3.2.6 Kunna ange vilket ansvar för patientsäkerhet som åligger den legitimerade läkaren samt relevant reglerande lagstiftning",
+            "3.2.7 Kunna ange hur och i vilket syfte avvikelserapportering sker",
+            "3.2.8 Redogöra vad som kännetecknar ett bra samarbete i sjukvården och hur det påverkar patientsäkerheten"
+          ]
+        },
+        {
+          "code": "3.3",
+          "title": "Redogöra för sambandet mellan vetenskap och beprövad erfarenhet inom hälso- och",
+          "objectives": []
+        },
+        {
+          "code": "3.4",
+          "title": "Redogöra översiktligt för hur genus, psykosociala, socioekonomiska, samhälls- och miljörelaterade faktorer påverkar hälsa, hälsolitteracitet och möjligheten att tillgodogöra sig hälso- och sjukvård (S3)",
+          "objectives": [
+            "3.4.1 Kunna beskriva hur kunskap om hälsans bestämningsfaktorer bidrar till effektivare hälso- och sjukvård och bättre hälsa",
+            "3.4.2 Känna till viktiga skyddsfaktorer för hälsa",
+            "3.4.3 Kunna ge exempel på omständigheter som begränsar möjligheten att tillgodogöra sig hälso- och sjukvård",
+            "3.4.4 Kunna förklara hur arbetsplatsinriktade insatser kan främja patienters hälsa och minska behov av sjukskrivning",
+            "3.4.5 Kunna redogöra översiktligt för hur krav-kontroll-modellen, inklusive beaktande av socialt stöd i modellen, kan användas för att bedöma hälsorisker i arbetsmiljön",
+            "3.4.6 Kunna beskriva hur faktorer på global, nationell, regional och lokal nivå kan påverka människors hälsa - idag och i framtiden, samt kunna ge exempel på hur dessa faktorer kan bero av varandra",
+            "3.4.7 Förklara hur universell utformning kan användas för att bidra till vårdtillgänglighet",
+            "3.4.8 Diskutera läkarens möjligheter att främja hälsa genom att arbeta för en hållbar utveckling i samhället inkluderande hälso- och sjukvården"
+          ]
+        },
+        {
+          "code": "3.5",
+          "title": "Resonera kring hur likabehandling, bemötande och hälsolitteracitet kan påverka hälsa, och möjlighet att tillgodogöra sig hälso- och sjukvård och basera sitt resonemang på vetenskaplig grund (S4)",
+          "objectives": [
+            "3.5.1 Redogöra för hur läkare kan bidra till gott bemötande och likabehandling i konsultationen",
+            "3.5.2 Resonera kring begreppet vårdtillgänglighet",
+            "3.5.3 Resonera kring hur kunskap om hälsans bestämningsfaktorer är användbar för folkhälsoarbete och i klinisk verksamhet"
+          ]
+        },
+        {
+          "code": "3.6",
+          "title": "Redogöra för centrala etiska begrepp, teorier, normer, värderingar och principer (S3) och beskriva hur de tillämpas inom hälso- och sjukvården (S4)",
+          "objectives": []
+        },
+        {
+          "code": "3.7",
+          "title": "Resonera kring etiska och moraliska dilemman av relevans för läkaren med utgångspunkt i medicinhistoriska exempel (S4)",
+          "objectives": []
+        },
+        {
+          "code": "3.8",
+          "title": "Analysera etiska problem som att precisera handlingsalternativ,",
+          "objectives": []
+        },
+        {
+          "code": "3.9",
+          "title": "Ge exempel på hur individers och gruppers behov kan stå i konflikt med varandra och påverka beslutsfattande i olika situationer (S4)",
+          "objectives": []
+        },
+        {
+          "code": "3.10",
+          "title": "Redogöra för hur synen på död och döende i relation till läkaryrket har förändrats ur ett transkulturellt ett medicinhistoriskt perspektiv (S3)",
+          "objectives": []
+        }
+      ]
+    }
+  ]
+}

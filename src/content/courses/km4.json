@@ -1,0 +1,570 @@
+{
+  "id": "km4",
+  "code": "KM4",
+  "title": "Klinisk medicin 4: Neuro, sinnen och psyke",
+  "term": "T8",
+  "icon": "🧠",
+  "color": "purple",
+  "sortOrder": 12,
+  "description": "Neurologi, psykiatri, ögonsjukdomar, öron-, näs- och halssjukdomar samt neurokirurgi. Tyngdpunkten ligger på den neurologiska undersökningen, akuta neurologiska tillstånd och psykiatrisk differentialdiagnostik.",
+  "chapters": [
+    {
+      "id": "km4-1",
+      "code": "Modul 1",
+      "title": "Neurologi",
+      "summary": "Nervsystemets sjukdomar från akut stroke och epilepsi till Parkinsons sjukdom och MS. Här tränas den strukturerade neurologiska undersökningen och igenkänning av tidskritiska tillstånd.",
+      "estMinutes": 34,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: stroke och cerebral ischemi",
+          "query": "ninja nerd ischemic stroke pathophysiology"
+        },
+        {
+          "label": "Ninja Nerd: basal ganglia och Parkinsons sjukdom",
+          "query": "ninja nerd basal ganglia parkinson disease"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Genomföra en strukturerad neurologisk statusbedömning och tolka avvikande fynd",
+          "level": "färdighet"
+        },
+        {
+          "code": "1.2",
+          "title": "Förklara varför DT hjärna är första bilddiagnostik vid misstänkt stroke",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Känna till kliniska kriterier för migrän respektive klusterhuvudvärk",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km4-1-q1",
+          "kind": "mcq",
+          "prompt": "En 72-årig man med förmaksflimmer insjuknar plötsligt med högersidig arm- och benpares samt expressiv afasi. Symtomen började för 40 minuter sedan. Vilken är den första undersökningen som ska göras?",
+          "options": [
+            "Akut DT av hjärnan utan kontrast för att utesluta blödning",
+            "Lumbalpunktion",
+            "MR av halsryggen",
+            "EEG"
+          ],
+          "answer": "Akut DT av hjärnan utan kontrast för att utesluta blödning",
+          "explanation": "Vid misstänkt stroke är första steget att utesluta intracerebral blödning, eftersom trombolys annars är direkt farligt. DT är snabbt tillgängligt och blod framstår hyperdensivt. Lumbalpunktion är kontraindicerad vid misstänkt ökad intrakraniell tryck och EEG används inte i akut skede."
+        },
+        {
+          "id": "km4-1-q2",
+          "kind": "mcq",
+          "prompt": "En 28-årig kvinna har i flera år haft attacker av pulserande halvsidig huvudvärk med illamående och ljus- och ljudkänslighet. Under en timme före varje attack ser hon ett zigzagmönster som växer ut i synfältet. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Migrän med aura",
+            "Klusterhuvudvärk",
+            "Subaraknoidalblödning",
+            "Spänningshuvudvärk"
+          ],
+          "answer": "Migrän med aura",
+          "explanation": "Aura är ett fokalt neurologiskt symtom som utvecklas gradvis och varar i upp till en timme innan huvudvärken, ofta med visuella fenomen som förklaras av kortikal spreading depression. Klusterhuvudvärk ger korta, mycket intensiva attacker kring ögat med autonomt symtom, och subaraknoidalblödning ger plötslig 'åskknallshuvudvärk'."
+        },
+        {
+          "id": "km4-1-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig man har sedan ett år fått allt svårare att komma igång med rörelser, han skriver allt mindre och går med korta steg. Vid undersökning ses vilotremor i höger hand, stelhet vid passiv rörelse och ett utslätat ansiktsuttryck. Vilken förändring ligger bakom symtomen?",
+          "options": [
+            "Förlust av dopaminerga neuron i substantia nigra",
+            "Demyliniserande lesioner i corpus callosum",
+            "Amyloidplack i hippocampus",
+            "Motorisk neuronförlust i cornu anterius"
+          ],
+          "answer": "Förlust av dopaminerga neuron i substantia nigra",
+          "explanation": "Hypokinesi, rigiditet och vilotremor vid Parkinsons sjukdom beror på degeneration av dopaminerga neuron i substantia nigra pars compacta, vilket ger minskad dopaminerg stimulering av striatum. Multipel skleros ger demyliniserande lesioner med skov och amyloidplack hör till Alzheimers sjukdom."
+        },
+        {
+          "id": "km4-1-q4",
+          "kind": "cloze",
+          "prompt": "En patient visar sig ha nedsatt kraft i höger arm och ben men ingen påverkan i ansiktet. Symtomen är kontralaterala eftersom de nedåtgående motorbanorna (pyramidbanan) korsar i ______.",
+          "answer": "medulla oblongata",
+          "explanation": "Pyramidbanan korsar i decussatio pyramidum i övergången mellan medulla oblongata och ryggmärgen, vilket förklarar att lesioner ovanför korsningen ger kontralaterala motorsymtom."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad ingår i en strukturerad neurologisk status?",
+          "back": "Vakenhet och orientering, kranialnerver, motorik (kraft och tonus), reflexer, sensibilitet, koordination och gång. Alltid jämförelse höger/vänster."
+        },
+        {
+          "front": "Vad är skillnaden mellan central och perifer facialispares?",
+          "back": "Central pares drabbar nedre delen av ansiktet kontralateralt (pannan kan rynkas); perifer pares drabbar hela halvan ipsilateralt, inklusive pannan. Central pares tyder på lesion ovan kärnan."
+        },
+        {
+          "front": "Vad kännetecknar ett epileptiskt anfall jämfört med synkope?",
+          "back": "Epileptiska anfall ger ofta prodromer, tonisk-kloniska rörelser, tungbett, cyanos och lång postiktal förvirring. Synkope ger blekhet, snabb återhämtning och ofta utlösande faktor som ortostas."
+        },
+        {
+          "front": "Vilka varningsflaggor vid huvudvärk kräver akut utredning?",
+          "back": "Plötslig debut med maximal intensitet, feber med nackstelhet, neurologiska bortfall, debut efter 50 års ålder, förändrat beteende och huvudvärk som förvärras i liggande."
+        },
+        {
+          "front": "Hur presenterar sig multipel skleros typiskt?",
+          "back": "Recidiverande neurologiska skov med symtom spridda i tid och rum, till exempel optikusneurit, sensoriska bortfall, ataxi och urinträngningar, vanligtvis hos unga vuxna kvinnor."
+        },
+        {
+          "front": "Vad är de viktigaste åtgärderna vid akut stroke utöver trombolys/trombektomi?",
+          "back": "Säkra luftväg och syresättning, reglera blodtryck och blodsocker, tidig DT och neurologbedömning, sväljtest innan födointag och trombosprofylax samt tidig rehabilitering."
+        }
+      ],
+      "facts": [
+        "DT utan kontrast utesluter blödning inför trombolys vid stroke.",
+        "Parkinsons sjukdom är en degenerationssjukdom i substantia nigra, inte en ren vilotremor-diagnos.",
+        "Aura vid migrän utvecklas gradvis och varar upp till en timme.",
+        "Pyramidbanan korsar i medulla oblongata."
+      ]
+    },
+    {
+      "id": "km4-2",
+      "code": "Modul 2",
+      "title": "Psykiatri",
+      "summary": "Affektiva sjukdomar, psykossjukdomar, ångest och beroende. Fokus ligger på att ställa rätt diagnos utifrån symtomens duration och funktionspåverkan samt på suicidriskbedömning.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: depression och monoaminhypotesen",
+          "query": "ninja nerd depression pathophysiology monoamine"
+        },
+        {
+          "label": "Ninja Nerd: schizofreni och dopaminhypotesen",
+          "query": "ninja nerd schizophrenia dopamine hypothesis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Diagnosticera egentlig depression utifrån symtomkriterier och duration",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Skilja bipolär sjukdom från unipolär depression och förklara risken med antidepressiv monoterapi vid mani",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Genomföra en grundläggande suicidriskbedömning och känna till när psykiatrisk akutvård krävs",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km4-2-q1",
+          "kind": "mcq",
+          "prompt": "En 30-årig kvinna söker efter sex veckor med nedstämdhet, minskat intresse för allt hon tidigare tyckt om, sömninsvårigheter, aptitförlust med viktnedgång, orkeslöshet och skuldkänslor. Hon har inga tankar på att skada sig. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Egentlig depression",
+            "Anpassningsstörning",
+            "Bipolär sjukdom typ I",
+            "Generaliserat ångestsyndrom"
+          ],
+          "answer": "Egentlig depression",
+          "explanation": "Egentlig depression kräver nedstämdhet eller anhedoni under minst två veckor samt minst fem symtom med funktionspåverkan; här finns både nedstämdhet och anhedoni med sömn-, aptit- och energipåverkan. Anpassningsstörning kräver en identifierbar stressor och uppfyller inte det fulla symtomkriteriet."
+        },
+        {
+          "id": "km4-2-q2",
+          "kind": "mcq",
+          "prompt": "En 22-årig man inkommer efter att i en vecka ha sovit två timmar per natt utan att känna trötthet. Han pratar oavbrutet, beskriver hur han ska köpa ett flygbolag och har spenderat stora summor pengar på ogenomtänkta affärer. Vilken behandling bör undvikas som monoterapi?",
+          "options": [
+            "Antidepressivt läkemedel i monoterapi",
+            "Stämningsstabiliserande behandling",
+            "Sömnfrämjande åtgärder",
+            "Strukturerad dygnsrytm och minskad stimuli"
+          ],
+          "answer": "Antidepressivt läkemedel i monoterapi",
+          "explanation": "Bilden är en manisk episod vid bipolär sjukdom typ I. Antidepressiva medel i monoterapi kan framkalla eller förvärra mani och ge snabbare cykling, därför används stämningsstabiliserare som grund. Sömn och struktur är viktiga komplement men inte tillräckliga vid uttalad mani."
+        },
+        {
+          "id": "km4-2-q3",
+          "kind": "mcq",
+          "prompt": "En 26-årig man söker för återkommande, påträngande tankar om att han ska smitta sin familj med smuts. Han tvättar händerna 40 gånger per dag, vilket tar flera timmar. Han beskriver tankarna som orimliga och egna, och han är mycket besvärad av dem. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Tvångssyndrom (OCD)",
+            "Schizofreni",
+            "Generaliserat ångestsyndrom",
+            "Tourettes syndrom"
+          ],
+          "answer": "Tvångssyndrom (OCD)",
+          "explanation": "Vid OCD upplevs tvångstankarna som egna och påträngande och insikten om att de är orimliga är oftast bevarad, medan tvångshandlingarna utförs för att dämpa ångesten. Vid schizofreni är vanföreställningarna ego-syntona och insikten nedsatt, och det finns ofta hallucinationer."
+        },
+        {
+          "id": "km4-2-q4",
+          "kind": "cloze",
+          "prompt": "En 48-årig man som dricker stora mängder alkohol dagligen läggs in på grund av en infektion och blir 24 timmar senare förvirrad, kraftigt tremorös, svettig med takykardi och synhallucinationer. Detta är den mest fruktade komplikationen till alkoholabstinens, nämligen ______.",
+          "answer": "delirium tremens",
+          "explanation": "Delirium tremens är en abstinenspsykos med förvirring, autonoma symtom, hallucinationer och risk för kramper, och den kan vara livshotande. Behandlingen är bland annat bensodiazepiner, tiamin och vätske-/elektrolytkorrigering."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Hur länge ska symtomen ha varat för diagnosen egentlig depression?",
+          "back": "Minst två veckor, med nedstämdhet eller anhedoni plus minst fyra ytterligare symtom (sammanlagt fem) och funktionspåverkan."
+        },
+        {
+          "front": "Vad skiljer bipolär typ I från typ II?",
+          "back": "Typ I: minst en manisk episod (kan ha haft depression). Typ II: depressiva episoder och hypomana episoder, men aldrig mani."
+        },
+        {
+          "front": "Vad är skillnaden mellan hallucination och illusion?",
+          "back": "Hallucination är en varseblivning utan yttre stimulus; illusion är en felaktig tolkning av en verklig sinnesintryck."
+        },
+        {
+          "front": "Vilka symtomdomäner bedöms vid en suicidriskbedömning?",
+          "back": "Aktuella tankar, planer och tillgång till medel, tidigare försök, pågående psykos eller rus, hopplöshet, skyddande faktorer och behov av omedelbar inläggning."
+        },
+        {
+          "front": "Vad kännetecknar Wernickes encefalopati och vad är behandlingen?",
+          "back": "Tiaminbrist, vanligt vid alkoholbruk, ger ögonmotorikstörningar, ataxi och förvirring. Behandlas med tiamin och kan övergå i Korsakoffs syndrom med kvarstående minnesstörning."
+        },
+        {
+          "front": "Varför är antidepressiva medel inte verksamma direkt?",
+          "back": "De ökar monoaminöverföringen snabbt, men klinisk effekt kommer först efter några veckor – förklaras av adaptiva förändringar som nedreglering av receptorer och ökad neuroplasticitet."
+        }
+      ],
+      "facts": [
+        "Mani kräver minst en veckas duration (eller inläggning) med ökad aktivitet och minskat sömnbehov.",
+        "Antidepressiv monoterapi vid bipolär sjukdom kan utlösa mani.",
+        "OCD kännetecknas av bevarad insikt – till skillnad från psykos.",
+        "Delirium tremens är en livshotande abstinenskomplikation med förvirring och autonoma symtom."
+      ]
+    },
+    {
+      "id": "km4-3",
+      "code": "Modul 3",
+      "title": "Ögonsjukdomar",
+      "summary": "Röda ögon, glaukom, katarakt, makuladegeneration och näthinneavlossning. Fokus ligger på att skilja benigna besvär från synhotande tillstånd som kräver omedelbar handläggning.",
+      "estMinutes": 28,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: ögats anatomi och främre kammare",
+          "query": "ninja nerd eye anatomy aqueous humor"
+        },
+        {
+          "label": "Ninja Nerd: glaukom",
+          "query": "ninja nerd glaucoma pathophysiology"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Skilja akut trångvinkelglaukom från konjunktivit och iridocyklit hos patienten med rött öga",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Förklara varför näthinneavlossning och akut synnedsättning kräver omedelbar ögonläkarkontakt",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Känna till riskfaktorer och symtom vid åldersrelaterad makuladegeneration",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km4-3-q1",
+          "kind": "mcq",
+          "prompt": "En 74-årig man söker akut med svår smärta i höger öga, huvudvärk, illamående och kraftigt dimmig syn. Ögat är rött, kornea grumlig, pupillen mellanvid och reagerar dåligt på ljus, och ögontrycket är högt. Vad är den omedelbara åtgärden?",
+          "options": [
+            "Akut trycksänkande behandling och omedelbar ögonläkarkontakt",
+            "Antibiotikadroppar mot misstänkt konjunktivit",
+            "Tryckförband och kontroll om en vecka",
+            "Kortisondroppar i väntan på kontroll"
+          ],
+          "answer": "Akut trycksänkande behandling och omedelbar ögonläkarkontakt",
+          "explanation": "Bilden är akut vinkelblockglaukom där kammarvinkeln är stängd så att kammarvattnet inte kan dräneras. Ökat tryck skadar synnerven snabbt. Symtom som illamående, halosyn och medelvid pupill skiljer tillståndet från konjunktivit, som ger rött öga men normal syn och skarp pupillreflex."
+        },
+        {
+          "id": "km4-3-q2",
+          "kind": "mcq",
+          "prompt": "En 79-årig kvinna söker för långsamt tilltagande svårighet att läsa och se ansikten. Hon beskriver att raka linjer, till exempel i dörrkarmen, ser böjda och vinda ut. Främre segment och tryck är normala. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Åldersrelaterad makuladegeneration",
+            "Katarakt",
+            "Öppenvinkelglaukom",
+            "Optikusneurit"
+          ],
+          "answer": "Åldersrelaterad makuladegeneration",
+          "explanation": "Metamorfopsi (vinda linjer) och central synnedsättning talar för påverkan i makula, där fotoreceptorerna sitter. Katarakt ger diffus dimma och bländning utan metamorfopsi, glaukom ger perifera synfältsbortfall och optikusneurit ger snabb synnedsättning med smärta vid ögonrörelse."
+        },
+        {
+          "id": "km4-3-q3",
+          "kind": "mcq",
+          "prompt": "En 55-årig närsynt man får plötsliga ljusblixtar och 'flugor' i vänster synfält, och några timmar senare ett mörkt skymningsfält som växer från periferin. Vad ska han göra?",
+          "options": [
+            "Omedelbart söka ögonakut – misstanke om näthinneavlossning",
+            "Avvakta eftersom flugor och blixtar alltid är godartade",
+            "Boka tid hos optiker om en månad",
+            "Behandla med smörjande ögondroppar"
+          ],
+          "answer": "Omedelbart söka ögonakut – misstanke om näthinneavlossning",
+          "explanation": "Ljusblixtar (fotopsier) och en växande skugga i synfältet är klassiska symtom på näthinneavlossning, särskilt hos närsynta och efter trauma. Avlossad näthinne får irreversibla skador utan kirurgisk åtgärd; godartade culprits är i stället enskilda symptom utan skuggfält."
+        },
+        {
+          "id": "km4-3-q4",
+          "kind": "cloze",
+          "prompt": "Vid akut vinkelblockglaukom stiger ögontrycket därför att ______ är blockerad, så att kammarvattnet inte kan lämna ögat.",
+          "answer": "kammarvinkeln",
+          "explanation": "När linsen pressar iris framåt stängs kammarvinkeln där trabekelverket dränerar kammarvattnet. Tryckstegringen ger smärta, korneaödem och synnedsättning, och behandlingen syftar till att öppna vinkeln och sänka produktionen av kammarvatten."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka fynd talar för akut trångvinkelglaukom?",
+          "back": "Svår ögonsmärta, rött öga, grumlig kornea, medelvid reaktionslös pupill, halosyn, illamående och kraftigt förhöjt ögontryck."
+        },
+        {
+          "front": "Vad är katarakt och vilken är den enda botande behandlingen?",
+          "back": "Grumling av linsen ger långsamt tilltagande dimsyn och bländning. Enda botande behandlingen är operation med byte av linsen till konstgjord lins."
+        },
+        {
+          "front": "Hur skiljer man torr från våt makuladegeneration?",
+          "back": "Torr form: långsam atrofi med drusen. Våt form: kärlnybildning under näthinnan som läcker, med snabbare synnedsättning och behandling med anti-VEGF-injektioner."
+        },
+        {
+          "front": "Vilka symtom ska alltid leda till akut ögonläkarbedömning?",
+          "back": "Plötslig synnedsättning, synfältsbortfall, smärta med rött öga, trauma, ljusblixtar med skuggfält och ny upplevelse av dubbelseende."
+        },
+        {
+          "front": "Vad kännetecknar bakteriell konjunktivit jämfört med viral?",
+          "back": "Bakteriell: riklig gulgrön sekretion, klibbar igen ögat på morgonen, ofta ensidig. Viral: vattnig sekretion, ofta bilateral, förknippad med förkylning och lymfkörtelförstoring."
+        }
+      ],
+      "facts": [
+        "Metamorfopsi pekar på makulapåverkan.",
+        "Akut vinkelblockglaukom är en ögonakut med trycksänkning och ögonläkarkontakt direkt.",
+        "Ljusblixtar med växande skuggfält = näthinneavlossning tills motsatsen bevisats.",
+        "Katarakt opereras – den botas inte med droppar."
+      ]
+    },
+    {
+      "id": "km4-4",
+      "code": "Modul 4",
+      "title": "Öron-, näs- och halssjukdomar",
+      "summary": "Öroninflammationer, hörselnedsättning, yrsel, näsblödning och misstänkta tumörer i huvud-halsregionen. Fokus ligger på att känna igen benigna besvär men också varningssignaler som kräver utredning.",
+      "estMinutes": 27,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: örats anatomi och hörselorganet",
+          "query": "ninja nerd ear anatomy hearing physiology"
+        },
+        {
+          "label": "Ninja Nerd: vestibularissystemet och yrsel",
+          "query": "ninja nerd vestibular system vertigo"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Diagnostisera och behandla akut otitis media samt känna igen komplikationer",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Skilja ledningshinder från sensorineural hörselnedsättning med stämgaffelprov",
+          "level": "färdighet"
+        },
+        {
+          "code": "4.3",
+          "title": "Känna till varningssignaler för huvud-halstumör som heshet, ensidig nästäppa och palpabel lymfkörtel",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km4-4-q1",
+          "kind": "mcq",
+          "prompt": "En 5-årig pojke har haft förkylning i tre dagar och får nu feber och svår öronvärk på höger sida. Otoskopi visar en utbuktande, rodnad och ogenomskinlig trumhinna. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Akut otitis media",
+            "Otitis externa",
+            "Sekretorisk otit",
+            "Vestibularisneurit"
+          ],
+          "answer": "Akut otitis media",
+          "explanation": "Akut otitis media uppstår när en övre luftvägsinfektion leder till dysfunktion av tuba auditiva så att sekret ansamlas i mellanörat. Utbuktande, rodnad trumhinna med feber och öronvärk är typiskt, medan otitis externa ger smärta vid dragning i öronmusslan och sekretorisk otit ger vätska utan akut inflammation."
+        },
+        {
+          "id": "km4-4-q2",
+          "kind": "mcq",
+          "prompt": "En 42-årig man har kraftig näsblödning från vänster näsborre sedan 25 minuter. Han är hyperton och tar blodtryckssänkande medicin. Blödningen kommer från septum i den främre delen av näsan. Vilket område blöder och vad gör du först?",
+          "options": [
+            "Plexus Kiesselbachi – komprimera näsvingen och sätt patienten upprätt framåtlutad",
+            "Sinus sphenoidalis – lägg patienten på rygg utan kompression",
+            "Tonsillerna – svalgtamponad direkt",
+            "Mellanörat – trumhinneincision"
+          ],
+          "answer": "Plexus Kiesselbachi – komprimera näsvingen och sätt patienten upprätt framåtlutad",
+          "explanation": "De flesta främre näsblödningar kommer från plexus Kiesselbachi på septum, ett kärlrikt område där flera artärer möts. Korrekt första åtgärd är tryck mot näsvingen i cirka 10–15 minuter med patienten upprätt och framåtlutad så att blod inte sväljs. Bakre blödningar ger blod i svalget och kräver oftast tamponad av bakre näshålan."
+        },
+        {
+          "id": "km4-4-q3",
+          "kind": "mcq",
+          "prompt": "En 62-årig man som röker söker för heshet som varat i sex veckor och som tilltagit. Han har gått ner i vikt och har en palpabel körtel på halsens vänstra sida. Han har fått antibiotika utan effekt. Vad ska göras?",
+          "options": [
+            "Remiss för utredning med laryngoskopi och biopsi vid misstänkt larynx- eller hypofarynxcancer",
+            "Förnyad antibiotikakur",
+            "Behandling med protonpumpshämmare och kontroll om sex månader",
+            "Röstvila i tre månader"
+          ],
+          "answer": "Remiss för utredning med laryngoskopi och biopsi vid misstänkt larynx- eller hypofarynxcancer",
+          "explanation": "Heshet som varar över tre veckor, särskilt med rökning, viktnedgång och palpabel halskörtel, är en varningssignal för malignitet i larynx eller hypofarynx och ska utredas med laryngoskopi. Upprepad antibiotika eller lång observation fördröjer diagnosen."
+        },
+        {
+          "id": "km4-4-q4",
+          "kind": "cloze",
+          "prompt": "En 38-årig kvinna får plötslig kraftig yrsel, illamående och kräkningar och kan inte stå stadigt. Hon har spontannystagmus men normal hörsel och inga centrala neurologiska bortfall. Detta talar för ______.",
+          "answer": "vestibularisneurit",
+          "explanation": "Vestibularisneurit är en inflammation i vestibularisnerven, ofta efter en virusinfektion, som ger akut perifer yrsel utan hörselpåverkan. Centrala symtom som dubbelseende, talstörning eller bortfall av kraft ska i stället väcka misstanke om stroke i hjärnstammen eller lillhjärnan."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad innebär Rinne- och Weberproven?",
+          "back": "Rinne: luftledning jämförs med benledning – normalt hörs luftledning bättre. Weber: stämgaffel på hjässan – lateralisering till det sjuka örat vid ledningshinder, till det friska vid sensorineural nedsättning."
+        },
+        {
+          "front": "Vilka är de vanligaste agens vid akut otitis media?",
+          "back": "Streptococcus pneumoniae, Haemophilus influenzae och Moraxella catarrhalis. Virus förekommer också, och de flesta fall läker spontant."
+        },
+        {
+          "front": "Vad kännetecknar Menières sjukdom?",
+          "back": "Återkommande attacker av yrsel med sensorineural hörselnedsättning, tinnitus och öronsus, orsakat av endolymfatisk hydrops."
+        },
+        {
+          "front": "Vilka varningssignaler vid heshet ska utredas?",
+          "back": "Heshet över tre veckor, särskilt hos rökare, med viktnedgång, palpabel halskörtel eller påverkat allmäntillstånd – misstanke om larynx- eller hypofarynxcancer."
+        },
+        {
+          "front": "Vad är septumhematom och varför behandlas det?",
+          "back": "Blodansamling under septumperikondriet efter trauma kan ge trycknekros av brosket med septumperforation eller sadelnäsa. Behandling är incision och dränage."
+        }
+      ],
+      "facts": [
+        "Heshet över tre veckor ska utredas med laryngoskopi.",
+        "De flesta näsblödningar kommer från plexus Kiesselbachi på septum.",
+        "Weber lateralisering till sjuka örat = ledningshinder.",
+        "Akut otitis media är oftast virusorsakad eller självläkande."
+      ]
+    },
+    {
+      "id": "km4-5",
+      "code": "Modul 5",
+      "title": "Neurokirurgi",
+      "summary": "Intrakraniella blödningar, höjt intrakraniellt tryck och hydrocefalus. Fokus ligger på att tidigt känna igen den neurokirurgiska akutsituationen och förstå varför tiden är så avgörande.",
+      "estMinutes": 26,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: intrakraniellt tryck och hjärnherniering",
+          "query": "ninja nerd intracranial pressure herniation"
+        },
+        {
+          "label": "Ninja Nerd: epiduralt och subduralt hematom",
+          "query": "ninja nerd epidural subdural hematoma"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "5.1",
+          "title": "Skilja epiduralt från subduralt hematom utifrån traumaanamnes, symtomförlopp och DT-morfologi",
+          "level": "kunna"
+        },
+        {
+          "code": "5.2",
+          "title": "Förklara mekanismen bakom Cushings trias vid höjt intrakraniellt tryck",
+          "level": "kunna"
+        },
+        {
+          "code": "5.3",
+          "title": "Känna till hur subaraknoidalblödning utreds och varför tidig handläggning är viktig",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km4-5-q1",
+          "kind": "mcq",
+          "prompt": "En 24-årig man slår huvudet i en trappa, är vaken och klar i huvudet i några minuter men blir sedan allt slöare. Vid ankomst är höger pupill vidgad och reagerar inte på ljus, och han har högersidig svaghet i armen. Vilken struktur är skadad och vilket tillstånd föreligger?",
+          "options": [
+            "Epiduralt hematom efter skada på a. meningea media",
+            "Subduralt hematom efter skada på bryggvener",
+            "Kroniskt subduralhematom med långsam utveckling",
+            "Subaraknoidalblödning från rupturerat aneurysm"
+          ],
+          "answer": "Epiduralt hematom efter skada på a. meningea media",
+          "explanation": "Epiduralt hematom är arteriellt och ger ett snabbt förlopp, ofta med ett kort vaket intervall innan försämring. DT visar en linsformad (bikonvex) samling. Den vidgade ipsilaterala pupillen beror på transtentoriell herniering som trycker på n. oculomotorius, ett akut neurokirurgiskt tillstånd."
+        },
+        {
+          "id": "km4-5-q2",
+          "kind": "mcq",
+          "prompt": "En 68-årig kvinna som behandlas med blodförtunnande har haft lätt huvudvärk och tilltagande förvirring under tre veckor. Hon slog huvudet lätt i badrummet för en månad sedan. DT visar en halvmåneformad samling längs hemisfärens yta. Vilken diagnos föreligger?",
+          "options": [
+            "Kroniskt subduralhematom",
+            "Epiduralt hematom",
+            "Subaraknoidalblödning",
+            "Hjärnabscess"
+          ],
+          "answer": "Kroniskt subduralhematom",
+          "explanation": "Kroniskt subduralhematom uppstår efter lindrigt trauma med skada på bryggvener, blöder långsamt och ger progredierande neurologiska symtom över veckor. På DT ses en halvmåneformad samling som kan korsa suturerna, till skillnad från det linsformade epidurala hematomet som inte passerar suturer."
+        },
+        {
+          "id": "km4-5-q3",
+          "kind": "mcq",
+          "prompt": "En 45-årig kvinna får plötslig, extremt svår huvudvärk som hon beskriver som 'ett slag mot bakhuvudet', och hon kräks. Hon är lätt nackstyv. DT utan kontrast är utan säkra tecken på blödning. Vad gör du?",
+          "options": [
+            "Lumbalpunktion för att leta efter xanthokromi/blod i cerebrospinalvätskan",
+            "Skickar hem henne med analgetika",
+            "Beställer MR av halsryggen",
+            "Ger antibiotika mot meningit och avvaktar"
+          ],
+          "answer": "Lumbalpunktion för att leta efter xanthokromi/blod i cerebrospinalvätskan",
+          "explanation": "Thunderclap-huvudvärk ger stark misstanke om subaraknoidalblödning, oftast från ett rupturerat aneurysm. En tidig DT kan vara falskt negativ, varför lumbalpunktion med analys av xanthokromi är nästa steg. Att skicka hem patienten riskerar blödningsrecidiv med hög mortalitet."
+        },
+        {
+          "id": "km4-5-q4",
+          "kind": "cloze",
+          "prompt": "En patient med uttalat höjt intrakraniellt tryck har bradycardi, hypertoni och oregelbunden andning. Detta symtomtrias kallas ______.",
+          "answer": "Cushings trias",
+          "explanation": "Cushings trias uppstår när herniering komprimerar hjärnstammen och ger ökad sympatikusaktivitet med hypertoni och reflexbradycardi samt andningsstörning. Det är ett sent och allvarligt tecken på hotande herniering."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad skiljer epiduralt från subduralt hematom på DT?",
+          "back": "Epiduralt: linsformad (bikonvex), korsar inte suturer, arteriellt (a. meningea media), snabbt förlopp. Subduralt: halvmåneformat, korsar suturerna, venöst (bryggvener), långsammare."
+        },
+        {
+          "front": "Vad är Cushings trias?",
+          "back": "Hypertoni, bradycardi och oregelbunden andning vid höjt intrakraniellt tryck med hotande herniering."
+        },
+        {
+          "front": "Vilka är tidiga tecken på höjt intrakraniellt tryck?",
+          "back": "Huvudvärk som förvärras i liggande, illamående/kräkningar, nedsatt vakenhet, påverkad pupill och papillödem."
+        },
+        {
+          "front": "Varför uppstår hydrocefalus och hur behandlas den?",
+          "back": "Störd cirkulation eller absorption av cerebrospinalvätska ger dilaterade ventriklar. Behandling är dränage (EVD) eller shunt, vid akut vinkelblockshydrocefalus snabbt."
+        },
+        {
+          "front": "Vad gör man först när en patient med misstänkt intrakraniell blödning försämras?",
+          "back": "Säkra luftväg (intubation vid GCS under 8), undvika hypoxi och hypotension, höjd huvudända och omedelbar neurokirurgisk kontakt samt DT."
+        }
+      ],
+      "facts": [
+        "Epiduralt hematom ger linsformad samling och ett kort vaket intervall.",
+        "Subduralt hematom korsar suturerna, epiduralt gör det inte.",
+        "Thunderclap-huvudvärk ska utredas med DT och vid behov lumbalpunktion.",
+        "GCS under 8 motiverar luftvägssäkring."
+      ]
+    }
+  ]
+}

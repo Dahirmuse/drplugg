@@ -1,0 +1,677 @@
+{
+  "id": "bv5",
+  "code": "BV5",
+  "title": "Basvetenskap 5: Funktion och dysfunktion",
+  "term": "T3–T4",
+  "icon": "❤️",
+  "color": "orange",
+  "sortOrder": 5,
+  "description": "Organfysiologi i hjärta, lungor, njurar, mag-tarmkanal och reproduktion – och hur samma mekanismer bryter samman vid sjukdom.",
+  "chapters": [
+    {
+      "id": "bv5-m1",
+      "code": "Modul 1",
+      "title": "Farmakologi och immunologi",
+      "summary": "Allmän farmakologi (farmakokinetik, farmakodynamik, interaktioner), immunologins grunder, microbicida substanser och immunofarmakologi.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Allmän farmakologi"
+        },
+        {
+          "code": "1.2",
+          "title": "Immunologi"
+        },
+        {
+          "code": "1.3",
+          "title": "Microbicida substanser"
+        },
+        {
+          "code": "1.4",
+          "title": "Immunofarmakologi"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Beskriva olika administreringsvägar av läkemedel och dessas fördelar och nackdelar",
+        "1.1.2 Redogöra för absorption av läkemedel, faktorer som påverkar absorptionen, samt metoder för att erhålla fördröjd absorption – [Rang and Dale’s Kapitel 9]",
+        "1.1.3 Definiera begreppen biologisk tillgänglighet samt kunna beräkna denna",
+        "1.1.4 Redogöra för vilka faktorer som kan påverka biologisk tillgänglighet",
+        "1.1.5 Beskriva för metabolism av läkemedel, inklusive metaboliserande organ, Fas I och II reaktioner, samt involverade enzymsystem",
+        "1.1.6 Redogöra för och diskutera faktorer som påverkar metabolismen (t.ex. interindividuell variation, enzyminduktion, bioaktivering)",
+        "1.1.7 Beskriva hur olika läkemedel kan ha interaktioner och påverka deras respektive effekt 26 1.1.8 Identifiera lämpliga databaser för information om läkemedelsinteraktion",
+        "1.1.9 Diskutera betydelsen av genotypning (personalized medicine) för optimering av läkemedelsbehandling",
+        "1.1.13 Beskriva 0:e och 1:a ordningens kinetik för eliminering av läkemedel",
+        "1.1.14 Beskriva dosberoende kinetik samt beskriva konsekvenserna av denna vid dosering av läkemedel",
+        "1.1.15 Definiera clearancebegreppet",
+        "1.1.16 Redogöra för vilka faktorer påverkar låg- och högclearenceläkemedel",
+        "1.1.17 Redogöra för betydelsen av upprepad dosering av läkemedel samt kunna beräkna jämviktskoncentration i plasma och tid för uppnådd jämvikt vid konstant dosering",
+        "1.1.18 Redogöra översiktligt för vilka risker individen kan utsättas för i samband med läkemedelsbehandling",
+        "1.1.19 Redogöra översiktligt för risker med läkemedelsanvändning ur ett miljö- och samhällsperspektiv",
+        "1.1.20 Identifiera lämpliga databaser och andra kunskapskällor som kan ge information om miljöpåverkan av specifika läkemedel/läkemedelssubstanser samt beskriva hur läkaren har användning av sådan information",
+        "1.1.21 Redogöra översiktligt för komplementärmedicinsk farmakologi, dess effekter, kvalitet, säkerhet och legala aspekter",
+        "1.1.22 Redogöra (substrat, produkter, enzymer, coenzymer, organ, subcellulär lokalisation, genetiska skillnader) för alla steg vid omvandlingen av etanol till acetyl CoA och vidare till koldioxid och/eller fettsyror",
+        "1.1.23 Redogöra för bakgrunden till blodalkoholkurvan efter av etanol",
+        "1.2.1 Beskriva lymfatiska organs mikroskopiska struktur och roll för immunsvar (thymus, mjälte, lymfknutor, mukosa-associerad lymfoid vävnad)",
+        "1.2.2 Känna till distinktionen mellan primära och sekundära (centrala och perifera) lymfatiska organ samt begreppen BALT och GALT",
+        "1.2.3 Känna till lymfopoes och granulopoes och relationen mellan utvecklingslinjerna för immunsystemets olika celler",
+        "1.2.4 Redogöra för de principiella skillnaderna mellan medfödda (konstitutiva) och förvärvade (adaptiva) försvarsmekanismer och hur dessa samverkar för att generera optimalt försvar mot olika typer av infektioner",
+        "1.2.5 Redogöra för den initiala försvarsbarriären mot infektion, d.v.s. epitelbarriärer, samt för de specialiserade immunologiska cellerna, molekylerna och funktionerna i det medfödda immunförsvaret",
+        "1.2.6 Redogöra för hur immunsystemets celler cirkulerar i kroppen via lymfa, blod och vävnader samt förstå begreppet ”high endothelial venules” (HEV)",
+        "1.2.7 Redogöra för begreppet inflammation inkluderande fenomen som kemotaxiinducerad rekrytering och extravasering av leukocyter",
+        "1.3.1 Beskriva de tre principiella vägarna för aktivering av komplementsystemet och dess effektorfunktioner",
+        "1.3.2 Känna till thymushormoner",
+        "1.3.5 Redogöra för basal genetik och mångfald hos MHC molekyler, samt hur detta kan påverka olika medicinska tillstånd och beslut",
+        "1.3.6 Redogöra för thymusberoende utveckling av T celler (positiv och negativ selektion), tolerans, klonal selektion, expansion och utveckling av minne inom T- cellssystemet",
+        "1.3.7 Redogöra för begreppen professionella antigen-presenterande celler, co- stimulerande molekyler och samverkan mellan T-celler och andra celler vid aktivering av immunsvar",
+        "1.3.8 Redogöra för de olika huvudsakliga funktionerna hos T-mördarceller, T- hjälpceller inkluderande Th1, Th2, Th17 samt regulatoriska T-celler",
+        "1.3.9 Känna till olika subklasser av lymfocyter, såsom NK-celler, NKT-celler, T-celler med gd-receptor, samt vissa molekylgrupper som superantigener, icke klassiska MHC- molekyler",
+        "1.3.10 Känna till några sjukdomstillstånd där thymus spelar en roll",
+        "1.3.11 Redogöra för B-cell-receptorers och antikroppars struktur och funktion",
+        "1.3.12 Redogöra för begreppet klonal selektion och hur denna, i kombination med mångfald, enligt evolutionära principer bidrar till de speciella karaktäristika i adaptiva immunsvar",
+        "1.3.13 Känna till sammansättningen av groddcentra i perifer lymfatisk vävnad",
+        "1.3.14 Redogöra för de olika faserna i B-cellsvaret inkluderande begrepp som: proliferation, differentiering till plasmaceller, Ig produktion, affinitetsmognad samt B cell-minne",
+        "1.3.15 Redogöra för olika immunoglobulinisotypers struktur, funktion och lokalisation samt reglering av antikroppsproduktion och övergång (”switch”) mellan immunoglobulinklasser",
+        "1.3.16 Känna till T-cellberoende och T-celloberoende antikroppssvar",
+        "1.3.17 Redogöra för och definiera begreppen antigen, epitop, receptor, ligand, igenkännande, specificitet, affinitet och aviditet",
+        "1.3.18 Känna till mekanismer för B-celltolerans",
+        "1.3.19 Redogöra för principerna för hur mångfalden av T- och B-cellsreceptorer samt antikroppar genereras på molekylär nivå",
+        "1.3.20 Redogöra för hur immunologiska svar regleras, hur detta påverkas av olika konstitutionella och omgivningsfaktorer",
+        "1.3.21 Känna till de huvudsakliga immunologiska faktorerna som kan påverka uppkomst eller förlopp vid svåra infektioner, autoimmuna sjukdomar, allergier, cancer, transplantation",
+        "1.3.22 Känna till basala principer för antikroppsbaserade analyser som ELISA, RIA, immunofluorescens, flödescytometri, immunoprecipitation och western blot",
+        "1.3.23 Förstå sambandet mellan malnutrition och infektionskänslighet",
+        "1.3.24 Redogöra för systemiska konsekvenser av inflammation inkluderande akutfas, svar och feber",
+        "1.4.1 Översiktligt beskriva hur prostaglandiner, tromboxaner och leukotriener bildas och betydelsen av cyklooxygenas (COX1 och COX2) aktivitet",
+        "1.4.2 Redogöra för prostaglandiners och leukotrieners effekter i samband med inflammation",
+        "1.4.3 Redogöra för NSAID-preparat och deras effekt på inflammation, feber och smärta, verkningsmekanism, kinetik, biverkningar (gastrointestinala, venös tromboembolism, partus), toxiska effekter av acetylsalicylsyra (barn, vuxna)",
+        "1.4.4 Beskriva kortikosteroiders verkningsmekanismer och effekter i farmakologisk dos, indikationer, administreringssätt och biverkningar",
+        "1.4.5 Redogöra för verkningsmekanismen för syntetiska sjukdomsmodifierande antireumatiska läkemedel (DMARDs): metotrexat, ciklosporin, takrolimus, mykofenolatmofetil, JAK-hämmare",
+        "1.4.6 Förklara hur biologiska läkemedel (DMARDs) skiljer sig från syntetiska DMARDs och redogöra för verkningsmekanismen för biologiska sjukdomsmodifierande antireumatiska läkemedel som hämmar effekten av cytokiner, T-celler och B-celler",
+        "1.4.7 Ge exempel på immunosuppressiva läkemedel som används vid organtransplantation och deras verkningsmekanismer",
+        "1.4.8 Förklara effekten av 5-aminosalisylsyra (5-ASA) och ge exempel på verkningsmekanismer hos biologiska läkemedel som används vid behandling av inflammatoriska tarmsjukdomar som ulcerös kolit"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: farmakokinetik",
+          "query": "ninja nerd pharmacokinetics"
+        },
+        {
+          "label": "Ninja Nerd: antibiotika – verkningsmekanismer",
+          "query": "ninja nerd antibiotics mechanisms of action"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv5-m1-q1",
+          "kind": "mcq",
+          "prompt": "Varför får ett läkemedel med hög first-pass-metabolism låg biotillgänglighet vid peroral administrering?",
+          "options": [
+            "En stor del bryts ner i lever och tarmvägg innan det når systemcirkulationen",
+            "Det binds irreversibelt till albumin och utsöndras via njurarna",
+            "Det kan inte passera magsäckens pH",
+            "Det utsöndras direkt via gallan utan att verka"
+          ],
+          "answer": "En stor del bryts ner i lever och tarmvägg innan det når systemcirkulationen",
+          "explanation": "Efter absorption passerar läkemedlet portavenen till levern där en del metaboliseras (first-pass) innan det når systemcirkulationen – biotillgängligheten blir lägre än 100 procent."
+        },
+        {
+          "id": "bv5-m1-q2",
+          "kind": "mcq",
+          "prompt": "Hur verkar betalaktamantibiotika (t.ex. penicillin) på bakterier?",
+          "options": [
+            "De hämmar transpeptidaser och därmed cellväggssyntesen",
+            "De hämmar bakteriens ribosomer (50S)",
+            "De hämmar DNA-gyras",
+            "De bildar fria radikaler i bakteriens cytoplasma"
+          ],
+          "answer": "De hämmar transpeptidaser och därmed cellväggssyntesen",
+          "explanation": "Betalaktamer binder penicillinbindande protein (PBP/transpeptidas) och blockerar peptidoglykansyntesen – baktericid effekt, särskilt i växande bakterier. Resistens sker ofta via betalaktamas."
+        },
+        {
+          "id": "bv5-m1-q3",
+          "kind": "cloze",
+          "prompt": "Andelen av en given dos läkemedel som når systemcirkulationen i oförändrad form kallas ______.",
+          "answer": "biotillgänglighet",
+          "explanation": "Biotillgänglighet (F) anges i procent och påverkas av absorption, first-pass-metabolism och administreringsväg (intravenös = 100 procent)."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är skillnaden mellan farmakokinetik och farmakodynamik?",
+          "back": "Farmakokinetik = vad kroppen gör med läkemedlet (ADME). Farmakodynamik = vad läkemedlet gör med kroppen (verkningsmekanism, dos–respons)."
+        },
+        {
+          "front": "Vad menas med halveringstid och vad styr den?",
+          "back": "Tiden till halva plasmakoncentrationen; avgörs av clearance och distributionsvolym. Vid cirka 4–5 halveringstider har steady state nåtts."
+        },
+        {
+          "front": "Vilka fyra huvudmekanismer har antibiotika?",
+          "back": "Cellväggssyntes (betalaktamer, glykopeptider), proteinsyntes (aminoglykosider, tetracykliner), DNA/RNA (kinoloner, rifampicin) och folsyrasyntes (sulfa/trimetoprim)."
+        },
+        {
+          "front": "Vad gör en immunsuppressiv respektive immunmodulerande behandling?",
+          "back": "Immunsuppression dämpar immunsvaret (t.ex. vid transplantation, autoimmun sjukdom); immunmodulering justerar svaret (t.ex. interferon, checkpoint-hämmare)."
+        }
+      ],
+      "facts": [
+        "First-pass-metabolism sänker biotillgängligheten.",
+        "Betalaktamer hämmar cellväggssyntesen och är baktericida.",
+        "Steady state nås efter cirka 4–5 halveringstider."
+      ]
+    },
+    {
+      "id": "bv5-m2",
+      "code": "Modul 2",
+      "title": "Muskel och hjärta",
+      "summary": "Skelettmuskelns och hjärtmuskelns fysiologi och farmakologi, excitation–kontraktion, hjärtats arbete och vanliga hjärtsjukdomar med behandling.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Skelettmuskel och hjärtmuskel – Jämförelse"
+        },
+        {
+          "code": "2.2",
+          "title": "Skelettmuskel"
+        },
+        {
+          "code": "2.3",
+          "title": "Hjärta"
+        },
+        {
+          "code": "2.4",
+          "title": "Hjärtsjukdomar"
+        },
+        {
+          "code": "2.5",
+          "title": "Biokemi och nutrition"
+        }
+      ],
+      "objectives": [
+        "2.1.2 Redogöra för skelett och hjärtmuskelcellens mekaniska egenskaper inkluderande isometrisk längd-kraftkurva, dess normala arbetsområde samt aktiv och passiv kraft",
+        "2.1.3 Redogöra för skelett -och hjärtmuskelns metabolism och energiförråd, samt betydelsen av kreatinfosfat, anaerob och aerob nedbrytning av glykogen och fettnedbrytning; oxidativ fosforylering",
+        "2.1.4 Jämföra aktiveringsförlopp och kontraktion i glatt, hjärt- och skelettmuskel .. 49 2.1.5 Jämföra längd-kraftförhållandet mellan skelettmuskel och hjärtmuskel under normalfysiologiska och patologiska förhållanden",
+        "2.2.1 Redogöra för korsbryggecykeln inkluderandes ATP:s roll, myosinets ATPas- aktivitet, ”power stroke”, rigor mortis",
+        "2.2.2 Redogöra för orsaker till muskeltrötthet vid normal fysiologisk ansträngning 50 2.2.3 Förklara funktionen och betydelsen av olika fibertyper i skelettmuskel",
+        "2.3.2 Redogöra för hur ett normalt EKG uppstår, hur hjärtmuskelcellernas potentialvariationer står i relation till de signaler som kan avledas utanpå kroppen, samt hur EKG-vågorna relaterar till hjärtcykeln",
+        "2.3.4 Redogöra för hur hjärtats kontraktionskraft påverkas av varierad diastolisk fyllnad (Frank-Starlings princip)",
+        "2.3.7 Redogöra för hur förändringar i preload, afterload och kontraktilitet påverkar slagvolymen",
+        "2.3.8 Redogöra för hur hjärtfrekvens, slagvolym och tryckförhållanden samverkar och påverkar hjärt-minutvolymen",
+        "2.3.9 Definiera begreppen inotrop, kronotrop och dromotrop effekt på hjärtat och förklara verkningsmekanismer av läkemedel som påverkar hjärtats inotropi, kronotropi och domotropi",
+        "2.3.10 Redogöra för det autonoma nervsystemets effekt på hjärtat",
+        "2.3.11 Redogöra för hur koronargenomblödningen varierar under hjärtcykeln och varför, samt vilka konsekvenser det har för hjärtats funktion och hur den kan påverkas farmakologiskt vid stabil angina pectoris",
+        "2.3.12 Baserat på kunskap om normalfysiologiska skeenden, förutsäga hur elektrolytrubbningar (t.ex. hypo-/hyperkalemi) påverkar hjärtats elektrofysiologi",
+        "2.4.1 Redogöra för hjärtmuskelhypertrofi och höger- och vänstersidig hjärtsvikts orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.2 Redogöra för ateroskleros morfologi, orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.3 Redogöra för ischemiska hjärtsjukdomars morfologiska förändringar, orsaker, patofysiologi, sjukdomsmekanismer och konsekvenser",
+        "2.4.4 Redogöra för de vanligaste klaffsjukdomarnas orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.6 Redogöra för verkningsmekanismer av läkemedel som används vid behandling av arytmier (Klass Ia, Ib, Ic, II, III och IV läkemedel)",
+        "2.4.7 Redogöra för hjärtstopps (sudden cardiac death) orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.8 Redogöra för inflammatoriska tillstånd i hjärtats (endokardit, myokardit och perikardit) morfologi, orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.9 Redogöra för hypertensiv hjärtsjukdoms morfologi, orsaker, sjukdomsmekanismer och kliniska konsekvenser",
+        "2.4.11 Redogöra för de vanligare förekommande kardiomyopatiers orsaker, sjukdomsmekanismer och kliniska konsekvenser inkluderande genetik och molekylära mekanismer",
+        "2.5 Biokemi och nutrition"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: muskelkontraktion",
+          "query": "ninja nerd muscle contraction sliding filament"
+        },
+        {
+          "label": "Ninja Nerd: hjärtcykeln",
+          "query": "ninja nerd cardiac cycle"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv5-m2-q1",
+          "kind": "mcq",
+          "prompt": "Vad skiljer hjärtmuskelns aktionspotential från skelettmuskelns?",
+          "options": [
+            "Hjärtmuskeln har en platåfas med långsam Ca2+-inflöde via L-typkanaler som förlänger refraktärperioden",
+            "Hjärtmuskeln depolariseras av acetylkolin",
+            "Skelettmuskeln har längre refraktärperiod",
+            "Hjärtmuskeln saknar kalciumkanaler"
+          ],
+          "answer": "Hjärtmuskeln har en platåfas med långsam Ca2+-inflöde via L-typkanaler som förlänger refraktärperioden",
+          "explanation": "Platåfasen förhindrar tetani i hjärtat – en livsviktig skillnad mot skelettmuskeln. Kontraktionen utlöses av kalciuminducerad kalciumfrisättning (CICR) från sarkoplasmatiska retiklet."
+        },
+        {
+          "id": "bv5-m2-q2",
+          "kind": "mcq",
+          "prompt": "Vilken kombination av läkemedel förbättrar överlevnaden vid hjärtsvikt med nedsatt EF?",
+          "options": [
+            "ACE-hämmare/ARB (eller ARNI), betablockerare och MRA",
+            "Nitroglycerin och acetylsalicylsyra",
+            "Digoxin som enda behandling",
+            "Loop-diuretika som enda behandling"
+          ],
+          "answer": "ACE-hämmare/ARB (eller ARNI), betablockerare och MRA",
+          "explanation": "Neurohormonell blockad är grunden: ACE-hämmare/ARNI, betablockerare och mineralokortikoidreceptorantagonist minskar mortalitet. Diuretika lindrar symtom men förbättrar inte överlevnaden."
+        },
+        {
+          "id": "bv5-m2-q3",
+          "kind": "cloze",
+          "prompt": "Enligt Frank–Starling ökar slagvolymen när ______ (förspänningen) ökar.",
+          "answer": "preload",
+          "explanation": "Ökad fyllnad av vänster kammare (preload) sträcker muskelfibrerna och ökar kontraktionskraften – inom fysiologiska gränser. Vid hjärtsvikt är kurvan utflackad."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är excitation–kontraktion-koppling i skelettmuskeln?",
+          "back": "Aktionspotential → T-tubuli → Ca2+ frisätts från sarkoplasmatiskt retiklet → Ca2+ binder troponin C → tropomyosin flyttas → aktin–myosinkorsbryggor cyklar → kontraktion."
+        },
+        {
+          "front": "Vilka fyra hjärtljud och vad motsvarar de?",
+          "back": "S1 (mitralis/trikuspidalis stängs), S2 (aorta/pulmonalis stängs), S3 (tidig snabb fyllnad, kan vara normal hos unga) och S4 (förmakskontraktion)."
+        },
+        {
+          "front": "Vad är skillnaden mellan HFrEF och HFpEF?",
+          "back": "HFrEF = nedsatt ejektionsfraktion med dilaterad vänster kammare; HFpEF = bevarad EF med diastolisk dysfunktion och stel kammare, vanligare hos äldre med hypertoni."
+        },
+        {
+          "front": "Vad gör loop-diuretika?",
+          "back": "Hämmar Na+/K+/2Cl−-transportören i tjocka uppåtstigande Henles slynga → kraftig diures, minskad preload. Biverkningar: hypokalemi, hypomagnesemi, ototoxicitet."
+        }
+      ],
+      "facts": [
+        "Platåfasen skyddar hjärtat från tetani.",
+        "Hjärtsviktsbehandling: ACE-hämmare/ARNI + betablockad + MRA.",
+        "Frank–Starling: ökad preload ökar slagvolymen."
+      ]
+    },
+    {
+      "id": "bv5-m3",
+      "code": "Modul 3",
+      "title": "Blod och cirkulation",
+      "summary": "Blodets sammansättning och hemostas, cirkulationsfysiologi och blodtrycksreglering samt blodets sjukdomar och cirkulationspatologi.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Blodets kemi och nutrition"
+        },
+        {
+          "code": "3.2",
+          "title": "Hemostas"
+        },
+        {
+          "code": "3.3",
+          "title": "Benmärgspatologi"
+        },
+        {
+          "code": "3.4",
+          "title": "Cirkulationsfysiologi"
+        },
+        {
+          "code": "3.5",
+          "title": "Cirkulationspatologi"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Beskriva innebörden av begreppen kolloidosmotiskt tryck, tonicitet och osmos, samt redogöra för uppkomst av osmotiskt tryck",
+        "3.1.2 Redogöra för begreppet hemolys, dess orsak och biokemiska konsekvenser",
+        "3.1.3 Redogöra för normala referensvärden för hematokrit och hemoglobinvärden för olika åldersgrupper. Avgränsning: diagnostiska metoder kommer på termin 4",
+        "3.1.4 Översiktligt redogöra för biosyntesen av hem inklusive substrat och produkter i det reglerade steget (Ala-syntas)",
+        "3.1.6 Redogöra för förekomst och användning av järn; inklusive rollen för: de vanligaste hemproteinerna, lagringsproteinerna ferritin och hemosiderin, transportproteinet transferrin, reglerande protein hepcidin",
+        "3.1.7 Redogöra för nedbrytningen av hem (från hemoglobin; samtliga substrat, produkter, enzym, coenzym samt lokalisation av de olika delstegen)",
+        "3.1.8 Översiktligt beskriva tidiga/sena porfyrier i relation till hembiosyntesen",
+        "3.1.9 Redogöra för järnhomeostas, faktorer som påverkar järnabsorption, samt fysiologiska och nutritionella mekanismer bakom järnbrist och järnöverskott (hemokromatos och iaterogent järnöverskott) hos vanliga riskgrupper",
+        "3.1.10 Redogöra för förekomst i kosten av vitamin B12 och folsyra och faktorer som påverkar deras absorption, samt riskgrupper och olika orsaker till brist",
+        "3.2.1 Redogöra för regleringen av primär och sekundär hemostas",
+        "3.2.2 Redogöra för farmakologiska principer som används för att modifiera trombocytfunktion och koagulation",
+        "3.2.5 Redogöra för fibrinolytika. Verkningsmekanismer, vanliga indikationer, farmakokinetik, biverkningar",
+        "3.2.6 Redogöra för prostaglandiners, tromboxaners och leukotrieners effekter i samband med trombos",
+        "3.2.7 Redogöra för den biokemiska funktionen av vitamin K och dess betydelse för blodets koagulation, samt dess interferens vid antikoagulationsbehandling",
+        "3.2.8 Redogöra för vanliga medfödda och förvärvade hemostasrubbningar (inkl. koagulationsdefekter, trombocytdefekter och mikroangiopatier)",
+        "3.2.9 Skilja på mekanismer bakom arteriell och venös trombos samt förklara uppkomstmekanismer och konsekvenser av embolism",
+        "3.3.1 Jämföra normal cellularitet vid olika åldrar och redogöra för principiella orsaker till ökad eller minskad benmärgscellularitet",
+        "3.3.3 Redogöra för orsaker till (substratbrist, toxiskt påverkan, iatrogena orsaker, neoplasier) och konsekvenser av anemi",
+        "3.3.4 Redogöra för orsaker till och konsekvenser av trombocytopeni, granulocytopeni, pancytopeni (toxisk påverkan, iatrogena orsaker, neoplasier inklusive MDS och akut leukemi samt andra tillstånd som aplastisk anemi eller myelofibros)",
+        "3.3.5 Redogöra för orsaker till och konsekvenser av polyglobuli, trombocytos, granulocytos (sekundära orsaker som syrebrist, inflammation, primära orsaker som neoplasier inklusive myeloproliferativa neoplasier/MPN)",
+        "3.3.6 Redogöra för tillstånd med ökad eller nedsatt erytropoetinnivå, dess vanligaste orsak och konsekvenser",
+        "3.3.7 Redogöra för de vanligaste medfödda erytrocytdefekterna, inklusive sfärocytos, talassemi, sickelcellanemi",
+        "3.3.8 På histologiska bilder identifiera följande tillstånd:",
+        "3.4.2 Redogöra för hur hematokriten påverkar blodets viskositet och hur detta inverkar på blodets flödesmotstånd",
+        "3.4.3 Beskriv begreppen systoliskt tryck, diastoliskt tryck, medelartärtryck, pulstryck, perfusionstryck och transmuralt tryck",
+        "3.4.4 Redogöra för samband mellan tryck, motstånd och flöde (Ohm’s lag) samt hur förändringar i tryck, blodets viskositet, kärlets längd och kärlradius påverkar vävnadsblodflödet",
+        "3.4.5 Förklara mekanismer för ödemuppkomst genom att tillämpa kunskap om de krafter som bestämmer transkapillärt vätskeutbyte (enl. Starling’s lag)",
+        "3.4.6 Definiera och förklara patomekanismer bakom uppkomst av följande begrepp: transudat och exsudat, olika kaviteter (pleura, peritoneum), hyperemi, stas, ödem",
+        "3.4.7 Beskriva den normala artärtryckskurvans utseende samt redogöra vilka fysiologiska faktorer som påverkar det systoliska blodtrycket, det diastoliska blodtrycket, medelartärtrycket och pulstrycket",
+        "3.4.8 Förklara hur artärtryckskurvan påverkas vid vänsterkammarsvikt, förändringar i artärernas elasticitet, aortainsufficiens och vid fysisk aktivitet",
+        "3.4.9 Redogöra för gravitationens inverkan på blodtryck och blodvolymens fördelning i kärlsystemet samt redogöra för mekanismer som påverkar venöst återflöde",
+        "3.4.10 Redogöra för mekanismer för lokal (myogen kontroll, lokal-kemisk kontroll och endotelial kontroll) respektive överordnad (neurogen kontroll och hormonell kontroll) kontroll av vävnadsgenomblödning",
+        "3.4.11 Beskriva bildning av kvävemonoxid (NO) i endotelet (enzym, substrat, produkter) och hur det verkar på glatt muskulatur, samt hur läkemedel som tex nitroglycerin fungerar",
+        "3.4.12 Förklara regionala skillnader i kontroll av blodflödet i olika kärlbäddar",
+        "3.4.13 Redogöra för autoreglering av blodtrycket",
+        "3.4.14 Redogöra för cirkulationsomställningar inducerade från högre centralnervösa strukturer inkluderande den s.k. ”attack-flykt-försvarsreaktionen”",
+        "3.4.15 Tillämpa cirkulationsfysiologiska principer för att förklara konsekvenser och kompensationsmekanismer vid en blodförlust",
+        "3.5.1 Redogöra för riskfaktorer, mekanismer och konsekvenser av infarktion i andra organ än hjärtat (inkl hjärna, tarm, lunga, testis, mjälte, njure) och förklara begreppen röd, vit och septisk infarkt",
+        "3.5.2 Förklara hur blödning till följd av trauma manifesterar sig i olika organ (hjärta, hjärna, mjälte) och hur organens anatomiska förutsättningar påverkar utfallet och vilka komplikationer den medför",
+        "3.5.4 Redogöra för olika mekanismer som orsakar aneurysm (kongenitala (”berry”) aneurysm, aterosklerotiska aneurysm, dissekerande aortaaneurysm)",
+        "3.5.5 Redogöra för olika mekanismer som orsakar uppkomst av varicer",
+        "3.5.6 Redogöra för degenerativa tillstånd i vaskulära systemet: diabetesmikroangiopati, arteriovenösa aneurysm, thrombangitis obliterans (Buergers sjukdom)",
+        "3.5.7 Redogöra för tillstånd med vaskulär hyperreaktivitet: Raynauds fenomen, Raynauds sjukdom",
+        "3.5.8 Känna till vaskulära interventioner så som endovaskulär stenting och bypasskirurgi",
+        "3.5.9 På histologiska bilder identifiera följande tillstånd: infarkt, ödem (exempelvis lungödem), atherosklerotiska förändringar i kärl, hematom, hyperemi"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: hemostas",
+          "query": "ninja nerd hemostasis coagulation cascade"
+        },
+        {
+          "label": "Ninja Nerd: blodtrycksreglering",
+          "query": "ninja nerd blood pressure regulation baroreceptors RAAS"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv5-m3-q1",
+          "kind": "mcq",
+          "prompt": "Vilket steg inleder primär hemostas vid ett kärlskadat område?",
+          "options": [
+            "von Willebrand-faktor medierar trombocytadhesion till subendotelet",
+            "Fibrin bildas av trombin",
+            "Plasmin bryter ner fibrin",
+            "ADP frisätts från endotelceller och stoppar trombocyterna"
+          ],
+          "answer": "von Willebrand-faktor medierar trombocytadhesion till subendotelet",
+          "explanation": "Primär hemostas: kärlkontraktion, vWF-medierad adhesion, trombocytaktivering och aggregation (GPIIb/IIIa). Sekundär hemostas är koagulationskaskaden med fibrinbildning."
+        },
+        {
+          "id": "bv5-m3-q2",
+          "kind": "mcq",
+          "prompt": "Hur kompenserar kroppen ett akut blodtrycksfall?",
+          "options": [
+            "Baroreceptorerna minskar sin hämning av sympatikus → ökad hjärtfrekvens, vasokonstriktion och RAAS-aktivering",
+            "Parasympatikus ökar och hjärtfrekvensen stiger",
+            "Njurarna utsöndrar mer natrium",
+            "Vagustonus ökar och kärlen dilateras"
+          ],
+          "answer": "Baroreceptorerna minskar sin hämning av sympatikus → ökad hjärtfrekvens, vasokonstriktion och RAAS-aktivering",
+          "explanation": "Vid tryckfall avlastas baroreceptorerna i carotissinus och arcus aortae, sympatikus ökar (tachycardi, vasokonstriktion) och RAAS aktiveras via renin – allt för att återställa trycket."
+        },
+        {
+          "id": "bv5-m3-q3",
+          "kind": "cloze",
+          "prompt": "Hormonet som frisätts från binjurebarkens zona glomerulosa och ökar natriumreabsorptionen i njuren kallas ______.",
+          "answer": "aldosteron",
+          "explanation": "Aldosteron styrs av angiotensin II och kalium. Det ökar Na+-reabsorption och K+-utsöndring i distala tubuli och samlingsrör – därför kan loop-diuretika ge sekundär hyperaldosteronism med hypokalemi."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad ingår i blodets buffertsystem och vad transporterar hemoglobin?",
+          "back": "Bikarbonat (viktigast), fosfat och proteiner buffrar pH; hemoglobin transporterar syre och en del CO2 (som karbaminohemoglobin) och buffrar H+."
+        },
+        {
+          "front": "Vad är skillnaden mellan primär och sekundär hemostas?",
+          "back": "Primär: kärlkontraktion och trombocytplugg (sekunder, vWF). Sekundär: koagulationskaskad med fibrinbildning (minuter). Fibrinolys löser upp koaglet."
+        },
+        {
+          "front": "Vilka faktorer påverkar slagvolymen?",
+          "back": "Preload (fyllnad), afterload (motstånd) och kontraktilitet. Hjärtminutvolym = slagvolym × hjärtfrekvens."
+        },
+        {
+          "front": "Vad kännetecknar anemi med lågt MCV respektive högt MCV?",
+          "back": "Lågt MCV (mikrocytär): järnbrist, talassemi. Högt MCV (makrocytär): B12-/folatbrist, alkohol, myelodysplasi."
+        }
+      ],
+      "facts": [
+        "vWF medierar trombocytadhesion.",
+        "Baroreceptorreflexen höjer sympatikus vid tryckfall.",
+        "Aldosteron: Na+ reabsorption, K+ utsöndring."
+      ]
+    },
+    {
+      "id": "bv5-m4",
+      "code": "Modul 4",
+      "title": "Respiration",
+      "summary": "Andningens fysiologi: ventilation, pulmonellt blodflöde, gasutbyte och syretransport samt andningsreglering.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Ventilation"
+        },
+        {
+          "code": "4.2",
+          "title": "Pulmonellt blodflöde"
+        },
+        {
+          "code": "4.3",
+          "title": "Gasutbyte och transport"
+        },
+        {
+          "code": "4.4",
+          "title": "Andningsreglering"
+        },
+        {
+          "code": "4.5",
+          "title": "Respirationsorganens patologi"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Redogöra för begreppet partialtryck för en gas, samt hur detta påverkar mängd löst gas i olika medier och transport mellan olika kroppsrum",
+        "4.1.2 Redogöra för mekaniken under en andningscykel i vila och vid forcerad andning (tryck, volym och involverade muskler)",
+        "4.1.3 Redogöra för statisk och dynamisk spirometri, samt ange relevanta normalvärden",
+        "4.1.4 Redogöra för restriktiva och obstruktiva ventilationsinskränkningar samt skillnader mellan dessa",
+        "4.1.5 Beskriva fenomenet dynamisk luftvägskompression och dess roll vid obstruktiva lungsjukdomar",
+        "4.1.6 Definiera alveolär ventilation och ”dead space” och hur de kan påverkas",
+        "4.1.7 Förklara begreppet compliance samt lungelasticitetens principiella roll vid emfysem",
+        "4.1.8 Redogöra för surfactants roll för lungfunktionen",
+        "4.1.9 Redogör för läkemedelsbehandling av vid astma (bronkdilaterare, anti- inflammatoriska läkemedel), fördelar och nackdelar med lokal resp systemisk administrering, verkningsmekanismer, farmakokinetik, biverkningar",
+        "4.1.10 Redogör för läkemedelsbehandling av KOL. Administrering, verkningsmekanismer, farmakokinetik, biverkningar",
+        "4.1.11 Redogör för läkemedelsbehandling av rinit och hosta. Administrering, verkningsmekanismer, farmakokinetik, indikationer, biverkningar",
+        "4.1.12 Redogöra för prostaglandiners, tromboxaners och leukotrieners effekter i samband med astma",
+        "4.1.13 Redogöra för behandlingen av anafylaktisk chock",
+        "4.2.1 Redogöra för reglering av lungans blodflöde och i synnerhet mekanismer för hypoxisk pulmonell vasokonstriktion",
+        "4.2.2 Redogöra för regionala skillnader i ventilation, perfusion och ventilation/ perfusionskvot i lungan, hur dessa parametrar påverkar blodgaser samt hur de påverkas av kroppsläge",
+        "4.2.3 Redogöra för vätskeutbyte över lungkapillärerna samt principiella mekanismer för uppkomst av lungödem",
+        "4.3.1 Redogöra för de faktorer som påverkar diffusionskapacitet för syrgas, kväve, koldioxid och kolmonoxid över alveolokapillära membranen",
+        "4.3.2 Ange normalvärden för syrgas och koldioxid i luft, alveol, samt venöst och arteriellt blod",
+        "4.3.3 Redogöra för hur syre transporteras i blodet samt beskriva de faktorer som påverkar syrgasinnehåll respektive syrgaskapacitet i blod och vävnad",
+        "4.3.6 Redogöra för transportformerna för koldioxid samt dessas relation till syrgastransport och syra-basbalans",
+        "4.3.7 Redogöra för hur kolmonoxidförgiftning, cyanidintoxikation, anemi och höghöjdsvistelse påverkar syrgastransporten och relatera till olika typer av vävnadshypoxi",
+        "4.3.8 Definiera cyanos samt skilja på mekanismer som ger central och perifer cyanos. 92 4.3.9 Redogöra för kompensation vid vävnadshypoxi och arteriell hypoxemi",
+        "4.4.1 Redogöra för andningscentrums funktionella organisation samt dominerande afferenta och efferenta inflytande, samt funktion hos och stimuli för centrala och perifera kemoreceptorer",
+        "4.4.2 Definiera följande begrepp: normoventilation, brady- och tachypné, dyspné, hypoxi, hypoxemi",
+        "4.4.3 Definiera följande begrepp och ge exempel på uppkomstmekanismer för: ortopné apné, asfyxi, hypo- och hyperventilation",
+        "4.4.4 Förklara hur sömnapné kan leda till högt blodtryck",
+        "4.5 Respirationsorganens patologi"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: andningsmekanik",
+          "query": "ninja nerd respiratory mechanics ventilation"
+        },
+        {
+          "label": "Ninja Nerd: syre-hemoglobinkurvan",
+          "query": "ninja nerd oxygen hemoglobin dissociation curve"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv5-m4-q1",
+          "kind": "mcq",
+          "prompt": "Vad händer med syre-hemoglobinkurvan vid ökad pCO2 och acidos (Bohr-effekten)?",
+          "options": [
+            "Kurvan förskjuts åt höger – hemoglobin släpper syre lättare i vävnaderna",
+            "Kurvan förskjuts åt vänster – hemoglobin binder syre hårdare",
+            "Kurvan blir helt rak",
+            "Hemoglobin börjar transportera koldioxid istället"
+          ],
+          "answer": "Kurvan förskjuts åt höger – hemoglobin släpper syre lättare i vävnaderna",
+          "explanation": "Ökad CO2, acidos, temperatur och 2,3-BPG sänker hemoglobins affinitet för syre (högerförskjutning), vilket underlättar avlämning i aktiva vävnader. I lungorna sker motsatsen."
+        },
+        {
+          "id": "bv5-m4-q2",
+          "kind": "mcq",
+          "prompt": "Vilka celler bildar surfaktant och vad händer om den saknas?",
+          "options": [
+            "Typ II-pneumocyter; utan surfaktant kollapsar alveolerna (atelektas)",
+            "Typ I-pneumocyter; utan surfaktant ökar gasutbytet",
+            "Alveolmakrofager; utan surfaktant uppstår lungfibros",
+            "Slemhinnans bägarceller; utan surfaktant blir slemmet trögflytande"
+          ],
+          "answer": "Typ II-pneumocyter; utan surfaktant kollapsar alveolerna (atelektas)",
+          "explanation": "Surfaktant sänker ytspänningen och förhindrar alveolär kollaps. Prematura barn saknar ofta surfaktant (RDS) och behandlas med CPAP och surfaktant."
+        },
+        {
+          "id": "bv5-m4-q3",
+          "kind": "cloze",
+          "prompt": "Förhållandet mellan ventilation och perfusion i lungan förkortas ______.",
+          "answer": "V/Q-kvoten",
+          "explanation": "V/Q-kvoten är cirka 0,8 i en frisk lunga. Låg V/Q (shunt) ger hypoxemi som inte svarar bra på syrgas; hög V/Q (dead space) ger ventilerade men operfunderade områden."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad driver inandningen?",
+          "back": "Diafragma (n. phrenicus) och yttre interkostalmuskler sänker pleuratrycket så att lungorna expanderar – inandning är aktiv, utandning passiv vid vila."
+        },
+        {
+          "front": "Vad är dead space och när ökar det?",
+          "back": "Ventilerad luft som inte deltar i gasutbytet (anatomiskt + alveolärt). Ökar vid lungemboli, hypoperfusion och vid stora tidalvolymer."
+        },
+        {
+          "front": "Vad styr andningsdrivet?",
+          "back": "Centrala kemoreceptorer i medulla reagerar på pCO2/pH (viktigast), perifera i glomus caroticum/aorticum på pO2. Andningen ökar vid acidos och hypoxi."
+        },
+        {
+          "front": "Vad visar en spirometri vid obstruktiv respektive restriktiv sjukdom?",
+          "back": "Obstruktiv: sänkt FEV1/FVC (<0,7), t.ex. KOL och astma. Restriktiv: normalt eller högt FEV1/FVC men sänkt FVC/total lungkapacitet."
+        }
+      ],
+      "facts": [
+        "Bohr-effekten: högre CO2 → hemoglobin avger syre lättare.",
+        "Typ II-pneumocyter bildar surfaktant.",
+        "V/Q-kvoten är cirka 0,8 normalt."
+      ]
+    },
+    {
+      "id": "bv5-m5",
+      "code": "Modul 5",
+      "title": "Njuren",
+      "summary": "Njurens funktion: filtration, reabsorption och sekretion, GFR och autoregulation, koncentration av urin, syra-bas- och vätskebalans samt njurens hormonella funktioner.",
+      "estMinutes": 40,
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Njurfunktion"
+        },
+        {
+          "code": "5.2",
+          "title": "Renal Autoreglering"
+        },
+        {
+          "code": "5.3",
+          "title": "Vatten & Saltbalans"
+        },
+        {
+          "code": "5.4",
+          "title": "Hormonell Reglering"
+        },
+        {
+          "code": "5.5",
+          "title": "Diuretika"
+        },
+        {
+          "code": "5.6",
+          "title": "Syra-Bas Reglering"
+        },
+        {
+          "code": "5.7",
+          "title": "Medicinska njursjukdomar"
+        },
+        {
+          "code": "5.8",
+          "title": "Urologiska sjukdomstillstånd"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Redogöra för njurens huvudsakliga funktioner",
+        "5.1.2 Redogöra för nefronets olika delar och hur urinbildningens olika komponenter utefter nefronet (filtration, reabsorption och sekretion) leder till exkretion",
+        "5.1.3 Redogöra för skillnaderna i förekomst och funktion mellan kortikala och juxtamedullära nefron",
+        "5.1.4 Redogöra för begreppen glomerulär filtration, tubulär reabsorption & sekretion, samt symport & antiport",
+        "5.2 Renal Autoreglering",
+        "5.3 Vatten & Saltbalans",
+        "5.4 Hormonell Reglering",
+        "5.5 Diuretika",
+        "5.6 Syra-Bas Reglering",
+        "5.7 Medicinska njursjukdomar",
+        "5.8 Urologiska sjukdomstillstånd"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: njurens fysiologi",
+          "query": "ninja nerd renal physiology filtration reabsorption"
+        },
+        {
+          "label": "Ninja Nerd: syra-bas och njuren",
+          "query": "ninja nerd acid base renal regulation"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv5-m5-q1",
+          "kind": "mcq",
+          "prompt": "Var verkar loop-diuretika och vilken effekt får de?",
+          "options": [
+            "I tjocka uppåtstigande Henles slynga där de hämmar Na+/K+/2Cl− – kraftig diures med hypokalemi",
+            "I proximala tubuli där de hämmar glukosreabsorption",
+            "I samlingsröret där de blockerar aldosteron",
+            "I glomerulus där de ökar filtrationen"
+          ],
+          "answer": "I tjocka uppåtstigande Henles slynga där de hämmar Na+/K+/2Cl− – kraftig diures med hypokalemi",
+          "explanation": "Loopen ansvarar för cirka 25 procent av Na+-reabsorptionen, därför blir diuresen kraftig. Kaliumförlust, hypomagnesemi och ototoxicitet är typiska biverkningar. Tiazider verkar i distala tubuli, spironolakton i samlingsröret."
+        },
+        {
+          "id": "bv5-m5-q2",
+          "kind": "mcq",
+          "prompt": "Vad innebär autoregulation av GFR?",
+          "options": [
+            "Njuren håller GFR relativt konstant trots varierande blodtryck via myogen tonus och tubuloglomerulär återkoppling",
+            "GFR ökar linjärt med blodtrycket",
+            "GFR regleras enbart av ADH",
+            "GFR styrs av andningsfrekvensen"
+          ],
+          "answer": "Njuren håller GFR relativt konstant trots varierande blodtryck via myogen tonus och tubuloglomerulär återkoppling",
+          "explanation": "Autoregulationen verkar mellan cirka 80 och 180 mmHg: afferent arteriol kontraherar/dilaterar (myogen respons) och macula densa signalerar via tubuloglomerulär återkoppling för att stabilisera filtrationen."
+        },
+        {
+          "id": "bv5-m5-q3",
+          "kind": "cloze",
+          "prompt": "Andelen plasma som filtreras genom glomeruli per tidsenhet kallas ______.",
+          "answer": "GFR",
+          "explanation": "GFR (glomerulär filtrationshastighet) beror på nettofiltrationstrycket och filtrationsytan. Normalvärdet är cirka 90–120 ml/min hos vuxna och skattas kliniskt med kreatinin/eGFR."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Var reabsorberas största delen av filtratet och vad driver det?",
+          "back": "I proximala tubuli (cirka 65 procent) via Na+/K+-ATPas i basolateralmembranet; glukos och aminosyror via sekundär aktiv transport."
+        },
+        {
+          "front": "Hur koncentreras urinen i Henles slynga?",
+          "back": "Motströmsmekanism: nedåtstigande delen är vattenpermeabel men inte saltpermeabel, uppåtstigande pumpar ut salt – skapar en osmotisk gradient som ADH kan utnyttja i samlingsröret."
+        },
+        {
+          "front": "Vad gör ADH i njuren?",
+          "back": "Ökar insättandet av aquaporin-2 i samlingsrörets celler → mer vatten reabsorberas → koncentrerad urin och minskad urinvolym. Brist ger diabetes insipidus."
+        },
+        {
+          "front": "Hur reglerar njuren syra-bas-balansen?",
+          "back": "Utsöndrar H+ (via buffertar som fosfat och ammonium), reabsorberar filtrerat bikarbonat och nybildar bikarbonat – kompensationen tar timmar till dygn."
+        }
+      ],
+      "facts": [
+        "Loop-diuretika verkar i uppåtstigande Henles slynga.",
+        "GFR autoregleras mellan cirka 80 och 180 mmHg.",
+        "ADH ger aquaporin-2-insättande och koncentrerad urin."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "id": "km3",
+  "code": "KM3",
+  "title": "Klinisk medicin 3: Kirurgisk inriktning",
+  "term": "T7",
+  "icon": "🔪",
+  "color": "orange",
+  "sortOrder": 11,
+  "description": "Kirurgins kärna: akut buk, trauma och ortopedi, anestesi, urologi och kärlkirurgi. Fokus ligger på prioritering, kirurgisk indikation och tidiga komplikationer.",
+  "chapters": [
+    {
+      "id": "km3-1",
+      "code": "Modul 1",
+      "title": "Allmänkirurgi och akut buk",
+      "summary": "Akut buksmärta är en av de vanligaste kirurgiska kontaktorsakerna. Här tränas strukturerad handläggning från anamnes och bukstatus till bilddiagnostik och beslut om operation.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: akut buk och appendicit",
+          "query": "ninja nerd acute abdomen appendicitis"
+        },
+        {
+          "label": "Ninja Nerd: ileus och tarmobstruktion",
+          "query": "ninja nerd bowel obstruction ileus"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Strukturerat handlägga akut buksmärta med anamnes, bukstatus och riktad bilddiagnostik",
+          "level": "kunna"
+        },
+        {
+          "code": "1.2",
+          "title": "Förklara patofysiologin bakom mekanisk ileus och skilja den från paralytisk ileus",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Känna till indikationerna för akut laparotomi respektive laparoskopi vid perforation och tarmischemi",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km3-1-q1",
+          "kind": "mcq",
+          "prompt": "En 24-årig man söker med buksmärta som började kring naveln och som under ett dygn flyttat ned till höger fossa. Temp 38,3 grader, puls 96. Vid bukstatus är han öm med försvar över höger fossa och positivt släppömhetstecken (Blumberg). Vilken diagnos är mest sannolik?",
+          "options": [
+            "Akut appendicit",
+            "Akut pankreatit",
+            "Uretärsten",
+            "Akut gastroenterit"
+          ],
+          "answer": "Akut appendicit",
+          "explanation": "Klassisk migrering av smärtan beror på att den viscerala, oskarpa smärtan från appendix följer nerven till naveln medan den somatiska irritationen av parietalperitoneum ger lokal ömhet i höger fossa. Gastroenterit ger diffus smärta med diarré utan försvar, och en uretärsten ger typiskt kolikartad flank-dysuri och inget peritonealt försvar."
+        },
+        {
+          "id": "km3-1-q2",
+          "kind": "mcq",
+          "prompt": "En 52-årig överviktig kvinna har haft molande smärta i höger arcus i två dygn med utstrålning mot höger skulderblad. Temp 38,9 grader. Vid bukstatus utlöser djup palpation i höger arcus en smärta som får henne att stanna andningen. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Akut kolecystit",
+            "Akut pankreatit",
+            "Perforerat ventrikelulcus",
+            "Högersidig pyelonefrit"
+          ],
+          "answer": "Akut kolecystit",
+          "explanation": "Positivt Murphys tecken uppstår när den inflammerade gallblåsan trycks mot den palperande handen och patienten reflexmässigt håller andan. Smärtan utstrålar via n. phrenicus till skulderbladet. Pankreatit ger oftast utstrålning till ryggen och kraftigt förhöjt pankreasenzymer, medan pyelonefrit ger flankömhet och dysuri."
+        },
+        {
+          "id": "km3-1-q3",
+          "kind": "mcq",
+          "prompt": "En 67-årig man med långvarig NSAID-behandling får plötslig svår epigastriesmärta. Han är tachycard och har bräddad buk med allmän palpationsömhet. Lungröntgen i upprätt ställning visar fri luft under båda diafragmabågarna. Vilket fynd är här det avgörande för handläggningen?",
+          "options": [
+            "Fri luft under diafragma talar för perforation och patienten behöver akut kirurgi",
+            "Frånvaron av feber utesluter perforation",
+            "Han ska i första hand få syrahämmande behandling och skickas hem",
+            "Fyndet talar för ileus och patienten ska få lavemang"
+          ],
+          "answer": "Fri luft under diafragma talar för perforation och patienten behöver akut kirurgi",
+          "explanation": "Fri intraperitoneal luft på upprätt lungröntgen eller DT är starkt tecken på hål i en ihålig struktur, oftast perforerat ulcus, och kräver akut kirurgisk bedömning. Tidig peritonit kan ge förhållandevis diskret bukstatus, så frånvaro av uttalade fynd eller feber utesluter inte diagnosen."
+        },
+        {
+          "id": "km3-1-q4",
+          "kind": "cloze",
+          "prompt": "En 74-årig kvinna opererades för appendicit för tio år sedan och söker nu med buksmärta, kräkningar, uppspänd buk och frånvaro av gaser sedan två dygn. Röntgen visar vidgade tunntarmsslyngor med luftvätskenivåer. Den vanligaste orsaken till hennes tillstånd är ______.",
+          "answer": "adherenser",
+          "explanation": "Bindvävssträngar (adherenser) efter tidigare bukoperation är den vanligaste orsaken till mekanisk tunntarmsileus. De kan ge strangulation med ischemi, vilket gör att tillståndet kan kräva akut operation."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilken är den vanligaste orsaken till mekanisk tunntarmsileus?",
+          "back": "Adherenser efter tidigare bukkirurgi. Andra orsaker är bråck, tumör och inflammatorisk striktur."
+        },
+        {
+          "front": "Hur skiljer man mekanisk ileus från paralytisk ileus på bukauskultationen?",
+          "back": "Mekanisk ileus: först ökade, klingande (metalliska) tarmljud, senare tystnad vid utvecklad ischemi. Paralytisk ileus: tyst buk från början."
+        },
+        {
+          "front": "Vad innebär positivt Blumberg-tecken?",
+          "back": "Släppömhet – smärtan förvärras när handen snabbt lyfts från buken – vilket talar för peritonealinflammation."
+        },
+        {
+          "front": "Vilka fyra klassiska tecken finns på akut appendicit?",
+          "back": "Migrerande smärta från naveln till höger fossa, ömhet i McBurneys punkt, försvar/rebound och låggradig feber med lätt leukocytos."
+        },
+        {
+          "front": "Vad kännetecknar akut mesenterial ischemi?",
+          "back": "Svår buksmärta som är 'out of proportion' mot ett relativt diskret bukstatus, förmaksflimmer eller kraftig ateroskleros i anamnesen, ofta förhöjt laktat och metabol acidos – kräver akut utredning med DT-angiografi."
+        },
+        {
+          "front": "När ska en patient med gallstensanfall opereras?",
+          "back": "Vid symtomgivande gallsten rekommenderas kolecystektomi, i regel inom samma vårdtillfälle vid kolecystit eftersom tidig operation minskar recidiv och komplikationer."
+        }
+      ],
+      "facts": [
+        "Fri luft under diafragma på upprätt röntgen är ett starkt tecken på perforation av ihålig struktur.",
+        "Adherenser är den vanligaste orsaken till mekanisk tunntarmsileus i Sverige.",
+        "Smärtans migrering vid appendicit speglar övergången från visceral till somatisk smärta.",
+        "Laktatstegring och metabol acidos vid akut buk ska väcka misstanke om tarmischemi."
+      ]
+    },
+    {
+      "id": "km3-2",
+      "code": "Modul 2",
+      "title": "Trauma och ortopedi",
+      "summary": "Prioritering vid trauma enligt ABCDE och de vanligaste ortopediska skadorna hos äldre och yngre. Tyngdpunkten ligger på att känna igen livshotande tillstånd och på frakturläkningens villkor.",
+      "estMinutes": 33,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: traumapatienten och ABCDE",
+          "query": "ninja nerd trauma primary survey ABCDE"
+        },
+        {
+          "label": "Ninja Nerd: frakturläkning och benläkning",
+          "query": "ninja nerd bone fracture healing"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Tillämpa ABCDE-principerna vid primärbedömning av en traumapatient",
+          "level": "färdighet"
+        },
+        {
+          "code": "2.2",
+          "title": "Förklara varför mediala höftfrakturer hotar blodförsörjningen till caput femoris",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Känna igen tecken på kompartmentsyndrom och förstå att det är en akut kirurgisk situation",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km3-2-q1",
+          "kind": "mcq",
+          "prompt": "En 21-årig man kommer in efter en motorcykelolycka. Han är kraftigt påverkad, tachycard och hypotensiv. Andningsljudet saknas över vänster hemithorax, perkussionstonen är hyperresonant och trakea är förskjuten mot höger. Vilken är den omedelbara åtgärden?",
+          "options": [
+            "Omedelbar dekompression av pleurarummer – till exempel nålpunktion följd av thoraxdrän",
+            "Akut DT av thorax innan behandling",
+            "Syrgastillförsel och avvakta blodgas",
+            "Bronkospasmolytika och kortison"
+          ],
+          "answer": "Omedelbar dekompression av pleurarummer – till exempel nålpunktion följd av thoraxdrän",
+          "explanation": "Spänningsthorax ger obstruktiv chock med mediastinalförskjutning och är en klinisk diagnos som ska behandlas direkt utan att vänta på bilddiagnostik. Ett vanligt misstag är att tolka det som blödning och bara ge vätska, vilket inte löser den mekaniska chocken."
+        },
+        {
+          "id": "km3-2-q2",
+          "kind": "mcq",
+          "prompt": "En 82-årig kvinna faller i hemmet och kan inte stödja på höger ben. Benet är förkortat och utåtrotterat. Röntgen visar en medial collumfraktur (femurhalsfraktur). Vilken är den mest fruktade komplikationen till just denna frakturtyp?",
+          "options": [
+            "Avaskulär nekros (caputnekros) på grund av skadad kärlförsörjning",
+            "Fettemboli från rörbenmärgen",
+            "Kompartmentsyndrom i vaden",
+            "Perifer nervskada i n. peroneus"
+          ],
+          "answer": "Avaskulär nekros (caputnekros) på grund av skadad kärlförsörjning",
+          "explanation": "Caput femoris försörjs till stor del av a. circumflexa femoris medialis, som löper intrakapsulärt längs collum. Vid mediala, dislocerade frakturer brister kärlförsörjningen, vilket ger pseudartros och caputnekros – därför väljs ofta protes i stället för osteosyntes hos äldre."
+        },
+        {
+          "id": "km3-2-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig man har fallit på utsträckt hand. Röntgen visar en distal radiusfraktur med volarförskjutning av distala fragmentet. Vilken nerv löper störst risk att påverkas?",
+          "options": [
+            "N. medianus",
+            "N. radialis",
+            "N. ulnaris",
+            "N. axillaris"
+          ],
+          "answer": "N. medianus",
+          "explanation": "N. medianus passerar genom karpaltunneln strax volart om distala radius, och volarförskjutet fragment kan ge tryck med karpaltunnelsyndrom eller sensibilitetsnedsättning i tumme-indexfinger. N. ulnaris påverkas typiskt vid fraktur i distala humerus eller vid skada i ulnar diket."
+        },
+        {
+          "id": "km3-2-q4",
+          "kind": "cloze",
+          "prompt": "En 19-årig fotbollsspelare har fått ett slag mot underbenet. Skenbenet är svullet, spänt och hårt som ett vedträ, smärtan ökar kraftigt vid passiv uttänjning av tåextensorerna och han har domningar i foten. Detta talar för ______.",
+          "answer": "kompartmentsyndrom",
+          "explanation": "Ökat tryck i en sluten muskelkammare ger ischemi. Smärta vid passiv uttänjning, spänd kammare och sensibilitetsnedsättning är tidiga tecken, medan bortfall av puls är ett sent och opålitligt fynd. Tillståndet kräver omedelbar fasciotomi."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad står ABCDE för i primär traumaomhändertagande?",
+          "back": "Airway (med halsryggsskydd), Breathing, Circulation (blödningskontroll), Disability (neurologisk status, GCS) och Exposure (avklädning, temperatur)."
+        },
+        {
+          "front": "Varför ger en medial höftfraktur risk för caputnekros?",
+          "back": "Blodförsörjningen sker huvudsakligen via a. circumflexa femoris medialis som löper intrakapsulärt; vid dislokation skadas den och caput femoris blir ischemiskt."
+        },
+        {
+          "front": "Vilka är de tidiga tecknen på kompartmentsyndrom?",
+          "back": "Oproportionerlig smärta, smärta vid passiv uttänjning, spänd och hård kammare samt parestesi. Pulslöshet är ett sent fynd."
+        },
+        {
+          "front": "Vad är ett öppet bråck och varför är det akut?",
+          "back": "Ett bråck där tarm tömmer sig via huden. Vid inkärkning/strangulation uppstår ischemi – tecken är tilltagande smärta, hård och öm bråckport samt ileussymtom."
+        },
+        {
+          "front": "Hur skiljer man en distorsion från en fraktur i fotleden?",
+          "back": "Ottawas regler avgör behovet av röntgen: ömhet över bakre malleolrand, laterala malleolen eller os naviculare, oförmåga att stödja fyra steg. Fraktur misstänks vid felställning, punktömhet över ben och stödjelösa patienter."
+        },
+        {
+          "front": "Varför ska en fraktur stabiliseras och belastas tidigt?",
+          "back": "Stabil, tidig belastning stimulerar benläkning (mekanisk signalering) och minskar risken för immobiliseringskomplikationer som DVT, trycksår och ledstelhet."
+        }
+      ],
+      "facts": [
+        "Blödningskontroll (C) prioriteras samtidigt med A vid massiv yttre blödning.",
+        "Förkortat, utåtrotterat ben efter fall hos äldre = misstänkt höftfraktur.",
+        "Oproportionerlig smärta och spänd muskelkammare = kompartmentsyndrom, fasciotomi utan dröjsmål.",
+        "Spänningsthorax är en klinisk diagnos som dekomprimeras direkt."
+      ]
+    },
+    {
+      "id": "km3-3",
+      "code": "Modul 3",
+      "title": "Anestesi och perioperativ vård",
+      "summary": "Perioperativ riskbedömning, generell och regional anestesi samt de vanligaste anestesiologiska komplikationerna. Fokus ligger på mekanismer och på vad som gör en operation farlig för just den här patienten.",
+      "estMinutes": 28,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: generell anestesi och sövningsmedel",
+          "query": "ninja nerd general anesthesia pharmacology"
+        },
+        {
+          "label": "Ninja Nerd: malignt hypertermi",
+          "query": "ninja nerd malignant hyperthermia"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för vad ASA-klassificeringen bedömer och varför den påverkar perioperativ risk",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Förklara mekanismen bakom malignt hypertermi och hur tillståndet behandlas",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Känna till vanliga komplikationer efter generell och regional anestesi",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km3-3-q1",
+          "kind": "mcq",
+          "prompt": "Under en operation i generell anestesi med inhalationsanestetika och depolariserande muskelrelaxans utvecklar en ung man plötsligt massiv muskelrigiditet, stigande kroppstemperatur, hyperkapni och metabol acidos. Vilken diagnos misstänker du?",
+          "options": [
+            "Malignt hypertermi",
+            "Malign neuroleptikasyndrom",
+            "Serotonergt syndrom",
+            "Undertryckande tyreotoxikos"
+          ],
+          "answer": "Malignt hypertermi",
+          "explanation": "Malignt hypertermi beror på en mutation i ryanodinreceptorn (RYR1) som ger okontrollerad kalciumfrisättning från sarcoplasmatiskt retikulum. Behandlingen är dantrolen, som blockerar ryanodinreceptorn. Neuroleptikasyndrom utlöses av antipsykotika och ger rigiditet med autonom instabilitet men förklaras inte av anestesimedel."
+        },
+        {
+          "id": "km3-3-q2",
+          "kind": "mcq",
+          "prompt": "Varför ska en patient vara fastande inför generell anestesi?",
+          "options": [
+            "Anestesimedel slår ut skyddsreflexerna så att maginnehåll kan aspireras",
+            "Fasta förbättrar upptaget av anestesimedel",
+            "Magen måste vara tom för att kunna intubera lättare",
+            "Fasta minskar blödningen under operation"
+          ],
+          "answer": "Anestesimedel slår ut skyddsreflexerna så att maginnehåll kan aspireras",
+          "explanation": "Nedsatta host- och sväljreflexer tillsammans med relaxation av övre esofagussfinktern gör aspiration möjlig, med risk för aspirationspneumoni och obstruktion. Fasta minskar magsäckens innehåll men påverkar inte anestesimedels upptag eller blödning."
+        },
+        {
+          "id": "km3-3-q3",
+          "kind": "mcq",
+          "prompt": "En 30-årig kvinna har genomgått kejsarsnitt i spinalanestesi. Dagen efter får hon svår huvudvärk som är klart värre upprätt och lindras när hon ligger ner. Vilken är den mest sannolika orsaken?",
+          "options": [
+            "Postpunktionell huvudvärk på grund av läckage av cerebrospinalvätska",
+            "Akut subduralhematom",
+            "Migrän med aura",
+            "Meningit"
+          ],
+          "answer": "Postpunktionell huvudvärk på grund av läckage av cerebrospinalvätska",
+          "explanation": "Vid duralpunktion kan cerebrospinalvätska läcka ut, vilket ger intrakraniell hypovolemi och traktion på meningerna. Klassiskt är ortostatisk huvudvärk som lindras i liggande. Meningit ger feber, nackstelhet och tilltagande allmänpåverkan."
+        },
+        {
+          "id": "km3-3-q4",
+          "kind": "cloze",
+          "prompt": "Lokalbedövningsmedel ger sin analgetiska effekt genom att blockera spänningsstyrda ______ i nervmembranet, så att aktionspotentialen inte kan genereras.",
+          "answer": "natriumkanaler",
+          "explanation": "Blockad av Na+-kanaler hindrar depolarisering och fortledning i tunna, myeliniserade nervfibrer först (smärta och temperatur före beröring och motorik). Om medlet kommer i blodet kan systemisk toxicitet med centralnervösa symtom och arytmier uppstå."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad bedömer ASA-klassificeringen?",
+          "back": "Patientens fysiska status och komorbiditet inför anestesi, från ASA I (frisk) till ASA V (moribund) samt ASA VI (organdonator). Den säger inget om själva ingreppets omfattning."
+        },
+        {
+          "front": "Vilka är de tre komponenterna i generell anestesi?",
+          "back": "Hypnos (sömn), analgesi (smärtlindring) och muskelrelaxation, ofta kombinerat med kontrollerad ventilation."
+        },
+        {
+          "front": "Varför ger cytostatika och opioidbehandling perioperativa problem?",
+          "back": "Opioider ger andningsdepression, obstipation och tolerans; cytostatika kan ge påverkan på sårläkning, benmärg och hjärtfunktion."
+        },
+        {
+          "front": "Vad är den viktigaste skillnaden mellan spinal- och epiduralanestesi?",
+          "back": "Spinal ges i subaraknoidalrummet med snabb, djup blockad; epidural ges utanför dura i epiduralrummet med kateter för kontinuerlig blockad. Båda ger sympatikusblockad med blodtrycksfall."
+        },
+        {
+          "front": "Vilka är de vanligaste postoperativa komplikationerna?",
+          "back": "Smärta, illamående (PONV), hypotermi, urinretention, sårinfektion, atelektas/pneumoni och venös tromboembolism."
+        },
+        {
+          "front": "Vad innebär ERAS-konceptet?",
+          "back": "Enhanced Recovery After Surgery: evidensbaserad perioperativ vård med kort fasta, opioidbesparande analgesi, tidig mobilisering och tidigt födointag för att minska komplikationer och vårdtid."
+        }
+      ],
+      "facts": [
+        "Malignt hypertermi behandlas med dantrolen och utlöses av inhalationsanestetika och succinylkolin.",
+        "Lokalbedövningsmedel blockerar spänningsstyrda natriumkanaler.",
+        "Postpunktionell huvudvärk är ortostatisk och lindras i liggande.",
+        "ASA-klass och ingreppets omfattning bedöms separat."
+      ]
+    },
+    {
+      "id": "km3-4",
+      "code": "Modul 4",
+      "title": "Urologi",
+      "summary": "Vanliga urologiska tillstånd från godartad prostatahyperplasi och njursten till testistorsion och urinvägsinfektion. Fokus ligger på att skilja benigna symtom från tillstånd som kräver akut ingripande.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: njurens fysiologi och njursten",
+          "query": "ninja nerd kidney stones nephrolithiasis"
+        },
+        {
+          "label": "Ninja Nerd: prostatahyperplasi och urinvägar",
+          "query": "ninja nerd benign prostatic hyperplasia"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Utreda och behandla nedre urinvägssymtom hos män med godartad prostatahyperplasi",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Handlägga akut njurstensanfall och känna igen tecken på infekterad obstruktion",
+          "level": "kunna"
+        },
+        {
+          "code": "4.3",
+          "title": "Känna till att testistorsion är ett akut kirurgiskt tillstånd där tid är avgörande",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km3-4-q1",
+          "kind": "mcq",
+          "prompt": "En 68-årig man söker med svag urinstråle, startbesvär, nokturi två gånger per natt och känsla av ofullständig blåstömning. Prostata är jämnt förstorad och mjuk vid rektalexploration, PSA är normalt och urinsticka visar inga tecken på infektion. Vilken behandling är förstahandsval vid besvärande symtom?",
+          "options": [
+            "Alfablockerare",
+            "Antibiotika",
+            "Radikal prostatektomi",
+            "Långtidsbehandling med kortison"
+          ],
+          "answer": "Alfablockerare",
+          "explanation": "Symtomgivande godartad prostatahyperplasi behandlas i första hand med alfablockerare som relaxerar glatt muskulatur i prostata och blåshals, med snabb symtomlindring. Antibiotika är relevant vid samtidig prostatit och kirurgi övervägs vid recidiverande retention, blåssten eller njurpåverkan."
+        },
+        {
+          "id": "km3-4-q2",
+          "kind": "mcq",
+          "prompt": "En 44-årig man har sedan två timmar svår kolikartad smärta från vänster flank ut mot ljumsken, han är illamående och har mikroskopisk hematuri. DT visar en sten i vänster uretär som ger lätt hydronefros. Han är afebril och njurfunktionen är normal. Vilken behandling är förstahandsval mot smärtan?",
+          "options": [
+            "NSAID-preparat",
+            "Antibiotika",
+            "Alfablockerare som enda behandling",
+            "Akut dialys"
+          ],
+          "answer": "NSAID-preparat",
+          "explanation": "NSAID lindrar både smärtan och den prostaglandindrivna diuresen som ökar trycket ovanför stenen. Antibiotika ges endast vid samtidig infektion, och vid feber med obstruktion krävs akut avlastning med dränage eftersom det är ett urosepstillstånd."
+        },
+        {
+          "id": "km3-4-q3",
+          "kind": "mcq",
+          "prompt": "En 15-årig pojke får plötslig svår smärta i vänster skrotum under en fotbollsmatch, han kräks och skrotum är svullet. Testikeln står högt och cremasterreflexen är borta på den drabbade sidan. Vad gör du?",
+          "options": [
+            "Akut kirurgisk exploration – tiden till detorsion är avgörande",
+            "Skickar hem honom med analgetika och kontroll om en vecka",
+            "Beställer ultraljud och avvaktar svar",
+            "Behandlar med antibiotika mot epididymit"
+          ],
+          "answer": "Akut kirurgisk exploration – tiden till detorsion är avgörande",
+          "explanation": "Testistorsion stryper blodförsörjningen via funiculus spermaticus och kan ge testikelnekros inom några timmar. Kliniska tecken som högställd testikel, saknad cremasterreflex och akut debut motiverar omedelbar exploration; ultraljud får inte fördröja kirurgin. Epididymit debuterar mer successivt och har bevarad cremasterreflex."
+        },
+        {
+          "id": "km3-4-q4",
+          "kind": "cloze",
+          "prompt": "En 22-årig kvinna har dysuri, ökad miktionsfrekvens och suprapubisk ömhet utan feber eller flankömhet. Den vanligaste orsaken till okomplicerad nedre urinvägsinfektion är ______.",
+          "answer": "E. coli",
+          "explanation": "Escherichia coli orsakar majoriteten av okomplicerade urinvägsinfektioner tack vare adhesiner som fäster vid uroepitelet. Feber och flankömhet talar i stället för pyelonefrit, som kräver annan behandlingsstrategi."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka symtom är typiska vid godartad prostatahyperplasi?",
+          "back": "Försvagad stråle, startbesvär, nokturi, täta trängningar och känsla av ofullständig tömning. Symtomen kallas LUTS och graderas med IPSS."
+        },
+        {
+          "front": "Varför är feber vid njurstensobstruktion ett akut tillstånd?",
+          "back": "Obstruktion med infektion ger pyonefros och risk för urosepsis. Behandlingen är omedelbar avlastning av urinvägen, inte bara antibiotika."
+        },
+        {
+          "front": "Vilka är de klassiska tecknen på testistorsion?",
+          "back": "Plötslig svår ensidig skrotalsmärta, högställd och tvärställd testikel, saknad cremasterreflex, illamående och svullnad. Exploration utan dröjsmål."
+        },
+        {
+          "front": "Vad är ett normalt PSA och vad kan förhöja det förutom cancer?",
+          "back": "PSA är ett prostataspecifikt men inte cancerspecifikt protein. Förhöjning ses även vid prostatahyperplasi, prostatit, efter kateterisering, cykling och ejakulation."
+        },
+        {
+          "front": "Vilka är de vanligaste stenarna i urinvägarna?",
+          "back": "Kalciumoxalatstenar är vanligast, därefter urat-, fosfat- och struvitstenar. Struvit (magnesiumammoniumfosfat) förknippas med ureasproducerande bakterier och infektion."
+        },
+        {
+          "front": "Vad är akut urinretention och hur handläggs den?",
+          "back": "Plötslig oförmåga att tömma blåsan med smärta och palpabel blåsa. Avlastas med kateter; orsaker är bland annat prostatahyperplasi, blodpropp i blåsan och läkemedel med antikolinerg effekt."
+        }
+      ],
+      "facts": [
+        "E. coli dominerar som orsak till okomplicerad urinvägsinfektion.",
+        "Obstruktion plus infektion = akut avlastning, inte enbart antibiotika.",
+        "Testistorsion är en tidskritisk kirurgisk diagnos – exploration före ultraljud.",
+        "PSA stiger även av benign prostatahyperplasi, prostatit och mekanisk irritation."
+      ]
+    },
+    {
+      "id": "km3-5",
+      "code": "Modul 5",
+      "title": "Kärlkirurgi",
+      "summary": "Arteriell och venös insufficiens, akut extremitetsischemi och bukaortaaneurysm. Fokus ligger på att skilja claudicatio från andra gångsmärtor och på att känna igen den kärlkirurgiska akutsituationen.",
+      "estMinutes": 27,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: perifer artärsjukdom och claudicatio",
+          "query": "ninja nerd peripheral arterial disease claudication"
+        },
+        {
+          "label": "Ninja Nerd: aortaaneurysm",
+          "query": "ninja nerd abdominal aortic aneurysm"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "5.1",
+          "title": "Skilja claudicatio intermittens från spinal stenos och venös insufficiens",
+          "level": "kunna"
+        },
+        {
+          "code": "5.2",
+          "title": "Känna igen akut extremitetsischemi och förstå att den kräver omedelbar revaskularisering",
+          "level": "kunna"
+        },
+        {
+          "code": "5.3",
+          "title": "Känna till riskfaktorer för bukaortaaneurysm och hur en ruptur presenterar sig",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km3-5-q1",
+          "kind": "mcq",
+          "prompt": "En 71-årig man som röker söker för krampande smärta i vänster vad efter ungefär 200 meters gång. Smärtan försvinner inom ett par minuters vila och kommer tillbaka vid exakt samma gångsträcka. Pulsen på vänster a. dorsalis pedis saknas. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Claudicatio intermittens vid perifer artärsjukdom",
+            "Spinal stenos",
+            "Venös insufficiens",
+            "Kroniskt kompartmentsyndrom"
+          ],
+          "answer": "Claudicatio intermittens vid perifer artärsjukdom",
+          "explanation": "Reproducerbar gångsmärta som lindras inom minuter i vila, avsaknad av fotpuls och rökning passar perifer artärsjukdom. Spinal stenos ger i stället symtom som ofta lindras av att sätta sig eller böja sig framåt och påverkas mindre av gångsträckan, och venös insufficiens ger ödem, tunga ben och hyperpigmentering."
+        },
+        {
+          "id": "km3-5-q2",
+          "kind": "mcq",
+          "prompt": "En 78-årig kvinna med förmaksflimmer insjuknar plötsligt med svår smärta i höger underben. Benet är blekt, kallt från mitten av vaden, pulslöst och hon har domningar i foten. Vad är nästa steg?",
+          "options": [
+            "Omedelbar bedömning för revaskularisering – kirurgisk eller endovaskulär",
+            "Smärtlindring och observation över natten",
+            "Kompressionsbehandling och mobilisering",
+            "Antibiotika mot misstänkt cellulit"
+          ],
+          "answer": "Omedelbar bedömning för revaskularisering – kirurgisk eller endovaskulär",
+          "explanation": "Akut extremitetsischemi är en tidskritisk kärlkirurgisk akut situation där muskulaturen skadas inom timmar. Förmaksflimmer gör arteriell emboli sannolik. Att avvakta ger irreversibel ischemi med risk för amputation och rabdomyolys."
+        },
+        {
+          "id": "km3-5-q3",
+          "kind": "mcq",
+          "prompt": "En 76-årig man med känd hypertoni och rökning kommer in med akut svår buk- och ryggsmärta. Han är blek och svettig, blodtrycket är 85/50 och vid bukpalpation känns en pulserande resistens mitt i buken. Vilken diagnos måste antas till motsats bevisats?",
+          "options": [
+            "Rupturerat bukaortaaneurysm",
+            "Akut pankreatit",
+            "Njurkolik",
+            "Ileus"
+          ],
+          "answer": "Rupturerat bukaortaaneurysm",
+          "explanation": "Pulserande resistens, hypotoni och akut buk-/ryggsmärta hos äldre rökande man är klassisk presentation av rupturerat aortaaneurysm, där dödligheten är hög. Tillståndet kräver omedelbar kirurgisk/kärlkirurgisk handläggning, och tiden till åtgärd är avgörande."
+        },
+        {
+          "id": "km3-5-q4",
+          "kind": "cloze",
+          "prompt": "En 60-årig kvinna har svullet vänster ben, ökad vadmuskelömhet och rodnad efter en lång flygresa. Den mest fruktade akuta komplikationen till djupt ventrombos är ______.",
+          "answer": "lungemboli",
+          "explanation": "En trombbildning i de djupa benvenerna kan lossna och föras med venflödet till lungkretsloppet, där den ger obstruktion och högersidig hjärtsvikt eller cirkulatorisk kollaps. Utredning sker med D-dimer och ultraljud/DT-angiografi beroende på sannolikhet."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad innebär begreppet 'de sex P' vid akut extremitetsischemi?",
+          "back": "Pain, Pallor, Pulselessness, Paresthesia, Paralysis och Perishing cold (ibland även polar). Tidiga tecken är smärta och blekhet; paralys och kalla muskler är sena och allvarliga."
+        },
+        {
+          "front": "Vilka riskfaktorer finns för bukaortaaneurysm?",
+          "back": "Manligt kön, hög ålder, rökning, hypertoni och ateroskleros. Rökstopp är den viktigaste enskilda åtgärden för att bromsa tillväxten."
+        },
+        {
+          "front": "Hur skiljer man arteriellt sår från venöst bensår?",
+          "back": "Arteriellt: lokaliserat på tå/häl, torrt, blekt botten, dåliga pulsar, smärtsamt. Venöst: kring malleolerna, fuktigt, hyperpigmentering och ödem, oftast smärtfattigt."
+        },
+        {
+          "front": "Vad är venös insufficiens och varför uppstår ödem?",
+          "back": "Otillräckliga klaffar i djupa eller superficiala vener ger venstas med ökat kapillärtryck och läckage av vätska. Behandling är kompression och elevation."
+        },
+        {
+          "front": "Varför är diabetesfoten en kärlkirurgisk patient?",
+          "back": "Diabetes ger både makroangiopati och neuropati; kombinationen leder till trycksår, infektioner och högt amputationrisiko. Bedömning av perfusion är avgörande innan revision."
+        }
+      ],
+      "facts": [
+        "Akut extremitetsischemi behandlas genom revaskularisering – inte genom att avvakta.",
+        "Rökning är den starkaste modifierbara riskfaktorn vid perifer artärsjukdom.",
+        "Rupturerat aortaaneurysm ger hypotoni med pulsatile resistens och ryggsmärta.",
+        "Djupt ventrombos hotar framför allt genom lungemboli."
+      ]
+    }
+  ]
+}

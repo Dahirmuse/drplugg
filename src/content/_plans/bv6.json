@@ -1,0 +1,303 @@
+{
+  "course": "bv6",
+  "chapters": [
+    {
+      "id": "bv6-m1",
+      "code": "Modul 1",
+      "title": "Allmän mikrobiologi",
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Klassificering"
+        },
+        {
+          "code": "1.2",
+          "title": "Hygien"
+        },
+        {
+          "code": "1.3",
+          "title": "Immunologi"
+        },
+        {
+          "code": "1.4",
+          "title": "Bakterier"
+        },
+        {
+          "code": "1.5",
+          "title": "Virus"
+        },
+        {
+          "code": "1.6",
+          "title": "Parasiter och svampar"
+        },
+        {
+          "code": "1.7",
+          "title": "Mikrobiota"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Kunna beskriva den basala skillnaden mellan virus, prokaryoter och eukaryota encelliga organismer samt svamp, mask och leddjur",
+        "1.1.2 Kunna redogöra för principerna för klassificering av mikroorganismer i ordning, familj, släkte, art, subtyper och kloner",
+        "1.2.1 Kunna redogöra for grundläggande hygienprinciper och sterilitetsbegreppet",
+        "1.2.2 Kunna definiera vad vårdhygien är och namnge de vanligaste vårdrelaterade infektionerna",
+        "1.3.1 Kunna beskriva översiktligt de viktigaste cellerna inom det konstitutiva försvaret (innate immune system) och deras grundläggande funktion vid infektion",
+        "1.3.2 Kunna beskriva översiktligt de viktigaste cellerna inom det integrerade infektionsförsvaret (adaptive immune system) och deras grundläggande funktion vid infektion",
+        "1.3.3 Kunna beskriva översiktligt hur våra barriärer skyddar mot infektion",
+        "1.4.1 Kunna redogöra för skillnaden mellan Gram-positiva bakterier och Gram-negativa bakterier",
+        "1.4.2 Kunna beskriva olika grundstrukturer hos bakterier",
+        "1.4.3 Kunna förklara huvudkoncept för bakteriell virulens, inklusive skillnad mellan patogener, opportunister och kommensaler",
+        "1.4.4 Kunna beskriva och förklara olika grupper av toxiner",
+        "1.4.6 Kunna beskriva huvudsakliga organisationen av bakteriegenomet, däribland kunna korrekt använda termerna plasmid, bakteriofag, IS-element och transposon",
+        "1.4.7 Kunna redogöra för hur genetisk information utbyts och nedärvs hos bakterier, däribland kunna korrekt använda termerna mutation, transformation, transduktion och konjugation",
+        "1.4.9 Kunna definiera termerna aerob, obligat anaerob, fakultativt anaerob och mikroaerofili",
+        "1.5.1 Kunna beskriva en viruspartikels uppbyggnad och principiella strukturer",
+        "1.5.2 Kunna beskriva virusens klassificering baserat på genomstruktur (Baltimore schemat) och skillnaden mellan de olika virusgrupperna livscyklar baserat på denna klassificering",
+        "1.5.6 Kunna resonera kring vilka aspekter som påverkar hur svårt sjuk man blir av en virusinfektion",
+        "1.5.7 Kunna ge exempel på och beskriva hur virus undkommer värdens immunförsvar. 23 1.5.8 Kunna beskriva spridningsvägar och smittsamhet hos virus",
+        "1.6.1 Kunna beskriva parasiters uppbyggnad och klassificering samt redogöra skillnaden mellan olika klasser av parasiter",
+        "1.6.2 Kunna definiera parasitologiska termer samt förklara skillnaden mellan parasiter och andra infektiösa agens",
+        "1.6.3 Kunna redovisa för strategier som parasiter använder sig för att undkomma värdens immunförsvar",
+        "1.6.4 Kunna beskriva vad en protozo är, hur protozoerna är indelade i typer, hur protozoer reproducerar sig, samt kunna nämna humanpatogena protozoer",
+        "1.6.5 Kunna beskriva vad en helmint är, helminters struktur, helminters klassificering, samt kunna nämna humanpatogeniska helminter",
+        "1.6.6 Kunna resonera kring helminters och immunsystemets samverkan",
+        "1.6.7 Kunna beskriva eckinokockers livscyklar översiktligt, beskriva deras patogenes, samt ge exempel på behandling och prevention",
+        "1.6.8 Kunna beskriva svampars uppbyggnad och klassificering, samt kunna redogöra för betydelsen av termen dimorf svamp",
+        "1.7.1 Kunna definiera termerna mikrobiota, mikrobiom, och dysbios",
+        "1.7.2 Kunna beskriva lokaliseringen och de huvudsakliga komponenterna av den normala mikrobiotan",
+        "1.7.3 Kunna namnge de vanligaste opportunisterna i den normala mikrobiotan",
+        "1.7.4 Kunna redogöra för den normala mikrobiotans relevans för sjukdom och hälsa. 27 1.7.5 Kunna beskriva principiella skillnader mellan prebiotika och probiotika"
+      ]
+    },
+    {
+      "id": "bv6-m2",
+      "code": "Modul 2",
+      "title": "Tropiska sjukdomar och global hälsa",
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Epidemiologi och global hälsa"
+        },
+        {
+          "code": "2.2",
+          "title": "Zoonoser"
+        },
+        {
+          "code": "2.3",
+          "title": "Tropiska sjukdomar"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Kunna redogöra för hur risken för infektionssjukdomar är beroende av sociala, ekonomiska och miljörelaterade faktorer och hur ojämlik exponering för dessa faktorer bidrar till ojämlik ohälsa i ett globalt perspektiv",
+        "2.1.2 Kunna definiera begreppen epidemi, pandemi och endemisk",
+        "2.1.3 Kunna redogöra för exempel på åtgärder på makronivå, på folkhälsonivå, och på individuell nivå och resonera kring globala strategier för att förebygga och kontrollera specifika infektionssjukdomar eller grupper av infektionssjukdomar",
+        "2.1.4 Kunna beskriva hur infektionssjukdomars epidemiologi i Sverige är relaterad till migration och resor",
+        "2.1.5 Kunna beskriva grundläggande principerna för screening för infektionssjukdomar bland vissa grupper av migranter i Sverige",
+        "2.1.6 Kunna beskriva översiktligt om globala skillnader i tillgång till och användning av antimikrobiella läkemedel och hur detta är kopplat till resistensutveckling",
+        "2.1.7 Kunna redogöra för grundläggande principer för att motverka antimikrobiellresistens i ett globalt perspektiv",
+        "2.1.8 Kunna beskriva grundläggande principer och utmaningar för att designa och genomföra vaccinationsprogram i låg- och medelinkomstländer",
+        "2.1.9 Kunna redogöra för vilka sjukdomar som finns med i globala vaccinationsprogrammet",
+        "2.1.10 Kunna beskriva problem kring målet att vaccinera alla barn i världen",
+        "2.1.11 Kunna namnge internationella organisationer och fonder, så som GAVI och WHO, som jobbar för en bättre global hälsa och beskriva deras främsta uppgifter",
+        "2.1.12 Kunna redogöra för vilken roll COVAX har haft under COVID-19 pandemin. ..31 2.2 Zoonoser",
+        "2.2 Zoonoser",
+        "2.3.1 Kunna beskriva vad en \"neglected tropical disease\" är och ge ett exempel på en sådan sjukdom",
+        "2.3.2 Kunna nämna tre infektionssjukdomar som räknas till försummade tropiska sjukdomar",
+        "2.3.3 Kunna beskriva den globala och nationella epidemiologin för tuberkulos",
+        "2.3.4 Kunna nämna vilka parasiter tillhör trypanosomatidea-familjen samt vilka karaktärer som beskriver denna familj",
+        "2.3.5 Kunna beskriva patogenesen och livscykeln för Trypanosoma brucei och Trypanosoma cruzi",
+        "2.3.6 Kunna beskriva verkningsmekanismen för hur parasitiska läkemedlet benznidazole",
+        "2.3.7 Kunna namnge samtliga humanpatogeniska malariaparasiter",
+        "2.3.8 Kunna beskriva biologiska mekanismer för att Plasmodium falciparum är farligare än andra arter",
+        "2.3.10 Kunna beskriva patogenesen för Ascaris lumbricoides, samt vilka komplikationer som kan tillstöta vid en infektion",
+        "2.3.11 Kunna resonera kring vilka symptom kan uppkomma vid olika stadier av Ascaris lumbricoides livscykel",
+        "2.3.12 Kunna beskriva patogenesen för Strongyloides stercoralis samt vilka komplikationer som kan tillstöta vid en infektion",
+        "2.3.13 Kunna namnge filarierna som orsakar sjukdom hos människa, vektorerna för de specifika filarierna, samt uttryckande drag i patogenesen hos filarierna som till exempel elefantiasis och blindhet",
+        "2.3.14 Kunna beskriva patogenesen för Taenia solium och komplikationer som kan tillstöta vid infektion",
+        "2.3.15 Kunna beskriva skillnaden i patogenesen mellan Schistosoma och badklåda samt diskutera orsaker till skillnaderna"
+      ]
+    },
+    {
+      "id": "bv6-m3",
+      "code": "Modul 3",
+      "title": "Mag- och tarminfektioner, samt antimikrobiell behandling",
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Mag- och tarminfektioner"
+        },
+        {
+          "code": "3.2",
+          "title": "Antibakteriell behandling och antibiotikaresistens"
+        },
+        {
+          "code": "3.3",
+          "title": "Antiviral behandling"
+        },
+        {
+          "code": "3.4",
+          "title": "Vaccin"
+        },
+        {
+          "code": "3.5",
+          "title": "Laboration"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Kunna beskriva patogenesen för utvalda bakterier som orsakar mag- och tarminfektioner, specifikt följande bakteriearter:",
+        "3.1.2 Kunna beskriva patogenesen och livscykeln för utvalda virus som orsakar mag- och tarminfektioner, specifikt följande virus:",
+        "3.1.3 Kunna namnge virus inom följande virusgrupp som orsakar mag- och tarminfektioner:",
+        "3.1.4 Kunna beskriva patogenesen och livscykeln för utvalda parasiter som orsakar mag- och tarminfektioner, specifikt följande parasiter:",
+        "3.2.1 Kunna beskriva måltavlan för följande antibiotikagrupper och den molekylära mekanismen för hur dessa antibiotika verkar:",
+        "3.2.2 Kunna beskriva mekanismen för hur spontana punktmutationer eller upptag av DNA med antibiotikaresistensgener kan ge upphov till antibiotikaresistensutveckling. .41 3.2.3 Kunna beskriva mekanismer för naturlig/medfödd antibiotikaresistens",
+        "3.2.4 Kunna beskriva olika mekanismer för antibiotikaresistens i form av:",
+        "3.2.5 Kunna förklara relationen mellan antibiotikaanvändning och utveckling av antibiotikaresistens",
+        "3.2.7 Kunna definiera den minsta hämmande koncentrationen (minimal inhibitory concentration, MIC)",
+        "3.2.8 Kunna namnge de vanligaste anmälningspliktiga antibiotikaresistenserna och översiktligt beskriva deras förekomst i Europa och Sverige",
+        "3.2.9 Kunna beskriva principerna för övervakning och rapportering av antibiotikaresistenta bakterier",
+        "3.2.10 Kunna diskutera problematiken av antibiotikaresistens på patient- och samhällsnivå",
+        "3.2.11 Kunna resonera kring farmakologiska och immunologiska aspekter av antibiotikabehandling",
+        "3.3.1 Kunna förklara hur virusets arvsmassa (RNA eller DNA) påverkar genomreplikationen och virusevolutionen i form av förekomsten av punktmutationer, och förmågan till rekombination och omsortering av arvsmassan",
+        "3.3.2 Kunna beskriva skillnaden mellan hög och låg genetisk barriär i hänsyn till utveckling av antiviralresistens",
+        "3.3.3 Kunna beskriva principen bakom selektion av de novo mutationer för antiviralresistens",
+        "3.3.4 Kunna redogöra för möjliga angreppspunkter och principer för antiviraler samt utmaningar med antiviral behandling",
+        "3.3.5 Kunna beskriva nukleosidanalogernas verkningsmekanism och ge exempel på en nukleosidanalog samt en viral sjukdom som kan behandlas med denna",
+        "3.3.6 Kunna beskriva verkningsmekanismen för samtliga läkemedelsklasser som inhiberar HIV i form av inträdeshämmare, omvänt transkriptas hämmare, integrashämmare, och proteashämmare",
+        "3.3.7 Kunna beskriva principiella skillnader mellan antiviralresistens och antibiotikaresistens",
+        "3.3.8 Kunna förklara vilka utmaningar som finns vid antiviral behandling och vilka faktorer som påverkar risken för antiviralresistensutveckling",
+        "3.4.1 Kunna beskriva den grundläggande immunologin bakom hur vaccination leder till skydd mot infektion/sjukdom",
+        "3.4.2 Kunna beskriva vaccinernas påverkan på global hälsa",
+        "3.4.3 Kunna beskriva grundläggande innehåll, uppbyggnad, och funktion för olika typer av bakterievaccin så som:",
+        "3.4.4 Kunna beskriva grundläggande innehåll, uppbyggnad, och funktion för olika typer av virusvaccin så som:",
+        "3.4.5 Kunna beskriva strukturen och innehållet i det svenska barnvaccinationsprogrammet",
+        "3.4.6 Kunna namnge exempel på virusinfektioner och bakterieinfektioner som kan förebyggas via vaccination",
+        "3.5.1 Kunna namnge följande bakterier och bakteriesläkten som orsakar mag- och tarminfektioner och beskriva översiktligt deras bakteriologiska kännetecken:",
+        "3.5.2 Kunna beskriva hur man odlar bakterier på agarplattor och hur man beskriver bakterierkoloniernas utseende på agarplattor",
+        "3.5.3 Känna till principen bakom Gram-infärgning för mikroskopi av bakterier",
+        "3.5.4 Kunna beskriva microbrothdilution-metoden och diskdiffusion-metoden för antibiotikakänslighetstestning samt deras skillnader",
+        "3.5.5 Kunna förklara principen bakom serologiska metoder för identifikation av bakterier"
+      ]
+    },
+    {
+      "id": "bv6-m4",
+      "code": "Modul 4",
+      "title": "Luftvägs-, hud- och barninfektioner",
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Mikrobiota och diagnostik"
+        },
+        {
+          "code": "4.2",
+          "title": "Bakterieinfektioner"
+        },
+        {
+          "code": "4.3",
+          "title": "Virusinfektioner"
+        },
+        {
+          "code": "4.4",
+          "title": "Barnsjukdomar"
+        },
+        {
+          "code": "4.5",
+          "title": "Parasitinfektioner"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Kunna namnge de vanligaste patogenerna som orsakar luftvägsinfektioner",
+        "4.1.2 Kunna namnge de vanligaste patogenerna som orsakar hudinfektioner",
+        "4.1.4 Kunna förklara principerna för påvisning av mikroorganismer (odling, nukleinsyrapåvisning, serologi, mikroskopi och antigenpåvisning) som orsakar hud-, barn- och luftvägsinfektioner",
+        "4.1.5 Kunna förklara begreppet opportunistiska infektioner och ge exempel patogener som orsakar opportunisktiska infektioner i luftvägarna och på huden",
+        "4.2.1 Kunna beskriva mekanismer som streptokocker, som till exempel Streptococcus pneumoniae och Streptococcus pyogenes, använder sig av för patogenes och virulens vid en infektion",
+        "4.2.2 Kunna beskriva mekanismer som stafylokocker, som till exempel Staphylococcus aureus, använder sig av för patogenes och virulens vid en infektion",
+        "4.2.3 Kunna beskriva mekanismer som Mycobacterium tuberculosis använder sig av för patogenes och virulens vid en infektion",
+        "4.2.4 Kunna redogöra för begreppet latent infektion i hänsyn till tuberkulos",
+        "4.2.5 Kunna beskriva egenskaper hos streptokocker och stafylokocker som påverkar deras interaktion med immunförsvaret",
+        "4.2.6 Kunna beskriva strategier som streptokocker och stafylokocker använder sig av för att undvika immunförsvaret",
+        "4.3.1 Kunna beskriva patogenesen för luftvägsvirus, herpesvirus, hepatitvirus, samt virus som orsakar de så kallade barn- och exantemsjukdomarna",
+        "4.3.2 Kunna redogöra för betydelsen av immunologiska faktorer och värdfaktorer som påverkar patogenesen för luftvägsvirus, herpesvirus, hepatitvirus, samt virus som orsakar de så kallade barn- och exantemsjukdomarna",
+        "4.3.3 Kunna redogöra för infektionsvägar för virus i herpesvirusgruppen",
+        "4.3.4 Kunna redogöra för organtropismen med hänsyn till herpesvirus",
+        "4.3.5 Kunna förklara akut infektion, kronisk infektion, och latent infektion med hänsyn till herpesvirusinfektion",
+        "4.3.6 Kunna förklara vad klinisk- och subklinisk infektion är med hänsyn till herpesvirus",
+        "4.3.7 Kunna beskriva hur poxvirus livscykel skiljer sig från andra dubbelsträngade DNA virus livscykler",
+        "4.3.8 Kunna redogöra för termerna antigendrift och antigen-shift och förklara de genetiska mekanismerna bakom dessa med hänsyn till influensavirus",
+        "4.3.9 Kunna förklara hur uppbyggnaden av influensavirus har betydelse för patogenes och spridning i relation till kroppens immunsvar",
+        "4.3.10 Kunna redogöra för SARS-CoV-2s livscykel",
+        "4.3.11 Kunna redogöra för skillnaden mellan \"vanliga\" coronavirus och SARS-CoV-2 med hänsyn till patogenes och säsongsvariation",
+        "4.3.12 Kunna reflektera över immunsystemets roll för virus spridning (’immune escape’) och virusevolution",
+        "4.3.14 Kunna förklara hur skillnader i uppbyggnad mellan olika hepatitvirus påverkar deras spridningsväg",
+        "4.3.15 Kunna förklara principerna för påvisning av hepatitvirus",
+        "4.4.1 Kunna redogöra för de virus och bakterier som ingår i de så kallade barn- och exantemsjukdomarna",
+        "4.5.1 Kunna namnge och redogöra för de vanligaste ektoparasiternas livscykler",
+        "4.5.2 Kunna namnge två dermatofyter och redogöra för deras smittspridning",
+        "4.5.3 Kunna redogöra för Leishmania parasitens livscykel och dess steg översiktligt. 59 4.5.4 Kunna beskriva sjukdomsbilden för de tre olika typer av leishmaniasis"
+      ]
+    },
+    {
+      "id": "bv6-m5",
+      "code": "Modul 5",
+      "title": "CNs-infektioner och STI:s",
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Nisseria"
+        },
+        {
+          "code": "5.2",
+          "title": "Andra bakterier"
+        },
+        {
+          "code": "5.3",
+          "title": "Urinvägsinfektioner"
+        },
+        {
+          "code": "5.4",
+          "title": "Sexuellt överförbara sjukdomar och spirocheter"
+        },
+        {
+          "code": "5.5",
+          "title": "Meningoencefalit"
+        },
+        {
+          "code": "5.6",
+          "title": "Prioner"
+        },
+        {
+          "code": "5.7",
+          "title": "HIV och HPV"
+        },
+        {
+          "code": "5.8",
+          "title": "Toxoplasma"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Kunna översiktligt beskriva mekanismen bakom antigenvariationen av pili hos Neisseria meningitidis och Neisseria gonorrhoeae och hur detta påverkar deras interaktion med immunförsvaret",
+        "5.1.2 Kunna redogöra hur kapseln hos Neisseria meningitidis påverkar dess interaktion med immunförsvaret",
+        "5.1.3 Kunna beskriva översiktligt patogenesen för Neisseria gonorrhoeae (orsakar gonorré)",
+        "5.1.4 Kunna beskriva översiktligt patogenesen för Neisseria meningitidis",
+        "5.2.1 Kunna redogöra översiktligt för patogenesen för Haemophilus influenzae typ b och dess viktigaste virulensfaktor i form av kapseln",
+        "5.2.2 Kunna beskriva patogenesen för Listeria monocytogenes infektion (orsakar listerios) och beskriva virulensfaktorer som har med patogenesen att göra",
+        "5.2.3 Kunna namnge och beskriva funktionen för toxiner som utsöndras av Clostridier och beskriva deras roll i bakteriens patogenes",
+        "5.3.1 Kunna beskriva funktioner och strategier som kroppen använder sig för att skydda sig från och bekämpa mot urinvägspatogener",
+        "5.3.2 Kunna beskriva funktionen för virulensfaktorer som enterobakterier använder sig vid urinvägsinfektioner",
+        "5.3.3 Kunna redogöra för mekanismer hos mikroorganismer som bidrar till recidiverande urinvägsinfektioner, inklusive rollen av biofilm och egenskaper för att undvika immunförsvaret",
+        "5.3.4 Kunna namnge bakterier som kan orsaka kateterassocierad urinvägsinfektion. 62 5.4 Sexuellt överförbara sjukdomar och spirocheter",
+        "5.4 Sexuellt överförbara sjukdomar och spirocheter",
+        "5.5.2 Kunna beskriva hur virus som orsakar hjärn- och hjärnhinneinflammation tar sig in i hjärnan",
+        "5.5.3 Kunna namnge virus som orsakas hjärn- och hjärnhinneinflammation",
+        "5.6.1 Kunna förklara vad en prion är och hur den skiljer sig från bakterier och virus i sin struktur",
+        "5.6.2 Kunna beskriva översiktligt de olika prionsjukdomar och hur de skiljer sig från varandra",
+        "5.7.1 Kunna redogöra för molekylära mekanismer som virus använder sig av som kan orsaka celltransformation och kan leda till cancerutveckling",
+        "5.7.2 Kunna översiktligt beskriva livscykeln för humant immunbristsvirus (HIV). .. 66 5.7.3 Kunna beskriva omvänd transkription och integration i HIVs livscykel och redogöra för hur dessa påverkar förmågan att behandla HIV",
+        "5.7.4 Kunna beskriva livscykeln för humant papillomvirus (HPV) och redogöra för profylaktiska åtgärder som används mot HPV",
+        "5.7.5 Kunna beskriva huvudsakliga mekanismer som HIV och HPV använder sig av för att undkomma immunförsvaret",
+        "5.7.6 Kunna redogöra för smittvägarna för HIV och HPV",
+        "5.7.7 Kunna översiktligt beskriva patogenesen för humant T-lymfotropt virus typ 1 (HTLV-1)",
+        "5.8.1 Kunna översiktligt beskriva globala epidemiologin för Toxoplasma gondii",
+        "5.8.2 Kunna beskriva livscykeln och patogenesen för Toxoplasma gondii och vilka egenskaper av parasiten som hjälper den att disseminera i kroppen"
+      ]
+    }
+  ]
+}

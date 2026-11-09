@@ -1,0 +1,22 @@
+# Beroenden och byggen
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Hemligheter – får aldrig hamna i git
+.env
+.env.local
+.env*.local
+config/smtp.json
+
+# Data och cache
+data/anki/
+*.log
+.DS_Store
+
+# Tillfälligt
+tmp/
+
+# Prod-paketet (publiceras på branch prod, inte main)
+dist/

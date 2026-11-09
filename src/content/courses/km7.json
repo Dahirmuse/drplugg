@@ -1,0 +1,468 @@
+{
+  "id": "km7",
+  "code": "KM7",
+  "title": "Klinisk medicin 7: Cancer och palliativ medicin",
+  "term": "T11",
+  "icon": "🎗️",
+  "color": "red",
+  "sortOrder": 15,
+  "description": "Tumörbiologi, cancerbehandlingens principer, palliativ vård och onkologiska akutfall. Fokus ligger på att förstå varför behandlingar verkar och varför de ger biverkningar, samt på tidig igenkänning av livshotande komplikationer.",
+  "chapters": [
+    {
+      "id": "km7-1",
+      "code": "Modul 1",
+      "title": "Cancerbiologi och tumörsjukdomar",
+      "summary": "Från cellcykelns kontrollpunkter till invasion och metastasering. Här tränas begreppen onkogen, tumörsuppressorgen, grad och stadium samt hur cancersymtom presenteras kliniskt.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: cancerbiologi och onkogener",
+          "query": "ninja nerd cancer biology oncogenes tumor suppressor"
+        },
+        {
+          "label": "Ninja Nerd: metastasering och angiogenes",
+          "query": "ninja nerd metastasis angiogenesis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Förklara skillnaden mellan onkogen och tumörsuppressorgen och ge kliniska exempel",
+          "level": "kunna"
+        },
+        {
+          "code": "1.2",
+          "title": "Redogöra för hur en tumör invaderar och sprider sig till lymfkörtlar och via blodbanan",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Känna till hur TNM-klassificering och grad skiljer sig åt och vad de används till",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km7-1-q1",
+          "kind": "mcq",
+          "prompt": "En 38-årig kvinna har flera släktingar med bröst- och äggstockscancer i unga år. Hon bär på en sjukdomsgivande variant i BRCA1. Vilken typ av gen rör det sig om?",
+          "options": [
+            "Tumörsuppressorgen – båda alleler måste vara inaktiverade",
+            "Onkogen – en aktiverad allel räcker",
+            "Fusionsgen som bildas vid translokation",
+            "Gen för ett reparationsprotein som aldrig kan skadas"
+          ],
+          "answer": "Tumörsuppressorgen – båda alleler måste vara inaktiverade",
+          "explanation": "BRCA1/2 är tumörsuppressorgener som deltar i reparation av dubbelsträngsbrott i DNA. Enligt Knudsons två-hit-hypotes krävs inaktivering av båda allelerna, vilket förklarar den höga livstidsrisken men också varför ärftligheten är dominant på familjenivå men recessiv på cellnivå. Onkogener kräver tvärtom bara en aktiverad allel (gain of function)."
+        },
+        {
+          "id": "km7-1-q2",
+          "kind": "mcq",
+          "prompt": "En 64-årig man söker för trötthet och viktnedgång. Blodprov visar järnbristanemi utan känd blödningskälla, och han är avföringsprovspositiv. Vilken utredning är den centrala?",
+          "options": [
+            "Kolonoskopi",
+            "Övre gastroskopi som enda undersökning",
+            "Ultraljud av njurarna",
+            "Bentäthetsmätning"
+          ],
+          "answer": "Kolonoskopi",
+          "explanation": "Järnbristanemi hos en äldre man utan uppenbar blödningskälla är ett klassiskt tecken på högersidig koloncancer, som blöder långsamt och därför inte ger synligt blod i avföringen. Koloskopi ger både diagnos och möjlighet till biopsi och eventuell polypbehandling."
+        },
+        {
+          "id": "km7-1-q3",
+          "kind": "mcq",
+          "prompt": "En tumör i colon sigmoideum har vuxit genom tarmväggen och spridit sig till regionala lymfkörtlar men inte till lever eller lungor. Vad beskriver denna beskrivning?",
+          "options": [
+            "Stadium med lokal tumörutbredning och regionala lymfkörtelmetastaser (T och N)",
+            "Tumörens histologiska grad",
+            "Tumörens molekylära profil",
+            "Tumörens tillväxthastighet"
+          ],
+          "answer": "Stadium med lokal tumörutbredning och regionala lymfkörtelmetastaser (T och N)",
+          "explanation": "TNM beskriver utbredning: T för tumörens djup, N för regionala lymfkörtlar och M för fjärrmetastaser. Grad beskriver i stället hur differentierade cellerna är och är en separat bedömning som påverkar prognos men inte stadium."
+        },
+        {
+          "id": "km7-1-q4",
+          "kind": "cloze",
+          "prompt": "En tumör som växer över några millimeter behöver egen blodförsörjning. Förmågan att stimulera nybildning av kärl kallas ______.",
+          "answer": "angiogenes",
+          "explanation": "Tumörceller frisätter bland annat VEGF som stimulerar tillväxt av nya blodkärl, vilket möjliggör fortsatt tillväxt och ger väg ut i blodbanan. Angiogeneshämmare används därför som cancerbehandling."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är skillnaden mellan onkogen och tumörsuppressorgen?",
+          "back": "Onkogen: muterad gen som driver tillväxt, räcker med en aktiverad allel (gain of function, t.ex. RAS, MYC). Tumörsuppressorgen: bromsar cellcykeln, båda alleler måste slås ut (loss of function, t.ex. p53, RB, BRCA)."
+        },
+        {
+          "front": "Vilka sex egenskaper (hallmarks) har en cancercell?",
+          "back": "Obegränsad proliferation, undvikande av tillväxthämmande signaler, resistens mot apoptos, angiogenes, invasion/metastasering och replikativ immortalitet – ofta tillkommande immunundanflykt och förändrad metabolism."
+        },
+        {
+          "front": "Vad är skillnaden mellan grad och stadium?",
+          "back": "Grad = histologisk differentieringsgrad (hur likt normalvävnad tumören är). Stadium = anatomisk utbredning enligt TNM. Stadium styr i högre grad behandlingsval och prognos."
+        },
+        {
+          "front": "Vilka vägar sprider tumörer sig?",
+          "back": "Direkt invasion i omgivande vävnad, lymfogen spridning till regionala körtlar och hematogen spridning till lever, lungor, ben och hjärna. Vissa tumörer sprids transcoelomt (peritoneal karcinomatos)."
+        },
+        {
+          "front": "Varför ger koloncancer ofta järnbristanemi?",
+          "back": "Tumören blöder långsamt och kontinuerligt utan att ge synligt blod, vilket ger kronisk blodförlust och järnbrist. Symtom är trötthet och anemi snarare än blodig avföring."
+        },
+        {
+          "front": "Vad är ett paraneoplastiskt syndrom?",
+          "back": "Symtom orsakade av ämnen tumören producerar, till exempel hyperkalcemi vid skivepitelcancer eller SIADH vid småcellig lungcancer – inte av metastaser."
+        }
+      ],
+      "facts": [
+        "p53 kallas 'genomets väktare' och är den vanligaste muterade tumörsuppressorgonen.",
+        "Knudsons två-hit-hypotes förklarar ärftliga cancerformer.",
+        "TNM beskriver utbredning, grad beskriver differentiering.",
+        "Angiogenes är en förutsättning för tumörtillväxt över några millimeter."
+      ]
+    },
+    {
+      "id": "km7-2",
+      "code": "Modul 2",
+      "title": "Cancerbehandling: kirurgi, cytostatika och strålning",
+      "summary": "De fyra behandlingsmodaliteterna och deras principer: kirurgi, cytostatika, strålning och målsökande behandling. Fokus ligger på varför behandlingarna ger biverkningar och på begreppen adjuvant, neoadjuvant och palliativ behandling.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: cytostatika och cellcykeln",
+          "query": "ninja nerd chemotherapy cell cycle"
+        },
+        {
+          "label": "Ninja Nerd: strålbehandling och strålningsbiologi",
+          "query": "ninja nerd radiation therapy radiobiology"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Förklara varför cytostatika ger biverkningar i snabbt delande vävnader",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Redogöra för principerna bakom fraktionerad strålbehandling",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Skilja på adjuvant, neoadjuvant och palliativ behandling",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km7-2-q1",
+          "kind": "mcq",
+          "prompt": "En patient som får cytostatika utvecklar håravfall, sår i munslemhinnan och sjunkande neutrofila granulocyter. Varför uppstår just dessa biverkningar?",
+          "options": [
+            "Cytostatika skadar alla snabbt delande celler, inte bara tumörceller",
+            "Cytostatika binder specifikt till tumörcellernas DNA-reparationsenzymer",
+            "Biverkningarna beror på allergisk reaktion mot läkemedlet",
+            "Biverkningarna orsakas av vätskeansamling i vävnaderna"
+          ],
+          "answer": "Cytostatika skadar alla snabbt delande celler, inte bara tumörceller",
+          "explanation": "Cytostatika verkar på mekanismer som DNA-skada, mikrotubuli och nukleotidsyntes, vilka alla är centrala i delande celler. Därför drabbas benmärg, slemhinnor och hårsäckar, som delar sig snabbt men friskt. Det är också skälet till att behandlingen ges i kurer med återhämtningsperioder."
+        },
+        {
+          "id": "km7-2-q2",
+          "kind": "mcq",
+          "prompt": "Varför delas strålbehandling upp i många små fraktioner i stället för att ges som en enda stor dos?",
+          "options": [
+            "Normalvävnad hinner reparera skador mellan fraktionerna samtidigt som tumörceller ansamlas i känsliga cellfaser",
+            "Fraktionering gör strålningen starkare per tillfälle",
+            "Fraktionering behövs bara för att patienten ska slippa biverkningar helt",
+            "Fraktionering ökar tumörens syretillförsel så att den blir mer motståndskraftig"
+          ],
+          "answer": "Normalvävnad hinner reparera skador mellan fraktionerna samtidigt som tumörceller ansamlas i känsliga cellfaser",
+          "explanation": "Strålning skadar DNA direkt och via fria radikaler. Fraktionering utnyttjar att normalvävnad reparerar subletala skador bättre än tumörvävnad och att celler omfördelas till känsliga cellcykelfaser, vilket ökar den terapeutiska kvoten. En enda stor dos skulle ge mer skada på frisk vävnad."
+        },
+        {
+          "id": "km7-2-q3",
+          "kind": "mcq",
+          "prompt": "En patient opereras med radikal resektion av en koloncancer, och det finns inga synliga metastaser. Efter operationen erbjuds cytostatikabehandling i sex månader. Vad kallas denna behandling?",
+          "options": [
+            "Adjuvant behandling",
+            "Neoadjuvant behandling",
+            "Palliativ behandling",
+            "Induktionsbehandling"
+          ],
+          "answer": "Adjuvant behandling",
+          "explanation": "Adjuvant behandling ges efter att all synlig tumör avlägsnats, i syfte att slå ut mikrometastaser och minska recidivrisken. Neoadjuvant behandling ges i stället före operation för att krympa tumören och öka chansen till radikal resektion."
+        },
+        {
+          "id": "km7-2-q4",
+          "kind": "cloze",
+          "prompt": "Behandling som ges före operation för att minska tumörens storlek och göra den lättare att avlägsna radikalt kallas ______ behandling.",
+          "answer": "neoadjuvant",
+          "explanation": "Neoadjuvant behandling ges före kirurgi, vanligt vid exempelvis rektalcancer och bröstcancer. Den kan göra en primärt inoperabel tumör operabel och ger samtidigt information om tumörens känslighet."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka fyra huvudmodaliteter finns i cancerbehandling?",
+          "back": "Kirurgi, strålbehandling, cytostatika och målsökande/immunologisk behandling (inklusive endokrin behandling vid hormonkänsliga tumörer)."
+        },
+        {
+          "front": "Vad är skillnaden mellan adjuvant och neoadjuvant behandling?",
+          "back": "Adjuvant: efter radikal kirurgi för att eliminera mikrometastaser. Neoadjuvant: före kirurgi för att krympa tumören."
+        },
+        {
+          "front": "Vad är R0, R1 och R2 vid tumörkirurgi?",
+          "back": "R0 = radikal resektion utan kvarvarande tumörväxt, R1 = mikroskopisk kvarvarande tumör i resektionsrand, R2 = makroskopisk kvarvarande tumör."
+        },
+        {
+          "front": "Vilka akuta biverkningar har cytostatika?",
+          "back": "Myelosuppression med infektionsrisk, mucosit, illamående, håravfall, trötthet och tumörlyssyndrom. Sena biverkningar är bland annat neuropati, kardiotoxicitet och infertilitet."
+        },
+        {
+          "front": "Hur verkar målsökande behandling?",
+          "back": "Den riktas mot specifika molekyler i tumörcellen eller dess omgivning, till exempel HER2, EGFR eller VEGF, och är beroende av att tumören uttrycker målmolekylen."
+        },
+        {
+          "front": "Vad är palliativ cytostatika?",
+          "back": "Behandling som ges när bot inte är möjlig, i syfte att lindra symtom, bromsa tumörväxt och förbättra livskvalitet – alltid vägd mot biverkningar."
+        }
+      ],
+      "facts": [
+        "Cytostatika drabbar alla snabbt delande celler – därav benmärgs- och slemhinnebiverkningar.",
+        "Fraktionerad strålning ökar den terapeutiska kvoten.",
+        "Adjuvant = efter kirurgi, neoadjuvant = före kirurgi.",
+        "R0 innebär radikal resektion utan kvarvarande tumörväxt."
+      ]
+    },
+    {
+      "id": "km7-3",
+      "code": "Modul 3",
+      "title": "Palliativ vård och symtomlindring",
+      "summary": "Palliativ vård av patienter med obotlig sjukdom: smärtlindring, opioidbehandling, andnöd, brytpunktssamtal och stöd till närstående. Fokus ligger på helhetssyn och på att behandla symtom utan att förkorta livet.",
+      "estMinutes": 28,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: opioidanalgetika och opioida receptorer",
+          "query": "ninja nerd opioid analgesics pharmacology"
+        },
+        {
+          "label": "Ninja Nerd: palliativ vård och smärtbehandling",
+          "query": "ninja nerd palliative care pain management"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för begreppet total smärta och vad palliativ vård omfattar",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Förklara principen för opioidbehandling vid cancersmärta och varför laxantia alltid ges",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Genomföra och dokumentera ett brytpunktssamtal samt känna till ställningstagande till HLR",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km7-3-q1",
+          "kind": "mcq",
+          "prompt": "En 71-årig man med spridd prostatacancer har svår smärta trots adekvat opioidbehandling. Han är samtidigt djupt nedstämd, orolig för ekonomin och känner att livet saknar mening. Vad menas med 'total smärta' i denna situation?",
+          "options": [
+            "Smärtan har fysiska, psykiska, sociala och existentiella komponenter som alla måste hanteras",
+            "Att smärtan är så svår att den kräver högsta möjliga opioid dos",
+            "Att smärtan kommer från flera olika metastaser samtidigt",
+            "Att patienten överdriver sina besvär"
+          ],
+          "answer": "Smärtan har fysiska, psykiska, sociala och existentiella komponenter som alla måste hanteras",
+          "explanation": "Begreppet total smärta beskriver att lidande vid livshotande sjukdom är sammansatt. Enbart ökad opioid dos löser inte oro, ekonomi eller existentiell kris; därför krävs ett tvärprofessionellt team med läkare, sjuksköterska, kurator, psykolog och vid behov präst."
+        },
+        {
+          "id": "km7-3-q2",
+          "kind": "mcq",
+          "prompt": "En patient med skelettmetastaser sätts in på långverkande opioid mot sin värksmärta. Varför förskrivs samtidigt ett laxerande läkemedel?",
+          "options": [
+            "Opioider ger obstipation genom minskad tarmmotilitet, och tolerans mot den effekten utvecklas inte",
+            "Laxantia ökar opioidens smärtlindrande effekt",
+            "Laxantia förebygger andningsdepression",
+            "Det är enbart en rutin utan farmakologisk grund"
+          ],
+          "answer": "Opioider ger obstipation genom minskad tarmmotilitet, och tolerans mot den effekten utvecklas inte",
+          "explanation": "Opioider aktiverar myenteriska receptorer och hämmar tarmens peristaltik samtidigt som sfinktrarna ökar i tonus. Till skillnad från illamående och sedering utvecklas ingen tolerans mot obstipation, så laxantia ska ges profylaktiskt till alla som står på opioider."
+        },
+        {
+          "id": "km7-3-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig kvinna med obotlig lungsjukdom blir allt svagare. Vad innebär ett brytpunktssamtal?",
+          "options": [
+            "Ett strukturerat samtal där man samtalar om sjukdomens förlopp, patientens önskemål och att vården övergår till att vara lindrande",
+            "Ett samtal där läkaren meddelar att behandlingen avslutas mot patientens vilja",
+            "Ett samtal som bara förs med närstående",
+            "Ett samtal som bara handlar om ställningstagande till HLR"
+          ],
+          "answer": "Ett strukturerat samtal där man samtalar om sjukdomens förlopp, patientens önskemål och att vården övergår till att vara lindrande",
+          "explanation": "Brytpunktssamtalet är ett planerat samtal med patienten och närstående där man klargör sjukdomens förlopp, förväntade symtom, vårdens inriktning och patientens önskemål, inte minst om plats för vård i livets slut. HLR-frågan ingår som en del men samtalet är bredare."
+        },
+        {
+          "id": "km7-3-q4",
+          "kind": "cloze",
+          "prompt": "Vid medelsvår till svår cancersmärta är den grundläggande farmakologiska behandlingen ______, som trappas upp stegvis och ges med dosering anpassad efter symtom.",
+          "answer": "opioider",
+          "explanation": "Enligt WHO:s smärtstege används vid medelsvår till svår smärta starka opioider som morfin, oberoende av förväntad överlevnad. Behandlingen titreras efter effekt och biverkningar, och vid neuropatisk smärta kompletteras den med antidepressiva eller antiepileptika."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är definitionen av palliativ vård?",
+          "back": "Aktiv, helhetsinriktad vård av patient med obotlig, livshotande sjukdom. Syftet är att lindra fysiska, psykiska, sociala och existentiella symtom och stödja närstående – inte att påskynda eller fördröja döden."
+        },
+        {
+          "front": "Vilka fyra dimensioner ingår i total smärta?",
+          "back": "Fysisk, psykisk, social och existentiell smärta – alla behöver adresseras för att patienten ska få lindring."
+        },
+        {
+          "front": "Varför blir opioidbehandling aldrig farlig genom att dosen ökas vid behov i palliativa skeden?",
+          "back": "När dosen titreras mot symtom och tolerans utvecklas mot sedering och andningsdepression har adekvat symtomlindring ingen livsförkortande effekt – detta gäller vid korrekt indikation och titrering."
+        },
+        {
+          "front": "Vilka läkemedel används mot neuropatisk smärta?",
+          "back": "Tricykliska antidepressiva (t.ex. amitriptylin), SNRI och antiepileptika som gabapentin och pregabalin – ofta i kombination med opioid."
+        },
+        {
+          "front": "Hur lindras andnöd i livets slutskede?",
+          "back": "Opioider mot dyspnéns känsla, syrgas endast vid hypoxi, fläkt/luftdrag, lugnt bemötande, och behandling av bakomliggande orsaker som ansamling av sekret eller pleuravätska."
+        },
+        {
+          "front": "Vad innebär 'LCP' eller vård i livets slutskede i praktiken?",
+          "back": "Regelbunden symtomkontroll, muntorrhetsvård, målstyrd vätska/föda, behandlingsstrategi vid andnöd, smärta och ångest, samt planering för dödsfallet och stöd till närstående."
+        }
+      ],
+      "facts": [
+        "Total smärta = fysisk, psykisk, social och existentiell komponent.",
+        "Tolerans utvecklas inte mot opioidinducerad obstipation – laxantia ges profylaktiskt.",
+        "Brytpunktssamtalet klargör vårdens inriktning och patientens önskemål.",
+        "Opioider används vid svår smärta oavsett förväntad överlevnad."
+      ]
+    },
+    {
+      "id": "km7-4",
+      "code": "Modul 4",
+      "title": "Onkologiska akutfall",
+      "summary": "Febril neutropeni, tumörlyssyndrom, spinal kompression och ökat intrakraniellt tryck. Alla är tidskritiska och kan vara första tecknet på en tidigare okänd cancer.",
+      "estMinutes": 29,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: febril neutropeni och sepsis",
+          "query": "ninja nerd febrile neutropenia oncology emergency"
+        },
+        {
+          "label": "Ninja Nerd: tumörlyssyndrom",
+          "query": "ninja nerd tumor lysis syndrome"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Känna igen febril neutropeni och förstå varför antibiotika ska ges utan dröjsmål",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Redogöra för elektrolytrubbningarna vid tumörlyssyndrom och deras behandlingsprinciper",
+          "level": "kunna"
+        },
+        {
+          "code": "4.3",
+          "title": "Känna igen ryggmärgskompression som onkologisk akut situation och varför tid till behandling påverkar prognosen",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km7-4-q1",
+          "kind": "mcq",
+          "prompt": "En 54-årig kvinna som fick cytostatika för åtta dagar sedan kommer med feber 38,6 grader och ett neutrofilt granulocytvärde på 0,3. Hon ser i övrigt ganska opåverkad ut. Vad gör du?",
+          "options": [
+            "Tar blododlingar och startar bredspektrumantibiotika intravenöst utan dröjsmål",
+            "Avvaktar odlingssvar innan antibiotika ges",
+            "Skickar hem henne med kontroll om några dagar eftersom hon inte ser sjuk ut",
+            "Ger febernedsättande och nytt blodprov dagen efter"
+          ],
+          "answer": "Tar blododlingar och startar bredspektrumantibiotika intravenöst utan dröjsmål",
+          "explanation": "Febril neutropeni är ett livshotande tillstånd: neutropena patienter kan inte uppvisa klassiska infektionstecken och kan försämras på timmar. Odlingar tas om möjligt, men antibiotika ska inte fördröjas i väntan på svar – målet är mycket snabb behandlingsstart."
+        },
+        {
+          "id": "km7-4-q2",
+          "kind": "mcq",
+          "prompt": "En 24-årig man med nydiagnostiserad högmalign lymfom börjar cytostatikabehandling. Två dygn senare ses stigande kalium, fosfat och urat, sjunkande kalcium och stigande kreatinin. Vilken komplikation föreligger och vad gör du?",
+          "options": [
+            "Tumörlyssyndrom – intensiv hydrering och behandling som sänker uratnivån",
+            "Hyponatremi med cerebralt ödem – vätskerestriktion",
+            "Njursten med obstruktion – smärtlindring och avvakta",
+            "Rhabdomyolys – enbart alkalisk diures utan kontroll"
+          ],
+          "answer": "Tumörlyssyndrom – intensiv hydrering och behandling som sänker uratnivån",
+          "explanation": "När många tumörceller dör snabbt frigörs intracellulärt kalium, fosfat och nukleinsyror, vilket ger hyperkalemi, hyperfosfatemi och hyperurikemi med utfällning av uratkristaller i njurarna och akut njursvikt. Kalcium sjunker eftersom det binds till fosfat. Behandlingen är hydrering, allopurinol eller rasburikas och elektrolytkorrigering."
+        },
+        {
+          "id": "km7-4-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig man med känd prostatacancer söker för tilltagande ryggvärk som blir värre i liggande, och han har de senaste dagarna fått svaghet i båda benen och svårt att tömma blåsan. Vad gör du?",
+          "options": [
+            "Misstänker ryggmärgskompression och ordnar omedelbar MR och kortisonbehandling",
+            "Behandlar med analgetika och återbesök om två veckor",
+            "Beställer röntgen av ländryggen med låg prioritet",
+            "Remitterar till sjukgymnastik för ryggsmärta"
+          ],
+          "answer": "Misstänker ryggmärgskompression och ordnar omedelbar MR och kortisonbehandling",
+          "explanation": "Ryggvärk som förvärras i liggande, tilltagande kraftnedsättning och blåsstörning hos en cancerpatient är klassiska tecken på metastatisk ryggmärgskompression. Neurologisk funktion som gått förlorad kommer sällan tillbaka, därför ska MR och kortison ges omedelbart."
+        },
+        {
+          "id": "km7-4-q4",
+          "kind": "cloze",
+          "prompt": "En patient med hjärnmetastaser blir allt slöare och får huvudvärk och kräkningar. För att minska det peritumöra ödemet ges ______.",
+          "answer": "kortison",
+          "explanation": "Kortikosteroider minskar ödemet kring tumörväxt i hjärnan och lindrar symtom snabbt. Behandlingen är symtomlindrande och ges tillsammans med andra åtgärder som strålning eller kirurgi beroende på situation."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är definitionen av febril neutropeni?",
+          "back": "Feber (ofta enstaka temp 38,5 eller 38,0 upprepat) samt neutrofila granulocyter under 0,5 × 10⁹/L. Ett akut tillstånd som kräver omedelbar intravenös bredspektrumantibiotika."
+        },
+        {
+          "front": "Vilka elektrolytrubbningar ger tumörlyssyndrom?",
+          "back": "Hyperkalemi, hyperfosfatemi, hyperurikemi och sekundär hypokalcemi samt akut njursvikt. Behandling: hydrering, uratsänkning, elektrolytkorrigering, vid behov dialys."
+        },
+        {
+          "front": "Vilka symtom ska väcka misstanke om ryggmärgskompression?",
+          "back": "Progressiv ryggvärk som förvärras i liggande, utstrålande bandsmärta, kraftnedsättning, sensibilitetsstörning, blås- och tarmdysfunktion."
+        },
+        {
+          "front": "Vad är hyperkalcemi vid cancer och hur lindras den?",
+          "back": "Vanligt vid skelettmetastaser och vid paraneoplastisk PTHrP-produktion. Symtom: trötthet, konfusion, förstoppning, njursvikt. Behandling: vätska, bisfosfonater eller denosumab, behandling av tumören."
+        },
+        {
+          "front": "Vad är vena cava superior-syndrom?",
+          "back": "Tumör eller trombos komprimerar övre hålvenen, vilket ger svullnad i ansikte och armar, utspända halsvener, andnöd och vid snabb utveckling livshotande luftvägsobstruktion eller hjärnödem."
+        },
+        {
+          "front": "Varför är tid avgörande vid onkologiska akutfall?",
+          "back": "Neurologisk och renal funktion som förlorats vid kompression, njursvikt eller sepsis är ofta irreversibel. Behandlingsfördröjning försämrar både överlevnad och livskvalitet."
+        }
+      ],
+      "facts": [
+        "Febril neutropeni behandlas med antibiotika utan att invänta odlingssvar.",
+        "Tumörlyssyndrom ger hyperkalemi, hyperfosfatemi och hypokalcemi.",
+        "Ryggmärgskompression kräver omedelbar MR och kortison.",
+        "Kortison minskar peritumört hjärnödem."
+      ]
+    }
+  ]
+}

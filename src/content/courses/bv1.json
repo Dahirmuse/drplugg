@@ -1,0 +1,595 @@
+{
+  "id": "bv1",
+  "code": "BV1",
+  "title": "Basvetenskap 1: Grundläggande basvetenskap, läkaryrket och lärande",
+  "term": "T1",
+  "icon": "🧬",
+  "color": "plum",
+  "sortOrder": 1,
+  "description": "Läkarrollen, professionellt förhållningssätt, studieteknik och den cellbiologiska/kemiska basen. Första terminen på läkarprogrammet.",
+  "chapters": [
+    {
+      "id": "bv1-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Läkaryrket m.fl.",
+      "summary": "Läkarrollen och det professionella förhållningssättet, hälso- och sjukvårdens organisation och lagar, epidemiologiska mått, etiska principer och hur vuxen inlärning (TBL) fungerar.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Läkaryrket"
+        },
+        {
+          "code": "1.2",
+          "title": "Hälso- och sjukvård i samhället"
+        },
+        {
+          "code": "1.3",
+          "title": "Etik"
+        },
+        {
+          "code": "1.4",
+          "title": "Lärande"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Kunna redogöra för följande begrepp:",
+        "1.1.2 Kunna reflektera över läkarens användande av sina sinnen",
+        "1.1.3 Kunna ange betydelsen av skönlitteratur, konst och annan humaniora för läkaryrket",
+        "1.1.4 Kunna identifiera och beskriva läkaryrkets kompetensområden",
+        "1.1.5 Kunna redogöra för CanMEDS läkarkompetenser",
+        "1.1.6 Kunna reflektera över studentrollen i patient-läkarmötet",
+        "1.1.7 Kunna ge exempel på hur patienter kan bidra till läkares och läkarstudenters professionella utveckling",
+        "1.1.8 Kunna reflektera över interaktionen i patient-läkarmötet och vad som kännetecknar ett professionellt samtal",
+        "1.1.9 Kunna redogöra för betydelsen av icke-verbal kommunikation i patient- läkarmötet",
+        "1.1.10 Kunna redogöra för evidensen för ett patientcentrerat arbetssätt",
+        "1.1.11 Kunna definiera konsultationens tre delar och förklara hur de tillsammans ger möjlighet till patientcentrering",
+        "1.1.12 Kunna redogöra för samtalsteknikerna öppet lyssnande och sammanfattning 10 1.1.13 Kunna redogöra för den övergripande strukturen för läkarens del av konsultationen",
+        "1.1.14 Sjukvårdens organisation",
+        "1.1.15 Kunna ge exempel på former av läkares myndighetsutövning",
+        "1.1.16 Kunna översiktligt beskriva skillnaden mellan patientlagen och hälso- och sjukvårdslagen",
+        "1.1.17 Kunna översiktligt redogöra för diskrimineringsgrunderna i svensk lagstiftning samt de mänskliga rättigheterna",
+        "1.2.1 Epidemiologi",
+        "1.2.2 Kunna beskriva och applicera relevanta mått på morbiditet och mortalitet",
+        "1.2.3 Kunna redogöra för måttet funktionsjusterade levnadsår (DALY)",
+        "1.2.4 Kunna redogöra översiktligt för sjukdomspanoramat i Sverige i ett historiskt perspektiv, samt mycket översiktligt redogöra för sjukdomspanoramat globalt",
+        "1.2.5 Kunna översiktligt beskriva hälsans bestämningsfaktorer",
+        "1.2.6 Kunna redogöra översiktligt för hur information inhämtas från patient och värderas avseende eventuell hälsopåverkan av faktorer i arbets- eller allmän miljö",
+        "1.2.7 Kunna definiera preventivt och hälsofrämjande arbete",
+        "1.2.8 Kunna beskriva hur preventivt arbete kan ske på olika nivåer och riktas till olika grupper 14 1.2.9 Kunna översiktligt redogöra för de nationella folkhälsomålen",
+        "1.2.10 Kunna ge exempel på ojämlik hälsa",
+        "1.2.11 Kunna översiktligt redogöra för de globala målen för hållbar utveckling",
+        "1.3.1 Kunna definiera begrepp i anslutning till de fyra principerna",
+        "1.3.2 Kunna identifiera skillnaden mellan etiska frågor och andra näraliggande (i första hand juridiska och psykologiska)",
+        "1.3.3 Redogöra för nationella och internationella yrkesetiska regler och deklarationer samt deras tillkomst",
+        "1.4.1 Kunna beskriva TBL-cykelns olika faser",
+        "1.4.2 Kunna redogöra för evidensen för återkoppling för lärande",
+        "1.4.3 Kunna redogöra för följande begrepp:"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: medicinsk professionalism och kommunikation",
+          "query": "ninja nerd professionalism medical communication"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv1-m1-q1",
+          "kind": "mcq",
+          "prompt": "CanMEDS beskriver läkarens sju kompetensroller. Vilket alternativ räknar upp dem korrekt?",
+          "options": [
+            "Medicinsk expert, kommunikatör, samarbetspartner, ledare, hälsoadvokat, forskare och professionell",
+            "Medicinsk expert, kirurg, diagnostiker, ledare, lärare, forskare och administratör",
+            "Kommunikatör, empatiker, ledare, ekonom, jurist, forskare och kliniker",
+            "Medicinsk expert, patientsäkerhet, kvalitet, etik, juridik, ekonomi och ledarskap"
+          ],
+          "answer": "Medicinsk expert, kommunikatör, samarbetspartner, ledare, hälsoadvokat, forskare och professionell",
+          "explanation": "CanMEDS sju roller används internationellt för att beskriva läkarkompetens. Medicinsk expert är kärnrollen som de övriga rollerna kretsar kring – de andra alternativen blandar ihop roller med yrkesområden."
+        },
+        {
+          "id": "bv1-m1-q2",
+          "kind": "mcq",
+          "prompt": "Vilken beskrivning av skillnaden mellan patientlagen och hälso- och sjukvårdslagen (HSL) är korrekt?",
+          "options": [
+            "Patientlagen reglerar patientens rättigheter (information, samtycke, delaktighet); HSL reglerar vårdgivarens ansvar och organisation",
+            "Patientlagen reglerar personalens arbetsmiljö; HSL reglerar patientens rättigheter",
+            "Patientlagen gäller bara i primärvården; HSL gäller bara på sjukhus",
+            "De är två namn på samma lag"
+          ],
+          "answer": "Patientlagen reglerar patientens rättigheter (information, samtycke, delaktighet); HSL reglerar vårdgivarens ansvar och organisation",
+          "explanation": "Patientlagen är patientens rättighetslag – information, samtycke, delaktighet och val av utförare. HSL är den struktur- och ansvarslag som ålägger vårdgivaren att ge en god vård på lika villkor."
+        },
+        {
+          "id": "bv1-m1-q3",
+          "kind": "cloze",
+          "prompt": "Måttet som anger förlorade levnadsår till följd av sjukdom och funktionsnedsättning kallas ______.",
+          "answer": "DALY",
+          "explanation": "DALY (disability-adjusted life years) = förlorade levnadsår på grund av förtidig död plus år levda med funktionsnedsättning. Används för att jämföra sjukdomsbörda mellan länder och diagnoser."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka är CanMEDS sju läkarroller?",
+          "back": "Medicinsk expert, kommunikatör, samarbetspartner, ledare, hälsoadvokat, forskare och professionell. Medicinsk expert är kärnrollen."
+        },
+        {
+          "front": "Vad mäter DALY?",
+          "back": "Funktionsjusterade levnadsår: summan av år förlorade vid förtidig död och år levda med funktionsnedsättning – ett mått på sjukdomsbörda."
+        },
+        {
+          "front": "Vad kännetecknar primär, sekundär och tertiär prevention?",
+          "back": "Primär: hindra sjukdom innan den uppstår (vaccin, rökstopp). Sekundär: upptäcka tidigt (screening). Tertiär: minska komplikationer och rehabilitera."
+        },
+        {
+          "front": "Vilka fyra etiska principer styr medicinska beslut?",
+          "back": "Autonomiprincipen, godhetsprincipen, icke-skadaprincipen och rättviseprincipen."
+        }
+      ],
+      "facts": [
+        "CanMEDS sju roller utgår från medicinsk expert.",
+        "DALY kombinerar förtidig död och år med funktionsnedsättning.",
+        "TBL-cykeln bygger på förberedelse, individuellt test, grupptest och återkoppling."
+      ]
+    },
+    {
+      "id": "bv1-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – Cellbiologi m.fl.",
+      "summary": "Cellens uppbyggnad och organeller, genetiska basbegrepp, embryologi och evolution, samt mikrobiologins grunder: prokaryoter, virus, parasiter, antibiotika, mikrobiota och smittvägar.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Cellbiologi"
+        },
+        {
+          "code": "2.2",
+          "title": "Mikrobiologi (Modul 2 och 5)"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Cellen och dess organeller",
+        "2.1.2 Kunna definiera genetiska basbegrepp",
+        "2.1.3 Embryologi och utvecklingsbiologi",
+        "2.1.4 Evolution",
+        "2.2.1 Känna till teorier om livets uppkomst",
+        "2.2.2 Kunna definitionen prokaryot respektive eukaryot",
+        "2.2.3 Kunna beskriva artbegreppet i mikrobiologi (diskontinuerlig variation jämfört med sexuell fortplantning)",
+        "2.2.4 Kunna beskriva virus basala uppbyggnad, kapsid och hölje, samt veta om att det finns både RNA-virus och DNA virus",
+        "2.2.5 Kunna beskriva bakteriers basala uppbyggnad inklusive Grampositiva och Gramnegativa bakteriers cellvägg och cellmembran",
+        "2.2.6 Känna till och kunna beskriva begreppen parasitologi och parasit, kunna förklara varför protozoer, maskar och svampar är eukaryota mikroorganismer",
+        "2.2.7 Antibiotika",
+        "2.2.8 Mikrobiota",
+        "2.2.10 Kunna förklara varför mikroorganismer kan orsaka sjukdom",
+        "2.2.11 Kunna beskriva olika typer av smittvägar",
+        "2.2.12 Beskriva hur adhesionsfaktorer bidrar till mikroorganismers patogenicitet",
+        "2.2.13 Beskriva vad ett toxin är och vad det har för påverkan på värdcellen"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: cellstruktur och organeller",
+          "query": "ninja nerd cell structure organelles"
+        },
+        {
+          "label": "Ninja Nerd: bakterier och gramfärgning",
+          "query": "ninja nerd bacteria structure gram positive negative"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv1-m2-q1",
+          "kind": "mcq",
+          "prompt": "Vilken organell är platsen för oxidativ fosforylering och har eget maternellt nedärvt DNA?",
+          "options": [
+            "Mitokondrien",
+            "Golgiapparaten",
+            "Lysosomen",
+            "Släta endoplasmatiska retiklet"
+          ],
+          "answer": "Mitokondrien",
+          "explanation": "Mitokondrien har eget cirkulärt DNA, ribosomer och inre membran med elektrontransportkedjan. Den ärvs från mor – därför drabbar mitokondriella sjukdomar ofta vävnader med hög energiförbrukning."
+        },
+        {
+          "id": "bv1-m2-q2",
+          "kind": "mcq",
+          "prompt": "En patient får septisk chock vid en Gramnegativ infektion. Vilken komponent driver det kraftiga immunsvaret?",
+          "options": [
+            "Lipopolysackarid (LPS) i yttre membranet",
+            "Tejkolsyra i cellväggen",
+            "Peptidoglykan i cytoplasmamembranet",
+            "Kapselpolysackarider"
+          ],
+          "answer": "Lipopolysackarid (LPS) i yttre membranet",
+          "explanation": "LPS är ett endotoxin som binder TLR4 och utlöser en massiv cytokinfrisättning. Tejkolsyra finns i Grampositiva bakterier, och peptidoglykan ligger utanför membranet – inte i det."
+        },
+        {
+          "id": "bv1-m2-q3",
+          "kind": "cloze",
+          "prompt": "Organismer vars celler saknar kärnmembran och membranbundna organeller kallas ______.",
+          "answer": "prokaryoter",
+          "explanation": "Prokaryoter (bakterier och arkéer) har ingen cellkärna; DNA ligger fritt i nukleoiden. Eukaryoter har kärna och organeller – svampar, protozoer och maskar är alla eukaryota."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka organeller finns i en eukaryot cell och vad gör de?",
+          "back": "Mitokondrie (ATP), grovt ER (proteinsyntes), slätt ER (lipider och avgiftning), Golgi (modifiering och sortering), lysosom (nedbrytning), peroxisom (oxidation)."
+        },
+        {
+          "front": "Vad skiljer Grampositiva från Gramnegativa bakterier?",
+          "back": "Grampositiva: tjockt peptidoglykanlager och tejkolsyra, färgas blå. Gramnegativa: tunt peptidoglykan, yttre membran med LPS (endotoxin), färgas rosa."
+        },
+        {
+          "front": "Vilka byggstenar har ett virus?",
+          "back": "Nukleinsyra (DNA eller RNA) omgiven av kapsid; vissa har dessutom ett hölje (envelope) från värdcellens membran. Virus kan inte föröka sig utan värdcell."
+        },
+        {
+          "front": "Vad är skillnaden mellan adhesiner och toxiner?",
+          "back": "Adhesiner låter mikroorganismen fästa vid värdcellens yta (första steget i kolonisation). Toxiner skadar värdcellen direkt eller via immunsvar (t.ex. endotoxin, exotoxin)."
+        }
+      ],
+      "facts": [
+        "Mitokondrie-DNA ärvs maternellt.",
+        "LPS i Gramnegativa bakteriers yttre membran är ett endotoxin.",
+        "Protozoer, maskar och svampar är eukaryota – bakterier är prokaryota."
+      ]
+    },
+    {
+      "id": "bv1-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Biokemins grunder m.fl.",
+      "summary": "Biokemins grunder (makromolekyler och ämnesomsättning), histologins fyra vävnader, översiktlig anatomi och fysiologi.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Biokemins grunder"
+        },
+        {
+          "code": "3.2",
+          "title": "Histologi – kroppens vävnader"
+        },
+        {
+          "code": "3.3",
+          "title": "Anatomi"
+        },
+        {
+          "code": "3.4",
+          "title": "Fysiologi"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Ämnesomsättning",
+        "3.1.2 Kolhydrater, fetter och nukleotider",
+        "3.1.3 Proteiner",
+        "3.2.1 Redogöra för definitionen av en vävnad respektive ett organ",
+        "3.2.2 Namnge kroppens fyra olika vävnader och känna till vilka celltyper som förekommer i respektive vävnad",
+        "3.2.3 Beskriva skillnaden mellan stroma och parenkym",
+        "3.2.4 Att kunna matsmältningsorganens mikroskopiska struktur översiktligt",
+        "3.3.1 Ni ska kunna identifiera strukturerna och översiktligt känna till deras funktion 41 3.4 Fysiologi",
+        "3.4 Fysiologi"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: histologi – de fyra vävnaderna",
+          "query": "ninja nerd histology four tissue types"
+        },
+        {
+          "label": "Ninja Nerd: biokemins grunder",
+          "query": "ninja nerd biochemistry macromolecules basics"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv1-m3-q1",
+          "kind": "mcq",
+          "prompt": "Vilka är kroppens fyra grundvävnader?",
+          "options": [
+            "Epitel, bindväv, muskel och nervvävnad",
+            "Epitel, ben, brosk och blod",
+            "Muskel, fett, hud och slemhinna",
+            "Nerv, glia, neuron och axon"
+          ],
+          "answer": "Epitel, bindväv, muskel och nervvävnad",
+          "explanation": "Alla organ byggs av de fyra grundvävnaderna i olika proportioner. Ben, brosk och blod är specialiserade bindväver – inte egna grundvävnader."
+        },
+        {
+          "id": "bv1-m3-q2",
+          "kind": "mcq",
+          "prompt": "Vad är skillnaden mellan stroma och parenkym i ett organ?",
+          "options": [
+            "Parenkym är den funktionella cellpopulationen; stroma är stödjevävnaden med kärl och bindväv",
+            "Stroma är den funktionella vävnaden; parenkym är bindväv",
+            "Parenkym finns bara i epitelorgan",
+            "Stroma och parenkym är samma sak"
+          ],
+          "answer": "Parenkym är den funktionella cellpopulationen; stroma är stödjevävnaden med kärl och bindväv",
+          "explanation": "I t.ex. levern är hepatocyterna parenkym och bindväv/kärl/sinusoider stroma. Tumörer beskrivs ofta utifrån om de utgår från parenkym eller stroma."
+        },
+        {
+          "id": "bv1-m3-q3",
+          "kind": "cloze",
+          "prompt": "Den funktionella cellpopulationen i ett organ kallas ______.",
+          "answer": "parenkym",
+          "explanation": "Parenkymet utför organets huvudfunktion, medan stromat ger struktur, blodförsörjning och stöd."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka är kroppens fyra grundvävnader?",
+          "back": "Epitelvävnad, bindvävnad, muskelvävnad och nervvävnad – alla organ är uppbyggda av dessa i olika kombinationer."
+        },
+        {
+          "front": "Vad är skillnaden mellan parenkym och stroma?",
+          "back": "Parenkym = organets funktionella celler; stroma = stödjevävnad med bindväv, kärl och nerver."
+        },
+        {
+          "front": "Vilka tre makromolekylgrupper dominerar ämnesomsättningen?",
+          "back": "Kolhydrater (energi), lipider (energi, membran, signalering) och proteiner (enzymer, struktur, transport). Nukleotider bär information och energi (ATP)."
+        },
+        {
+          "front": "Vad är skillnaden mellan anabolism och katabolism?",
+          "back": "Anabolism bygger upp molekyler och kräver energi (ATP); katabolism bryter ner molekyler och frigör energi."
+        }
+      ],
+      "facts": [
+        "De fyra grundvävnaderna: epitel, bindväv, muskel, nerv.",
+        "Parenkym = funktion, stroma = stöd.",
+        "ATP är cellens energivaluta."
+      ]
+    },
+    {
+      "id": "bv1-m4",
+      "code": "Modul 4",
+      "title": "Modul 4 – Cellulär neurovetenskap m.fl.",
+      "summary": "Neuronet och synaptisk transmission, sensorik och motorik, högre hjärnfunktioner, neuroanatomi, endokrinologi samt en första introduktion till immunologi.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Cellulär neurovetenskap"
+        },
+        {
+          "code": "4.2",
+          "title": "Sensorik"
+        },
+        {
+          "code": "4.3",
+          "title": "Motorik"
+        },
+        {
+          "code": "4.4",
+          "title": "Högre hjärnfunktioner"
+        },
+        {
+          "code": "4.5",
+          "title": "Neuroanatomi–strukturer (flertalet berörs ovan)"
+        },
+        {
+          "code": "4.6",
+          "title": "Endokrinologi"
+        },
+        {
+          "code": "4.7",
+          "title": "Immunologi (Modul 5)"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Neuronet",
+        "4.1.2 Neurontyper",
+        "4.1.3 Gliaceller",
+        "4.1.4 Neuronets fysiologi",
+        "4.1.5 Synaptisk transmission",
+        "4.2.1 Ryggmärgen",
+        "4.2.2 Talamus",
+        "4.2.3 Cerebrum",
+        "4.2.4 Synimpulser",
+        "4.3.1 Ryggmärgen",
+        "4.3.2 Hjärnstammen",
+        "4.3.3 Cerebellum",
+        "4.3.4 Basala ganglierna",
+        "4.3.5 Primära motorkortex",
+        "4.4.1 Funktioner hos associativa cortex",
+        "4.4.2 Hypothalamus",
+        "4.4.3 Amygdala",
+        "4.4.4 Språk",
+        "4.4.5 Minne",
+        "4.4.6 Autonoma nervsystemet",
+        "4.5.1 Regioner",
+        "4.5.2 Gyri/sulci/lober",
+        "4.5.3 Kärnor",
+        "4.5.4 Vit substans",
+        "4.5.5 Kranialnerver",
+        "4.5.7 Ryggmärg",
+        "4.5.8 Banor",
+        "4.5.9 Blodkärl",
+        "4.6.1 Definiera begreppen hormon och hormonfamiljer",
+        "4.6.2 Definiera begreppen",
+        "4.6.3 Redogöra för vilka våra endokrina organ och vävnader är",
+        "4.6.4 Redogöra för våra viktigaste hormoner och översiktligt om deras effekter",
+        "4.6.5 Redogöra för huvudtyper av hormonreceptorer",
+        "4.6.8 Känna till skillnader/likheter mellan nervsystemet och det endokrina systemet 76 4.7 Immunologi (Modul 5)",
+        "4.7 Immunologi (Modul 5)"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: nervsystemet översikt",
+          "query": "ninja nerd nervous system overview action potential"
+        },
+        {
+          "label": "Ninja Nerd: endokrina systemet",
+          "query": "ninja nerd endocrine system hormones overview"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv1-m4-q1",
+          "kind": "mcq",
+          "prompt": "I vilken ordning passerar en sensorisk impuls från huden till medveten perception?",
+          "options": [
+            "Perifer receptor → ryggmärgen → talamus → somatosensoriska cortex",
+            "Perifer receptor → cerebellum → hypotalamus → cortex",
+            "Perifer receptor → basala ganglier → ryggmärgen → talamus",
+            "Perifer receptor → cortex → talamus → ryggmärgen"
+          ],
+          "answer": "Perifer receptor → ryggmärgen → talamus → somatosensoriska cortex",
+          "explanation": "De sensoriska banorna går via ryggmärgen (eller hjärnnerverna) till talamus, som är obligatorisk omslagsstation, och vidare till somatosensoriska cortex. Cerebellum och basala ganglier hör till motoriken."
+        },
+        {
+          "id": "bv1-m4-q2",
+          "kind": "mcq",
+          "prompt": "Vilken typ av receptor binder fettlösliga hormoner som kortisol och tyreoideahormoner?",
+          "options": [
+            "Intracellulära receptorer som påverkar genuttryck",
+            "G-proteinkopplade receptorer i membranet",
+            "Jonkanaler i membranet",
+            "Enzymkopplade tyrosinkinasreceptorer"
+          ],
+          "answer": "Intracellulära receptorer som påverkar genuttryck",
+          "explanation": "Fettlösliga hormoner passerar membranet och binder nukleära receptorer som reglerar transkription – effekten kommer därför långsamt men blir långvarig. Vattenlösliga hormoner binder ytreceptorer."
+        },
+        {
+          "id": "bv1-m4-q3",
+          "kind": "cloze",
+          "prompt": "Övergången där en aktionspotential utlöser frisättning av neurotransmittor från axonterminalen kallas ______.",
+          "answer": "synapsen",
+          "explanation": "I synapsen öppnar spänningskänsliga kalciumkanaler, Ca2+ strömmar in och vesiklar med neurotransmittor fusioneras med membranet."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka celltyper finns i nervsystemet förutom neuron?",
+          "back": "Gliaceller: astrocyter (blod-hjärnbarriär), oligodendrocyter (myelin i CNS), Schwannceller (myelin i PNS) och mikrogliaceller (immunförsvar)."
+        },
+        {
+          "front": "Hur skiljer sig det autonoma nervsystemets två delar?",
+          "back": "Sympatikus förbereder för kamp/flykt (ökad puls, bronkdilatation, mikturitionshämning); parasympatikus (vagus) främjar vila och matsmältning."
+        },
+        {
+          "front": "Vilken funktion har hypothalamus?",
+          "back": "Länk mellan nervsystem och endokrint system: styr hypofysen, reglerar temperatur, vätskebalans, hunger/mättnad och dygnsrytm."
+        },
+        {
+          "front": "Vad är skillnaden mellan endokrin och neural signalering?",
+          "back": "Neural: snabb, riktad, kortvarig (millisekunder). Endokrin: långsam, via blodet, påverkar många organ, långvarig (minuter–dagar)."
+        }
+      ],
+      "facts": [
+        "Talamus är omslagsstation för nästan all sensorik utom lukt.",
+        "Fettlösliga hormoner verkar via intracellulära receptorer.",
+        "Myelin bildas av oligodendrocyter i CNS och Schwannceller i PNS."
+      ]
+    },
+    {
+      "id": "bv1-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Immunologi m.fl.",
+      "summary": "Immunförsvarets uppbyggnad och funktion, patologins grundbegrepp samt farmakologins grunder (farmakokinetik, farmakodynamik och ADME).",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Immunologi"
+        },
+        {
+          "code": "5.2",
+          "title": "Patologi"
+        },
+        {
+          "code": "5.3",
+          "title": "Farmakologi"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Kunna definiera begreppet immunologi",
+        "5.1.2 Kunna beskriva skillnaden mellan inflammation och infektion",
+        "5.1.3 Känna till vilka komponenter som ingår i immunförsvaret, både yttre och inre försvar. 80 5.1.4 Kunna definiera begreppet antigen",
+        "5.1.5 Kunna beskriva skillnaden mellan det medfödda och det adaptiva immunförsvaret",
+        "5.1.6 Känna till vilken typ av receptorer som celler i det medfödda immunförsvaret använder sig av mot mikroorganismer",
+        "5.1.7 Känna till var HLA-molekyler uttrycks och deras funktion i relation till T-celler. 81 5.1.8 Känna till hur T-och B-cellsreceptorer skapas",
+        "5.1.9 Kunna beskriva varför thymus är viktigt för T-celler",
+        "5.1.10 Känna till att lymfocyter aktiveras i lymfknutor",
+        "5.1.11 Kunna redogöra för varför det tar tid för ett adaptivt immunsvar att bli effektivt. 82 5.1.12 Känna till begreppet immunologiskt minne",
+        "5.1.13 Känna till vilken typ av immunförsvar som är effektivt mot extracellulära mikroorganismer och vilken typ av immunförsvar som är effektivt mot intracellulära mikroorganismer",
+        "5.1.14 Kunna förklara vad ett vaccin är",
+        "5.1.15 Känna till vad en autoimmun sjukdomär och kunna nämna tre",
+        "5.2.1 Förklara vad patologi betyder",
+        "5.2.2 Känna till undersökningsmetoder och principer till provhantering inom patologi 83 5.2.3 Kunna förklara begreppet sjukdom",
+        "5.2.4 Förklara begreppen etiologi och patogenes",
+        "5.2.5 Screening",
+        "5.3.1 Förklara vad Farmakologi, Farmakokinetik och Farmakodynamik är",
+        "5.3.2 Redogöra för grundprinciper för hur läkemedel utövar sina effekter samt översiktligt beskriva läkemedlens omsättning i kroppen",
+        "5.3.3 Förstå basal farmakologiskterminologi",
+        "5.3.4 ADME"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: immunförsvaret översikt",
+          "query": "ninja nerd immune system innate adaptive overview"
+        },
+        {
+          "label": "Ninja Nerd: farmakokinetik – ADME",
+          "query": "ninja nerd pharmacokinetics ADME"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv1-m5-q1",
+          "kind": "mcq",
+          "prompt": "Vad kännetecknar det adaptiva immunförsvaret jämfört med det medfödda?",
+          "options": [
+            "Det är specifikt mot en strukturell detalj, har immunologiskt minne och tar dagar att aktivera",
+            "Det är snabbt, ospecifikt och saknar minne",
+            "Det består enbart av neutrofiler",
+            "Det verkar bara mot virus"
+          ],
+          "answer": "Det är specifikt mot en strukturell detalj, har immunologiskt minne och tar dagar att aktivera",
+          "explanation": "Adaptiv immunitet bygger på klonal selektion av T- och B-celler med receptorer för en specifik epitop, ger minne och tar därför längre tid – det medfödda svaret är snabbt men ospecifikt."
+        },
+        {
+          "id": "bv1-m5-q2",
+          "kind": "mcq",
+          "prompt": "En patient utvecklar anafylaxi efter penicillin. Vilket påstående om mekanismen är korrekt?",
+          "options": [
+            "IgE-förmedlad typ I-reaktion med mastcellsdegranulering",
+            "Immunkomplexutfällning i kärlväggarna",
+            "T-cellsmedierad fördröjd reaktion",
+            "Komplementmedierad hemolys"
+          ],
+          "answer": "IgE-förmedlad typ I-reaktion med mastcellsdegranulering",
+          "explanation": "Anafylaxi är en typ I-reaktion: allergen korsbinder IgE på mastceller → histaminfrisättning → bronkospasm, hypotoni och urtikaria. Typ II/III/IV är andra mekanismer."
+        },
+        {
+          "id": "bv1-m5-q3",
+          "kind": "cloze",
+          "prompt": "Förkortningen ADME står för absorption, distribution, metabolism och ______.",
+          "answer": "elimination",
+          "explanation": "ADME beskriver vad kroppen gör med läkemedlet. Elimination sker via njurar och lever (metabolism + utsöndring) och avgör halveringstiden."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad skiljer inflammation från infektion?",
+          "back": "Inflammation är kroppens ospecifika reaktion (rodnad, värme, svullnad, smärta, funktionsnedsättning) och kan uppstå utan mikroorganismer; infektion kräver en mikroorganism."
+        },
+        {
+          "front": "Vilka celler presenterar antigen på HLA klass I respektive klass II?",
+          "back": "HLA klass I finns på alla kärnförande celler och presenteras för cytotoxiska CD8+ T-celler. HLA klass II finns på antigenpresenterande celler (dendritceller, makrofager, B-celler) och presenteras för CD4+ hjälp-T-celler."
+        },
+        {
+          "front": "Vad menas med etiologi och patogenes?",
+          "back": "Etiologi = orsaken till sjukdomen (t.ex. mutation, infektion). Patogenes = mekanismen bakom hur sjukdomen utvecklas."
+        },
+        {
+          "front": "Vad är skillnaden mellan farmakokinetik och farmakodynamik?",
+          "back": "Farmakokinetik = vad kroppen gör med läkemedlet (ADME). Farmakodynamik = vad läkemedlet gör med kroppen (verkningsmekanism, dos–respons)."
+        }
+      ],
+      "facts": [
+        "Adaptiv immunitet är specifik och har minne – därför tar den dagar.",
+        "Anafylaxi är IgE-medierad typ I-reaktion.",
+        "ADME = absorption, distribution, metabolism, elimination."
+      ]
+    }
+  ]
+}

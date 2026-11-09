@@ -1,0 +1,928 @@
+{
+  "id": "km1",
+  "code": "KM1",
+  "title": "Klinisk medicin 1: Invärtesmedicinsk inriktning",
+  "term": "T5",
+  "icon": "🩺",
+  "color": "plum",
+  "sortOrder": 8,
+  "description": "Invärtesmedicinens kärna: akut omhändertagande, kardiologi, endokrinologi, lungmedicin, njurmedicin, gastroenterologi/hepatologi, hematologi och reumatologi. Klinisk diagnostik och handläggning enligt svenska vårdprogram.",
+  "chapters": [
+    {
+      "id": "km1-1",
+      "code": "Modul 1",
+      "title": "Akutmedicin",
+      "summary": "Strukturerat omhändertagande av den akut sjuka patienten: ABCDE, chockutredning, hjärt-lungräddning och de vanligaste akuta invärtesmedicinska tillstånden.",
+      "estMinutes": 33,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: strukturerat akutomhändertagande enligt ABCDE",
+          "query": "ninja nerd ABCDE primary survey assessment"
+        },
+        {
+          "label": "Ninja Nerd: chock – patofysiologi och chocktyper",
+          "query": "ninja nerd types of shock pathophysiology"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "1.1",
+          "title": "Prioritera och genomföra strukturerad undersökning enligt ABCDE hos den akut sjuka patienten",
+          "level": "färdighet"
+        },
+        {
+          "code": "1.2",
+          "title": "Skilja mellan de fyra chocktyperna utifrån hemodynamik, klinik och behandlingsprincip",
+          "level": "kunna"
+        },
+        {
+          "code": "1.3",
+          "title": "Redogöra för indikationer och utförande av hjärt-lungräddning samt tidig defibrillering",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-1-q1",
+          "kind": "mcq",
+          "prompt": "En 72-årig man inkommer med feber 39,2 °C, blodtryck 82/48 mmHg, puls 118/min, varma perifera extremiteter och laktat 4 mmol/L vid misstänkt urinvägsinfektion. Vilken chocktyp föreligger?",
+          "options": [
+            "Distributiv chock (septisk)",
+            "Kardiogen chock",
+            "Hypovolem chock",
+            "Obstruktiv chock"
+          ],
+          "answer": "Distributiv chock (septisk)",
+          "explanation": "Septisk chock är distributiv: uttalad vasodilatation ger lågt systemiskt kärlmotstånd med kompensatorisk takykardi och initialt varma extremiteter. Kardiogen chock har i stället högt fyllnadstryck med lungödem, och hypovolem chock svarar snabbt på volymtillförsel."
+        },
+        {
+          "id": "km1-1-q2",
+          "kind": "mcq",
+          "prompt": "En traumapatient försämras akut med ensidig avsaknad av andningsljud, distenderade halsvener, hypotension och trakealförskjutning. Vilken åtgärd ska vidtas omedelbart?",
+          "options": [
+            "Dekompression av pleurahålan med nål",
+            "Akut datortomografi av thorax före behandling",
+            "Inhalation av kortverkande beta2-agonist",
+            "Intravenös volymbelastning som enda åtgärd"
+          ],
+          "answer": "Dekompression av pleurahålan med nål",
+          "explanation": "Spänningsthorax är en klinisk diagnos där det övertryckta pleurarummet hindrar venöst återflöde och ger obstruktiv chock. Nål­dekompression får inte fördröjas av bilddiagnostik; därefter anläggs thoraxdrän."
+        },
+        {
+          "id": "km1-1-q3",
+          "kind": "mcq",
+          "prompt": "En 60-årig man drabbas av hjärtstopp på en restaurang. Vilken åtgärd har störst betydelse för överlevnaden?",
+          "options": [
+            "Tidiga bröstkompressioner och tidig defibrillering",
+            "Intubering innan kompressioner påbörjas",
+            "Adrenalin som första åtgärd",
+            "Snabb transport till sjukhus utan kompressioner"
+          ],
+          "answer": "Tidiga bröstkompressioner och tidig defibrillering",
+          "explanation": "Cirkulationen måste upprätthållas direkt; kompressioner ger kvarstående perfusion av hjärna och hjärta. Vid shockbar rytm (VF/pulslös VT) är defibrillering den avgörande åtgärden, medan läkemedel och avancerad luftväg kommer efter basal HLR."
+        },
+        {
+          "id": "km1-1-q4",
+          "kind": "cloze",
+          "prompt": "En patient med anafylaxi, stridor och blodtryck 70/40 mmHg får som första läkemedelsbehandling intramuskulärt ______.",
+          "answer": "adrenalin",
+          "explanation": "Adrenalin motverkar både bronkospasm och vasodilatation och ges intramuskulärt i låret. Antihistamin och glukokortikoid är tilläggsbehandling som inte häver den akuta luftvägsobstruktionen."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka steg ingår i ABCDE?",
+          "back": "Airway (fria luftvägar), Breathing (andning och syresättning), Circulation (puls, blodtryck, perfusion), Disability (medvetande, GCS, pupiller) och Exposure (helkroppsundersökning, temperatur). Varje steg åtgärdas innan nästa påbörjas."
+        },
+        {
+          "front": "Vilka fyra chocktyper finns?",
+          "back": "Hypovolem (blödning, vätskeförlust), kardiogen (pumpsvikt), distributiv (septisk, anafylaktisk, neurogen) och obstruktiv (hjärttamponad, spänningsthorax, massiv lungemboli)."
+        },
+        {
+          "front": "Vilka är de tidiga kliniska tecknen på chock?",
+          "back": "Takykardi, kalla och marmorerade extremiteter, förlängd kapillär återfyllnad, oliguri, oro eller förvirring och stigande andningsfrekvens. Blodtrycksfall är ett sent tecken."
+        },
+        {
+          "front": "Vad kännetecknar spänningsthorax och hur behandlas det?",
+          "back": "Ensidig avsaknad av andningsljud, distenderade halsvener, hypotension och trakealförskjutning. Behandling är omedelbar nål­dekompression följt av thoraxdrän."
+        },
+        {
+          "front": "Varför mäts laktat vid chock?",
+          "back": "Förhöjt laktat speglar vävnadshypoperfusion och används både diagnostiskt och för att följa effekten av återupplivningen."
+        },
+        {
+          "front": "Vilka kvalitetsmål finns vid vuxen-HLR?",
+          "back": "Kompressioner 5–6 cm djupa, frekvens 100–120/min, fullständig utlösning mellan kompressionerna, avbrott under 10 sekunder och byte av komprimerande person varannan minut."
+        }
+      ],
+      "facts": [
+        "Blodtrycksfall är ett sent tecken på chock – takykardi och förlängd kapillär återfyllnad kommer först.",
+        "Spänningsthorax behandlas på klinisk misstanke; röntgen får inte fördröja dekompression.",
+        "Vid anafylaxi är intramuskulärt adrenalin förstahandsbehandling – antihistamin och glukokortikoid är tillägg.",
+        "Laktat och urinproduktion används för att värdera effekten av återupplivning."
+      ]
+    },
+    {
+      "id": "km1-2",
+      "code": "Modul 2",
+      "title": "Kardiologi",
+      "summary": "Hjärtsvikt, akut koronart syndrom, förmaksflimmer och klaffel – patofysiologi, diagnostik och prognosförbättrande behandling.",
+      "estMinutes": 34,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: hjärtsvikt och dess patofysiologi",
+          "query": "ninja nerd heart failure pathophysiology"
+        },
+        {
+          "label": "Ninja Nerd: akut koronart syndrom och EKG-lokalisering",
+          "query": "ninja nerd acute coronary syndrome ECG"
+        },
+        {
+          "label": "Ninja Nerd: förmaksflimmer på EKG",
+          "query": "ninja nerd atrial fibrillation ECG"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "2.1",
+          "title": "Diagnostisera och klassificera hjärtsvikt samt redogöra för den prognosförbättrande basbehandlingen",
+          "level": "kunna"
+        },
+        {
+          "code": "2.2",
+          "title": "Lokalisera ett ST-höjningsinfarkt utifrån EKG och förklara principerna för akut reperfusion",
+          "level": "kunna"
+        },
+        {
+          "code": "2.3",
+          "title": "Bedöma strokerisk vid förmaksflimmer och motivera val av antikoagulation",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-2-q1",
+          "kind": "mcq",
+          "prompt": "En 66-årig man med 40 minuters bröstsmärta har ST-höjning i avledningarna II, III och aVF. Vilket kärl är oftast ockluderat?",
+          "options": [
+            "Höger kranskärl (RCA)",
+            "Vänster kranskärls framväggsgren (LAD)",
+            "Vänster cirkumflexa (LCx)",
+            "Vänster huvudstam"
+          ],
+          "answer": "Höger kranskärl (RCA)",
+          "explanation": "Avledningarna II, III och aVF speglar inferiorväggen, som vanligen försörjs av höger kranskärl. Vid inferior infarkt ska nitrater ges med stor försiktighet eftersom samtidig högerkammarinfarkt gör patienten volymberoende; ST-höjning i V1–V4 talar i stället för LAD-ocklusion."
+        },
+        {
+          "id": "km1-2-q2",
+          "kind": "mcq",
+          "prompt": "En 78-årig kvinna har dyspné, ortopné, basala rassel och halsvenstas. Ekokardiografi visar ejektionsfraktion 30 %. Vilken behandling förbättrar prognosen vid hjärtsvikt med nedsatt ejektionsfraktion?",
+          "options": [
+            "ACE-hämmare eller ARB i kombination med betablockerare, MRA och SGLT2-hämmare",
+            "Enbart loopdiuretika i fast dos",
+            "Digoxin som monoterapi",
+            "Kalciumflödeshämmare av dihydropyridintyp"
+          ],
+          "answer": "ACE-hämmare eller ARB i kombination med betablockerare, MRA och SGLT2-hämmare",
+          "explanation": "De fyra behandlingspelarna hämmar RAAS, sympatikus och natriumglukostransport och reducerar mortaliteten. Loopdiuretika lindrar kongestion men förbättrar inte överlevnaden, och dihydropyridiner kan försämra hjärtsvikt."
+        },
+        {
+          "id": "km1-2-q3",
+          "kind": "mcq",
+          "prompt": "En 74-årig man har oregelbunden puls, EKG utan P-vågor och oregelbundet RR-intervall. Vilken behandling är viktigast för att förebygga stroke?",
+          "options": [
+            "Antikoagulation med DOAK eller warfarin efter riskbedömning",
+            "Betablockerare för frekvenskontroll",
+            "Digitalis",
+            "Acetylsalicylsyra som monoterapi"
+          ],
+          "answer": "Antikoagulation med DOAK eller warfarin efter riskbedömning",
+          "explanation": "Förmaksflimmer ger stas i förmaket med trombbildning som kan embolisera till hjärnan; antikoagulation förebygger detta och risken skattas med CHA2DS2-VASc. Frekvenskontroll lindrar symtom men påverkar inte strokerisken, och acetylsalicylsyra har otillräcklig skyddseffekt."
+        },
+        {
+          "id": "km1-2-q4",
+          "kind": "cloze",
+          "prompt": "Troponin T och troponin I är specifika markörer för ______ och stiger vid akut koronart syndrom.",
+          "answer": "myokardskada",
+          "explanation": "Troponinerna frigörs från skadade kardiomyocyter och är mer specifika än CK-MB. Förhöjning utan ischemiska symtom eller EKG-förändringar talar för annan orsak till myokardskada, till exempel takykardi eller njursvikt."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka EKG-avledningar motsvarar vilka väggar?",
+          "back": "V1–V4 framväggen (LAD), II, III och aVF inferiorväggen (RCA), I och aVL lateralt (LCx). Spegelvända ST-sänkningar i motsatta avledningar stöder diagnosen."
+        },
+        {
+          "front": "Vad står NYHA-klass I–IV för?",
+          "back": "I: ingen begränsning. II: lätt begränsning vid måttlig ansträngning. III: påtaglig begränsning vid lätt ansträngning. IV: symtom i vila."
+        },
+        {
+          "front": "Vilka är de fyra prognosförbättrande behandlingspelarna vid HFrEF?",
+          "back": "ACE-hämmare/ARB (eller ARNI), betablockerare, MRA (mineralokortikoidreceptorantagonist) och SGLT2-hämmare. Diuretika ges symtomatiskt vid kongestion."
+        },
+        {
+          "front": "Vad ingår i CHA2DS2-VASc?",
+          "back": "Hjärtsvikt, hypertoni, ålder (65–74 respektive ≥75 år), diabetes, stroke/TIA/tromboembolism, kärlsjukdom och kvinnligt kön. Poängen styr indikationen för antikoagulation."
+        },
+        {
+          "front": "Vilken klassisk triad har aortastenos?",
+          "back": "Angina pectoris, synkope vid ansträngning och dyspné – samt systoliskt utstrålande blåsljud mot karotiderna. Symtomatisk svår aortastenos behandlas med kirurgisk klaff eller TAVI."
+        },
+        {
+          "front": "Vad kännetecknar HFpEF?",
+          "back": "Hjärtsvikt med bevarad ejektionsfraktion: diastolisk dysfunktion, vänsterkammarhypertrofi, typiskt äldre kvinna med hypertoni och förmaksflimmer. SGLT2-hämmare har visad effekt."
+        }
+      ],
+      "facts": [
+        "ST-höjning i V1–V4 talar för framväggsinfarkt vid LAD-ocklusion.",
+        "Primär PCI är förstahandsreperfusion vid STEMI när den kan göras i tid.",
+        "Vid inferior STEMI ska nitrater undvikas vid misstänkt högerkammarinfarkt.",
+        "Betablockad vid hjärtsvikt titreras långsamt och startas inte vid akut dekompensation."
+      ]
+    },
+    {
+      "id": "km1-3",
+      "code": "Modul 3",
+      "title": "Endokrinologi",
+      "summary": "Diabetes mellitus, tyreoidearubbningar och binjurebarkssjukdomar – patofysiologi, diagnostik och principer för behandling.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: tyreoideasjukdomar och tyreostatika",
+          "query": "ninja nerd thyroid disorders hyperthyroidism"
+        },
+        {
+          "label": "Ninja Nerd: diabetes mellitus typ 1 och typ 2",
+          "query": "ninja nerd diabetes mellitus type 1 type 2"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "3.1",
+          "title": "Skilja mellan typ 1- och typ 2-diabetes samt motivera behandlingsval utifrån patofysiologi",
+          "level": "kunna"
+        },
+        {
+          "code": "3.2",
+          "title": "Tolka tyreoideaprover (TSH, fritt T4) och föreslå behandling vid hypo- respektive hypertyreos",
+          "level": "kunna"
+        },
+        {
+          "code": "3.3",
+          "title": "Känna igen primär binjurebarksinsufficiens och dess akuta kris",
+          "level": "känna till"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-3-q1",
+          "kind": "mcq",
+          "prompt": "En 24-årig kvinna har gått ner i vikt, har tremor, takykardi, struma och värmeintolerans. TSH är lågt och fritt T4 högt. Vad är den bakomliggande mekanismen?",
+          "options": [
+            "TSH-receptorstimulerande antikroppar (TRAK)",
+            "Antikroppar som förstör tyreoideacellerna",
+            "Ökad TSH-sekretion från hypofysen",
+            "Jodbrist"
+          ],
+          "answer": "TSH-receptorstimulerande antikroppar (TRAK)",
+          "explanation": "Vid Graves sjukdom stimulerar TRAK TSH-receptorn, vilket ger både ökad hormonproduktion och struma. Ett högt TSH skulle i stället tala för sekundär hypertyreos, och jodbrist ger vanligen struma med normal eller sänkt funktion."
+        },
+        {
+          "id": "km1-3-q2",
+          "kind": "mcq",
+          "prompt": "En 58-årig överviktig man får diagnosen typ 2-diabetes. HbA1c ligger över målet trots livsstilsåtgärder. Han har normal njurfunktion och ingen känd hjärt-kärlsjukdom. Vilket läkemedel är förstahandsval?",
+          "options": [
+            "Metformin",
+            "Sulfonureid",
+            "Insulin",
+            "DPP-4-hämmare"
+          ],
+          "answer": "Metformin",
+          "explanation": "Metformin minskar hepatisk glukosproduktion och har god effekt utan hypoglykemirisk eller viktuppgång. Sulfonureider ger hypoglykemi och viktökning; vid etablerad hjärt-kärlsjukdom kompletteras i stället med SGLT2- eller GLP-1-behandling."
+        },
+        {
+          "id": "km1-3-q3",
+          "kind": "mcq",
+          "prompt": "En 45-årig kvinna söker för trötthet, viktuppgång, köldkänsla, förstoppning och bradykardi. TSH är högt och fritt T4 lågt. Vilken behandling är förstahandsval?",
+          "options": [
+            "Levotyroxin (T4) med dosjustering utifrån TSH",
+            "Liothyronin (T3) som monoterapi",
+            "Radiojodbehandling",
+            "Tyreostatika"
+          ],
+          "answer": "Levotyroxin (T4) med dosjustering utifrån TSH",
+          "explanation": "Primär hypotyreos substitueras med levotyroxin och dosen titreras mot TSH. T3-monoterapi ger fluktuerande hormonnivåer, medan radiojod och tyreostatika används vid hypertyreos."
+        },
+        {
+          "id": "km1-3-q4",
+          "kind": "cloze",
+          "prompt": "En patient med hyperpigmentering, ortostatisk hypotension, hyponatremi och hyperkalemi misstänks ha primär binjurebarksinsufficiens. Det prov som då är förhöjt är ______.",
+          "answer": "ACTH",
+          "explanation": "Lågt kortisol ger via negativ återkoppling högt ACTH, som driver melanokortinreceptorer och orsakar hyperpigmentering – typiskt för Addisons sjukdom. Vid sekundär insufficiens är ACTH lågt eller normalt och hyperpigmentering saknas."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad är HbA1c ett mått på?",
+          "back": "Genomsnittlig glukosnivå de senaste cirka två till tre månaderna, eftersom det speglar glykeringen av hemoglobin under erytrocytens livslängd."
+        },
+        {
+          "front": "Hur skiljer man diabetesketoacidos från hyperosmolärt tillstånd?",
+          "back": "DKA: ketoner, acidos, buksmärta, Kussmaul-andning, vanligen typ 1-diabetes. HHS: uttalad hyperglykemi och hyperosmolalitet utan betydande ketoacidos, typiskt äldre med typ 2-diabetes."
+        },
+        {
+          "front": "Vad är tyreostatika och vad är risken?",
+          "back": "Tionamider (metimazol, propyltiouracil) hämmar tyreoidea peroxidas och hormon­syntesen. Risken är agranulocytos – feber och halsont ska föranleda provtagning."
+        },
+        {
+          "front": "Hur behandlas Graves sjukdom på sikt?",
+          "back": "Tyreostatika i första hand, alternativt radiojod eller kirurgi. Betablockerare ges symtomatiskt; rökstopp är viktigt eftersom rökning ökar risken för tyreoideaassocierad oftalmopati."
+        },
+        {
+          "front": "Vad kännetecknar primär hyperaldosteronism (Conns syndrom)?",
+          "back": "Hypertoni med hypokalemi och metabol alkalos, lågt renin och högt aldosteron. Behandlas med kirurgi vid adenom eller mineralokortikoidreceptorantagonist."
+        },
+        {
+          "front": "Vad är akut binjurebarkskris?",
+          "back": "Livshotande kortisolbrist med hypotension, hyponatremi, hyperkalemi och feber, ofta utlöst av infektion. Behandlas omedelbart med intravenöst glukokortikoid och vätska."
+        }
+      ],
+      "facts": [
+        "Primär hypotyreos: högt TSH och lågt fritt T4; sekundär: lågt TSH.",
+        "TRAK vid Graves sjukdom stimulerar TSH-receptorn.",
+        "Tionamider kan ge agranulocytos – feber och halsont kräver provtagning.",
+        "Vid typ 2-diabetes med hjärt-kärlsjukdom eller njursjukdom tillkommer SGLT2- eller GLP-1-behandling utöver metformin."
+      ]
+    },
+    {
+      "id": "km1-4",
+      "code": "Modul 4",
+      "title": "Lungmedicin och allergologi",
+      "summary": "Astma, KOL, pneumoni, lungemboli och allergiska sjukdomar – diagnostik, differentialdiagnostik och behandlingsprinciper.",
+      "estMinutes": 31,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: astma och obstruktiv lungsjukdom",
+          "query": "ninja nerd asthma obstructive lung disease"
+        },
+        {
+          "label": "Ninja Nerd: lungemboli",
+          "query": "ninja nerd pulmonary embolism"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "4.1",
+          "title": "Skilja mellan astma och KOL utifrån anamnes, spirometri och reversibilitet",
+          "level": "kunna"
+        },
+        {
+          "code": "4.2",
+          "title": "Redogöra för behandlingstrappan vid astma och varför LABA aldrig ges som monoterapi",
+          "level": "kunna"
+        },
+        {
+          "code": "4.3",
+          "title": "Handlägga akut anafylaxi enligt ordningen adrenalin – luftväg – volym",
+          "level": "färdighet"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-4-q1",
+          "kind": "mcq",
+          "prompt": "En 28-årig kvinna har återkommande pipande andning, nattlig hosta och variabla symtom. Spirometri visar reversibel luftvägsobstruktion. Vilken underhållsbehandling är förstahandsval?",
+          "options": [
+            "Inhalationssteroider, vid behov i kombination med långverkande beta2-agonist",
+            "Enbart kortverkande beta2-agonist vid behov",
+            "Perorala glukokortikoider i underhållsbehandling",
+            "Långverkande beta2-agonist som monoterapi"
+          ],
+          "answer": "Inhalationssteroider, vid behov i kombination med långverkande beta2-agonist",
+          "explanation": "Astma är en eosinofil luftvägsinflammation och grundbehandlingen är inhalationssteroider. Enbart beta2-agonist lindrar symtomen men lämnar inflammationen obehandlad, och LABA som monoterapi vid astma är kontraindicerat på grund av ökad risk för svåra exacerbationer."
+        },
+        {
+          "id": "km1-4-q2",
+          "kind": "mcq",
+          "prompt": "En 62-årig rökare har kronisk hosta med upphostningar och progredierande dyspné. Spirometri visar FEV1/FVC under 0,7 efter bronkdilatation. Vilken åtgärd har störst effekt på sjukdomsförloppet?",
+          "options": [
+            "Rökstopp",
+            "Kontinuerlig peroral glukokortikoid",
+            "Rutinmässig antibiotikabehandling",
+            "Betablockerare i låg dos"
+          ],
+          "answer": "Rökstopp",
+          "explanation": "Rökstopp är den enda åtgärd som bromsar den accelererade förlusten av lungfunktion vid KOL. Perorala steroider ges vid exacerbation, inte som underhåll, och antibiotika är indicerat vid infektiös exacerbation med ökad sputumproduktion eller purulens."
+        },
+        {
+          "id": "km1-4-q3",
+          "kind": "mcq",
+          "prompt": "En 34-årig kvinna får tio minuter efter ett jordnötsintag generaliserad urtikaria, stridor och blodtryck 75/40 mmHg. Vilken behandling ska ges först?",
+          "options": [
+            "Intramuskulärt adrenalin",
+            "Intravenöst antihistamin som enda behandling",
+            "Perorala glukokortikoider",
+            "Nebuliserad beta2-agonist som enda åtgärd"
+          ],
+          "answer": "Intramuskulärt adrenalin",
+          "explanation": "Adrenalin häver både bronkospasm, slemhinneödem och vasodilatation och ges intramuskulärt i låret. Antihistamin och glukokortikoid verkar långsamt och påverkar inte luftvägsobstruktionen akut; beta2-agonist är bara ett komplement vid kvarstående bronkospasm."
+        },
+        {
+          "id": "km1-4-q4",
+          "kind": "cloze",
+          "prompt": "Vid misstänkt lungemboli och låg klinisk sannolikhet kan diagnosen uteslutas med ett normalt ______.",
+          "answer": "D-dimer",
+          "explanation": "D-dimer har hög sensitivitet men låg specificitet och kan bara användas för att utesluta lungemboli vid låg eller måttlig klinisk sannolikhet. Vid hög sannolikhet eller positivt D-dimer görs datortomografi med lungemboliprotokoll."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad skiljer astma från KOL spirometriskt?",
+          "back": "Astma: variabel och reversibel obstruktion, ofta normaliserad FEV1/FVC mellan skoven. KOL: persistent obstruktion med FEV1/FVC under 0,7 efter bronkdilatation, vanligen hos rökare."
+        },
+        {
+          "front": "Varför är LABA monoterapi kontraindicerat vid astma?",
+          "back": "Utan inflammationshämning ökar risken för svåra exacerbationer och astmarelaterad död. LABA ska alltid kombineras med inhalationssteroider."
+        },
+        {
+          "front": "Vad mäter PEF-variabilitet?",
+          "back": "Dygnsvariationen i luftflöde; ökad variabilitet stöder astmadiagnos och används för att följa sjukdomskontroll."
+        },
+        {
+          "front": "Vad används CURB-65 till?",
+          "back": "Riskbedömning vid samhällsförvärvad pneumoni utifrån konfusion, urea, andningsfrekvens, blodtryck och ålder ≥65 år – underlag för vem som kan behandlas i hemmet."
+        },
+        {
+          "front": "Vilka är symtom på anafylaxi?",
+          "back": "Akut debut med urtikaria, angioödem, stridor, bronkospasm, buksmärtor och hypotension efter exponering för allergen, läkemedel eller insektsstick."
+        },
+        {
+          "front": "Vad är viktigast i KOL-behandlingen utöver rökstopp?",
+          "back": "Bronkdilaterare (LAMA/LABA), vaccinationer, fysisk träning och nutrition; inhalationssteroider endast vid upprepade exacerbationer eller astma-KOL-överlapp."
+        }
+      ],
+      "facts": [
+        "Vid astma är inflammationsbehandling med inhalationssteroider grunden i all underhållsbehandling.",
+        "Rökstopp är den enda intervention som bromsar lungfunktionsförlusten vid KOL.",
+        "Intramuskulärt adrenalin är förstahandsbehandling vid anafylaxi.",
+        "Ett negativt D-dimer utesluter lungemboli endast vid låg eller måttlig klinisk sannolikhet."
+      ]
+    },
+    {
+      "id": "km1-5",
+      "code": "Modul 5",
+      "title": "Njurmedicin",
+      "summary": "Akut njurskada, kronisk njursjukdom, nefrotiskt och nefritiskt syndrom samt handläggning av elektrolytrubbningar.",
+      "estMinutes": 30,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: akut njurskada och dess orsaker",
+          "query": "ninja nerd acute kidney injury"
+        },
+        {
+          "label": "Ninja Nerd: nefrotiskt syndrom",
+          "query": "ninja nerd nephrotic syndrome"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "5.1",
+          "title": "Indela akut njurskada i prerenala, renala och postrenala orsaker samt handlägga den akut",
+          "level": "kunna"
+        },
+        {
+          "code": "5.2",
+          "title": "Skilja nefrotiskt från nefritiskt syndrom utifrån klinik och urinprov",
+          "level": "kunna"
+        },
+        {
+          "code": "5.3",
+          "title": "Redogöra för behandlingsordningen vid svår hyperkalemi",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-5-q1",
+          "kind": "mcq",
+          "prompt": "En 72-årig man med kräkningar och diarré har kreatinin 210 µmol/L, kalium 6,6 mmol/L och breddat QRS på EKG. Vilken åtgärd ska ges först?",
+          "options": [
+            "Kalciumglukonat intravenöst",
+            "Insulin-glukos intravenöst",
+            "Loopdiuretika intravenöst",
+            "Peroral kalciumbindare"
+          ],
+          "answer": "Kalciumglukonat intravenöst",
+          "explanation": "Kalcium stabiliserar myokardmembranen och motverkar arytmi inom minuter men sänker inte kaliumvärdet. Därefter ges insulin-glukos och inhalationssalbutamol för att flytta kalium intracellulärt, kalciumbindare för elimination och dialys vid refraktär hyperkalemi."
+        },
+        {
+          "id": "km1-5-q2",
+          "kind": "mcq",
+          "prompt": "En 55-årig kvinna har uttalade perifera ödem, proteinuri 5 g/dygn och lågt serumalbumin. Vilket syndrom föreligger?",
+          "options": [
+            "Nefrotiskt syndrom",
+            "Nefritiskt syndrom",
+            "Akut tubulär nekros",
+            "Prerenal azotemi"
+          ],
+          "answer": "Nefrotiskt syndrom",
+          "explanation": "Proteinuri över 3,5 g/dygn med hypoalbuminemi och ödem definierar nefrotiskt syndrom, där glomerulär filtration blir genomsläpplig för protein. Nefritiskt syndrom kännetecknas i stället av hematuri, hypertoni och salt- och vattenretention."
+        },
+        {
+          "id": "km1-5-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig man med typ 2-diabetes har eGFR 32 ml/min/1,73 m² och albuminuri. Vilken behandling bromsar njurfunktionsförlusten bäst?",
+          "options": [
+            "ACE-hämmare eller ARB och SGLT2-hämmare med god blodtryckskontroll",
+            "Rutinmässig användning av NSAID vid ledsmärta",
+            "Kalciumtillägg som enda åtgärd",
+            "Upprepade kontrastundersökningar för kontroll"
+          ],
+          "answer": "ACE-hämmare eller ARB och SGLT2-hämmare med god blodtryckskontroll",
+          "explanation": "RAAS-hämning sänker intraglomerulärt tryck och minskar albuminuri, och SGLT2-hämmare har dokumenterad njurskyddande effekt. NSAID och jodkontrast kan utlösa akut njurskada och ska undvikas eller användas med försiktighet."
+        },
+        {
+          "id": "km1-5-q4",
+          "kind": "cloze",
+          "prompt": "En snabb, inom timmar till dagar uppkommen försämring av njurfunktionen kallas ______.",
+          "answer": "akut njurskada",
+          "explanation": "Akut njurskada (AKI) definieras av stigande kreatinin eller fallande urinproduktion enligt KDIGO och delas in i prerenala, renala och postrenala orsaker. Tillståndet är ofta reversibelt om orsaken åtgärdas i tid."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka tre kategorier av akut njurskada finns?",
+          "back": "Prerenal (hypoperfusion, t.ex. dehydrering eller hjärtsvikt), renal (akuta tubulär nekros, glomerulonefrit, interstitiell nefrit) och postrenal (obstruktion, t.ex. prostatahyperplasi eller dubbelsidig sten)."
+        },
+        {
+          "front": "Vad skiljer nefrotiskt från nefritiskt syndrom?",
+          "back": "Nefrotiskt: stor proteinuri, hypoalbuminemi, ödem, hyperlipidemi. Nefritiskt: hematuri med dysmorfa erytrocyter, erytrocytcylindrar, hypertoni och oliguri."
+        },
+        {
+          "front": "I vilken ordning behandlas svår hyperkalemi?",
+          "back": "1) Kalcium för membranstabilisering, 2) insulin-glukos och beta2-agonist för intracellulär förflyttning, 3) elimination via kalciumbindare, loopdiuretika eller dialys."
+        },
+        {
+          "front": "Vilka indikationer finns för akut dialys?",
+          "back": "AEIOU: Acidose, Elektrolytrubbning (refraktär hyperkalemi), Intoxikation, Overload (volymöverbelastning) och Uremi (encefalopati, perikardit)."
+        },
+        {
+          "front": "Hur indelas kronisk njursjukdom?",
+          "back": "Utifrån eGFR-stadium G1–G5 och albuminuri A1–A3. Diagnosen kräver nedsatt njurfunktion eller skademarkör under minst tre månader."
+        },
+        {
+          "front": "Varför ger njursvikt anemi?",
+          "back": "Minskad produktion av erytropoetin från njurarnas fibroblaster leder till normocytär normokrom anemi; järnbrist och inflammation bidrar också."
+        }
+      ],
+      "facts": [
+        "Kalcium vid hyperkalemi skyddar hjärtat men sänker inte kalium – det är inte elimination.",
+        "Nefrotiskt syndrom ger ökad tromboembolisk risk på grund av förluster av antikoagulerande proteiner i urinen.",
+        "Postrenal obstruktion ska uteslutas tidigt vid akut njurskada – bladderscan och ultraljud.",
+        "ACE-hämmare kan ge ett måttligt kreatininstegring i början; kraftig stegring talar för renal artärstenos."
+      ]
+    },
+    {
+      "id": "km1-6",
+      "code": "Modul 6",
+      "title": "Gastroenterologi och hepatologi",
+      "summary": "Levercirros och dess komplikationer, akut pankreatit, inflammatorisk tarmsjukdom och gallvägssjukdom – utredning och handläggning.",
+      "estMinutes": 33,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: levercirros och portahypertension",
+          "query": "ninja nerd liver cirrhosis portal hypertension"
+        },
+        {
+          "label": "Ninja Nerd: inflammatorisk tarmsjukdom",
+          "query": "ninja nerd inflammatory bowel disease Crohn ulcerative colitis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "6.1",
+          "title": "Diagnostisera och handlägga komplikationer till levercirros (ascites, varicerblödning, encefalopati)",
+          "level": "kunna"
+        },
+        {
+          "code": "6.2",
+          "title": "Redogöra för utredning och tidig behandling vid akut pankreatit",
+          "level": "kunna"
+        },
+        {
+          "code": "6.3",
+          "title": "Skilja ulcerös kolit från Crohns sjukdom utifrån utbredning och histologi",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-6-q1",
+          "kind": "mcq",
+          "prompt": "En 58-årig man med känd levercirros och ascites insjuknar med feber, buksmärta och försämrat allmäntillstånd. Vilken undersökning är avgörande för diagnosen spontan bakteriell peritonit?",
+          "options": [
+            "Ascitespunktion med neutrofilräkning och odling",
+            "Datortomografi av buken",
+            "Enbart blododling",
+            "Leverbiopsi"
+          ],
+          "answer": "Ascitespunktion med neutrofilräkning och odling",
+          "explanation": "Diagnosen ställs vid förhöjt antal neutrofila granulocyter i ascitesvätskan, och odling identifierar agens. Datortomografi kan vara normal och blododling är otillräcklig som enda underlag; leverbiopsi är irrelevant i det akuta skedet."
+        },
+        {
+          "id": "km1-6-q2",
+          "kind": "mcq",
+          "prompt": "En 45-årig man med hög alkoholkonsumtion har svår epigastriesmärta som utstrålar mot ryggen och kraftigt förhöjt pankreaslipas. Vilka är de två vanligaste orsakerna till akut pankreatit?",
+          "options": [
+            "Gallsten och alkohol",
+            "Hyperkalcemi och hypertriglyceridemi",
+            "Läkemedel och trauma",
+            "Infektion och autoimmunitet"
+          ],
+          "answer": "Gallsten och alkohol",
+          "explanation": "Gallstenspassage över papilla Vateri och alkohol står för majoriteten av fallen. Hyperkalcemi, hypertriglyceridemi och läkemedel är ovanligare orsaker men ska övervägas vid recidiv utan gallsten eller alkohol."
+        },
+        {
+          "id": "km1-6-q3",
+          "kind": "mcq",
+          "prompt": "En 27-årig man har i två månader haft blodiga diarréer, trängningar och buksmärta. Koloskopi visar kontinuerlig inflammation från rektum och proximalt. Vilken behandling är förstahandsval vid lindrig till måttlig sjukdom?",
+          "options": [
+            "Mesalazin (5-ASA)",
+            "Systemisk glukokortikoid som underhållsbehandling",
+            "Metronidazol",
+            "Loperamid"
+          ],
+          "answer": "Mesalazin (5-ASA)",
+          "explanation": "5-ASA används både för att inducera och bibehålla remission vid lindrig till måttlig ulcerös kolit. Systemiska steroider inducerar remission men är olämpliga för långtidsbruk, och loperamid kan bidra till toxiskt megakolon."
+        },
+        {
+          "id": "km1-6-q4",
+          "kind": "cloze",
+          "prompt": "Vid levercirros sjunker syntesen av albumin och koagulationsfaktorer, vilket ses som förhöjt ______ i blodprov.",
+          "answer": "INR",
+          "explanation": "Levern bildar koagulationsfaktorerna II, VII, IX och X samt albumin; vid nedsatt synteskapacitet förlängs protrombintiden och INR stiger. Tillsammans med bilirubin och encefalopati ingår detta i Child-Pugh-klassificeringen."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vad ingår i Child-Pugh-klassificeringen?",
+          "back": "Bilirubin, albumin, INR/protrombintid, ascites och encefalopati. Används för att skatta prognos och operativ risk vid levercirros."
+        },
+        {
+          "front": "Hur förebyggs varicerblödning vid portahypertension?",
+          "back": "Icke-selektiv betablockad (propranolol, karvedilol) eller endoskopisk varicebehandling som primärprofylax; vid akut blödning ges vasoaktiv behandling, antibiotikaprofylax och endoskopisk åtgärd."
+        },
+        {
+          "front": "Vad är hepatisk encefalopati och hur behandlas den?",
+          "back": "Neuropsykiatriska symtom vid nedsatt leverfunktion med ökad ammoniakbelastning. Behandling: laktulos och vid behov rifaximin samt åtgärdande av utlösande orsak (infektion, blödning, förstoppning)."
+        },
+        {
+          "front": "Hur skiljer sig Crohns sjukdom från ulcerös kolit?",
+          "back": "Crohn: diskontinuerlig, transmural inflammation, engagerar hela GI-kanalen och kan ge fistlar och strikturer. Ulcerös kolit: kontinuerlig slemhinneinflammation från rektum och proximalt, typiskt blodig diarré."
+        },
+        {
+          "front": "Vad kännetecknar akut kolecystit?",
+          "back": "Ihållande högersidig buksmärta, feber och positivt Murphys tecken, ofta efter gallstensanfall. Behandling är antibiotika och tidig kolecystektomi."
+        },
+        {
+          "front": "Vilka är de viktigaste prognosfaktorerna vid akut pankreatit?",
+          "back": "Organsvikt och förekomst av nekros; CRP-stegring och sjunkande saturation/trombocyter samt klinisk försämring inom första dygnet indikerar svår sjukdom."
+        }
+      ],
+      "facts": [
+        "Spontan bakteriell peritonit diagnostiseras med ascitespunktion – cellräkning är avgörande.",
+        "Vid cirros med ascites ska ASCITES-vård (saltrestriktion, diuretika, terlipressin/albumin vid behov) individualiseras.",
+        "Gallsten och alkohol dominerar som orsaker till akut pankreatit.",
+        "Vid ulcerös kolit är 5-ASA första linjens underhållsbehandling; steroider används för induktion."
+      ]
+    },
+    {
+      "id": "km1-7",
+      "code": "Modul 7",
+      "title": "Hematologi",
+      "summary": "Anemier, maligna blodsjukdomar och koagulationsrubbningar – utredningsgång och behandlingsprinciper.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: anemier och blodutstryk",
+          "query": "ninja nerd anemia types classification"
+        },
+        {
+          "label": "Ninja Nerd: leukemi och lymfom",
+          "query": "ninja nerd leukemia lymphoma"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "7.1",
+          "title": "Utreda anemi systematiskt med MCV, retikulocyter och järnstatus",
+          "level": "kunna"
+        },
+        {
+          "code": "7.2",
+          "title": "Känna igen symtom och labmönster vid multipla myelom och akut leukemi",
+          "level": "kunna"
+        },
+        {
+          "code": "7.3",
+          "title": "Förklara skillnaden mellan trombocytopeni och koagulopati utifrån prover och klinik",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-7-q1",
+          "kind": "mcq",
+          "prompt": "En 34-årig kvinna söker för trötthet. Hb är lågt, MCV lågt och ferritin lågt. Vilket påstående är korrekt?",
+          "options": [
+            "Järnbrist föreligger och orsaken till blodförlusten måste utredas",
+            "Ferritin är förhöjt och talar för järnbrist",
+            "MCV är typiskt förhöjt vid järnbrist",
+            "Järntabletter kan ges utan att orsaken utreds"
+          ],
+          "answer": "Järnbrist föreligger och orsaken till blodförlusten måste utredas",
+          "explanation": "Lågt ferritin är det mest specifika provet för järnbrist och mikrocytos talar för bristen, men även talassemi ger små erytrocyter. Eftersom järnbrist hos vuxna oftast beror på blödning ska källan utredas, särskilt i mag-tarmkanalen."
+        },
+        {
+          "id": "km1-7-q2",
+          "kind": "mcq",
+          "prompt": "En 72-årig man har trötthet, glossit och domningar i fötterna. Hb är lågt med högt MCV och vitamin B12 är lågt. Vilken behandling ska ges?",
+          "options": [
+            "Substitution med kobalamin (B12)",
+            "Järntabletter",
+            "Folsyra som monoterapi",
+            "Erytropoetin"
+          ],
+          "answer": "Substitution med kobalamin (B12)",
+          "explanation": "B12-brist ger makrocytär anemi och neurologiska symtom, ofta på grund av perniciös anemi med antikroppar mot intrinsic factor. Folsyra som monoterapi kan häva anemin men dölja och förvärra den neurologiska skadan."
+        },
+        {
+          "id": "km1-7-q3",
+          "kind": "mcq",
+          "prompt": "En 68-årig man har trötthet, ryggvärk, hyperkalcemi, nedsatt njurfunktion och anemi. Serum elektrofores visar en M-komponent. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Multiplalt myelom",
+            "Kronisk lymfatisk leukemi",
+            "Essentiell trombocytemi",
+            "Järnbristanemi"
+          ],
+          "answer": "Multiplalt myelom",
+          "explanation": "CRAB-kriterierna – hyperkalcemi, njursvikt, anemi och bentäthetsförändringar – tillsammans med M-komponent talar för myelom. CLL ger i stället lymfocytos och lymfkörtelförstoring, och trombocytemi påverkar varken kalcium eller skelett."
+        },
+        {
+          "id": "km1-7-q4",
+          "kind": "cloze",
+          "prompt": "Vid intravasal hemolys ses lågt haptoglobin, förhöjt LDH och förhöjt ______.",
+          "answer": "okonjugerat bilirubin",
+          "explanation": "Haptoglobin binder fritt hemoglobin och förbrukas vid hemolys, medan LDH frigörs från sönderfallande erytrocyter och hemoglobin bryts ner till okonjugerat bilirubin. Konjugerat bilirubin stiger i stället vid kolestas eller hepatocellulär skada."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Hur skiljer man järnbrist från anemi vid kronisk sjukdom?",
+          "back": "Järnbrist: lågt ferritin, låg transferrinmättnad, högt lösligt transferrinreceptor. Kronisk sjukdom: ferritin normalt eller högt (akutfasprotein), låg transferrinmättnad."
+        },
+        {
+          "front": "Vad säger retikulocyter vid anemi?",
+          "back": "Höga retikulocyter talar för ökad produktion och perifer förlust/blödning eller hemolys; låga talar för produktionsbrist i benmärgen."
+        },
+        {
+          "front": "Vilka symtom ger akut leukemi?",
+          "back": "Trötthet och infektioner på grund av cytopenier, blåmärken och blödningar, bendömhet samt eventuellt gingivahypertrofi. Diagnos via benmärgsundersökning med blastceller."
+        },
+        {
+          "front": "Vad kännetecknar Hodgkins lymfom?",
+          "back": "Reed-Sternberg-celler, typisk åldersfördelning med toppar unga vuxna och äldre, samt B-symtom (feber, nattliga svettningar, viktminskning). Ofta god prognos."
+        },
+        {
+          "front": "Vad är skillnaden mellan warfarin och DOAK?",
+          "back": "Warfarin hämmar vitamin K-beroende faktorer (II, VII, IX, X) och kräver INR-kontroll; DOAK hämmar trombin eller faktor Xa direkt och kontrolleras inte rutinmässigt men har begränsningar vid svår njursvikt."
+        },
+        {
+          "front": "Vilka är vanliga orsaker till trombocytopeni?",
+          "back": "Minskad produktion (benmärgssvikt, läkemedel), ökad nedbrytning (ITP, TTP, HIT) och sekestation (stor mjälte). HIT misstänks vid trombocytfall efter heparinbehandling."
+        }
+      ],
+      "facts": [
+        "Lågt ferritin är det mest specifika enskilda provet för järnbrist.",
+        "B12-brist ger både makrocytär anemi och neurologiska symtom – folsyra monoterapi döljer skadan.",
+        "CRAB: hyperkalcemi, njursvikt, anemi och benskador vid myelom.",
+        "Lågt haptoglobin och högt LDH är typiska hemolysmarkörer."
+      ]
+    },
+    {
+      "id": "km1-8",
+      "code": "Modul 8",
+      "title": "Reumatologi",
+      "summary": "Reumatoid artrit, kristallsjukdomar, vaskuliter och systemsjukdomar – klinisk igenkänning och tidig behandling.",
+      "estMinutes": 32,
+      "ninja": [
+        {
+          "label": "Ninja Nerd: reumatoid artrit",
+          "query": "ninja nerd rheumatoid arthritis"
+        },
+        {
+          "label": "Ninja Nerd: gikt och kristallartrit",
+          "query": "ninja nerd gout crystal arthritis"
+        }
+      ],
+      "objectives": [
+        {
+          "code": "8.1",
+          "title": "Skilja inflammatorisk ledsjukdom från artros utifrån anamnes, status och prover",
+          "level": "kunna"
+        },
+        {
+          "code": "8.2",
+          "title": "Handlägga akut giktattack och förklara uratsänkande behandlings principer",
+          "level": "kunna"
+        },
+        {
+          "code": "8.3",
+          "title": "Känna igen jättecellsarterit som ögonblicklig behandlingsindikation",
+          "level": "kunna"
+        }
+      ],
+      "recall": [
+        {
+          "id": "km1-8-q1",
+          "kind": "mcq",
+          "prompt": "En 52-årig kvinna har symmetrisk morgonstelhet i över en timme, synovit i MCP- och PIP-leder samt positiv anti-CCP. Vilken diagnos är mest sannolik?",
+          "options": [
+            "Reumatoid artrit",
+            "Artros",
+            "Akut gikt",
+            "Polymyalgia rheumatica"
+          ],
+          "answer": "Reumatoid artrit",
+          "explanation": "Symmetriskt småledsengagemang med långvarig morgonstelhet och anti-CCP talar för reumatoid artrit. Artros engagerar typiskt DIP-leder med kort morgonstelhet, gikt sitter oftast i MTP I, och polymyalgia rheumatica ger proximal muskelvärk utan synovit."
+        },
+        {
+          "id": "km1-8-q2",
+          "kind": "mcq",
+          "prompt": "En 68-årig man med hypertoni och diuretikabehandling får akut rodnad, svullnad och intensiv smärta i första MTP-leden. Vilken behandling är lämplig i akutskedet?",
+          "options": [
+            "NSAID, kolchicin eller glukokortikoid",
+            "Allopurinol som enda behandling",
+            "Antibiotika",
+            "Metotrexat"
+          ],
+          "answer": "NSAID, kolchicin eller glukokortikoid",
+          "explanation": "Akut gikt kräver snabb antiinflammatorisk behandling. Allopurinol sänker uratet men ska inte startas eller dosändras under en pågående attack eftersom det kan förlänga den; antibiotika är bara aktuellt vid misstänkt septisk artrit."
+        },
+        {
+          "id": "km1-8-q3",
+          "kind": "mcq",
+          "prompt": "En 74-årig kvinna får plötslig bitemporal huvudvärk, käksmärta vid tuggning och dimsyn. SR och CRP är kraftigt förhöjda. Vilken åtgärd ska vidtas?",
+          "options": [
+            "Omedelbar behandling med högdos glukokortikoid",
+            "Avvakta temporalisbiopsisvar innan behandling",
+            "Behandling med NSAID som monoterapi",
+            "Behandling med metotrexat som monoterapi"
+          ],
+          "answer": "Omedelbar behandling med högdos glukokortikoid",
+          "explanation": "Jättecellsarterit kan ge irreversibel blindhet genom ischemisk optikusneuropati, så glukokortikoid ges direkt vid misstanke. Temporalisbiopsi kan göras efter påbörjad behandling utan att diagnostiken går förlorad, men får aldrig fördröja terapin."
+        },
+        {
+          "id": "km1-8-q4",
+          "kind": "cloze",
+          "prompt": "Den sjukdomsmodifierande basbehandlingen vid reumatoid artrit är i första hand ______.",
+          "answer": "metotrexat",
+          "explanation": "Metotrexat är förstahandsval som DMARD och sätts in tidigt för att bromsa leddestruktion. Glukokortikoid används som brygga vid insättningen, och biologiska läkemedel tillkommer vid otillräcklig effekt."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka prover är centrala vid misstänkt reumatoid artrit?",
+          "back": "SR/CRP, RF och anti-CCP (anti-CCP är mer specifikt), samt röntgen och ultraljud av händer/fötter för att påvisa synovit och erosioner."
+        },
+        {
+          "front": "Vad kännetecknar artros?",
+          "back": "Mekaniskt betingad värk som förvärras vid belastning, kort morgonstelhet, engagemang av DIP-leder och knän/ höfter, osteofyter och minskad ledspalt på röntgen."
+        },
+        {
+          "front": "Hur skiljer man gikt från pseudogikt?",
+          "back": "Gikt: monosodiumuratkristaller (nålformade, negativt dubbelbrytande), ofta MTP I. Pseudogikt: kalciumpyrofosfat (rhomboida, positivt dubbelbrytande), ofta knä, med kondrokalcinos på röntgen."
+        },
+        {
+          "front": "Vad är polymyalgia rheumatica?",
+          "back": "Symmetrisk värk och stelhet i skuldror och höfter hos äldre, kraftigt förhöjd SR/CRP och snabb respons på låg dos glukokortikoid. Ofta överlappande med jättecellsarterit."
+        },
+        {
+          "front": "Vilka fynd talar för SLE?",
+          "back": "ANA hos nästan alla, anti-dsDNA och anti-Sm mer specifika, tillsammans med hudutslag, artrit, serosit, cytopenier och njurengagemang (lupusnefrit)."
+        },
+        {
+          "front": "Vilka är de viktigaste riskfaktorerna för osteoporos?",
+          "back": "Hög ålder, kvinnligt kön och postmenopausal tid, långvarig glukokortikoidbehandling, rökning, låg BMI, immobilisering och tidigare fraktur. DXA T-score ≤ −2,5 definierar osteoporos."
+        }
+      ],
+      "facts": [
+        "Anti-CCP är mer specifikt än reumatoid faktor vid reumatoid artrit.",
+        "Akut gikt ska behandlas antiinflammatoriskt – uratsänkning startas i lugnt skede.",
+        "Jättecellsarterit med synpåverkan är en akut behandlingsindikation på grund av blindhetsrisk.",
+        "Tidig insättning av DMARD vid reumatoid artrit bromsar leddestruktion."
+      ]
+    }
+  ]
+}

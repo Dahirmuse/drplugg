@@ -1,0 +1,242 @@
+{
+  "course": "bv1",
+  "chapters": [
+    {
+      "id": "bv1-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Läkaryrket m.fl.",
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Läkaryrket"
+        },
+        {
+          "code": "1.2",
+          "title": "Hälso- och sjukvård i samhället"
+        },
+        {
+          "code": "1.3",
+          "title": "Etik"
+        },
+        {
+          "code": "1.4",
+          "title": "Lärande"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Kunna redogöra för följande begrepp:",
+        "1.1.2 Kunna reflektera över läkarens användande av sina sinnen",
+        "1.1.3 Kunna ange betydelsen av skönlitteratur, konst och annan humaniora för läkaryrket",
+        "1.1.4 Kunna identifiera och beskriva läkaryrkets kompetensområden",
+        "1.1.5 Kunna redogöra för CanMEDS läkarkompetenser",
+        "1.1.6 Kunna reflektera över studentrollen i patient-läkarmötet",
+        "1.1.7 Kunna ge exempel på hur patienter kan bidra till läkares och läkarstudenters professionella utveckling",
+        "1.1.8 Kunna reflektera över interaktionen i patient-läkarmötet och vad som kännetecknar ett professionellt samtal",
+        "1.1.9 Kunna redogöra för betydelsen av icke-verbal kommunikation i patient- läkarmötet",
+        "1.1.10 Kunna redogöra för evidensen för ett patientcentrerat arbetssätt",
+        "1.1.11 Kunna definiera konsultationens tre delar och förklara hur de tillsammans ger möjlighet till patientcentrering",
+        "1.1.12 Kunna redogöra för samtalsteknikerna öppet lyssnande och sammanfattning 10 1.1.13 Kunna redogöra för den övergripande strukturen för läkarens del av konsultationen",
+        "1.1.14 Sjukvårdens organisation",
+        "1.1.15 Kunna ge exempel på former av läkares myndighetsutövning",
+        "1.1.16 Kunna översiktligt beskriva skillnaden mellan patientlagen och hälso- och sjukvårdslagen",
+        "1.1.17 Kunna översiktligt redogöra för diskrimineringsgrunderna i svensk lagstiftning samt de mänskliga rättigheterna",
+        "1.2.1 Epidemiologi",
+        "1.2.2 Kunna beskriva och applicera relevanta mått på morbiditet och mortalitet",
+        "1.2.3 Kunna redogöra för måttet funktionsjusterade levnadsår (DALY)",
+        "1.2.4 Kunna redogöra översiktligt för sjukdomspanoramat i Sverige i ett historiskt perspektiv, samt mycket översiktligt redogöra för sjukdomspanoramat globalt",
+        "1.2.5 Kunna översiktligt beskriva hälsans bestämningsfaktorer",
+        "1.2.6 Kunna redogöra översiktligt för hur information inhämtas från patient och värderas avseende eventuell hälsopåverkan av faktorer i arbets- eller allmän miljö",
+        "1.2.7 Kunna definiera preventivt och hälsofrämjande arbete",
+        "1.2.8 Kunna beskriva hur preventivt arbete kan ske på olika nivåer och riktas till olika grupper 14 1.2.9 Kunna översiktligt redogöra för de nationella folkhälsomålen",
+        "1.2.10 Kunna ge exempel på ojämlik hälsa",
+        "1.2.11 Kunna översiktligt redogöra för de globala målen för hållbar utveckling",
+        "1.3.1 Kunna definiera begrepp i anslutning till de fyra principerna",
+        "1.3.2 Kunna identifiera skillnaden mellan etiska frågor och andra näraliggande (i första hand juridiska och psykologiska)",
+        "1.3.3 Redogöra för nationella och internationella yrkesetiska regler och deklarationer samt deras tillkomst",
+        "1.4.1 Kunna beskriva TBL-cykelns olika faser",
+        "1.4.2 Kunna redogöra för evidensen för återkoppling för lärande",
+        "1.4.3 Kunna redogöra för följande begrepp:"
+      ]
+    },
+    {
+      "id": "bv1-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – Cellbiologi m.fl.",
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Cellbiologi"
+        },
+        {
+          "code": "2.2",
+          "title": "Mikrobiologi (Modul 2 och 5)"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Cellen och dess organeller",
+        "2.1.2 Kunna definiera genetiska basbegrepp",
+        "2.1.3 Embryologi och utvecklingsbiologi",
+        "2.1.4 Evolution",
+        "2.2.1 Känna till teorier om livets uppkomst",
+        "2.2.2 Kunna definitionen prokaryot respektive eukaryot",
+        "2.2.3 Kunna beskriva artbegreppet i mikrobiologi (diskontinuerlig variation jämfört med sexuell fortplantning)",
+        "2.2.4 Kunna beskriva virus basala uppbyggnad, kapsid och hölje, samt veta om att det finns både RNA-virus och DNA virus",
+        "2.2.5 Kunna beskriva bakteriers basala uppbyggnad inklusive Grampositiva och Gramnegativa bakteriers cellvägg och cellmembran",
+        "2.2.6 Känna till och kunna beskriva begreppen parasitologi och parasit, kunna förklara varför protozoer, maskar och svampar är eukaryota mikroorganismer",
+        "2.2.7 Antibiotika",
+        "2.2.8 Mikrobiota",
+        "2.2.10 Kunna förklara varför mikroorganismer kan orsaka sjukdom",
+        "2.2.11 Kunna beskriva olika typer av smittvägar",
+        "2.2.12 Beskriva hur adhesionsfaktorer bidrar till mikroorganismers patogenicitet",
+        "2.2.13 Beskriva vad ett toxin är och vad det har för påverkan på värdcellen"
+      ]
+    },
+    {
+      "id": "bv1-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Biokemins grunder m.fl.",
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Biokemins grunder"
+        },
+        {
+          "code": "3.2",
+          "title": "Histologi – kroppens vävnader"
+        },
+        {
+          "code": "3.3",
+          "title": "Anatomi"
+        },
+        {
+          "code": "3.4",
+          "title": "Fysiologi"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Ämnesomsättning",
+        "3.1.2 Kolhydrater, fetter och nukleotider",
+        "3.1.3 Proteiner",
+        "3.2.1 Redogöra för definitionen av en vävnad respektive ett organ",
+        "3.2.2 Namnge kroppens fyra olika vävnader och känna till vilka celltyper som förekommer i respektive vävnad",
+        "3.2.3 Beskriva skillnaden mellan stroma och parenkym",
+        "3.2.4 Att kunna matsmältningsorganens mikroskopiska struktur översiktligt",
+        "3.3.1 Ni ska kunna identifiera strukturerna och översiktligt känna till deras funktion 41 3.4 Fysiologi",
+        "3.4 Fysiologi"
+      ]
+    },
+    {
+      "id": "bv1-m4",
+      "code": "Modul 4",
+      "title": "Modul 4 – Cellulär neurovetenskap m.fl.",
+      "sections": [
+        {
+          "code": "4.1",
+          "title": "Cellulär neurovetenskap"
+        },
+        {
+          "code": "4.2",
+          "title": "Sensorik"
+        },
+        {
+          "code": "4.3",
+          "title": "Motorik"
+        },
+        {
+          "code": "4.4",
+          "title": "Högre hjärnfunktioner"
+        },
+        {
+          "code": "4.5",
+          "title": "Neuroanatomi–strukturer (flertalet berörs ovan)"
+        },
+        {
+          "code": "4.6",
+          "title": "Endokrinologi"
+        },
+        {
+          "code": "4.7",
+          "title": "Immunologi (Modul 5)"
+        }
+      ],
+      "objectives": [
+        "4.1.1 Neuronet",
+        "4.1.2 Neurontyper",
+        "4.1.3 Gliaceller",
+        "4.1.4 Neuronets fysiologi",
+        "4.1.5 Synaptisk transmission",
+        "4.2.1 Ryggmärgen",
+        "4.2.2 Talamus",
+        "4.2.3 Cerebrum",
+        "4.2.4 Synimpulser",
+        "4.3.1 Ryggmärgen",
+        "4.3.2 Hjärnstammen",
+        "4.3.3 Cerebellum",
+        "4.3.4 Basala ganglierna",
+        "4.3.5 Primära motorkortex",
+        "4.4.1 Funktioner hos associativa cortex",
+        "4.4.2 Hypothalamus",
+        "4.4.3 Amygdala",
+        "4.4.4 Språk",
+        "4.4.5 Minne",
+        "4.4.6 Autonoma nervsystemet",
+        "4.5.1 Regioner",
+        "4.5.2 Gyri/sulci/lober",
+        "4.5.3 Kärnor",
+        "4.5.4 Vit substans",
+        "4.5.5 Kranialnerver",
+        "4.5.7 Ryggmärg",
+        "4.5.8 Banor",
+        "4.5.9 Blodkärl",
+        "4.6.1 Definiera begreppen hormon och hormonfamiljer",
+        "4.6.2 Definiera begreppen",
+        "4.6.3 Redogöra för vilka våra endokrina organ och vävnader är",
+        "4.6.4 Redogöra för våra viktigaste hormoner och översiktligt om deras effekter",
+        "4.6.5 Redogöra för huvudtyper av hormonreceptorer",
+        "4.6.8 Känna till skillnader/likheter mellan nervsystemet och det endokrina systemet 76 4.7 Immunologi (Modul 5)",
+        "4.7 Immunologi (Modul 5)"
+      ]
+    },
+    {
+      "id": "bv1-m5",
+      "code": "Modul 5",
+      "title": "Modul 5 – Immunologi m.fl.",
+      "sections": [
+        {
+          "code": "5.1",
+          "title": "Immunologi"
+        },
+        {
+          "code": "5.2",
+          "title": "Patologi"
+        },
+        {
+          "code": "5.3",
+          "title": "Farmakologi"
+        }
+      ],
+      "objectives": [
+        "5.1.1 Kunna definiera begreppet immunologi",
+        "5.1.2 Kunna beskriva skillnaden mellan inflammation och infektion",
+        "5.1.3 Känna till vilka komponenter som ingår i immunförsvaret, både yttre och inre försvar. 80 5.1.4 Kunna definiera begreppet antigen",
+        "5.1.5 Kunna beskriva skillnaden mellan det medfödda och det adaptiva immunförsvaret",
+        "5.1.6 Känna till vilken typ av receptorer som celler i det medfödda immunförsvaret använder sig av mot mikroorganismer",
+        "5.1.7 Känna till var HLA-molekyler uttrycks och deras funktion i relation till T-celler. 81 5.1.8 Känna till hur T-och B-cellsreceptorer skapas",
+        "5.1.9 Kunna beskriva varför thymus är viktigt för T-celler",
+        "5.1.10 Känna till att lymfocyter aktiveras i lymfknutor",
+        "5.1.11 Kunna redogöra för varför det tar tid för ett adaptivt immunsvar att bli effektivt. 82 5.1.12 Känna till begreppet immunologiskt minne",
+        "5.1.13 Känna till vilken typ av immunförsvar som är effektivt mot extracellulära mikroorganismer och vilken typ av immunförsvar som är effektivt mot intracellulära mikroorganismer",
+        "5.1.14 Kunna förklara vad ett vaccin är",
+        "5.1.15 Känna till vad en autoimmun sjukdomär och kunna nämna tre",
+        "5.2.1 Förklara vad patologi betyder",
+        "5.2.2 Känna till undersökningsmetoder och principer till provhantering inom patologi 83 5.2.3 Kunna förklara begreppet sjukdom",
+        "5.2.4 Förklara begreppen etiologi och patogenes",
+        "5.2.5 Screening",
+        "5.3.1 Förklara vad Farmakologi, Farmakokinetik och Farmakodynamik är",
+        "5.3.2 Redogöra för grundprinciper för hur läkemedel utövar sina effekter samt översiktligt beskriva läkemedlens omsättning i kroppen",
+        "5.3.3 Förstå basal farmakologiskterminologi",
+        "5.3.4 ADME"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "id": "bv3",
+  "code": "BV3",
+  "title": "Basvetenskap 3: Anatomi, histologi och basal klinisk konsultation",
+  "term": "T2",
+  "icon": "🦴",
+  "color": "green",
+  "sortOrder": 3,
+  "description": "Makroskopisk anatomi i rörelseapparat, thorax, buk, bäcken samt huvud och hals, de fyra grundvävnaderna i histologi, och grunderna i klinisk konsultation och undersökningsteknik.",
+  "chapters": [
+    {
+      "id": "bv3-m1",
+      "code": "Modul 1",
+      "title": "Modul 1 – Huvud och hals m.fl.",
+      "summary": "Rörelseapparatens och visceras anatomi: skelett, muskler, kärl och nerver i huvud-hals, thorax, buk och bäcken, rygg samt arm och ben – med kliniska korrelat.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "1.1",
+          "title": "Modul 1 – Huvud och hals"
+        },
+        {
+          "code": "1.2",
+          "title": "Modul 2 – thorax"
+        },
+        {
+          "code": "1.3",
+          "title": "Modul 3 – buk och bäcken"
+        },
+        {
+          "code": "1.4",
+          "title": "Modul 4 – rygg"
+        },
+        {
+          "code": "1.5",
+          "title": "Modul 5 – armar"
+        },
+        {
+          "code": "1.6",
+          "title": "Modul 6 – ben"
+        }
+      ],
+      "objectives": [
+        "1.1.1 Ben",
+        "1.1.2 Oculus – ögat",
+        "1.1.3 Muskler",
+        "1.1.4 Auris – örat",
+        "1.1.5 Larynx",
+        "1.1.6 Cavitas nasi",
+        "1.1.7 Cavitas oris",
+        "1.1.8 Spottkörtlar",
+        "1.1.9 Pharynx",
+        "1.1.10 Nerver",
+        "1.1.11 Blodkärl",
+        "1.1.12 Glandula thyroidea et parathyroidea",
+        "1.1.13 Faschia",
+        "1.1.14 Anatomiska områden",
+        "1.2.1 Bröst (mamma)",
+        "1.2.2 Ben",
+        "1.2.3 Muskler",
+        "1.2.4 Kärl och nerver",
+        "1.2.5 Lymfkärl",
+        "1.2.6 Organ",
+        "1.2.7 Områden",
+        "1.3.1 Ben",
+        "1.3.2 Ligament",
+        "1.3.3 Muskler",
+        "1.3.4 Blodkärl",
+        "1.3.5 Lymfkärl",
+        "1.3.6 Bindvävsstrukturer",
+        "1.3.7 Gastrointestinala kanalen",
+        "1.3.8 Pancreas",
+        "1.3.9 Levern",
+        "1.3.10 Mjälten",
+        "1.3.11 Urinorgan",
+        "1.3.12 Genitalier",
+        "1.3.13 Nerver",
+        "1.4.1 Columna vertebralis",
+        "1.4.2 Leder och ligament",
+        "1.4.3 Muskler",
+        "1.4.4 Blodkärl",
+        "1.4.5 Systema nervosum",
+        "1.5.1 Ben",
+        "1.5.2 Leder och ligament",
+        "1.5.3 Muskler",
+        "1.5.4 Vasa",
+        "1.5.5 Nervi",
+        "1.6.1 Osteologi",
+        "1.6.2 Leder och ligament",
+        "1.6.3 Muskler",
+        "1.6.4 Kärl",
+        "1.6.5 Nerver"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: plexus brachialis",
+          "query": "ninja nerd brachial plexus"
+        },
+        {
+          "label": "Ninja Nerd: thorax anatomi",
+          "query": "ninja nerd anatomy thorax mediastinum"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv3-m1-q1",
+          "kind": "mcq",
+          "prompt": "Vilken nerv innerverar diafragman och varifrån utgår den?",
+          "options": [
+            "Nervus phrenicus från C3–C5",
+            "Nervus vagus från hjärnstammen",
+            "Nervus intercostalis från Th1–Th4",
+            "Nervus laryngeus recurrens"
+          ],
+          "answer": "Nervus phrenicus från C3–C5",
+          "explanation": "N. phrenicus kommer från plexus cervicalis (C3–C5, 'C3-4-5 keeps the diaphragm alive') och ger motorisk innervation till diafragma. Skada ger andningspåverkan."
+        },
+        {
+          "id": "bv3-m1-q2",
+          "kind": "mcq",
+          "prompt": "En patient har domningar i tumme, pek- och långfinger samt svaghet i tummens abduktion. Vilken nerv är sannolikt påverkad?",
+          "options": [
+            "Nervus medianus i karpaltunneln",
+            "Nervus ulnaris i sulcus cubitalis",
+            "Nervus radialis i axillen",
+            "Nervus musculocutaneus"
+          ],
+          "answer": "Nervus medianus i karpaltunneln",
+          "explanation": "N. medianus försörjer thenarmusklerna (abductor pollicis brevis) och känseln i tumme/pek/långfinger. Ulnaris påverkar lillfinger och hypothenar, radialis handledsextension."
+        },
+        {
+          "id": "bv3-m1-q3",
+          "kind": "cloze",
+          "prompt": "Den stora kroppshålan ovanför diafragma som rymmer hjärta och lungor kallas ______.",
+          "answer": "thorax",
+          "explanation": "Cavitas thoracis avgränsas nedåt av diafragma och innehåller mediastinum med hjärta, stora kärl, luftstrupe och matstrupe samt lungorna i pleurahöhlorna."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka delar har plexus brachialis?",
+          "back": "Rötter (C5–Th1), trunci, divisiones, funiklar och grenar. Viktiga nerver: axillaris, musculocutaneus, radialis, medianus och ulnaris."
+        },
+        {
+          "front": "Vad skiljer Erb-Duchennes från Klumpkes pares?",
+          "back": "Erb: skada på övre rötterna C5–C6 → armen hänger i adduktion och inåtrotation ('waiter's tip'). Klumpke: C8–Th1 → klomshand och ptos (Horner)."
+        },
+        {
+          "front": "Vilka strukturer passerar genom diafragma?",
+          "back": "Aorta (hiatus aorticus, Th12), matstrupen och vagus (hiatus oesophageus, Th10) samt vena cava inferior (foramen venae cavae, Th8)."
+        },
+        {
+          "front": "Vad kännetecknar ljumskbråck anatomiskt?",
+          "back": "Indirekt bråck går genom inre ljumskringen lateralt om inferiora epigastriska kärl; direkt bråck går medialt om dem genom trigonum Hesselbachi."
+        }
+      ],
+      "facts": [
+        "N. phrenicus (C3–C5) innerverar diafragma.",
+        "Karpaltunnelsyndrom = n. medianus.",
+        "Vena cava inferior passerar diafragma i foramen venae cavae (Th8)."
+      ]
+    },
+    {
+      "id": "bv3-m2",
+      "code": "Modul 2",
+      "title": "Modul 2 – Vävnader m.fl.",
+      "summary": "Histologins grunder: de fyra vävnadernas mikroskopiska uppbyggnad och hur de bygger organ och organsystem, inklusive matsmältningskanalens vägg.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "2.1",
+          "title": "Vävnader"
+        },
+        {
+          "code": "2.2",
+          "title": "Organ/organsystem"
+        }
+      ],
+      "objectives": [
+        "2.1.1 Epitelvävnad (yt- och körtelepitel)",
+        "2.1.2 Bindväv",
+        "2.1.3 Muskelvävnad",
+        "2.2.1 Hud",
+        "2.2.2 Lymfatiska organ",
+        "2.2.3 Cirkulationsorgan",
+        "2.2.4 Respirationsorgan",
+        "2.2.5 Digestionsorgan",
+        "2.2.6 Urinorgan",
+        "2.2.7 Genitalorgan",
+        "2.2.8 Endokrina organ"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: histologi – epitelvävnad",
+          "query": "ninja nerd histology epithelium"
+        },
+        {
+          "label": "Ninja Nerd: histologi – bindväv",
+          "query": "ninja nerd histology connective tissue"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv3-m2-q1",
+          "kind": "mcq",
+          "prompt": "Vilken vävnad kännetecknas av riklig extracellulär matrix och relativt få celler?",
+          "options": [
+            "Bindväv",
+            "Epitelvävnad",
+            "Muskelvävnad",
+            "Nervvävnad"
+          ],
+          "answer": "Bindväv",
+          "explanation": "Bindvävens celler (fibroblaster, kondrocyter, osteocyter) är få och sitter i en omfattande matrix av kollagen, elastin och proteoglykaner – det ger stöd, styrka och transport."
+        },
+        {
+          "id": "bv3-m2-q2",
+          "kind": "mcq",
+          "prompt": "Vilken typ av epitel klär tunntarmens yta och vad gör dess mikrovilli?",
+          "options": [
+            "Enlagers cylinderepitel med mikrovilli som ökar absorptionsytan",
+            "Flerlagers skivepitel som skyddar mot nötning",
+            "Enlagers skivepitel som möjliggör gasutbyte",
+            "Övergångsepitel som tål sträckning"
+          ],
+          "answer": "Enlagers cylinderepitel med mikrovilli som ökar absorptionsytan",
+          "explanation": "Tunntarmens enterocyter är enlagers cylinderepitel med borstkant (mikrovilli) som mångdubblar ytan. Flerlagers skivepitel finns i munhåla/esofagus, övergångsepitel i urinvägar."
+        },
+        {
+          "id": "bv3-m2-q3",
+          "kind": "cloze",
+          "prompt": "Den innersta hinnan i mag-tarmkanalens vägg, som ligger direkt mot lumen, kallas ______.",
+          "answer": "mukosa",
+          "explanation": "Tarmväggen byggs utifrån och in av serosa, muscularis externa, submukosa och mukosa (epitel, lamina propria, muscularis mucosae)."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka fyra grundvävnader finns och vad kännetecknar dem?",
+          "back": "Epitel (täcker/utsöndrar, celltätt), bindväv (stöd, rik matrix), muskel (kontraktion) och nerv (signalering)."
+        },
+        {
+          "front": "Vad skiljer exokrin från endokrin körtel?",
+          "back": "Exokrin har utförsgång och utsöndrar till yta/lumen; endokrin saknar gång och utsöndrar hormoner till blodet."
+        },
+        {
+          "front": "Vilka lager bygger mag-tarmkanalens vägg?",
+          "back": "Mukosa (epitel, lamina propria, muscularis mucosae), submukosa, muscularis externa och serosa/adventitia."
+        },
+        {
+          "front": "Vad är skillnaden mellan stroma och parenkym?",
+          "back": "Parenkym = organets funktionella celler; stroma = stödjevävnad med bindväv, kärl och nerver."
+        }
+      ],
+      "facts": [
+        "Bindväv = få celler, rik extracellulär matrix.",
+        "Tarmens mukosa har enlagers cylinderepitel med mikrovilli.",
+        "Muskelvävnad: skelett-, hjärt- och glatt muskulatur."
+      ]
+    },
+    {
+      "id": "bv3-m3",
+      "code": "Modul 3",
+      "title": "Modul 3 – Klinisk konsultation, patientsäkerhet och etik",
+      "summary": "Klinisk konsultation och undersökning, patientsäkerhet och basal hygien, vetenskap och beprövad erfarenhet, genus och sociala faktorers betydelse för hälsa, samt medicinsk etik inklusive synen på död.",
+      "estMinutes": 45,
+      "sections": [
+        {
+          "code": "3.1",
+          "title": "Redogöra för konsultationens tre delar samt strukturen för läkarens del av konsultationen innefattande differentialdiagnostiskt tänkande, den riktade anamnesen, samt statusundersökningar (S3)"
+        },
+        {
+          "code": "3.2",
+          "title": "Redogöra för grundläggande begrepp inom patientsäkerhet och de vanligaste typerna av vårdskador (S3)"
+        },
+        {
+          "code": "3.3",
+          "title": "Redogöra för sambandet mellan vetenskap och beprövad erfarenhet inom hälso- och"
+        },
+        {
+          "code": "3.4",
+          "title": "Redogöra översiktligt för hur genus, psykosociala, socioekonomiska, samhälls- och miljörelaterade faktorer påverkar hälsa, hälsolitteracitet och möjligheten att tillgodogöra sig hälso- och sjukvård (S3)"
+        },
+        {
+          "code": "3.5",
+          "title": "Resonera kring hur likabehandling, bemötande och hälsolitteracitet kan påverka hälsa, och möjlighet att tillgodogöra sig hälso- och sjukvård och basera sitt resonemang på vetenskaplig grund (S4)"
+        },
+        {
+          "code": "3.6",
+          "title": "Redogöra för centrala etiska begrepp, teorier, normer, värderingar och principer (S3) och beskriva hur de tillämpas inom hälso- och sjukvården (S4)"
+        },
+        {
+          "code": "3.7",
+          "title": "Resonera kring etiska och moraliska dilemman av relevans för läkaren med utgångspunkt i medicinhistoriska exempel (S4)"
+        },
+        {
+          "code": "3.8",
+          "title": "Analysera etiska problem som att precisera handlingsalternativ,"
+        },
+        {
+          "code": "3.9",
+          "title": "Ge exempel på hur individers och gruppers behov kan stå i konflikt med varandra och påverka beslutsfattande i olika situationer (S4)"
+        },
+        {
+          "code": "3.10",
+          "title": "Redogöra för hur synen på död och döende i relation till läkaryrket har förändrats ur ett transkulturellt ett medicinhistoriskt perspektiv (S3)"
+        }
+      ],
+      "objectives": [
+        "3.1.1 Kunna redogöra för hur läkarens användning av 3-stegs konsultationen (patientens del, läkarens del och den gemensamma delen) bidrar till personcentrerad vård",
+        "3.1.2 Kunna förklara och motivera innehåll och kronologi i läkarens del",
+        "3.1.3 Kunna definiera och förklara begreppet differentialdiagnos",
+        "3.1.4 Kunna förklara skillnad mellan spontananamnes och riktad anamnes",
+        "3.1.5 Ange vad rubriken Allmäntillstånd (AT) ska förmedla i journalen",
+        "3.1.6 Ange hur bedömning och dokumentation av allmäntillstånd skiljer sig från övriga statusfynd",
+        "3.1.7 Kunna förklara och motivera innehåll I statusundersökningen av följande organ/system:",
+        "3.2.1 Kunna definiera och förklara innebörden av följande grundläggande begrepp: vårdskada, patientsäkerhet, MTO",
+        "3.2.2 Redogöra för vanliga typer av vårdskada",
+        "3.2.3 Definiera diagnostiska fel och dess vanligaste orsaker dvs kognitiva faktorer, systemrelaterade faktorer och kunskapsbrist",
+        "3.2.4 Kunna förklara hur 3-regeln minskar risken för diagnostiska fel",
+        "3.2.5 Kunna förklara för hur en involverad patient kan hjälpa minskar risken för diagnostiska fel",
+        "3.2.6 Kunna ange vilket ansvar för patientsäkerhet som åligger den legitimerade läkaren samt relevant reglerande lagstiftning",
+        "3.2.7 Kunna ange hur och i vilket syfte avvikelserapportering sker",
+        "3.2.8 Redogöra vad som kännetecknar ett bra samarbete i sjukvården och hur det påverkar patientsäkerheten",
+        "3.3 Redogöra för sambandet mellan vetenskap och beprövad erfarenhet inom hälso- och",
+        "3.4.1 Kunna beskriva hur kunskap om hälsans bestämningsfaktorer bidrar till effektivare hälso- och sjukvård och bättre hälsa",
+        "3.4.2 Känna till viktiga skyddsfaktorer för hälsa",
+        "3.4.3 Kunna ge exempel på omständigheter som begränsar möjligheten att tillgodogöra sig hälso- och sjukvård",
+        "3.4.4 Kunna förklara hur arbetsplatsinriktade insatser kan främja patienters hälsa och minska behov av sjukskrivning",
+        "3.4.5 Kunna redogöra översiktligt för hur krav-kontroll-modellen, inklusive beaktande av socialt stöd i modellen, kan användas för att bedöma hälsorisker i arbetsmiljön",
+        "3.4.6 Kunna beskriva hur faktorer på global, nationell, regional och lokal nivå kan påverka människors hälsa - idag och i framtiden, samt kunna ge exempel på hur dessa faktorer kan bero av varandra",
+        "3.4.7 Förklara hur universell utformning kan användas för att bidra till vårdtillgänglighet",
+        "3.4.8 Diskutera läkarens möjligheter att främja hälsa genom att arbeta för en hållbar utveckling i samhället inkluderande hälso- och sjukvården",
+        "3.5.1 Redogöra för hur läkare kan bidra till gott bemötande och likabehandling i konsultationen",
+        "3.5.2 Resonera kring begreppet vårdtillgänglighet",
+        "3.5.3 Resonera kring hur kunskap om hälsans bestämningsfaktorer är användbar för folkhälsoarbete och i klinisk verksamhet",
+        "3.6 Redogöra för centrala etiska begrepp, teorier, normer, värderingar och principer (S3) och beskriva hur de tillämpas inom hälso- och sjukvården (S4)",
+        "3.7 Resonera kring etiska och moraliska dilemman av relevans för läkaren med utgångspunkt i medicinhistoriska exempel (S4)",
+        "3.8 Analysera etiska problem som att precisera handlingsalternativ,",
+        "3.9 Ge exempel på hur individers och gruppers behov kan stå i konflikt med varandra och påverka beslutsfattande i olika situationer (S4)",
+        "3.10 Redogöra för hur synen på död och döende i relation till läkaryrket har förändrats ur ett transkulturellt ett medicinhistoriskt perspektiv (S3)"
+      ],
+      "ninja": [
+        {
+          "label": "Ninja Nerd: klinisk konsultation",
+          "query": "ninja nerd clinical consultation patient centered"
+        },
+        {
+          "label": "Ninja Nerd: medicinsk etik",
+          "query": "ninja nerd medical ethics four principles"
+        }
+      ],
+      "recall": [
+        {
+          "id": "bv3-m3-q1",
+          "kind": "mcq",
+          "prompt": "En patient som saknar beslutsförmåga behöver akut vård. Vad gäller enligt patientlagen?",
+          "options": [
+            "Vård får ges utan samtycke om det är nödvändigt för att avvärja fara för liv eller allvarlig skada",
+            "Ingen vård får ges förrän en anhörig godkänt",
+            "Endast polisen kan fatta beslut",
+            "Patienten måste alltid skriva på ett samtycke först"
+          ],
+          "answer": "Vård får ges utan samtycke om det är nödvändigt för att avvärja fara för liv eller allvarlig skada",
+          "explanation": "När patienten inte kan lämna samtycke och det finns fara för liv eller allvarlig skada får nödvändig vård ges. I övriga fall ska patienten få information och möjlighet att delta så långt det går."
+        },
+        {
+          "id": "bv3-m3-q2",
+          "kind": "mcq",
+          "prompt": "Vad är en vårdskada enligt patientsäkerhetslagen?",
+          "options": [
+            "Lidande, kroppslig eller psykisk skada eller sjukdom som hade kunnat undvikas om adekvata åtgärder vidtagits",
+            "Varje komplikation som uppstår i vården, oavsett orsak",
+            "Endast skador som uppstår vid operation",
+            "Skada som patienten själv orsakat i hemmet"
+          ],
+          "answer": "Lidande, kroppslig eller psykisk skada eller sjukdom som hade kunnat undvikas om adekvata åtgärder vidtagits",
+          "explanation": "Nyckelordet är undvikbarhet – en vårdskada är en skada som hade kunnat förhindras med adekvata åtgärder. Allvarliga vårdskador anmäls enligt lex Maria."
+        },
+        {
+          "id": "bv3-m3-q3",
+          "kind": "cloze",
+          "prompt": "Allvarlig vårdskada eller risk för allvarlig vårdskada ska anmälas till IVO enligt ______.",
+          "answer": "lex Maria",
+          "explanation": "Lex Maria finns i patientsäkerhetslagen och syftar till lärande och patientsäkerhet, inte bestraffning av enskild personal."
+        }
+      ],
+      "cards": [
+        {
+          "front": "Vilka tre delar har den patientcentrerade konsultationen?",
+          "back": "Initiering (kontakt, patientens agenda), mitten (anamnes, undersökning, förklaring och plan) och avslutning (sammanfattning, förståelse, nästa steg)."
+        },
+        {
+          "front": "Vad innebär basal hygien i vården?",
+          "back": "Handdesinfektion före och efter patientkontakt, handskar vid risk för kroppsvätskor, kortärmat utan klockor och rent skyddsförkläde – bryter kontaktsmitta."
+        },
+        {
+          "front": "Vilka faktorer påverkar hälsa utöver biologin?",
+          "back": "Sociala, ekonomiska och psykosociala faktorer samt genus och diskrimineringsgrunder – viktiga för ojämlik hälsa och bemötande."
+        },
+        {
+          "front": "Vad skiljer explicit, implicit och konfirmationsbias?",
+          "back": "Explicit fördom är medveten; implicit är omedveten; konfirmationsbias är att bara söka information som bekräftar hypotesen."
+        }
+      ],
+      "facts": [
+        "Lex Maria = anmälan av allvarlig vårdskada till IVO.",
+        "Nödvärn/vård utan samtycke gäller vid fara för liv eller allvarlig skada.",
+        "Basal handhygien före och efter patientkontakt."
+      ]
+    }
+  ]
+}
