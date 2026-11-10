@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/admin/users/reset-password": {},
+    "/api/auth/forgot": {},
+    "/api/auth/login": {},
+    "/api/auth/logout": {},
+    "/api/auth/me": {},
+    "/api/auth/register": {},
+    "/api/auth/resend": {},
+    "/api/auth/verify": {},
+    "/api/cards/generate": {},
+    "/api/cards": {},
+    "/api/chat": {},
+    "/api/auth/reset": {},
+    "/api/chat/sessions": {},
+    "/api/docs": {},
+    "/api/games/match": {},
+    "/api/games/questions": {},
+    "/api/games/score": {},
+    "/api/grade": {},
+    "/api/auth/config": {},
+    "/api/admin/users": {},
+    "/api/review": {},
+    "/api/progress": {},
+    "/api/questions/generate": {}
+  }
+}

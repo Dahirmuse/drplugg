@@ -1,0 +1,591 @@
+{
+  "km1-2": [
+    {
+      "id": "Gsu8NT1yYes",
+      "title": "Congestive Heart Failure | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "67tUtS3y_GA",
+      "title": "Coronary Artery Disease | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "9tx1Dy69Xbk",
+      "title": "Atrial Fibrillation | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-3": [
+    {
+      "id": "epWJ2v5qy5E",
+      "title": "Hyperthyroidism | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "rh8ycjPCj18",
+      "title": "Diabetes Mellitus | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-4": [
+    {
+      "id": "P7Fkg7_yXL0",
+      "title": "Asthma | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "0SVP95BOUNI",
+      "title": "Venous Thromboembolism (DVT, PE) | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-5": [
+    {
+      "id": "EgGOwekD1O8",
+      "title": "Acute Kidney Injury (AKI) | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "I1hoGGWx_Hk",
+      "title": "Nephrotic Syndrome",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-6": [
+    {
+      "id": "R1f1gWCyutA",
+      "title": "Cirrhosis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-7": [
+    {
+      "id": "mOrRJBqm744",
+      "title": "Hematology | Types of Anemias",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "ycoumecc4d4",
+      "title": "Lymphoma | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km1-8": [
+    {
+      "id": "xHRwhK835QE",
+      "title": "Vasculitis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km2-1": [
+    {
+      "id": "KWVJBg6SCoY",
+      "title": "Parkinson's Disease | Clinical Presentation | Part 1",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km2-2": [
+    {
+      "id": "07N42Ragqas",
+      "title": "Shock | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "iaO8110iSzI",
+      "title": "Infective Endocarditis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "Qjo9F6Uuca8",
+      "title": "Tuberculosis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km2-3": [
+    {
+      "id": "EGoakiTAW5A",
+      "title": "Integumentary System | Skin Model Anatomy",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "xR-WHInabDA",
+      "title": "Skin Cancer | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km2-4": [
+    {
+      "id": "GGtwJ-SGXTA",
+      "title": "Antibiotics",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km3-1": [
+    {
+      "id": "gjakvwkB6Gk",
+      "title": "Appendicitis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "6GhdESRDkqY",
+      "title": "Bowel Obstruction | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km3-2": [
+    {
+      "id": "KxYRVagbMl4",
+      "title": "Rotator Cuff Tear | Etiology, Pathophysiology, Diagnosis, Treatment and Clinical Exam",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km3-3": [
+    {
+      "id": "b1EgkVczFfo",
+      "title": "Anxiolytic & Hypnotic Drugs",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km3-4": [
+    {
+      "id": "unFGw52Z-I8",
+      "title": "Nephrolithiasis | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "8smY6v3y8oA",
+      "title": "Prostate Disorders | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km3-5": [
+    {
+      "id": "yBygx58g2FE",
+      "title": "Peripheral Arterial Disease | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "4QvHj5wXdWA",
+      "title": "Aortic Diseases | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km4-1": [
+    {
+      "id": "abxcrAvw-O0",
+      "title": "Acute Ischemic Stroke: Etiology, Pathophysiology, Clinical Features, Diagnostics, Treatment",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "hxvep2Y8ShI",
+      "title": "Neurology | Basal Ganglia Anatomy & Function | Direct & Indirect Pathways",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km4-2": [
+    {
+      "id": "pp_kYg7mcqs",
+      "title": "Parkinson's Disease Drugs",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km4-3": [
+    {
+      "id": "Hclc7lL_Oyw",
+      "title": "Special Senses | Eye Anatomy",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "bigy-lBQuAI",
+      "title": "Eye Infections (Updated) | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km4-4": [
+    {
+      "id": "VRLm7cpmZSk",
+      "title": "Special Senses | External and Middle Ear Anatomy",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "h3AsFe1QgfM",
+      "title": "Special Senses | Vestibule | Maculae: Utricle and Saccule",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km4-5": [
+    {
+      "id": "4NKx7lE3INw",
+      "title": "Intracerebral Hemorrhage (ICH): Etiology, Pathophysiology, Clinical Features, Diagnostics, Treatment",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "m-P5znotxME",
+      "title": "Epidural Hematoma | Anatomy, Etiology, Pathophysiology, Clinical Features, Treatment",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km5-1": [
+    {
+      "id": "BtLyik7oAxc",
+      "title": "Embryology | Neurulation, Vesiculation, Neural Crest Cell Migration",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "_LKdNhF2WhI",
+      "title": "Endocrinology | Growth Hormone",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km5-2": [
+    {
+      "id": "gjLCu8qe2nI",
+      "title": "Respiratory | Surface Tension & Surfactant in Alveoli",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "2qgtG_KGz9A",
+      "title": "Gastrointestinal | Types of Jaundice",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km5-3": [
+    {
+      "id": "qkIfYwnaYqc",
+      "title": "Immunology | Immune System: Overview",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km5-4": [
+    {
+      "id": "bXWksu3APic",
+      "title": "Acute Respiratory Distress Syndrome (ARDS) | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "hgjlC7ZxBdI",
+      "title": "IV Fluids | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km6-1": [
+    {
+      "id": "R81ahD_lbtI",
+      "title": "Embryology | Development of the Placenta",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "H5hqwZRnBBw",
+      "title": "Reproductive System | Fertilization",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km6-2": [
+    {
+      "id": "sNCtvsY3TS8",
+      "title": "Hypertension | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "H5hqwZRnBBw",
+      "title": "Reproductive System | Fertilization",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km6-3": [
+    {
+      "id": "CwgaFwHJM4g",
+      "title": "Female Reproductive Cycle | Ovulation & Menstrual Cycle: Overview",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "Ks-nMVgjrhs",
+      "title": "Gynecological Cancers | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km6-4": [
+    {
+      "id": "pzgUbyD6mCM",
+      "title": "Female Reproductive Cycle | Ovulation",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km7-1": [
+    {
+      "id": "9ZoZx2FK9DE",
+      "title": "Cell Biology | Cell Cycle Regulation",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "EiQN-3y0u_c",
+      "title": "Antineoplastic Agents | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km7-2": [
+    {
+      "id": "EiQN-3y0u_c",
+      "title": "Antineoplastic Agents | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km7-3": [
+    {
+      "id": "8IhN6T3mT04",
+      "title": "Ascending Tracts | Pain Modulation: Gate Control Theory",
+      "channel": "Ninja Nerd"
+    },
+    {
+      "id": "UDh_ZYdESeo",
+      "title": "Pancreatic & Hepatobiliary Cancer | Podcast",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "km7-4": [
+    {
+      "id": "TXy9mQWQYRY",
+      "title": "Oncologic Emergencies | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "mvtm-3": [
+    {
+      "id": "07N42Ragqas",
+      "title": "Shock | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv1-m2": [
+    {
+      "id": "t5DvF5OVr1Y",
+      "title": "Cell Biology | Cell Structure & Function",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv1-m3": [
+    {
+      "id": "UKgbfxPTn_s",
+      "title": "Musculoskeletal System | Muscle Structure and Function",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv1-m4": [
+    {
+      "id": "Jk_9IhHVOTk",
+      "title": "Neurology | Resting Membrane, Graded, Action Potentials",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv1-m5": [
+    {
+      "id": "qkIfYwnaYqc",
+      "title": "Immunology | Immune System: Overview",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m1": [
+    {
+      "id": "xvWdIi6_fGg",
+      "title": "Cell Biology | DNA Replication 🧬",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m2": [
+    {
+      "id": "xHIzfkbj82U",
+      "title": "Cell Biology | Passive & Active Transport | Endocytosis & Exocytosis",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m3": [
+    {
+      "id": "7SK-WPnF1Dc",
+      "title": "Embryology | Gastrulation",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m4": [
+    {
+      "id": "4eLjRcHnMCk",
+      "title": "Biochemistry | Michaelis-Menten Equation",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m5": [
+    {
+      "id": "gggC9vctvBQ",
+      "title": "Metabolism | Glycolysis",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m6": [
+    {
+      "id": "OyQ1cgBw8HA",
+      "title": "Metabolism | Fatty Acid Oxidation: Part 1",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m7": [
+    {
+      "id": "w4jHtPUNg6E",
+      "title": "Endocrinology | Pancreas: Insulin Function",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv2-m8": [
+    {
+      "id": "2g7pFPXG2eE",
+      "title": "Cardiovascular | Fundamentals of Blood Pressure",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv3-m1": [
+    {
+      "id": "UlDFSlRBeCE",
+      "title": "Neurology | Brachial Plexus",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv3-m2": [
+    {
+      "id": "gmlA8V2zMv4",
+      "title": "Cell Junctions",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m1": [
+    {
+      "id": "Jk_9IhHVOTk",
+      "title": "Neurology | Resting Membrane, Graded, Action Potentials",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m2": [
+    {
+      "id": "MRl9akfrGQ4",
+      "title": "Ascending Tracts | Dorsal Column: Medial Lemniscus Pathway",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m3": [
+    {
+      "id": "zKA8iaxfEww",
+      "title": "Neurology | Descending Tracts: Corticospinal Tract",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m4": [
+    {
+      "id": "3Bvz6DHBB1g",
+      "title": "Neurology | Limbic System Anatomy & Function",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m5": [
+    {
+      "id": "iLmwWF3aYgA",
+      "title": "Endocrinology | Hypothalamus: Anterior Pituitary Connection",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv4-m6": [
+    {
+      "id": "6VMiKeAvvTY",
+      "title": "Circulatory System | Circle of Willis Circulation",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv5-m1": [
+    {
+      "id": "kkUxUBoM-hM",
+      "title": "Pharmacokinetics | Drug Absorption",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv5-m2": [
+    {
+      "id": "UW47uSLcM2g",
+      "title": "Musculoskeletal System | Neuromuscular Junction | Sliding Filament Theory: Part 3",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv5-m3": [
+    {
+      "id": "SGzp9wqeu84",
+      "title": "Hematology | Hemostasis: Coagulation Cascade",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv5-m4": [
+    {
+      "id": "uYm4l_alVV0",
+      "title": "Respiratory | Mechanics of Breathing: Pressure Changes | Part 1",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv5-m5": [
+    {
+      "id": "rwZIT_N75Bs",
+      "title": "Renal | Filtration, Reabsorption, and Secretion: Overview",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv6-m1": [
+    {
+      "id": "ayFiGn2fYi8",
+      "title": "Bacteria | Structure and Function",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv6-m3": [
+    {
+      "id": "GGtwJ-SGXTA",
+      "title": "Antibiotics",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv6-m4": [
+    {
+      "id": "uTOFL7l0zjY",
+      "title": "Pneumonia: Part 1 | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "bv6-m5": [
+    {
+      "id": "Tg76jhm8KPI",
+      "title": "CNS Infections | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "mdbi-m1": [
+    {
+      "id": "MRzxsX5YG94",
+      "title": "CBC | Approach to Anemia",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "mdbi-m2": [
+    {
+      "id": "CNN30YHsJw0",
+      "title": "ECG Basics | How to Read & Interpret ECGs: Updated Lecture",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "mdbi-m4": [
+    {
+      "id": "zH_wtXAw4CU",
+      "title": "Blood Transfusions | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ],
+  "mdbi-m5": [
+    {
+      "id": "hLNXJWLsjAE",
+      "title": "Hypothyroidism | Clinical Medicine",
+      "channel": "Ninja Nerd"
+    }
+  ]
+}

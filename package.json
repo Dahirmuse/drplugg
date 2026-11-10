@@ -1,0 +1,46 @@
+{
+  "name": "drplugg",
+  "version": "1.0.4",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:migrate": "node scripts/migrate.mjs",
+    "db:seed": "node scripts/seed.mjs",
+    "db:setup": "node scripts/migrate.mjs && node scripts/seed.mjs",
+    "videos": "node scripts/fetch-videos.mjs",
+    "typecheck": "tsc --noEmit",
+    "mail:test": "node scripts/dev-smtp-server.mjs",
+    "anki:extract": "python3 scripts/anki-extract.py",
+    "anki:import": "node scripts/anki-import.mjs",
+    "content:export": "node scripts/export-content.mjs",
+    "prod:build": "node scripts/build-prod.mjs"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^8.0.2",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.8",
+    "next": "^15.5.29",
+    "nodemailer": "^10.4.0",
+    "pg": "^8.22.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "ts-fsrs": "^4.7.1",
+    "unpdf": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.10.5",
+    "@types/pg": "^8.20.3",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  }
+}
