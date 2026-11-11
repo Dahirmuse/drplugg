@@ -1,0 +1,35 @@
+[Unit]
+Description=DrPlugg – svensk studieplattform för läkarprogrammet
+Documentation=file://__APP_DIR__/DEPLOY.md
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__APP_USER__
+Group=__APP_USER__
+WorkingDirectory=__APP_DIR__
+EnvironmentFile=__APP_DIR__/.env.local
+Environment=NODE_ENV=production
+Environment=PORT=__PORT__
+Environment=HOSTNAME=127.0.0.1
+Environment=TRUST_PROXY=true
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=XDG_CACHE_HOME=__DATA_DIR__/cache
+ExecStart=__NODE_BIN__ __APP_DIR__/server.js
+Restart=always
+RestartSec=5
+
+# Härdning: koden är read-only, bara datakatalogen får skrivas
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+ReadWritePaths=__DATA_DIR__
+
+[Install]
+WantedBy=multi-user.target
