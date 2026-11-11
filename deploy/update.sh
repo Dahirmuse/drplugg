@@ -6,8 +6,10 @@
 #   sudo ./deploy/update.sh v1.0.1 --expect-commit <full sha>
 #
 # Taggen är OBLIGATORISK – vi deployar bara granskade taggar.
-# Ordning: backup → git checkout → schema+content → restart.
+# Ordning: backup → git checkout → schema+content → PUBLIC_URL → restart → rökprov.
 # Rör aldrig nginx, certbot, systemd-uniten eller andra tjänster.
+# Nginx-filen LÄSES (bara server_name) för att kunna sätta PUBLIC_URL och
+# rökprova att omdirigeringar pekar på den publika domänen.
 # ══════════════════════════════════════════════════════════════
 set -euo pipefail
 IFS=$'\n\t'
@@ -18,8 +20,12 @@ BACKUP_DIR="/var/backups/drplugg"
 KEEP_BACKUPS=10
 APP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
+# Delade hjälpfunktioner (PUBLIC_URL, domänavläsning, omdirigeringsprov)
+. "$APP_DIR/deploy/deploy-lib.sh"
+
 TAG=""
 EXPECT_COMMIT=""
+PUBLIC_URL_ARG=""
 
 die() { echo "✗ $*" >&2; exit 1; }
 
@@ -29,12 +35,15 @@ Användning: sudo ./deploy/update.sh <tagg> [--expect-commit <sha>]
 
   <tagg>                  Krävs, t.ex. v1.0.1
   --expect-commit <sha>   Avbryt om taggens commit inte matchar (skydd mot flyttad tagg)
+  --public-url URL        Publik adress (t.ex. https://drplugg.se). Läses annars
+                          automatiskt ur nginx-blocket (.env.local: PUBLIC_URL)
 EOF
 }
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --expect-commit) EXPECT_COMMIT="${2:-}"; shift 2 ;;
+    --public-url) PUBLIC_URL_ARG="${2:-}"; shift 2 ;;
     -h|--help) usage; exit 0 ;;
     -*) die "Okänd flagga: $1" ;;
     *) [[ -z "$TAG" ]] || die "Ange bara en tagg."; TAG="$1"; shift ;;
@@ -115,6 +124,30 @@ run_as_app "psql -v ON_ERROR_STOP=1 --single-transaction -f '$APP_DIR/db/content
   || ml_fail "content.sql misslyckades"
 echo "✓ innehåll applicerat"
 
+# ── 5. PUBLIC_URL – appens publika adress ───────────────────
+# Appen lyssnar bara på 127.0.0.1. Utan PUBLIC_URL bygger den omdirigeringar
+# av den interna adressen (localhost:3311) och skickar besökaren dit.
+ENV_FILE="$APP_DIR/.env.local"
+DOMAIN="$(detect_domain)"
+if [[ -n "$PUBLIC_URL_ARG" ]]; then
+  PUBLIC_VALUE="${PUBLIC_URL_ARG%/}"
+elif [[ -n "$DOMAIN" ]]; then
+  if tls_enabled "$DOMAIN"; then
+    PUBLIC_VALUE="https://${DOMAIN}"
+  else
+    PUBLIC_VALUE="http://${DOMAIN}"
+  fi
+fi
+
+if [[ -n "${PUBLIC_VALUE:-}" ]]; then
+  ensure_public_url "$ENV_FILE" "$PUBLIC_VALUE" || ml_fail "kunde inte skriva PUBLIC_URL"
+  chown "$APP_USER:$APP_USER" "$ENV_FILE" && chmod 600 "$ENV_FILE"
+else
+  echo "• varning: hittade ingen domän i /etc/nginx/sites-available/${NGINX_SITE_NAME} –"
+  echo "  omdirigeringar blir relativa (korrekt) men metadata saknar publik adress."
+  echo "  Sätt den manuellt: PUBLIC_URL=https://din.domän i ${ENV_FILE}"
+fi
+
 systemctl restart "$UNIT_NAME"
 sleep 3
 systemctl is-active --quiet "$UNIT_NAME" || ml_fail "tjänsten startade inte efter uppdateringen"
@@ -122,6 +155,36 @@ systemctl is-active --quiet "$UNIT_NAME" || ml_fail "tjänsten startade inte eft
 PORT="$(sed -n 's/^Environment=PORT=//p' /etc/systemd/system/${UNIT_NAME} 2>/dev/null | head -1)"
 PORT="${PORT:-3311}"
 curl -fsS -o /dev/null "http://127.0.0.1:${PORT}/login" || ml_fail "appen svarar inte på port ${PORT}"
+
+# ── 6. Rökprov: omdirigeringen måste peka på den publika adressen ──
+if [[ -n "$DOMAIN" ]]; then
+  if tls_enabled "$DOMAIN"; then
+    EXPECT_ORIGIN="https://${DOMAIN}"
+    echo "• rökprovar https://${DOMAIN}/ via nginx (DNS behövs inte – vi pekar om till 127.0.0.1)…"
+    set +e
+    check_redirect_location "${EXPECT_ORIGIN}/" "$EXPECT_ORIGIN" \
+      --resolve "${DOMAIN}:443:127.0.0.1"
+    REDIRECT_RC=$?
+    set -e
+  else
+    EXPECT_ORIGIN="http://${DOMAIN}"
+    echo "• rökprovar http://${DOMAIN}/ via nginx…"
+    set +e
+    check_redirect_location "http://127.0.0.1:${PORT}/" "$EXPECT_ORIGIN" \
+      -H "Host: ${DOMAIN}" -H "X-Forwarded-Proto: http" -H "X-Forwarded-Host: ${DOMAIN}"
+    REDIRECT_RC=$?
+    set -e
+  fi
+
+  if [[ $REDIRECT_RC -eq 1 ]]; then
+    ml_fail "omdirigeringen pekar på en intern adress – PUBLIC_URL i ${ENV_FILE} är '$(sed -n 's/^PUBLIC_URL=//p' "$ENV_FILE" | head -1)'"
+  fi
+  if [[ $REDIRECT_RC -eq 2 ]]; then
+    echo "• varning: kunde inte läsa någon Location-header (curl-fel?) – kontrollera manuellt:"
+    echo "    curl -sI ${EXPECT_ORIGIN}/ | grep -i '^location:'"
+  fi
+  [[ $REDIRECT_RC -eq 0 ]] && echo "✓ omdirigeringen pekar på ${EXPECT_ORIGIN}/"
+fi
 
 printf '%s\n' "$TAG" > .last-deploy
 

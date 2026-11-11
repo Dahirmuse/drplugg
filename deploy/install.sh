@@ -74,6 +74,19 @@ run_pg_query() {  # $1 = SQL som ger ett värde
 
 die() { echo "✗ $*" >&2; exit 1; }
 
+# Delade hjälpfunktioner (PUBLIC_URL, domänavläsning, omdirigeringsprov)
+. "$APP_DIR/deploy/deploy-lib.sh"
+
+# Sätt/uppdatera EN nyckel i .env.local (idempotent – ersätter raden om den finns)
+set_env() {  # $1 = nyckel, $2 = värde
+  local key="$1" value="$2"
+  if grep -q "^${key}=" "$ENV_FILE"; then
+    sed -i "s|^${key}=.*|${key}=${value}|" "$ENV_FILE"
+  else
+    printf '%s=%s\n' "$key" "$value" >> "$ENV_FILE"
+  fi
+}
+
 [[ ${EUID} -eq 0 ]] || die "Kör som root: sudo ./deploy/install.sh ..."
 [[ -n "$NODE_BIN" ]] || die "--node-bin krävs (Node får inte ligga i en hemkatalog som ${APP_USER} inte kan läsa)."
 [[ -x "$NODE_BIN" ]] || die "$NODE_BIN finns inte eller är inte körbar."
@@ -102,6 +115,14 @@ if [[ -z "$JWT_VALUE" || "$JWT_VALUE" == *"byt-mig"* || ${#JWT_VALUE} -lt 32 ]];
     printf 'JWT_SECRET=%s\n' "$NEW_JWT" >> "$ENV_FILE"
   fi
   echo "✓ JWT_SECRET genererades (64 tecken) och skrevs till .env.local"
+fi
+
+# ── PUBLIC_URL: appens publika adress ────────────────────────
+# Appen lyssnar bara på 127.0.0.1. Utan PUBLIC_URL skulle omdirigeringar kunna
+# peka på localhost:3311 – därför skrivs den publika adressen hit.
+# enable-tls.sh uppgraderar den till https:// när certifikatet finns.
+if [[ "$SKIP_NGINX" == "no" && -n "$DOMAIN" ]]; then
+  ensure_public_url "$ENV_FILE" "http://${DOMAIN}"
 fi
 
 # ── Skapa användaren först så att node-sökvägen kan testas ────
@@ -134,6 +155,7 @@ else
   echo " Nginx       : hoppas över (--skip-nginx)"
 fi
 echo " TLS         : körs INTE här – se deploy/enable-tls.sh"
+echo " Publik adress: ${DOMAIN:+PUBLIC_URL=http://${DOMAIN} (i .env.local, uppgraderas till https av enable-tls.sh)}"
 echo "══════════════════════════════════════════════════════════"
 printf 'Skriv "yes" för att fortsätta: '
 read -r ANSWER
@@ -170,6 +192,10 @@ if [[ "$ROLE_EXISTS" != "1" ]]; then
 else
   echo "• databasroll ${DB_USER} finns redan – rör inte lösenordet"
   DB_PASS=""
+  EXISTING_PG_PASS="$(sed -n 's/^PGPASSWORD=//p' "$ENV_FILE" | head -1 | tr -d '[:space:]')"
+  if [[ -z "$EXISTING_PG_PASS" && -z "${PGPASSWORD:-}" ]]; then
+    die "rollen ${DB_USER} finns redan men PGPASSWORD är tom i ${ENV_FILE}. Fyll i rollens lösenord (eller använd en ny --db-user) och kör om."
+  fi
 fi
 
 DB_EXISTS="$(run_pg_query "SELECT 1 FROM pg_database WHERE datname='${DB_NAME}'" || true)"
@@ -185,25 +211,17 @@ else
   echo "• databas ${DB_NAME} finns redan"
 fi
 
+# PG-raderna MÅSTE matcha rollen/databasen vi nyss skapade eller återanvänder –
+# annars ansluter appen med fel användare (t.ex. när --db-user/--db-name används).
+# Sätts därför alltid, oavsett om rollen/databasen fanns sedan tidigare.
+set_env PGHOST 127.0.0.1
+set_env PGPORT 5432
+set_env PGDATABASE "$DB_NAME"
+set_env PGUSER "$DB_USER"
 if [[ -n "$DB_PASS" ]]; then
-  if grep -q '^PGPASSWORD=' "$ENV_FILE"; then
-    PGPASS_TMP="$(mktemp)"
-    sed "s|^PGPASSWORD=.*|PGPASSWORD=${DB_PASS}|" "$ENV_FILE" > "$PGPASS_TMP"
-    cat "$PGPASS_TMP" > "$ENV_FILE"
-    rm -f "$PGPASS_TMP"
-  else
-    {
-      echo ""
-      echo "# Skapad av install.sh $(date -Iseconds)"
-      echo "PGHOST=127.0.0.1"
-      echo "PGPORT=5432"
-      echo "PGDATABASE=${DB_NAME}"
-      echo "PGUSER=${DB_USER}"
-      echo "PGPASSWORD=${DB_PASS}"
-    } >> "$ENV_FILE"
-  fi
-  echo "✓ databasuppgifter skrivna till .env.local (visas aldrig här)"
+  set_env PGPASSWORD "$DB_PASS"
 fi
+echo "✓ databasuppgifter skrivna till .env.local (PGDATABASE=${DB_NAME}, PGUSER=${DB_USER})"
 
 chown "$APP_USER:$APP_USER" "$ENV_FILE"
 chmod 600 "$ENV_FILE"
@@ -271,6 +289,18 @@ if curl -fsS -o /dev/null "http://127.0.0.1:${PORT}/login"; then
 else
   journalctl -u "$UNIT_NAME" -n 30 --no-pager || true
   die "Appen svarar inte på port ${PORT}."
+fi
+
+# ── Rökprov: omdirigeringen får aldrig peka på den interna adressen ──
+if [[ "$SKIP_NGINX" == "no" && -n "$DOMAIN" ]]; then
+  echo "• kontrollerar omdirigering (via nginx-headers)…"
+  set +e
+  check_redirect_location "http://127.0.0.1:${PORT}/" "http://${DOMAIN}" \
+    -H "Host: ${DOMAIN}" -H "X-Forwarded-Proto: http" -H "X-Forwarded-Host: ${DOMAIN}"
+  REDIRECT_RC=$?
+  set -e
+  [[ $REDIRECT_RC -eq 1 ]] && die "Omdirigeringen pekar på en intern adress – kontrollera PUBLIC_URL i ${ENV_FILE}."
+  [[ $REDIRECT_RC -eq 0 ]] && echo "✓ omdirigeringen pekar på den publika adressen"
 fi
 
 # ── Spara installerad tagg (används av update.sh för rollback) ──

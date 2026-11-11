@@ -1,6 +1,6 @@
 -- DrPlugg – innehåll exporterat från utvecklingsdatabasen.
 -- Enbart upserts. Innehåll som tagits bort arkiveras, raderas aldrig.
--- Genererad: 2026-11-10T19:02:14.660Z
+-- Genererad: 2026-11-11T12:11:54.882Z
 -- Rader: 15 kurser, 74 moduler, 1065 mål,
 --        309 frågor, 1985 kort, 131 begreppspar.
 

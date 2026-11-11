@@ -17,6 +17,9 @@ APP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 UNIT_NAME="drplugg.service"
 NGINX_SITE="drplugg"
 
+# Delade hjälpfunktioner (PUBLIC_URL, omdirigeringsprov)
+. "$APP_DIR/deploy/deploy-lib.sh"
+
 die() { echo "✗ $*" >&2; exit 1; }
 
 usage() {
@@ -90,14 +93,35 @@ if grep -q '^COOKIE_SECURE=' "$ENV_FILE"; then
 else
   echo "COOKIE_SECURE=true" >> "$ENV_FILE"
 fi
+
+# ── 5. Publik adress: omdirigeringar ska peka på https://<domän> ──
+# Appen lyssnar bara på 127.0.0.1; utan PUBLIC_URL skulle den bygga
+# omdirigeringar av den interna adressen (localhost:3311).
+ensure_public_url "$ENV_FILE" "https://${DOMAIN}"
+
 chown drplugg:drplugg "$ENV_FILE"
 chmod 600 "$ENV_FILE"
 systemctl restart "$UNIT_NAME"
 sleep 2
 systemctl is-active --quiet "$UNIT_NAME" && echo "✓ tjänsten omstartad med COOKIE_SECURE=true"
 
+# ── 6. Rökprov: Location måste peka på https://<domän>/ ─────
+echo "• rökprovar omdirigering via nginx…"
+set +e
+check_redirect_location "https://${DOMAIN}/" "https://${DOMAIN}/" --resolve "${DOMAIN}:443:127.0.0.1"
+REDIRECT_RC=$?
+set -e
+if [[ $REDIRECT_RC -eq 1 ]]; then
+  echo "✗ omdirigeringen pekar på en intern adress." >&2
+  echo "  Kontrollera PUBLIC_URL i ${ENV_FILE} och proxy_redirect i ${SITE_FILE}." >&2
+  echo "  Ingen fara för TLS – certifikatet är installerat. Rätta och kör om skriptet." >&2
+  exit 1
+fi
+[[ $REDIRECT_RC -eq 0 ]] && echo "✓ omdirigeringen pekar på https://${DOMAIN}/"
+
 cat <<EOF
 
 Klart. Testa:  https://${DOMAIN}/login   (förväntat: HTTP/2 200)
+              https://${DOMAIN}/        (förväntat: 307 → https://${DOMAIN}/login)
 Förnyelse: certbot.timer (kontrollera: systemctl list-timers certbot.timer)
 EOF

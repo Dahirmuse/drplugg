@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
+import { safeNextPath } from "@/lib/next-path";
 
 const HIGHLIGHTS = [
   { icon: "🧠", title: "Sokratisk AI-coach", text: "AI:n ger aldrig svaret direkt – du tänker själv." },
@@ -16,7 +17,8 @@ type Step = "login" | "register" | "verify" | "forgot" | "reset";
 export default function LoginForm() {
   const router = useRouter();
   const params = useSearchParams();
-  const nextPath = params.get("next") || "/hem";
+  // Bara interna sökvägar – ?next=https://annat.example får aldrig skicka vidare ut.
+  const nextPath = safeNextPath(params.get("next"));
 
   const [step, setStep] = useState<Step>("login");
   const [email, setEmail] = useState("");
