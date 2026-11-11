@@ -88,9 +88,10 @@ npm run typecheck
 | `v1.0.1` | `6c6c755dc14d5d7e2b4a9085b4f29848cf48fabf` | Fixade nginx (Connection "upgrade"), HTTP-only block i install + certbot `certonly --webroot`, obligatorisk tagg i update.sh, JWT/DB-validering, `.env.example`. **Installerad på servern — fungerar.** |
 | `v1.0.2` | `29a56f25fcd2dd18da9e6b68599673f5c1196419` | Döda hjälpfunktioner i install.sh, `ADMIN_PASSWORD`-rad, `cd` i DEPLOY.md. |
 | `v1.0.3` | `d1b055bbe60e9a5b5c47c14aa6732cbeec5f9b5c` | **Installerad och godkänd**: vendorade `bcryptjs`/`nodemailer`/`unpdf` (saknades i standalone), tog bort `BEGIN/COMMIT` ur `content.sql`, isolationsprov i bygget. |
-| **`v1.0.4`** | **`c48245b920e2f7b053fd01dd77c997fd0883256e`** | **Dagens release — väntar på installation.** Next 15.5.29 + React 19.3.1 + postcss-override 8.5.32 (`npm audit --omit=dev` = **0**), nginx strippar `x-middleware-subrequest`, auth bevisat server-side utan middleware (3 listrutter skärpta till 401), `outputFileTracingRoot` pinnad + layoutkontroll i bygget. |
+| **`v1.0.4`** | **`c48245b920e2f7b053fd01dd77c997fd0883256e`** | Next 15.5.29 + React 19.3.1 + postcss-override 8.5.32 (`npm audit --omit=dev` = **0**), nginx strippar `x-middleware-subrequest`, auth bevisat server-side utan middleware (3 listrutter skärpta till 401), `outputFileTracingRoot` pinnad + layoutkontroll i bygget. **Installerad på servern — men hade buggen nedan.** |
+| **`v1.0.5`** | **`a19c206fc5843e7b8edb062204bd99e768716c4f`** | **Installerad? se §9.** Fixar att alla omdirigeringar pekade på `https://localhost:3311/…` i stället för den publika domänen. Ny `src/lib/origin.ts` (PUBLIC_URL → X-Forwarded-Proto/Host när TRUST_PROXY=true → Host → sist requestens origin) + ny `src/lib/next-path.ts` (skydd mot öppen omdirigering via `?next=`). Middleware bygger absoluta Location av publik origin; **`/api/*` anonymt svarar nu 401 JSON** i stället för 307. `metadataBase` från PUBLIC_URL. Nytt `deploy/deploy-lib.sh` (`detect_domain`, `tls_enabled`, `ensure_public_url`, `check_redirect_location`) som används av install/update/enable-tls: `PUBLIC_URL` skrivs vid install (`http://`), uppgraderas av enable-tls (`https://`), nedgraderas aldrig, och en **rökprovning kontrollerar att `Location` pekar på den publika domänen**. Båda nginx-mallarna har `proxy_redirect https://localhost:3311/ https://$host/` + `X-Forwarded-Host` även i HTTP-mallen. `install.sh` sätter nu alla PG-rader (PGHOST/PGPORT/PGDATABASE/PGUSER), inte bara PGPASSWORD. |
 
-`main` just nu: `072a16ad86df432789059d07ffb181e0b9225c72`.
+`main` just nu: `279e9e89` (v1.0.5-källkoden, ovanpå HANDOVER-commiten).
 
 ### Så görs en ny release (exakt så här)
 ```bash
@@ -137,24 +138,35 @@ på **127.0.0.1:3311**.
 `/var/backups/drplugg`, `.last-deploy` med installerad tagg.
 
 ### Status på servern
-* **v1.0.3 är installerad och fungerar**: tjänst igång, admin skapad, nginx HTTP OK, registrering svarar 403.
-* **TLS är pausad** pga Next-sårbarheterna → därför v1.0.4.
-* **v1.0.4 är ännu inte installerad.**
+* **v1.0.3** installerades och fungerade (tjänst igång, admin skapad, nginx HTTP OK, registrering 403).
+* **v1.0.4 installerades** och gav TLS + Next-sårbarheterna åtgärdade — men alla omdirigeringar
+  pekade på `https://localhost:3311/…`. Tillfällig lösning lades i deras nginx:
+  `proxy_redirect https://localhost:3311/ https://$host/;`
+* **v1.0.5 är granskad och testad lokalt i en serverliknande miljö** (nginx + PostgreSQL 16 +
+  systemd + riktiga install/enable-tls/update-skripten): alla omdirigeringar blir
+  `https://drplugg.se/…`, `/api/*` anonymt = 401 JSON, inloggning + `/hem /kurs /spel /repetition
+  /admin` = 200, och `PUBLIC_URL` korrekt efter install, enable-tls och update.
+* **Kvar:** serveragenten installerar v1.0.5 och rapporterar smoke-test.
 
 ### Nästa steg på servern (kommandon de ska köra)
 ```bash
 cd /var/www/publish/drplugg
-sudo ./deploy/update.sh v1.0.4 --expect-commit c48245b920e2f7b053fd01dd77c997fd0883256e
-# när DNS pekar rätt:
-sudo ./deploy/enable-tls.sh --domain drplugg.se --expect-ip 188.151.198.154
+sudo ./deploy/update.sh v1.0.5 --expect-commit a19c206fc5843e7b8edb062204bd99e768716c4f
+# kör sedan om SAMMA kommando en gång till (se §8, fällan nedan) så att den NYA
+# update.sh får sätta PUBLIC_URL och göra omdirigerings-rökprovet:
+sudo ./deploy/update.sh v1.0.5 --expect-commit a19c206fc5843e7b8edb062204bd99e768716c4f
 ```
+TLS är redan igång hos dem — `enable-tls.sh` behöver inte köras om (den skulle försöka ta
+certifikat igen). Vill de hellre sätta raden manuellt:
+`PUBLIC_URL=https://drplugg.se` i `.env.local` + `sudo systemctl restart drplugg`.
+Deras tillfälliga `proxy_redirect`-rad kan sitta kvar — den finns nu även i våra mallar.
 `update.sh` tar backup **först**, skriver ut tagg + commit och kräver `yes`, applicerar schema+content,
 startar om, rökprovar. `enable-tls.sh` kräver `--expect-ip`, kör `certbot certonly --webroot`, lägger
 443-blocket och återställer HTTP-blocket om `nginx -t` fallerar.
 
 ### Första installation (om den någonsin görs om)
 ```bash
-sudo git clone --branch v1.0.4 --depth 1 https://github.com/Dahirmuse/drplugg.git /var/www/publish/drplugg
+sudo git clone --branch v1.0.5 --depth 1 https://github.com/Dahirmuse/drplugg.git /var/www/publish/drplugg
 cd /var/www/publish/drplugg
 sudo cp .env.example .env.local    # fyll i ADMIN_EMAIL, ADMIN_PASSWORD, DEEPSEEK_API_KEY
 sudo ./deploy/install.sh --node-bin /usr/local/bin/node --domain drplugg.se --port 3311
@@ -217,19 +229,37 @@ Regler som gäller:
 7. **`sudo -u postgres` fungerar inte i den här sandlådan** — använd `su - postgres -c "psql …"`.
    `install.sh` har `sudo` med `su` som reserv.
 8. **`main` har en enda commit och force-pushas** — det är avsiktligt (hemligheter skrubbade).
+9. **`update.sh` som körs är den som ligger i den INSTALLERADE releasen.** En ny `update.sh`
+   träder i kraft först vid nästa körning — därför måste `v1.0.4 → v1.0.5` köras **två gånger**
+   om man vill att den nya `PUBLIC_URL`-logiken och omdirigerings-rökprovet ska köras (se §5).
+   Detta är inte en bugg, men lätt att bli förvånad över.
+10. **Alla drift­skript kör `IFS=$'\n\t'`** → splittra aldrig ett värde med `for x in $var`
+   (mellanslag splittras inte). Använd `tr -s ' \t' '\n'`. Det var buggen som gav
+   `PUBLIC_URL=http://drplugg.se www.drplugg.se` i v1.0.5:s första testkörning.
+11. **Next:s middleware kräver ABSOLUT `Location`.** En relativ sökväg ger
+   `500 Invalid URL` (adaptern kör `new URL()` på headern). Därför bygger `src/lib/origin.ts`
+   alltid en absolut adress, med `Host`-headern som sista utväg.
+12. **nginx-mallen använder `http2 on;` som kräver nginx ≥ 1.25.1.** Servern har 1.28.3 ✓.
+   På äldre nginx (t.ex. Ubuntu 24.04:s 1.24) fallerar `nginx -t` — använd då
+   `listen 443 ssl http2;` i stället i den *renderade* filen.
+13. **`.env.example` innehåller tomma `PUBLIC_URL=` och `PG*=`-rader.** Ett naivt `sed`-tillägg
+   gav två motstridiga `PUBLIC_URL`-rader — `ensure_public_url` raderar därför alla och skriver en.
 
 ---
 
 ## 9. Öppna punkter / nästa steg
 
-1. **Serveragenten installerar v1.0.4** och rapporterar smoke-test.
-2. **TLS**: A-record för `drplugg.se` + `www` → `188.151.198.154`, sedan `enable-tls.sh --expect-ip`.
-3. **SMTP-beslut**: e-postverifiering kräver SMTP (`config/smtp.json` eller `SMTP_*`). Utan SMTP är
+1. **Serveragenten installerar v1.0.5** (`a19c206f…`) och rapporterar smoke-test — kör
+   update-kommandot **två gånger** enligt §5.
+2. **SMTP-beslut**: e-postverifiering kräver SMTP (`config/smtp.json` eller `SMTP_*`). Utan SMTP är
    registreringen stängd och admin skapar konton — det är dagens läge.
-4. **Ev. v1.0.5** om granskningen hittar något (ny tagg, flytta aldrig v1.0.4).
-5. Idéer som diskuterats men inte byggts: fast domän/CI, fler Anki-deck importerade (BV3–BV6, KM1–KM7
-   ligger nedladdade i `/tmp/apkg` men är inte importerade), leech-detektion i repetitionen,
-   belastningsprognos.
+3. **Ev. v1.0.6** om granskningen hittar något (ny tagg, flytta aldrig v1.0.5).
+4. Idéer som diskuterats men inte byggts: fast domän/CI, fler Anki-deck importerade (BV3–BV6,
+   KM1–KM7 ligger nedladdade i `/tmp/apkg` men är inte importerade), leech-detektion i
+   repetitionen, belastningsprognos.
+5. **Kandidater till v1.0.6 (från v1.0.5-testningen):** låt `enable-tls.sh` hoppa över certbot när
+   ett giltigt certifikat redan finns (nu kör den `certbot certonly` igen), och lägg gärna
+   `deploy/check-redirect.sh` som fristående rökprovningskommando.
 
 ---
 
@@ -241,6 +271,11 @@ systemctl status drplugg --no-pager | head -5
 journalctl -u drplugg -n 30 --no-pager
 curl -s -o /dev/null -w '%{http_code}\n' http://127.0.0.1:3311/login      # 200
 curl -sI https://drplugg.se/login | head -1                                # HTTP/2 200 (efter TLS)
+# omdirigeringarna MÅSTE peka på den publika domänen (v1.0.5 och framåt):
+curl -sI https://drplugg.se/       | grep -i '^location:'   # location: https://drplugg.se/login
+curl -sI https://drplugg.se/admin  | grep -i '^location:'   # location: https://drplugg.se/login?next=%2Fadmin
+curl -s -o /dev/null -w '%{http_code}\n' https://drplugg.se/api/cards   # 401 (JSON, ingen omdirigering)
+grep '^PUBLIC_URL=' /var/www/publish/drplugg/.env.local      # PUBLIC_URL=https://drplugg.se
 # förväntat i appen: inloggning som admin → /hem visar "Hej …", /admin listar användare,
 #                    registrering (utifrån) svarar 403 "Registrering är stängd…"
 ```
